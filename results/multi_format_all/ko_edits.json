@@ -1,0 +1,592 @@
+[
+  {
+    "article_id": 0,
+    "context": "2019년 FIFA U-20 월드컵</b>은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이다.",
+    "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+    "original_answer": "예정",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "2019년 FIFA U-20 월드컵</b>은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이다.",
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "generated_text": "다음은 passage의 내용을 기반으로 얻을 수 있는 지식과 의미이다:\n\n1. 2019년 FIFA U-20 월드컵은 폴란드에서 개최될 예정인 22번째 월드컵이다.\n2. 2019년 5월 23일부터 6월 15일까지의 기간 동안 폴란드는 월드컵을 개최할 것이다.\n3. 월드컵은 폴란드ประเทศ에서 열릴 것이다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.13861292600631714,
+        "semantic_similarity": 0.8613870739936829,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "2019년 FIFA U-20 월드컵</b>은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이다.",
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "generated_text": "Here are the rewritten passages:\n\n \n2019년 FIFA U-20 월드컵은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵입니다.\n\n \n2019년 FIFA U-20 월드컵은 2019년 5월 23일부터 6월 15일까지 폴란드에서 열릴 22 번째 World Cup입니다.\n\n\n \nFIFA U-20 월드컵 2019는 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이었습니다.\n\nLet me know if you need any further assistance!",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.16130411624908447,
+        "semantic_similarity": 0.8386958837509155,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "2019년 FIFA U-20 월드컵</b>은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이다.",
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "generated_text": "2019년 FIFA U-20 월드컵은 언제开始하는가?\n\nA. 2019년 5월 23일\nB. 2019년 6월 15일\nC. 2019년 12월 15일\nD. 2019년 1월 15일\n\n正确答案：A. 2019년 5월 23일",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.2703482508659363,
+        "semantic_similarity": 0.7296517491340637,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "2019년 FIFA U-20 월드컵</b>은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이다.",
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "generated_text": "1.  2019년 FIFA U-20 월드컵은 폴란드에서 개최될 것이라는 점을 인식합니다.\n2.  2019년 5월 23일부터 6월 15일까지의 시간 period가 정해졌습니다.\n3.  폴란드는.world cup에 참가하는 국가 중 하나입니다.\n4.  FIFA U-20 월드컵은 세계적인 청소년 축구 대회이며, 22번째大会이 될 것이라는 점을 인식합니다.\n\nImplications:\n1.  폴란드의 축구 팀은 2019년 FIFA U-20 월드컵에 참가할 수 있습니다.\n2.  2019년 5월 23일부터 6월 15일까지, 폴란드는 세계적인 청소년 축구 대회에參가합니다.\n3.  FIFA U-20 월드컵은 22번째大会이 될 것이라고 예상되며, 경쟁력과 상업적인 활동을 बढ진을 기대할 수 있습니다.\n4.  2019년 FIFA U-20 월드컵은 폴란드와 다른 국가间의 축구 협력을 강화시키는 기회를 제공할 수 있습니다.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.13920164108276367,
+        "semantic_similarity": 0.8607983589172363,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.1773667335510254,
+    "std_drift": 0.05445640944621427
+  },
+  {
+    "article_id": 1,
+    "context": "연구방식은 크게 두 가지로 나눌 수 있다. 이는 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다. 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다. 이에 비해 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다. 그래서 합성생물학 관련 영문저술에는 종종 ‘무에서 유를 창조한다’는 의미에서 ‘Starting from scratch’라는 즉, ‘처음에서 시작한다’는 뜻의 관용어구가 등장한다. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.",
+    "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+    "original_answer": "바텀업",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "연구방식은 크게 두 가지로 나눌 수 있다. 이는 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다. 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다. 이에 비해 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다. 그래서 합성생물학 관련 영문저술에는 종종 ‘무에서 유를 창조한다’는 의미에서 ‘Starting from scratch’라는 즉, ‘처음에서 시작한다’는 뜻의 관용어구가 등장한다. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.",
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "generated_text": "passage를 읽고 다음 항목에 대한 추론을 하게 된다.\n\n1.  탑다운 방식과 바텀업 방식의 차이점은natural계에서 생명체의 유전자를 변형시키는 방법으로 나타난다.\n2.  미생물과 식물을 사용하여 유전자의 변형을 시도하는 접근법이 가능하다. \n3.  화학 물질로 시작하여 생명체의 구성 요소를 하나하나 만들어 내는 방식이 possible하다.\n4.  합성 생물학에 대한 연구에서 '무에서 유를 창조한다'라는 관용구가 일반화되었다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.230851948261261,
+        "semantic_similarity": 0.769148051738739,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "연구방식은 크게 두 가지로 나눌 수 있다. 이는 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다. 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다. 이에 비해 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다. 그래서 합성생물학 관련 영문저술에는 종종 ‘무에서 유를 창조한다’는 의미에서 ‘Starting from scratch’라는 즉, ‘처음에서 시작한다’는 뜻의 관용어구가 등장한다. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.",
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "generated_text": "탑다운 방식과 바텀업 방식을으로 나눌 수 있는 연구 방법은 두 가지로 나뉘어 있다.\n\n탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방법이다. 예를 들어, 미생물로 이뤄진 세포의 일부 유전자만을 바꾸면 가능하다. 드루앤디(Drew Endy)와 제이 키슬링(Jay Keasling)의 연구는 미국 스탠포드대와 미국 UC버클리에서 시작된 것이다. 드루앤디는 기계의 부품처럼 만들어 다양한 유전자를 조합한 후 미생물에 삽입을 시도하고 existed으며, 제이 키슬링은 식물의 유용 유전자를 대량으로 미생물에 삽입하고 있다.\n\n반면 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방법이다. 이러한 방법은 '무에서 유를 창조한다'라는 의미에서 \"처음에서 시작한다\"하는 관용어구가 종종 등장한다. 크레이그 밴터(J.Craig Venter)의 연구는 미국에서 가장 대표적인 바텀업 방식이다. 그는 미생물의 유전자 염기서열을 하나하나 만든 후 이들을 연결시켜 인공유전체를 합성하였다.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.10835212469100952,
+        "semantic_similarity": 0.8916478753089905,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "연구방식은 크게 두 가지로 나눌 수 있다. 이는 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다. 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다. 이에 비해 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다. 그래서 합성생물학 관련 영문저술에는 종종 ‘무에서 유를 창조한다’는 의미에서 ‘Starting from scratch’라는 즉, ‘처음에서 시작한다’는 뜻의 관용어구가 등장한다. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.",
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "generated_text": "이 passage는 어떤 방식으로 나눌 수 exists는가?\n\nA. 세로로\nB. 가로로\nC. 탑다운(Top-down)방식과 바텀업(Bottom-up)방식\nD. 크게 두 가지로\n\n câu해주기: 이 passage는 크게 2가지로 나눌 수 있다. \n\n1. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다.\n2. 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다.\n\nQuestion 2: \n\n1. 미생물이 그들을 어떻게 만든다?\n2. 크레이그 밴터(J.Craig Venter)는 어떤 방식을 사용했다?\n\n câu해주기:\n\n1. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성했다.\n2. 크레이그 밴터(J.Craig Venter)는 바텀업 방식에 해당했다.",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.3090308904647827,
+        "semantic_similarity": 0.6909691095352173,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "연구방식은 크게 두 가지로 나눌 수 있다. 이는 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다. 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다. 이에 비해 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다. 그래서 합성생물학 관련 영문저술에는 종종 ‘무에서 유를 창조한다’는 의미에서 ‘Starting from scratch’라는 즉, ‘처음에서 시작한다’는 뜻의 관용어구가 등장한다. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.",
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "generated_text": "상태: 연구 방식은 크게 두 가지로 나눌 수 있다. 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다.\n\n1. 탑 다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다.\n2. 이 방법은 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다.\n3. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다.\n4. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다.\n\n바텀 업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다.\n5. 그래서 합성 생물학 관련 영문 저술에는 종종 '무에서 유를 창조한다'라는 의미로 'Starting from scratch'라는 뜻의 관용어구가 등장한다.\n6. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공 유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.\n\nThought Process: \n1. 연구 방식은 크게 두 가지로 나눌 수 있다.\n2. 탑 다운 방식은 생명체의 유전자를 변형시키는 방법으로, 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이 possible하다.\n3. 드루앤디(Drew Endy)와 제이 키슬링(Jay Keasling)의 접근은 탑 다운 방식에 해당한다.\n4. 바텀 업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방법으로, 인공 유전체를 합성하는Representative case는 크레이그 밴터(J.Craig Venter)\n\nImplications:\n1. researchers는 다양한 연구 방법을 선택할 수 있다.\n2. researchers는 다양한 approaches를 try 할 수 있다.\n3. scientists가 different approaches를 try 할 수 있기 때문에, synthetic biology는 새로운 approach로 진행되며, researchers가 new knowledge와 insights를 얻을 수 있다.\n4. scientists가 synthetic biology를 study 할 때, researchers가 bottom-up approach를 try 할 수 있어, synthesis of new biological systems가 possible하다.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.0401841402053833,
+        "semantic_similarity": 0.9598158597946167,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.17210477590560913,
+    "std_drift": 0.10448378554648884
+  },
+  {
+    "article_id": 2,
+    "context": "철학적 자연주의의 이론이 처음으로 등장한 것은 이오니아의 소크라테스 이전 철학자들의 글이었다. 특별히 과학의 아버지로 불리는 탈레스가 처음으로 자연현상을 초자연적인 원인을 사용하지 않고 설명했다. 초기 그리스 철학에 대한 조너선 바르네스(Jonathan Barnes)의 소개는 이러한 초기 철학자들을, 자연주의를 미리 예견이라도 한 것처럼 경험적인 원리에 따라 자연을 연구한 사람들로 묘사하고 있다.",
+    "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+    "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "철학적 자연주의의 이론이 처음으로 등장한 것은 이오니아의 소크라테스 이전 철학자들의 글이었다. 특별히 과학의 아버지로 불리는 탈레스가 처음으로 자연현상을 초자연적인 원인을 사용하지 않고 설명했다. 초기 그리스 철학에 대한 조너선 바르네스(Jonathan Barnes)의 소개는 이러한 초기 철학자들을, 자연주의를 미리 예견이라도 한 것처럼 경험적인 원리에 따라 자연을 연구한 사람들로 묘사하고 있다.",
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "generated_text": "following list of implications derived directly or indirectly from the passage:\n\n1. 철학적 자연주의의 개념이 존재한다.\n2. 소크라테스는 철학적 자연주의의 창시자 중 하나이다.\n3. 탈레스는 과학의 아버지로 불리며 자연 현상에 초자연적인 원인을 사용하지 않은 초기 학자이다.\n4. 초기 그리스 철학은 자연을 연구하는 경향이 있었다.\n5. 경험적인 원리를 바탕으로 자연을 연구한 人들이 존재한다.\n6. 철학적 자연주의의 개념이 과거에 존재했을 수 있다.\n7. 자연 현상을 초자전적인 원인을 사용하지 않고 설명한 사람들도 존재할 수 있다.\n8. 이오니아의 소크라테스 이전의 철학은 경험적인 원리에 기반을 두고 있었다.\n9. 탈레스와 같은 초기 학자가 과학의 아버지로 남아 있는 이유는 자연 현상을 understandable하고 설명할 수있는 것으로 간주되었다.\n\n이 목록은 passage에서 đề出的 개념과 ideas를 바탕으로 만들어졌으며, passage에서 제공하는 정보에 따라 더 많은 implication을 추가할 수 있다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.2889254093170166,
+        "semantic_similarity": 0.7110745906829834,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "철학적 자연주의의 이론이 처음으로 등장한 것은 이오니아의 소크라테스 이전 철학자들의 글이었다. 특별히 과학의 아버지로 불리는 탈레스가 처음으로 자연현상을 초자연적인 원인을 사용하지 않고 설명했다. 초기 그리스 철학에 대한 조너선 바르네스(Jonathan Barnes)의 소개는 이러한 초기 철학자들을, 자연주의를 미리 예견이라도 한 것처럼 경험적인 원리에 따라 자연을 연구한 사람들로 묘사하고 있다.",
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "generated_text": "Ironically, the theory of naturalistic philosophy first appeared in the writings of pre-Socratic Greek philosophers before Socrates from Ionia. Notably, Plato, known as the \"father of science\", was the first to describe natural phenomena without attributing them to supernatural causes. The introduction by John Barnes to early Greek philosophy describes these early thinkers as having anticipated naturalism, if not in their specific ideas, then in their approach based on empirical principles.\n\n \n\nIronically, the theory of naturalistic philosophy was first introduced by pre-Socratic Greek philosophers before Socrates from Ionia. Notably, Plato, known for being the father of science, was the first to describe natural phenomena without attributing them to supernatural causes. The introduction by John Barnes to early Greek philosophy describes these early thinkers as having anticipated naturalism, if not in their specific ideas, then in their approach based on empirical principles.\n\n \n\nIronically, the theory of naturalistic philosophy was first introduced by pre-Socratic Greek philosophers before Socrates from Ionia. Notably, Plato, known for being considered the father of science, described natural phenomena without attributing them to supernatural causes. The introduction by John Barnes to early Greek philosophy describes these early thinkers as having anticipated naturalism, if not in their specific ideas, then in their approach based on empirical principles.\n\n \n\nThe theory of naturalistic philosophy first appeared in the writings of pre-Socratic Greek philosophers before Socrates from Ionia. Notably, Plato, known for being the father of science, was the first to describe natural phenomena without attributing supernatural causes. The introduction by John Barnes to early Greek philosophy portrays these early thinkers as having anticipated naturalism through an empirical approach.\n\n \n\nThe theory of naturalistic philosophy's inception dates back to pre-Socratic Greek philosophers before Socrates from Ionia. Notably, Plato, known for his role as the father of science, was the first to describe natural phenomena without supernatural causes. The introduction by John Barnes to early Greek philosophy illustrates these early thinkers as having anticipated naturalism through an approach rooted in empirical principles.\n\n \n\nNote: I've rewritten the passage in different styles, including a more literal translation, a slightly more poetic style, and two variations with slight changes to sentence structure and wording.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.07617712020874023,
+        "semantic_similarity": 0.9238228797912598,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "철학적 자연주의의 이론이 처음으로 등장한 것은 이오니아의 소크라테스 이전 철학자들의 글이었다. 특별히 과학의 아버지로 불리는 탈레스가 처음으로 자연현상을 초자연적인 원인을 사용하지 않고 설명했다. 초기 그리스 철학에 대한 조너선 바르네스(Jonathan Barnes)의 소개는 이러한 초기 철학자들을, 자연주의를 미리 예견이라도 한 것처럼 경험적인 원리에 따라 자연을 연구한 사람들로 묘사하고 있다.",
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "generated_text": "ironic Naturalism의 이론이 처음으로 등장한 것은? \n\nAnswer: 이오니아의 소크라테스 이전 철학자들의 글이다.",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.22821635007858276,
+        "semantic_similarity": 0.7717836499214172,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "철학적 자연주의의 이론이 처음으로 등장한 것은 이오니아의 소크라테스 이전 철학자들의 글이었다. 특별히 과학의 아버지로 불리는 탈레스가 처음으로 자연현상을 초자연적인 원인을 사용하지 않고 설명했다. 초기 그리스 철학에 대한 조너선 바르네스(Jonathan Barnes)의 소개는 이러한 초기 철학자들을, 자연주의를 미리 예견이라도 한 것처럼 경험적인 원리에 따라 자연을 연구한 사람들로 묘사하고 있다.",
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "generated_text": "**고찰 proces**\n\n1. 소크라테스와 이오니아의 철학자들이 처음으로 자연주의의 이론을 제시한 데는 과학의 아버지인 탈레스가 주도하였다.\n2. 탈레스는 자연 현상을 초자연적인 원인을 사용하지 않고 설명하였다.\n3. 조너선 바르네스는 초기 그리스 철학에 대한 설명을 통해, naturalsm이라는 용어를 처음으로 사용하였다.\n4. naturalsm이 처음으로 등장한 것은, 경험적인 원리에 따라 자연을 연구하는 사람들의 고찰의 결과였다.\n\n**적용**\n\n1. 소크라테스와 이오니아의 철학자들이 처음으로 자연주의의 이론을 제시한 데에는 과학의 아버지인 탈레스가 주도하였다.\n2. 탈레스는 자연 현상을 초자연적인 원치를 사용하지 않고 설명하였다.\n3. naturalsm이라는 용어는 경험적인 원리에 따라 자연을 연구하는 사람들의 고찰의 결과였다.\n4. 초기 그리스 철학은 경험적 원리를 사용하여 자연을 연구한 사람들에 의해 미리 예見되었다.\n5. naturalsm 이론이 처음으로 등장한 것은, 자연을 연구하는 사람들의 고찰의 결과였으며, 이를 통해 Naturphilosophie와 Natural Science가 entwick어지었다.\n\nNote: Naturphilosophie는 자연과 철학에 대한 연구를 의미하며,Natural Science는自然-world을 연구하는 과학의 분야를 의미한다.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.14419353008270264,
+        "semantic_similarity": 0.8558064699172974,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.18437810242176056,
+    "std_drift": 0.08089218711131355
+  },
+  {
+    "article_id": 3,
+    "context": "    룩셈부르크 대공국(, , ), 약칭 룩셈부르크(, , )는 서유럽에 위치한 국가이며 대공이 통치하는 대공국이다. 수도는 룩셈부르크이다. 룩셈부르크는 세계에서 국민 소득이 높은 나라 중 하나이기도 하다. 세계 최대의 철강 업체 아르셀로미탈의 본사가 룩셈부르크에 위치해 있다.",
+    "original_question": "룩셈부르크의 수도는 어디인가?",
+    "original_answer": "룩셈부르크",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "    룩셈부르크 대공국(, , ), 약칭 룩셈부르크(, , )는 서유럽에 위치한 국가이며 대공이 통치하는 대공국이다. 수도는 룩셈부르크이다. 룩셈부르크는 세계에서 국민 소득이 높은 나라 중 하나이기도 하다. 세계 최대의 철강 업체 아르셀로미탈의 본사가 룩셈부르크에 위치해 있다.",
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "generated_text": "below is the list of implications derived directly or indirectly from the passage:\n\n1. 룩셈부르크가 세계에서 국민소득이 높은 나라 중 하나인 이유는 ?\n2. 아르셀로미탈이 세계 최대의 철강 업체임은 무엇을 의미하는가?\n3. 룩셈부르크의 대공이 통치하는 것은 어떤 특징이나 특성을 갖고 있는가?\n4. 룩셈부르크에서 아르셀로미탈 본사가 위치한 이유는 무엇인가?\n\n (Note: These implications are based on the content of the passage and may require further analysis or context to be fully understood)",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.7661065459251404,
+        "semantic_similarity": 0.23389343917369843,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "    룩셈부르크 대공국(, , ), 약칭 룩셈부르크(, , )는 서유럽에 위치한 국가이며 대공이 통치하는 대공국이다. 수도는 룩셈부르크이다. 룩셈부르크는 세계에서 국민 소득이 높은 나라 중 하나이기도 하다. 세계 최대의 철강 업체 아르셀로미탈의 본사가 룩셈부르크에 위치해 있다.",
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "generated_text": "Here are the rewritten passages in different styles, each separated by a newline:\n\n1. 수식: 원문과 일치하는 문장으로 바뀌어 있는 passage\n룩셈부르크 대공국(,, )은 서유럽에 위치한 국가이며 대公이 통치하는 대공국이다. 룩셈부르크는 수도이자 세계에서 국민 소득이 높은 나라 중 하나입니다. mundial에서 가장 큰 철강 업체인 아르셀로미탈의 본사는 룩셈부르크에 있습니다.\n\n2. 수식: 원문과 일치하는 문장으로 바뀌어 있는 passage\n룩셈부르크 대公국(,, )은 서유럽에 위치한 국가이며 대공이 통치하는 국가입니다. 룩셈부르크는 수도이자 세계에서 국민 소득이 높은 나라 중 하나입니다. worldly에서 가장 큰 철강 업체인 아르셀로미탈의 본사는 룩셈부르크에 있습니다.\n\n3. 수식: 원문과 일치하는 문장으로 바뀌어 있는 passage\n룩셈부르크 대공국(,, )은 서유럽에 위치한 국가입니다. 대공이 통치하는 국가입니다. 룩셈부르크는 수도이자 세계에서 국민 소득이 높은 나라 중 하나입니다. 아르셀로미탈의 본사는 worldly에서 가장 큰 철강 업체이며 룩셈부르크에 있습니다.\n\n4. 수식: 원문과 일치하는 문장으로 바뀌어 있는 passage\n룩셈부르크 대공국(,, )은 서유럽에 위치한 국가입니다. 수도는 룩셈부르크이며 대공이 통치하는 국가입니다. 세계에서 국민 소득이 높은 나라 중 하나라면 worldly에서 가장 큰 철강 업체인 아르셀로미탈의 본사가 룩셈부르크에 있습니다.\n\n5. 수식: 원문과 일치하는 문장으로 바뀌어 있는 passage\n룩셈부르크 대공국(,, )은 서유럽에 위치한 국가입니다. 대공이 통치하는 대공국입니다. 세계에서 국민 소득이 높은 나라 중 하나라면 수도는 룩셈부르크이며 worldly에서 가장 큰 철강 업체인 아르 셀로 미탈의 본사는 룩셈 부르크에 있습니다.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.5730410814285278,
+        "semantic_similarity": 0.42695894837379456,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "    룩셈부르크 대공국(, , ), 약칭 룩셈부르크(, , )는 서유럽에 위치한 국가이며 대공이 통치하는 대공국이다. 수도는 룩셈부르크이다. 룩셈부르크는 세계에서 국민 소득이 높은 나라 중 하나이기도 하다. 세계 최대의 철강 업체 아르셀로미탈의 본사가 룩셈부르크에 위치해 있다.",
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "generated_text": "You didn't provide the passage for me to rewrite in a question-answer format. Please go ahead and share the passage, and I'll be happy to assist you!",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 1.0286375284194946,
+        "semantic_similarity": -0.028637530282139778,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "    룩셈부르크 대공국(, , ), 약칭 룩셈부르크(, , )는 서유럽에 위치한 국가이며 대공이 통치하는 대공국이다. 수도는 룩셈부르크이다. 룩셈부르크는 세계에서 국민 소득이 높은 나라 중 하나이기도 하다. 세계 최대의 철강 업체 아르셀로미탈의 본사가 룩셈부르크에 위치해 있다.",
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "generated_text": "thought process\n1. 룩셈부르크 대공국이란 무엇인가?\n2. 서유럽에서何處에 위치한 국가이며, 통치 방식은 무엇인가?\n3. 수도는何处인가?\n4. 룩셈부르크의 경제 성장 상황은何 kinda인가? \n5. 룩셈부르크의 주요 산업은 무엇인가?\n\nimplications\n1. 대공국의 존재유물은 서유럽에 주류가 될 수 있는 지대다.\n2. 대공국은 수도를 가지는 특징이 있다. \n3. 룩셈부르크는 세계적으로 경제력으로 높은 지위를 차지한다.\n4. 아르셀로미탈은 그 자체로 철강 산업의 거장이며, 룩셈부르크의 경제에서 큰 역할을 하고 있다.\n\nnote: translation of original prompt \n1. \"What is the Grand Duchy of Luxembourg?\"\n2. \"Where in Western Europe is this country located, and what is its system of government?\"\n3. \"What is the capital city of the Grand Duchy of Luxembourg?\"\n4. What kind of economic growth situation does Luxembourg have?\n5. What are the main industries of Luxembourg?",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.3755913972854614,
+        "semantic_similarity": 0.6244086027145386,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.6858441382646561,
+    "std_drift": 0.2413144501133237
+  },
+  {
+    "article_id": 4,
+    "context": "   오대호(五大湖, )는 북아메리카 동북부, 미국과 캐나다의 국경에 있는 다섯 개의 큰 호수를 말한다. 총 표면적이 24만 5,000 평방 킬로미터[1]로 세계에서 가장 규모가 큰 담수계이다. 다섯 호수의 이름은 서쪽에서 동쪽으로 차례대로 다음과 같다.",
+    "original_question": "오대호의 크기는?",
+    "original_answer": "24만 5,000 평방 킬로미터",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "   오대호(五大湖, )는 북아메리카 동북부, 미국과 캐나다의 국경에 있는 다섯 개의 큰 호수를 말한다. 총 표면적이 24만 5,000 평방 킬로미터[1]로 세계에서 가장 규모가 큰 담수계이다. 다섯 호수의 이름은 서쪽에서 동쪽으로 차례대로 다음과 같다.",
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "generated_text": "다음은 passage에서 직접 또는 간접적으로 제기되는 의도는 다음과 같습니다.\n\n1. 오대호 (오호지)가 북아메리카 동부에 위치한 다섯 개 큰 호수가 있다는 facts는 지구상에서 가장 큰 담수계를 형성하는 오대호의 중요성을 강조합니다.\n2. 오대호는 세계에서 가장 규모가 큰 담수계이기 때문에, 이 지역은 수력 발전 및 기타 수자원 관리와 관련하여 중요한 의미를-held 합니다.\n3. 오대호의 다섯 개 호수의 이름을 mentioning 함으로써, 지역의 역사와 문화에 대한 관심과 중요성에 대한 시각도 제기됩니다.\n4. passage에서 오대호가 \"오대호 (五大湖)\" 라고 mention하는 것은 오대호가 북아메리카 동부에 위치한 다섯 개 큰 호수를 의미하고, 또한 \"오대호\"라는 이름이 특정 지역을 가리키는 것이 가능한지 여부를 raise 합니다.\n5. passage는 오대호의 총 표면적 (24만 5,000 평방 킬로미터)가 세계에서 가장 규모가 큰 담수계이기 때문에, 이 지역은 대규모 수자원 관리와 관련하여 중요한 의미를-held 합니다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.20514631271362305,
+        "semantic_similarity": 0.794853687286377,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "   오대호(五大湖, )는 북아메리카 동북부, 미국과 캐나다의 국경에 있는 다섯 개의 큰 호수를 말한다. 총 표면적이 24만 5,000 평방 킬로미터[1]로 세계에서 가장 규모가 큰 담수계이다. 다섯 호수의 이름은 서쪽에서 동쪽으로 차례대로 다음과 같다.",
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "generated_text": "오대호(五大湖, )는 북아메리카 동북부의 국경에 있는 5개의 큰 호수를 말한다.\n오대호는 세계에서 가장 큰 담수계 중 하나이며, 미국과 캐나다의 국경에 위치하고 있다.\n\n오대호의 이름은 서쪽에서 동쪽으로 다음과 같이 나열된다:\n 1. 미시게니湖\n 2. 에리보어湖\n 3. 톨마소도 호수\n 4. 오하이오 호수\n 5. 미시시피 호수",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.095988929271698,
+        "semantic_similarity": 0.904011070728302,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "   오대호(五大湖, )는 북아메리카 동북부, 미국과 캐나다의 국경에 있는 다섯 개의 큰 호수를 말한다. 총 표면적이 24만 5,000 평방 킬로미터[1]로 세계에서 가장 규모가 큰 담수계이다. 다섯 호수의 이름은 서쪽에서 동쪽으로 차례대로 다음과 같다.",
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "generated_text": "다음은 passage의 첫 번째 문장을 question-answer 형식으로 작성한 version입니다.\n\n제가 오대호에 관해什么를 biết까요?\n\n오대호는 북아메리카 동북부에 있는 다섯 개의 큰 호수를 말합니다.",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.36809104681015015,
+        "semantic_similarity": 0.6319089531898499,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "   오대호(五大湖, )는 북아메리카 동북부, 미국과 캐나다의 국경에 있는 다섯 개의 큰 호수를 말한다. 총 표면적이 24만 5,000 평방 킬로미터[1]로 세계에서 가장 규모가 큰 담수계이다. 다섯 호수의 이름은 서쪽에서 동쪽으로 차례대로 다음과 같다.",
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "generated_text": "thought process:\n\n오대호는 북아메리카 동북부에 있는 5개의 큰 호수를 말한다. 그 이름은 서쪽과 동쪽으로 차례대로 나열되는데, 각 이름은 지역의 특징이나 의미가 있다. 오대호에서 가장 큰 ones는 호수 이름을 배정하는 방법이 궁금하다.\n\n오대호 중 가장大的 호수는 우니온호로, 가장 작은 호수는 미시시피시 호수이다. 그 사이에는 에리보르, 힐스borough, 마이미와 3개가 있다. 각 호수의 이름을 나열하고, 이름과 호スの 위치를 비교해 보자.\n\n1. 우니온호 (Lake Ontario) - 서쪽\n2. 에리보르 (Lake Erie) - 서쪽의 두 번째 호수\n3. 힐스borough (Lake Huron) - 서쪽의 세 번째 호수\n4. 미시시피시 (Lake Michigan) - 서쪽의 네 번째 호수\n5. 마이미 (Lake Superior) - 동쪽\n\n각 이름은 지역 특징과 관련이 있는 것 같다. 우니온호는 \"동방에서 서방\"이라는 뜻으로, 에리보르와 힐스borough는 \"서쪽의 두 번째\"와 \"서쪽의 세 번째\"라는 뜻이다.\n\nthought process end.\n\nimplications:\n\n1. 오대호의 이름은 지역의 특징과 관련이 있다.\n2. 각 호수의 이름을 나열하면 서쪽에서 동쪽으로 차례대로 나열된다.\n3. 우니온호는 가장 큰 호수이며, 마이미는 가장 작은 호수이다.\n4. Each 호수의 이름은 지역의 특징과 관련이 있다.\n5. 오대호의 이름이 의미가 있는 것으로 보인다.\n\nnote: This is a simple thought process and implications, if you want me to add more depth or complexity, please let me know!",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.18012702465057373,
+        "semantic_similarity": 0.8198729753494263,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.21233832836151123,
+    "std_drift": 0.09859688781667926
+  },
+  {
+    "article_id": 5,
+    "context": " 아돌프 히틀러의 죽음</b>은 1945년 4월 30일 나치 독일의 총통 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 괴벨스는 다음 날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.",
+    "original_question": "히틀러는 몇 년도에 사망했는가?",
+    "original_answer": "1945년",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": " 아돌프 히틀러의 죽음</b>은 1945년 4월 30일 나치 독일의 총통 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 괴벨스는 다음 날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.",
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "generated_text": "아돌프 히틀러의 죽음은 다음과 같은 implications을 가지고 있다:\n\n1. **나치 독일의 권위 structure가崩壊했다**: 히틀러의 자살과 그 다음 날 괴벨스가 자살한 것은 나치 독일의 권력 구조가 강조된 지위에 있는 사람들의 자살로 인해 파괴되었다는 implication을 가지고 있다.\n\n2. **전 chiến국은 항복한다**: 1945년 4월 30일 히틀러의 죽음으로 인해 나치 독일은 연합군에 항복했다, 이것은 전战국이 강력한 강점을失고 패배하는 것을 의미했다.\n\n3. **나치 독일의 정권이 장기화되지 않았다**: 히틀러와 괴벨스의 자살은 나치 독일의정권이 장기화되지 않을 것이라는 implication을 가지고 있다. 이에 반해, 연합군의 승리와 히틀러의 죽음으로 인해 나치 독일의정권은 종식되었다.\n\n4. **국제 사회는 평화가 다시 возмож하다**: 1945년 4월 30일 히틀러의 죽음은 국제 사회에서 평화를 다시 시작하는 것을 의미한다. 이에 반해, 히틀러의 강력한 권위와 전 chiến국을 지배하는 나치 독일은 국제 사회에 두려움과 무益함을 일으켰다.\n\n5. **나치 독일의 분열과 분산**: 히틀러와 괴벨스의 자살은 나치 독일의 분열과 분산으로 인해 파괴되었다는 implication을 가지고 있다. 이에 반해, 연합군의 승리는 나치 독일의 분열과 분산을 제거하는 것을 의미했다.\n\n6. **히틀러의 죽음은 유럽의สงคราม가 끝났음을 의미한다**: 1945년 4월 30일 히틀러의 죽음은 유럽의 전쟁이 끝났다는 implication을 가지고 있다. 이에 반해, 히틀러의 강력한 권위와 전 chiến국을 지배하는 나치 독일은 유럽에서 두려움과 무益함을 일으켰다.\n\n7. **연합군의 승리는 평화가 재 建설된다**: 1945년 4월 30일 히틀러의 죽음은 연합군의 승리가 평화를 재건하는 것을 의미한다. 이에 반해, 나치 독일의 승리는 유럽에서 conflict와 전쟁을 일으켰다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.30340152978897095,
+        "semantic_similarity": 0.696598470211029,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": " 아돌프 히틀러의 죽음</b>은 1945년 4월 30일 나치 독일의 총통 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 괴벨스는 다음 날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.",
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "generated_text": "Here are the rewritten passages in Korean, each separated by a newline:\n\n아돌프 히틀러의 죽음은 1945년 4월 30일 나치 독일의 총통 아dol프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간后에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 다음날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.\n\n아돌프 히틀러가 부인 에바 브라운과 결혼식을 올리며 40시간 후 자살한 사건으로, 요제프 괴벨스는 국가수장직에 올랐으나 다음날 자살하고 카를 되니츠 대통령은 연합군을迎고 1945년 5월 8일 항복했다.\n\n아돌프 히틀러가 부인 에바 브라운과 결혼식을 올리며 40시간 later 자살한 사건. 요제프 괴벨스는 국가수장직에 올랐으나 다음날 자살하고, 카를 되니츠 대통령은 연합군에 항복하여 1945년 5월 8일을 맞이했다.\n\n아돌프 히틀러가 부인 에바 브라운과 결혼식을 올리며 40시간 후 자살한 사건으로 요제프 괴벨스는 국가수장직에 올랐지만 다음날에 자살하고, 카를 되니츠 대통령은 1945년 5월 8일 연합군을 맞이했다.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.214835524559021,
+        "semantic_similarity": 0.785164475440979,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": " 아돌프 히틀러의 죽음</b>은 1945년 4월 30일 나치 독일의 총통 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 괴벨스는 다음 날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.",
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "generated_text": "아돌프 히틀러의 죽음은 어떤 사건일까?\n\nA. 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후 자살한 사건\nB. 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 일주일 후 자살한 사건\nC. 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 한달 후 자살한 사건\n\nA",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.15157759189605713,
+        "semantic_similarity": 0.8484224081039429,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": " 아돌프 히틀러의 죽음</b>은 1945년 4월 30일 나치 독일의 총통 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 괴벨스는 다음 날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.",
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "generated_text": "**thought process**\n\n1. 아돌프 히틀러의 죽음은 무엇인지 파악해 보자.\n2. 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 later에 자살했다는 것이다.\n3. 요제프 괴벨스가 국가수장직에 올랐는데, 괴벨스는 다음 날 자살했을까?\n4. 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다는 것은 gì?\n\n**implications**\n\n1. 아돌프 히틀러의 죽음은 나치 독일의 지배가 끝난 것이라는 것을 알 수 있다.\n2. 요제프 괴벨스의 자살은 히틀러의 죽음으로 인해 국가수장직을 남기지 못한 것이 이유였다.\n3. 카를 되니츠의 항복은 연합군이 나치 독일을 완전히 이겼다는 것을 의미한다.\n4. 아돌프 히틀러의 죽음은 역사적으로 매우 중요한 사건이며, 이를 통해 나치 독일의อำ력을 잃게 되었다.\n5. 히틀러와 괴벨스의 자살은 Nazi PARTY가 지배한 국가에서 분열과 파괴로 이어진다는 것을 보여준다.\n6. 카를 되니츠의 항복은 2차 세계대전의 종언을 의미한다.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.2513132691383362,
+        "semantic_similarity": 0.7486867308616638,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.2302819788455963,
+    "std_drift": 0.055276028657701856
+  },
+  {
+    "article_id": 6,
+    "context": "임진왜란(壬辰倭亂)은 1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 전쟁이다. 임진왜란은 동북아시아에 막대한 영향을 끼쳤다. 임진란, 임란</b>이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.",
+    "original_question": "임진왜란은 언제 끝나나요?",
+    "original_answer": "1598년",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "임진왜란(壬辰倭亂)은 1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 전쟁이다. 임진왜란은 동북아시아에 막대한 영향을 끼쳤다. 임진란, 임란</b>이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.",
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "generated_text": "임진왜란의 지식 연대: 1592년 - 1598년\n\n임진왜란의 간주하는 지역: 동북아시아\n\n중요한 이점:\n\n1. 임진왜란이 동북아시아에 대량의 영향을 미쳤다고 알려져 있다.\n\n다른 이름:\n\n* 임진란\n* 임란\n\n제2차 침략의 이름:\n\n* 정유재란",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.3376232981681824,
+        "semantic_similarity": 0.6623767018318176,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "임진왜란(壬辰倭亂)은 1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 전쟁이다. 임진왜란은 동북아시아에 막대한 영향을 끼쳤다. 임진란, 임란</b>이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.",
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "generated_text": "1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 임진왜란(壬辰倭亂)은 동북아시아에 막대한 영향을 끼쳤다. 임진왜란은 임진란, 임란이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.\n\n임진왜란은 1592년부터 1598년까지持续했던 조선의 해방 전쟁이었다. 일본의 침략에 의해 조선은 심각한 피해를 입었다. 임진왜란은 한국 history에서 중요한 사건으로 간주된다.\n\n임진왜란의 원인은 조선과 일본의 정세에 대한 불안정성이다. 일본은 1592년부터 1598년까지 조선을 침략하기 시작했다. 이 침착은 이 지역에서 큰 혼란과 혼합을 일으켰다.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.03495222330093384,
+        "semantic_similarity": 0.9650477766990662,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "임진왜란(壬辰倭亂)은 1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 전쟁이다. 임진왜란은 동북아시아에 막대한 영향을 끼쳤다. 임진란, 임란</b>이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.",
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "generated_text": "임진왜란은 다음과什么일까요?\n\nA. 1598년 선조 31년에 끝나게됩니다.\nB. 임진왜란은 동북아시아에 maktable 영향을 끼쳤습니다.\nC. 임진왜란은 두 번의 침략으로 이루어졌습니다.\n\nQuestion 2: \n\n임진왜란을 \"임진란\"이라고 부르는 이유는 무엇일까요?\n\nA. 임진왜란이 동북아시아에 maktable 영향을 끼쳤기 때문입니다.\nB. 임진왜란은 두 번의 침략으로 이루어졌기 때문에 \"임진란\"이라고 부릅니다.\nC. 임진왜란이 1598년 선조 31일에 끝났기 때문입니다.\n\nQuestion 3: \n\n제2차 침략은什么과 동일한가요?\n\nA. 임진왜란\nB. 정유재란",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.3909350633621216,
+        "semantic_similarity": 0.6090649366378784,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "임진왜란(壬辰倭亂)은 1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 전쟁이다. 임진왜란은 동북아시아에 막대한 영향을 끼쳤다. 임진란, 임란</b>이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.",
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "generated_text": "1.  임진왜란은 조선 dynasty와 일본 간의 군사 충돌을 말하는 단어입니다.\n2.  1592년부터 1598년까지 임진왜란이 발생했습니다.\n3.  임진왜란은 동북아시아에 큰 영향을 미쳤습니다.\n4.  임진왜란은 두 번의 침략으로, 제2차 침략을 정유재란이라고도 부릅니다.\n\nImplications:\n\n1.  조선 dynasty와 일본 간의 군사 충돌이 있었다.\n2.  동북아시아에 큰 영향을 미쳤습니다.\n3.  임진왜란은 두 번의 침략으로, 제2차 침략을 정유재란이라고도 부릅니다.\n4.  임진왜란은 조선 dynasty와 일본 간의 군사 충돌이 끝난 후에 발생했습니다.\n5.  임진왜란은 동북아시아에서 큰 변화과 불 ổn을 일으켰습니다.\n6.  임진왜란은 조선 dynasty와 일본 간의 관계를 바꾸어 새로しい 관계를 형성했지만, relationship의 change는 양쪽에 모두 영향을 미쳤습니다.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.21633851528167725,
+        "semantic_similarity": 0.7836614847183228,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.24496227502822876,
+    "std_drift": 0.13676408665275022
+  },
+  {
+    "article_id": 7,
+    "context": " 중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아[1]에 있는 공화국이다. 줄여서 중국[2](中國, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다. 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.",
+    "original_question": "중화인민공화국의 수도는 어디인가요?",
+    "original_answer": "베이징",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": " 중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아[1]에 있는 공화국이다. 줄여서 중국[2](中國, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다. 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.",
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "generated_text": "아래는 passage가 제공하는implication이다.\n\n1. 중화인민공화국(중국)은 동아시아의 공화국으로, 세계에서 가장 큰 인구와 넓은 국토를 가지고 있다.\n2. 중국은 수많은 도시를 포함하고 있으며, 베이징은 수도이고 상하이가最大 도시이다.\n3. 중화인민공화국의 지리적 위치 때문에 \"중국 대륙\"이라고 불리는 영토가 있으며, 이 지역의 인구와 국토는 세계에서 가장 큰 것으로 biết된다.\n4. 중국은 수많은 도시를 포함하고 있으며, 베이징은 수도이고 상하이가最大 도시이다.\n5. 중화인민공화국의 관행과 지리적 위치 때문에,中国라고도 불리는 줄여된 이름을 가지고 있다.\n6. 중국의 수도는 베이징이며 최대 도시는 상하이으로, 주요 도시로는 여러개가 있다.\n7. 중화인민공화국은 세계에서 가장 많은 인구를 가지고 있으며, 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르는 경우가 많다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.2453763484954834,
+        "semantic_similarity": 0.7546236515045166,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": " 중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아[1]에 있는 공화국이다. 줄여서 중국[2](中國, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다. 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.",
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "generated_text": "중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아에 있는 공화국으로, 줄여서 중국[2](中国, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다.\n\n중华인민공화국의 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다.\n\n중화인민공화국은 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.\n\n \n중화인민공화국은 동아시아에 위치한 공화국으로, 중국으로도 잘 알려져 있다. 중화인민공화국의 수도는 베이징이며, 상하이는 최대 도시이다.\n\n중화인민공화국은 세계적으로 가장 큰 인구와 넓은 지역을 가지고 있기 때문에, 그 영토를 중국 대륙이라고 부르기도 한다.\n\n \n중화인민공화국은 동아시아에 위치한 공화국으로, 줄여서 중국이라고도 한다. 베이징은 수도이며 상하이는 최대 도시는 아니다.\n\n중화인민공화국의 주도 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.011305570602416992,
+        "semantic_similarity": 0.988694429397583,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": " 중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아[1]에 있는 공화국이다. 줄여서 중국[2](中國, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다. 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.",
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "generated_text": "중화인민공화국의 이름을 영어로 번역했을 때 어떤 이름이 되지?\\n\\nantwort : 중화인민공화국(중국은 Trung화人民 공화국으로도 불림)\n\n1. 제1장: 그 나라의 이름을 중국으로 간주할 수 있는가요?\n\n答  : yes\n\n2. 대도시는 무엇일까요?\n\n答 : 상하이와 베이징\n\n3. 주요 도시는 무엇일까요?\n\n答 : 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등입니다.\n\n4. 그 나라의 지위는 무엇일까요?\n\n答 : 동아시아에 있는 공화국\n\n5. 그 나라의 이름을 중국으로 간주할 수 있습니다.\n\n  answer: yes",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.20494866371154785,
+        "semantic_similarity": 0.7950513362884521,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": " 중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아[1]에 있는 공화국이다. 줄여서 중국[2](中國, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다. 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.",
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "generated_text": "1. passage가 discussing 중국의 국가 이름, 수도 및 주요 도시 등을 설명하고 있습니다.\n2. chinese어로 '중화인민공화국'이라는 단어는 동아시아에서 공화국으로 정의되는 곳에 위치한 국가입니다.\n3. china라는 용어는 china, simplified chinese, traditional chinese 등 다양한 형태를 가지고 있습니다.\n4. 중국의 수도와 최대 도시, 주요 도시 등을 설명하고 있습니다.\n5. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 합니다.\n\nImplications:\n\n1. 중국은 동아시아에서 공화국으로 정의되는 곳에 위치한 국가입니다.\n2. china라는 용어는 다양한 형태를 가지고 있습니다.\n3. 중국의 수도인 베이징은 세계적으로 중요합니다.\n4. 최대 도시인 상하이는 중국의 경제 및 문화가 집중ized됩니다.\n5. 중국 대륙의 넓은 국토와 인구는 세계적인影響力を 미칠 수 있습니다.\n6. 중국은 세계적으로 큰국가는 아니지만, 거대한 인구와 국토로 세계적影响력을 미치고 있습니다.\n7. 중국의 국가 이름 '중화인민공화국'이 world에서 제일 많은 dân수를 보유하고 있는 국가라고 알려져 있습니다.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.2384319305419922,
+        "semantic_similarity": 0.7615680694580078,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.1750156283378601,
+    "std_drift": 0.09574605466645837
+  },
+  {
+    "article_id": 8,
+    "context": "현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 전구의 불을 밝히는 데 사용되면서 시작되었다. 그리고 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 시험적으로 전력생산을 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작하였다.",
+    "original_question": "최초의 원자력 발전소는 무엇인가?",
+    "original_answer": "콜더 홀",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 전구의 불을 밝히는 데 사용되면서 시작되었다. 그리고 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 시험적으로 전력생산을 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작하였다.",
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "generated_text": "해당 passage에서 얻은 implication은 다음과 같다:\n\n1. 한국에 대한 핵분열 방식의 도입: passage는 미국이 first한 원자력 발전소가 이끌어졌으며, 그 afterward 한국도 nuclear power를 도입했다고 말하지 않는다.\n\n2. 1948년부터 1956년까지의 원자력 발전소의 구축 및 운영: passage는 전기 가동 전구에 불을 밝히는 데 사용된 first의 nuclear power plant가 1948년부터 1956년까지 만들어졌으며, 이후에 여러 other nuclear power plants가 구축되었다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.31116384267807007,
+        "semantic_similarity": 0.6888361573219299,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 전구의 불을 밝히는 데 사용되면서 시작되었다. 그리고 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 시험적으로 전력생산을 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작하였다.",
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "generated_text": "Here are the rewritten passages:\n\n \n현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 처음 불이 밝히는 데 사용되었습니다. 그 다음 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소를 시험적으로 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소가 1956년 10월 17일 상업 운전을 시작했습니다.\n\n \n\n현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 미국 테네시 주 오크리지의 X-10 흑연원자로에서 처음 불이 밝혀졌습니다. 그 다음, 구소련 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용하여 1954년 6월 17일 오브닌스크 원자력 발전소가 시험적으로 시작되었습니다. 그리고 최초의 상업용 원자력 엉더이로는 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17日に 상업 운전을 시작했습니다.\n\n \n\n현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시 주 오큰리지의 X-10 흑연원자로에서 처음 불이 밝혀졌습니다. 그 뒤, 구소련 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용하여 1954년 6월에 오브 닌 스크 원자력 발전소를 시험적으로 시작했습니다. 최초의 상업용 원자력 엉더이로는 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작했습니다.\n\n \n\n현재 사용되는 핵분열 방식을 이용한 전력생산은 미국 테네시 주 오크리지의 X-10 흑연원자로에서 1948년 처음 불이 밝혀졌으며, 그 뒤 구소련 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용하여 1954년 6월에 오브 닌 스크 원자력 발전소를 시험적으로 시작했습니다. 최초의 상업용 원자력 엉더이로는 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작했습니다.\n\n \n현재 사용되는 핵분열 방식을 이용한 전력생산은 테네시 주 오크리지의 X-10 흑연원자로에서 처음 불이 밝혀졌으며, 그 뒤 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용하여 1954년 6월에 오브 닌 스크 원자력 발전소를 시험적으로 시작했습니다. 최초의 상업용 원자력 엉더이로는 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작했습니다.",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.04318767786026001,
+        "semantic_similarity": 0.95681232213974,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 전구의 불을 밝히는 데 사용되면서 시작되었다. 그리고 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 시험적으로 전력생산을 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작하였다.",
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "generated_text": "질문 1. 1948년 미국 테네시주 오크리지의 X-10 흑연원자로에서 전기 전구를 불이 밝히는 데 사용된 후에, 1954년 이후에 전력생산을 시작한 원자력 발전소는哪里인지 बत아주시겠음?\n\nANSWER: 그때부터의 전력생産을 시작하는 원자력 발전소는 구소련 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오르니스키 원자력 발전소입니다.\n\n질문 2:",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.13545650243759155,
+        "semantic_similarity": 0.8645434975624084,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 전구의 불을 밝히는 데 사용되면서 시작되었다. 그리고 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 시험적으로 전력생산을 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작하였다.",
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "generated_text": "현재 사용되는 핵분열 방식을 이용한 전력생산의 history를 생각해 볼게요. \n\n1. 1948년 미국 테네시주 오크리지에 흑연원자로가 설치되었으며, 이것이 현재 사용되는 핵분열 방식의 beginning이라고 할 수 있어요.\n2. 1954년 구소련의 오브닌스크에 흑연감속 비등경수 압력관형 원자로는 installed became, 이 원자로는 첫 시험적으로 전력생산을 시작해 보았어.\n3. 1956년 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소가 상업 운전을 시작하였다고 합니다.\n\nThought Process 완성! \n\nThought Process의 내용을 이용하여 Implications의 내용을 작성해 보겠습니다!\n\nImplications:\n1. 核분열 방식이 최초로 사용되기 시작한 1948년은 현재 사용되는 핵분열 방식에 대한 history가 시작된 年일 수 있어요.\n2. 1954년 오브닌스크에 건설 된 흑연감속 비등경수 압력관형 원자로는, first test power generation을 위해 사용되었습니다.\n3. 1956년 콜더 홀(Calder Hall) 원자력 발전소의 상업 운전이 시작된 Year, current nuclear power plants에 대한 history가 시작 된 년일 수 있어요.\n\n이러한 information은 nuclear power plant history를 understanding하는 데 도움이 될 수 있어요.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.10083204507827759,
+        "semantic_similarity": 0.8991679549217224,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.1476600170135498,
+    "std_drift": 0.09998719340329304
+  },
+  {
+    "article_id": 9,
+    "context": "과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립 네팔 -  만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니 독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아 러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미 마다가스카르 - 부채잎 파초 말레이시아 - 부상화 멕시코 - 달리아 모나코 - 카네이션 미국 - 장미[1][2] 미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃 벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아 사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네 싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버 아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나 에티오피아 - 칼라디움 이란 - 튤립 이스라엘 - 올리브 이집트 - 수련 이탈리아 - 데이지 인도 - 양귀비 인도네시아 - 보르네오 재스민, 난초, 라플레시아 일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함. (일본 국화를 벚꽃이라고 알고 있는 사람이 많은데 일본 사람들이 가장 좋아하는 꽃이 벚꽃일뿐 국화는 아님.) 조선민주주의인민공화국(북한) - 함박꽃나무 중화민국 - 매화 체코 - 타리아 칠레 - 동백꽃 카메룬 - 수련 캄보디아 - 수련 캐나다 - 사탕단풍 콜롬비아 - 카틀레야 쿠바 - 진저 태국 - 라차프륵 터키 - 튤립 튀니지 - 재스민 파나마 - 파나마초 파키스탄 - 수선화 페루 - 해바라기 포르투갈 - 라벤듈라 폴란드 - 팬지 프랑스 - 아이리스 핀란드 - 은방울꽃 필리핀 - 재스민",
+    "original_question": "스페인의 국화는 무엇인가?",
+    "original_answer": "오렌지꽃",
+    "language": "ko",
+    "edits": [
+      {
+        "original_context": "과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립 네팔 -  만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니 독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아 러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미 마다가스카르 - 부채잎 파초 말레이시아 - 부상화 멕시코 - 달리아 모나코 - 카네이션 미국 - 장미[1][2] 미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃 벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아 사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네 싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버 아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나 에티오피아 - 칼라디움 이란 - 튤립 이스라엘 - 올리브 이집트 - 수련 이탈리아 - 데이지 인도 - 양귀비 인도네시아 - 보르네오 재스민, 난초, 라플레시아 일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함. (일본 국화를 벚꽃이라고 알고 있는 사람이 많은데 일본 사람들이 가장 좋아하는 꽃이 벚꽃일뿐 국화는 아님.) 조선민주주의인민공화국(북한) - 함박꽃나무 중화민국 - 매화 체코 - 타리아 칠레 - 동백꽃 카메룬 - 수련 캄보디아 - 수련 캐나다 - 사탕단풍 콜롬비아 - 카틀레야 쿠바 - 진저 태국 - 라차프륵 터키 - 튤립 튀니지 - 재스민 파나마 - 파나마초 파키스탄 - 수선화 페루 - 해바라기 포르투갈 - 라벤듈라 폴란드 - 팬지 프랑스 - 아이리스 핀란드 - 은방울꽃 필리핀 - 재스민",
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "generated_text": "과테말라에서 시작되는 passage는 세계적으로 180개 이상의 국가가 flower 또는 꽃을 official flower로 지정하고 있는 것으로 나타난다. 이에 대한 몇몇 implications은 다음과 같다.\n\n1.국제 관계의 상징: flower 또는 꽃이 국가 간의 국제적 관계를 표현할 수 있다. 예를 들어, 과테말라에서 시작되는 passage에는 과테말라가 리카스탄스와 friendship를 맺고 있는 것이 evident하다.\n2.역사와 문화:flower 또는 꽃은 역사와 문화에深한 관련이 있으므로 국가 간의 cultural exchange와 cooperation을 표현할 수 있다.\n3.국적 идент리: flower 또는 꽃은 국가의 national identity를 상징할 수 있다. 예를 들어, 뉴질랜드에서는 Manuka 나무가 국가의 official flower로 지정되어있다.\n4.eco-friendly movement: flower 또는 꽃이 natural environment에 대한 love와 care를 표현할 수 있다. 예를 들어, 뉴질랜드에서는 Manuka 나무가 country's official flower로 지정되었으며, 이는 nature conservation을 주장하는 eco-friendly movement와 관련이 있다.\n5.국제 연합: flower 또는 꽃이 국제 연합을 상징할 수 있다. 예를 들어, international organization인 United Nations은 United Nations logo와 symbol을 사용하지만, flower 또는 꽃으로 representation을 할 수 있는 opportunity가 있다.\n\n위의 implications은 flower 또는 꽃이 국가 간의 국제적 관계, 역사와 문화, national identity, eco-friendly movement, 국제 연합과 관련된 상징과 representation을 의미하는 것을 보여준다.",
+        "format_type": "implications",
+        "language": "ko",
+        "drift_score": 0.6219983100891113,
+        "semantic_similarity": 0.37800168991088867,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립 네팔 -  만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니 독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아 러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미 마다가스카르 - 부채잎 파초 말레이시아 - 부상화 멕시코 - 달리아 모나코 - 카네이션 미국 - 장미[1][2] 미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃 벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아 사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네 싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버 아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나 에티오피아 - 칼라디움 이란 - 튤립 이스라엘 - 올리브 이집트 - 수련 이탈리아 - 데이지 인도 - 양귀비 인도네시아 - 보르네오 재스민, 난초, 라플레시아 일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함. (일본 국화를 벚꽃이라고 알고 있는 사람이 많은데 일본 사람들이 가장 좋아하는 꽃이 벚꽃일뿐 국화는 아님.) 조선민주주의인민공화국(북한) - 함박꽃나무 중화민국 - 매화 체코 - 타리아 칠레 - 동백꽃 카메룬 - 수련 캄보디아 - 수련 캐나다 - 사탕단풍 콜롬비아 - 카틀레야 쿠바 - 진저 태국 - 라차프륵 터키 - 튤립 튀니지 - 재스민 파나마 - 파나마초 파키스탄 - 수선화 페루 - 해바라기 포르투갈 - 라벤듈라 폴란드 - 팬지 프랑스 - 아이리스 핀란드 - 은방울꽃 필리핀 - 재스민",
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "generated_text": "과테말라 - 리카스테난스\n그리스 - 향제비꽃\n남아프리카 공화국 - 프로테아\n네덜란드 - 튤립\n네팔 - 만병초\n뉴질랜드 - 회화나무\n한국 - 무궁화\n도미니カ 공화국 - 마호가니\n독일 - 수레국화\n덴마크 - 토끼풀\n라오스 - 플루메리아\n러시아 - 카밀레\n레바논 - 레바논 삼나무(백향목)\nル마니아 - 백장미\n만다가스카르 - 부채잎 파초\n말레이시아 - 부상화\n멕시코 - 달리아\n모나코 - 카네이션\n미국 - 장미\n미얀마 - 사라수\n바티칸 - 나팔나리\n베네수엘라 - 타เบ비아\n베토wan - 연꽃\n벨기에 - 아잘레아\n볼리비아 - 꽃고비\n불가리아 - 장미\n브라질 - 카틀레아\n사우디아라비아 - 대추야자\n스리랑카 - 연꽃\n스위스 - 에델바이스\n스페인 - 오렌지꽃\n시리아 - 아네모네\n싱가포르 - 난\n아르메니아 - 아네모네\n아르헨티나 - 피토라카\n아일랜드 - 흰 클로버\nアフガ니스탄 - 튤립\n영국 - 장미\n예멘 - 커피나무\n오스트레일리아 - 아카시아\n오스트리아 - 에델바이스\n우루과이 - 에리스리나\n에티오피아 - 칼라디움\n이란 - 튤lip\n잉글랜드 - 올리브\n이집트 - 수련\n이탈리아 - 데이지\n인도 - 양귀비\n인도네시아 - 보르네오 재스민, 난초, 라플레시아\n일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함.\n조선민주주의인민공화국(북한) - 함박꽃나무\n중화민국 - 매화\n체코 - 타리아\n칠레 - 동백꽃\n카메룬 - 수련\n캄보디아 - 수련\n캐나다 - 사탕단풍\n콜롬비아 - 카틀레야\n쿠바 - 진저\n태국 - 라차프륵\n터키 - 튤립\n튀니지 - 재스민\n파나마 - 파나마초\n파키스탄 - 수선화\n페루 - 해바라기\n포르투갈 - 라벤듈라\n폴란드 - 팬지\n프랑스 - 아이리스\n핀란드 - 은방울꽃\n필리핀 - 재스민",
+        "format_type": "rewrite",
+        "language": "ko",
+        "drift_score": 0.009889304637908936,
+        "semantic_similarity": 0.9901106953620911,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립 네팔 -  만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니 독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아 러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미 마다가스카르 - 부채잎 파초 말레이시아 - 부상화 멕시코 - 달리아 모나코 - 카네이션 미국 - 장미[1][2] 미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃 벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아 사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네 싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버 아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나 에티오피아 - 칼라디움 이란 - 튤립 이스라엘 - 올리브 이집트 - 수련 이탈리아 - 데이지 인도 - 양귀비 인도네시아 - 보르네오 재스민, 난초, 라플레시아 일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함. (일본 국화를 벚꽃이라고 알고 있는 사람이 많은데 일본 사람들이 가장 좋아하는 꽃이 벚꽃일뿐 국화는 아님.) 조선민주주의인민공화국(북한) - 함박꽃나무 중화민국 - 매화 체코 - 타리아 칠레 - 동백꽃 카메룬 - 수련 캄보디아 - 수련 캐나다 - 사탕단풍 콜롬비아 - 카틀레야 쿠바 - 진저 태국 - 라차프륵 터키 - 튤립 튀니지 - 재스민 파나마 - 파나마초 파키스탄 - 수선화 페루 - 해바라기 포르투갈 - 라벤듈라 폴란드 - 팬지 프랑스 - 아이리스 핀란드 - 은방울꽃 필리핀 - 재스민",
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "generated_text": "과테말라에서 가장 많은 꽃이 있는 나라는 무엇인가?\n\nA. 리카스테난스\nB. 남아프리카 공화국\nC. 네덜란드\nD. 대한민국\n\n câu사 : None \n\nQuestion 2:\n\n어떤 국가의 국화가 황실을 상징하는 것일까?\n\nA. 일본\nB. 이집트\nC. 미국\nD. 한국\n\n câu사 : A",
+        "format_type": "self_qa",
+        "language": "ko",
+        "drift_score": 0.5681360960006714,
+        "semantic_similarity": 0.431863933801651,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립 네팔 -  만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니 독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아 러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미 마다가스카르 - 부채잎 파초 말레이시아 - 부상화 멕시코 - 달리아 모나코 - 카네이션 미국 - 장미[1][2] 미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃 벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아 사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네 싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버 아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나 에티오피아 - 칼라디움 이란 - 튤립 이스라엘 - 올리브 이집트 - 수련 이탈리아 - 데이지 인도 - 양귀비 인도네시아 - 보르네오 재스민, 난초, 라플레시아 일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함. (일본 국화를 벚꽃이라고 알고 있는 사람이 많은데 일본 사람들이 가장 좋아하는 꽃이 벚꽃일뿐 국화는 아님.) 조선민주주의인민공화국(북한) - 함박꽃나무 중화민국 - 매화 체코 - 타리아 칠레 - 동백꽃 카메룬 - 수련 캄보디아 - 수련 캐나다 - 사탕단풍 콜롬비아 - 카틀레야 쿠바 - 진저 태국 - 라차프륵 터키 - 튤립 튀니지 - 재스민 파나마 - 파나마초 파키스탄 - 수선화 페루 - 해바라기 포르투갈 - 라벤듈라 폴란드 - 팬지 프랑스 - 아이리스 핀란드 - 은방울꽃 필리핀 - 재스민",
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "generated_text": "1.  **과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립**\n    *   이들은 가장 일반적인 꽃으로 사용되는 것일 수 있게 보인다.\n2.  **네팔 - 만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니**\n    *   이들은 한국에서 자주見지지 않는데도 많은 국가에 사용되는 꽃이 될 수 있게 보인다.\n3.  **독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아**\n    *   이들은 유럽이나 아시아의 국가에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.\n4.  **러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미**\n    *   유럽과 러시아의 꽃 중 하나이면, 이들은 많은 국가에서 사용되는 것일 수 있게 보인다.\n5.  **인도네시아 - 부상화 멕시코 - 달리아 모나コ - 카네이션 미국 - 장미**\n    *   이들은 많은 국가에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.\n6.  **미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃**\n    *   동남아시아와 남아메리카의 국가에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.\n7.  **벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아**\n    *   유럽과 남아메리카의 국가에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.\n8.  **사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네**\n    *   아시아, 동남アジア, 유럽에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.\n9.  **싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버**\n    *   동남아시아와 유럽의 국가에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.\n10. **아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나**\n    *   아시아, 유럽에서 자주 볼 수 있지만, 가장 일반적인 꽃으로 사용되는 것은 아니에요.",
+        "format_type": "chain_of_thought",
+        "language": "ko",
+        "drift_score": 0.31200307607650757,
+        "semantic_similarity": 0.6879969239234924,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.3780066967010498,
+    "std_drift": 0.2426664316282028
+  }
+]

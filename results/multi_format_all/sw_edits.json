@@ -1,0 +1,592 @@
+[
+  {
+    "article_id": 0,
+    "context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+    "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+    "original_answer": "Brazili, Marekani na Meksiko",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "generated_text": "Tunaweza kuamua madhumuni ya machungwa, na kusababisha matumizi makubwa katika biashara. Hii inaweza kusababisha ukosefu wa usalama wa mazingira kutokana na uchakazi mkubwa.\n\nPia, utendaji wa machungwa unahitaji uelewa wa maadili ya biashara, ikiwa ni pamoja na matibabu ya maji yenye shida ya ukungu, ambayo inaweza kuathiri maisha ya binadamu katika eneo ambalo machungwa hulimwa.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.46170932054519653,
+        "semantic_similarity": 0.5382906794548035,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "generated_text": "Machungwa ni mwendelezi wa kawaida ambao hulimwa hasa kwa ajili ya biashara na huwasilishwa katika maeneo mengi duniani. Raisi wa machungwa duniani ni Brazili, Marekani na Meksiko. Machungwa umepokea athari isiyo ya haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linasimamishwa.\n\nMachungwa ni mwendelezi wa kawaida ambao hulimwa hasa kwa ajili ya biashara. Ni nyingi zaidi ikilimsishwa katika maeneo mengi duniani. Wazalishaji wa machungwa wanafanikiwa sana na Brazili, Marekani na Meksiko ni wao wanaofanya kazi. Machungwa huathiriwa haraka na ukungu hivyo inahitaji matunzo mazuri.\n\nMachungwa ni mwendelezi wa kawaida ambao hulimwa hasa kwa ajili ya biashara. Imilimsishwa katika maeneo mengi duniani. Machungwa umepokea athari isiyo ya haraka na ukungu. Wazalishaji wa machungwa wanafanikiwa sana na Brazili, Marekani na Meksiko ni wao. Machungwa huhitaji matunzo mazuri kila wakati.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.04842805862426758,
+        "semantic_similarity": 0.9515719413757324,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "generated_text": "Ninashukuru, lakini sio swali. Tunapaswa kuandika kulingana na mfano hapo juu. Kwa hivyo, ninatupa swali moja:\n\nKuna nchi ngapi ambazo machungwa wanafunzwa kwa ajili ya biashara duniani?",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.1414186954498291,
+        "semantic_similarity": 0.8585813045501709,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "generated_text": "Nawakilisha kazi ya mchakato ambapo nitachunguza vipengele muhimu vya maudhui uliyopewa na kuchambua mada ili kuona ni ni nini kwamba tunaweza kukokotoa. \n\nUchambuzi wa \"Machungwa\" na \"ukungu\": \nKwanza tunahitaji kuelewa ukweli unaozungumzwa katika maudhui ya machungwa, kwani ni jina linalojulikana sana ambalo haliwezi kubainishwa bila ufahamu wa kile kinachosimama ndani. \nKwanza, nitafute kiini cha ukweli kwamba machungwa huathiriwa na ukungu kutokana na ukigumu unaopatikana wakati joto linapotea sana.\n \nUchanganuzi wa ukungu: \nMachungwa yanahitaji matunzo mazuri kufuatilia joto dogo sana. Hili linaweza kuifanya iwe muhimu sana kwa mafuta kutokana na ukigumu unaopatikana wakati huu.\nKuna shida ya kuzingatia ikiwa utaratibu unaozungumziwa wa kupanga machungwa ni kisichojulikana sana na uwezekano ni jinsi ya kuwapa matibabu mpya ili kukabiliana na ukigumu unaopatikana. \nIli kufanya hivyo, tunaweza kuchunguza ukweli kwamba machungwa wanasambaa sana duniani. Kuna shida ya kutambua maeneo ambayo machungwa yanalidhinishwa kila wiki.\nUchanganuzi wa utaratibu wa biashara: \nMachungwa wanajitokeza duniani mara nyingi kama bidhaa za biashara. Kuna shida ya kutambua maeneo ambayo machungwa yanalidhinishwa kila wiki.\nUchanganuzi wa maeneo yanayolimwa machungwa: \nKwanza, nitafute kiini cha uhalisia kwamba machungwa hulimwa katika nchi mbalimbali duniani. Kuna shida ya kutambua ni maeneo ambayo machungwa yanalidhinishwa kila wiki.\nKisha, nilipata ukweli kwamba machungwa wanasambaa sana na mara nyingi kama bidhaa za biashara.\nIli kufanya hivyo, nitachanganua maelezo yaliyotolewa ya maeneo ambayo machungwa yanalidhinishwa na kuona ni kuna shida gani ili kutambulisha uhalisia huu.\nJibu la mwisho ni:\nImplications: \n1.  Machungwa huathiriwa sana na ukungu, kumaanisha kuwa matibabu yoyote yanayopatikana yalikuwa na uwezekano wa kupanda vya utunzaji.\n2.  Maeneo ambayo machungwa yanalidhinishwa kila wiki ni shida isiyo ya kawaida sana, kwani machungwa hulimwa mara nyingi duniani.\n3.  Machungwa wanasambaa sana duniani na mara nyingi kama bidhaa za biashara.\n4.  Kutambua maeneo ambayo machungwa yanalidhinishwa kunaweza kuifanya iwe muhimu sana kwani ni muhimu katika ukuzaji wa biashara ya machungwa duniani.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.07950842380523682,
+        "semantic_similarity": 0.9204915761947632,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.1827661246061325,
+    "std_drift": 0.16448995805593253
+  },
+  {
+    "article_id": 1,
+    "context": "Mchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Na zaidi ya nakala milioni 11 kuuzwa duniani kote kufikia Februari 2009, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi. Nakala inayotumika kwenye Mac OS ilitolewa Machi 1999.",
+    "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+    "original_answer": "Microsoft",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Mchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Na zaidi ya nakala milioni 11 kuuzwa duniani kote kufikia Februari 2009, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi. Nakala inayotumika kwenye Mac OS ilitolewa Machi 1999.",
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "generated_text": "Jibu ni:\n\n* StarCraft ilikuwa na ushawishi mkubwa katika sasa ya kompyuta binafsi, na kuuzwa kiasi kikubwa duniani kote.\n* Mchezo ulitangaza uwezo wa Starcraft Media Technologies (SMT), kampuni ambayo ilitengeneza StarCraft, kwenye nafasi za biashara duniani.\n* Iliyotumiwa kwenye Mac OS ilitaja urahisi unaowezekana katika kuuza michezo ya kompyuta binafsi na kampuni mbalimbali.\n* Mchezo ulisababisha kuongezeka kwa uuzaji wa Microsoft Windows duniani, kwani ulikuwa na ushawishi mkubwa katika sasa ya kompyuta binafsi.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.33863508701324463,
+        "semantic_similarity": 0.6613649129867554,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Mchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Na zaidi ya nakala milioni 11 kuuzwa duniani kote kufikia Februari 2009, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi. Nakala inayotumika kwenye Mac OS ilitolewa Machi 1999.",
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "generated_text": "Mchezo wa kwanza wa StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Hadi Februari 2009, zaidi ya nakala milioni 11 imeuzwa duniani kamili, na ni moja ya michezo bora ambayo imeuzwa kwenye kompyuta za mtu binafsi. Nakala inayotumika kwenye Mac OS ilikuwa inatolewa Machi 1999.\n\nMchezo wa StarCraft ulianzishwa mwaka wa 1998 na ulitolewa tena Microsoft Windows tarehe 31 Machi, kutoka hapo sasa zaidi ya milioni 11 za kila aina imeuzwa duniani kamili hadi Februari 2009. \n\nMchezo wa StarCraft ulianzishwa mwaka wa 1998 na mwaka huo ulitolewa Microsoft Windows tarehe 31 Machi, ilikuwa nakala inayotumika Mac OS zaidi ya milioni 11 imeuzwa duniani kamili hadi Februari 2009.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.23212379217147827,
+        "semantic_similarity": 0.7678762078285217,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Mchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Na zaidi ya nakala milioni 11 kuuzwa duniani kote kufikia Februari 2009, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi. Nakala inayotumika kwenye Mac OS ilitolewa Machi 1999.",
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "generated_text": "Nakala ya nyingi za StarCraft ilizalishwa duniani kote? \nJibu: Haya ni moja ya michezo bora kwenye kompyuta.",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.42430901527404785,
+        "semantic_similarity": 0.5756909847259521,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Mchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Na zaidi ya nakala milioni 11 kuuzwa duniani kote kufikia Februari 2009, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi. Nakala inayotumika kwenye Mac OS ilitolewa Machi 1999.",
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "generated_text": "Nadharia ya Mchezo wa Kwanza wa StarCraft:\n\nMchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Hii ni kipengele muhimu kinachopendekeza kuwa StarCraft ilikuwa mchezo unaojulikana sana na umekuwa katika mpangilio wake wa kutoka awali.\n\nKutokana na ukweli kwamba nakala milioni 11 za mchezo huo ilipakuliwa duniani kote, ni wazi kuwa StarCraft ulikuwa mchezo wa kuuza unaojulikana sana. Lakini nini inafanya StarCraft kuwa mchezaji bora wa kuuza?\n\nMchezo unaokaa kwenye Mac OS ilitolewa Machi 1999, ambayo ina maana kwamba hali ilikuwa tofauti sana na ile ya Windows. Lakini inamaanisha nini, ni kipengele gani cha StarCraft kilichochaguliwa kuwakilishwa zaidi?\n\nKutoka kwa maelezo haya, tunaweza kuhitimisha kwamba StarCraft ilikuwa mchezo wa ubunifu na unaojulikana sana. Lakini pia tunahitaji kuzingatia sifa za kompyuta ambazo zilihamasisha kutumia mchezo huo.\n\nSasa, hebu tufafanue dhana ya \"Implication\". Implication ni hitimisho au tokeo la kimantiki ambalo linaweza kuonekana kutoka kwa ukweli. \n\nNadharia za Implication:\n\n1. StarCraft ilikuwa mchezo wa ubunifu na unaojulikana sana.\n2. Nakala milioni 11 za mchezo huo ilipakuliwa duniani kote, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi.\n3. Mchezo uliotolewa kwa Mac OS ilikuwa katika mpangilio wa kutoka awali na ulikuwa tofauti sana na ile ya Windows.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.1649768352508545,
+        "semantic_similarity": 0.8350231647491455,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.2900111824274063,
+    "std_drift": 0.0992279319659865
+  },
+  {
+    "article_id": 2,
+    "context": "Republic of Zambia  Jamhuri ya Zambia                             Neno Kuu: “One Zambia, one nation” Kiing. „Zambia moja, Taifa moja“Lugha rasmiKiingerezaMji MkuuLusakaSerikaliJamhuriRais(Edgar Lungu)Eneo752.614 km²Idadi ya Wakazi14,309,466 (Julai 2012)Wakazi kwa km²17,2UhuruKutoka Uingereza 24 Oktoba 1964PesaKwacha ya Zambia = 100 NgweeWakatiUTC+2Wimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)",
+    "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+    "original_answer": "14,309,466",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Republic of Zambia  Jamhuri ya Zambia                             Neno Kuu: “One Zambia, one nation” Kiing. „Zambia moja, Taifa moja“Lugha rasmiKiingerezaMji MkuuLusakaSerikaliJamhuriRais(Edgar Lungu)Eneo752.614 km²Idadi ya Wakazi14,309,466 (Julai 2012)Wakazi kwa km²17,2UhuruKutoka Uingereza 24 Oktoba 1964PesaKwacha ya Zambia = 100 NgweeWakatiUTC+2Wimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)",
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "generated_text": "Nadharia na matokeo yanayotokana na ukweli kuhusu Jamhuri ya Zambia:\n\n1. Uhuru wa Zambia: Ukweli kwamba Zambia ilikuwa sio eneo linalowasilishwa na ukoloni wa Uingereza, lakini ni nchi iliyofanyika kile kilichotarajiwa.\n2. Kuunganisha kama taifa: Mbinu ya kuhusisha wakazi zote kwenye nchi ina maana kwamba Zambia ni taifa linalowasilishwa na utambulisho wa kimuundo na ushirikiano kati ya raia wake.\n3. Uhuru wa kiuchumi: Kuwepo kama taifa linalotangulia eneo la kilimo chenye sifa mbalimbali zinaweza kusababisha ubadilishanaji mkubwa wa kiuchumi na ukuaji wa uchumi.\n4. Uhusiano na mataifa mengine: Kuwa nchi yenye uhuru ina maana kwamba Zambia inaweza kuunganishwa na mataifa mengine kwa njia ya ushirikiano, kujadiliana na uzoefu wa kimataifa.\n5. Uhuru wa jamii: Mbinu ya kuhusisha wakazi zote kwenye nchi ina maana kwamba Zambia ni taifa la uwajibikaji ambalo linahusika katika kuunda maendeleo na matumizi yake.\n6. Utambuzi wa utaifa: Ukweli kwamba Zambia ni taifa linalowasilishwa kama nchi yenye uhuru na utambulisho wake unaweza kusababisha ukuaji wa imani katika umuhimu wa kuunda nchi yako.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.34173089265823364,
+        "semantic_similarity": 0.6582691073417664,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Republic of Zambia  Jamhuri ya Zambia                             Neno Kuu: “One Zambia, one nation” Kiing. „Zambia moja, Taifa moja“Lugha rasmiKiingerezaMji MkuuLusakaSerikaliJamhuriRais(Edgar Lungu)Eneo752.614 km²Idadi ya Wakazi14,309,466 (Julai 2012)Wakazi kwa km²17,2UhuruKutoka Uingereza 24 Oktoba 1964PesaKwacha ya Zambia = 100 NgweeWakatiUTC+2Wimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)",
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "generated_text": "Pasio la kwanza:\n\nJamhuri ya Zambia\nJamhuri ya Zambia\nNeno la msingi: \"Mungu wa Zambia, taifa moja\"\nLugha rasmiKiingereza\nMji MkuuLusaka\nSerikaliJamhuriRais(Edgar Lungu)\nEneo752.614 km²\nIdadi ya Wakazi14,309,466 (Julai 2012)\nWakazi kwa km²17,2\nUhuruKutoka Uingereza\n24 Oktoba 1964\nPesaKwacha ya Zambia = 100 Ngwee\nWakatiUTC+2\nWimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)\n\nPasio la pili:\n\nJamhuri ya Zambia ni nchi yenye serikali ya kawaida yenye rais.\nNeno la msingi ni \"Mungu wa Zambia, taifa moja\".\nUchumi wa Zambia unatokana na uuzaji wa kaboni. \nJumuiya ya Zambiya ni jamii ya watu 14.3 milioni.\nKutoka kwa Uingereza, Zambia ilipata uhuru mnamo Oktoba 24, 1964.\nWakati wa Zambia, kiwango cha saa ni UTC+2.\nLugha rasmi ya Zambia ni Kiingereza, lakini pia zinajulikana kama lugha za asili za Kizambiana na Kivula.\n\nPasio la tatu:\n\nNchi ya Zambia ni nchi katika Afrika Kusini yenye eneo la km² 752.6.\nJumla ya idadi ya watu ni 14,309,466 (Julai 2012) kwa uhusiano wa km² 17.2.\nKutoka Uingereza, Zambia ilipata uhuru mnamo Oktoba 24, 1964.\nWakati wa Zambia, kiwango cha saa ni UTC+2.\nLugha rasmi ya Zambia ni Kiingereza, lakini pia zinajulikana kama lugha za asili za Kizambiana na Kivula.\nPesa ya Zambia ni Ngwee.\nWimbo wa taifa ni Lumbanyeni Zambia (Stand and sing of Zambia).",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.21769648790359497,
+        "semantic_similarity": 0.782303512096405,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Republic of Zambia  Jamhuri ya Zambia                             Neno Kuu: “One Zambia, one nation” Kiing. „Zambia moja, Taifa moja“Lugha rasmiKiingerezaMji MkuuLusakaSerikaliJamhuriRais(Edgar Lungu)Eneo752.614 km²Idadi ya Wakazi14,309,466 (Julai 2012)Wakazi kwa km²17,2UhuruKutoka Uingereza 24 Oktoba 1964PesaKwacha ya Zambia = 100 NgweeWakatiUTC+2Wimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)",
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "generated_text": "Hapa ni toleo lililoyatuliwa la habari iliyotolewa katika mpangilio wa suala na jibu:\n\n1. Jina la taifa gani la Zambiya?\nJibu: Jamhuri ya Zambia\n\n2. Neno linaloundwa kwa sababu kuu ya uhusiano wa taifa?\nJibu: \"One Zambia, one nation\" (Kiwanga cha Kiingereza) au \"Zambia moja, Taifa moja\" (Lugha rasmi)\n\n3. Kiini ambacho maelfu ya watu ya Zambiya yako?\nJibu: Lusaka\n\n4. Nafasi ambayo Rais wa Zambiya anawakilisha?\nJibu: Serikali\n\n5. Idadi ya watu wanaoishi nchini Zambia kwa km²?\nJibu: 17,2\n\n6. Mwaka ambao Zambia alipata uhuru kutoka Uingereza?\nJibu: 1964 (24 Oktoba)\n\n7. Imeandikwa kama kiasi gani cha pili wa kifedha katika nchi hiyo?\nJibu: Ngwee\n\n8. Wakati ambao Zambiya inatumikia muda wa saa.\nJibu: UTC+2",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.19102156162261963,
+        "semantic_similarity": 0.8089784383773804,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Republic of Zambia  Jamhuri ya Zambia                             Neno Kuu: “One Zambia, one nation” Kiing. „Zambia moja, Taifa moja“Lugha rasmiKiingerezaMji MkuuLusakaSerikaliJamhuriRais(Edgar Lungu)Eneo752.614 km²Idadi ya Wakazi14,309,466 (Julai 2012)Wakazi kwa km²17,2UhuruKutoka Uingereza 24 Oktoba 1964PesaKwacha ya Zambia = 100 NgweeWakatiUTC+2Wimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)",
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "generated_text": "Ninatambua kwamba tulikuwa na mpangilio wa kujadili taarifa kuhusu Jamhuri ya Zambia, lakini sio taarifa za kiwango cha juu. Tunaweza kusoma taarifa hizi ili kuweka mawazo kuhusu nchi hii.\n\nWacha tuanze kwa kuchambua habari zilizotolewa:\n\n* Jamhuri ya Zambia ni nchi inayokidhi taasisi za kiutamaduni na kitamaduni.\n* Taarifa hizi hazishiriki mambo muhimu ya kisiasa, kiuchumi, au maisha ya siku zijazo ya nchi.\n\nSasa, wacha tufikirie kuhusu madhara yanayoweza kutokea:\n\n1. Hakuna taarifa za kisiasa: Haijulikani siwa anwani wa rais ambaye anafanya jukumu la nchi.\n2. Kutoelewana kwa kiuchumi: Hakuna habari zinazojadili uwekezaji, uchumi, au mapato ya Zambia.\n3. Mambo ya maisha ya siku zijazo hayajulikani: Haijulikani ni kile ambacho wakazi wa Zambia wanafanya siku zijazo.\n\nKwa hivyo, mawazo yetu inasema kwamba taarifa hizi hazijalenga kutoa habari muhimu na za kuwajibika kuhusu Jamhuri ya Zambia.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.3692476153373718,
+        "semantic_similarity": 0.6307523846626282,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.279924139380455,
+    "std_drift": 0.07677028567108439
+  },
+  {
+    "article_id": 3,
+    "context": " Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+    "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+    "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": " Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "generated_text": "Tunaweza kuweka orodha ya madhara yanayotokana na habari zilizoonyeshwa katika pasi hiyo kama ifuatavyo:\n\n1. NASA iliishia shughuli kubuni chombo cha angani ambacho kinahusisha kutafuta watu kwenye Mwezi, kwani kazi hii ilikuwa kiongozwa na Apollo 11.\n2. Kazi ya usafiri wa anga ulifanyika nane baada ya kuamua kuwa ni muhimu kubuni chombo kinachoweza kutafuta watu kwenye Mwezi, kwani ilikuwa tukio lenye umuhimu sana katika historia.\n3. NASA inaweza kuhamasisha wataalamu wa usafiri wa anga kutengeneza nyenzo zinazoweza kutumika katika chombo kinachoweza kutafuta watu kwenye Mwezi, na kuzidisha ujuzi wao katika nyanja hii.\n4. Kwa kuamua kuwa ni muhimu kubuni chombo kinachoweza kutafuta watu kwenye Mwezi, NASA inaweza kuhamasisha mamlaka zingine za kimataifa kufanya mtazamo sawa na kuchunguza uwezekano wa matumizi ya chombo kinachoweza kutafuta watu katika anga.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.4195396900177002,
+        "semantic_similarity": 0.5804603099822998,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": " Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "generated_text": "Mfululizo wa tukio la Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilichorushwa angani mnamo 16 Julai 1969 kibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.\n\nApollo 11 ilikuwa chombo cha angani cha kwanza cha kuhamia Mwezi. Chombo hicho kilifanyiwa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilichorushwa mnamo 16 Julai 1969 na kilibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.\n\nChombo cha angani cha Apollo 11 kilikuwa chombo kimoja cha ufikiaji wa awali wa watu kwenye Mwezi. NASA (Mamlaka ya Marekani ya Usafiri wa Anga) ilifanya hivyo. Chombo kilichorushwa mnamo 16 Julai 1969 na kilibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.\n\nChombo cha angani cha Apollo 11 kilikuwa chombo kimoja cha ufikiaji wa angani wa awali. NASA (Mamlaka ya Marekani ya Usafiri wa Anga) ilisimamisha mchakato huo. Chombo kilichorushwa mnamo 16 Julai 1969 na kilibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.12758934497833252,
+        "semantic_similarity": 0.8724106550216675,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": " Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "generated_text": "Tafrika: Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. \n\nJibu la 1: Alikuwa nchini Marekani",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.24213403463363647,
+        "semantic_similarity": 0.7578659653663635,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": " Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "generated_text": "Hebu tuanze kwa kuchambua maudhui ya pasi hiyo:\n\n1. Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi.\n2. Chombo hili kilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga).\n3. Kilirushwa kikibeba wanaanga watatu: Neil Armstrong, Buzz Aldrin na Michael Collins.\n\nKutokana na maudhui haya, tunaweza kukisia kwamba:\n\n1. NASA ni shirika linalofanya usafiri wa angani.\n2. Apollo 11 ni mizunguko ya usafiri wa angani iliyofanywa na NASA.\n3. Neil Armstrong, Buzz Aldrin, na Michael Collins walianaanga watu wakati wa kunyimwa kwenye Mwezi.\n\nSasa, hebu tuendelee na mchakato wa kuchanganua maudhui ya pasi hiyo:\n\n1. Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi.\n2. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga).\n3. Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu: Neil Armstrong, Buzz Aldrin na Michael Collins.\n\nKutokana na maudhui haya, tunaweza kukisia kwamba:\n\n4. NASA imethibitisha ubadilishaji wa binadamu kwenye Mwezi.\n5. Mzunguko wa Apollo 11 umekuwa muhimu sana katika historia ya usafiri wa angani.\n6. NASA ilikuwa na uwezo wa kutengeneza chombo cha angani kinachoweza kunyimwa kwa watu.\n\nHebu tujione shida zinazotokana na maudhui haya, ambayo ni:\n\n1. Kile kinachowezekana kuathiri usafiri wa binadamu kwenye Mwezi katika siku za ziada.\n2. Kile kinachotumia NASA kutengeneza mizunguko ya usafiri wa angani katika siku za ziada.\n3. Kile kinachowezekana kuathiri ukuaji wa teknolojia ya usafiri wa angani katika siku za ziada.\n\nSasa, tunaweza kuchanganya shida hizi ili kutengeneza orodha ya upungufu na matokeo yanayoweza kutokea yaliyohamishwa, ambayo ni:\n\n1. Kuathiri usafiri wa binadamu kwenye Mwezi katika siku za ziada.\n2. Kuathiri ukuaji wa teknolojia ya usafiri wa angani katika siku za ziada.\n3. Kuhatarisha mazingira kwa sababu ya upotevu wa teknolojia ya usafiri wa angani.\n4. Kutoa faida na manufaa makubwa kwa mawasiliano kati ya nchi na wakulima.\n\nHebu tujione shida zinazotokana na maudhui haya, ambayo ni:\n\n1. Kuathiri usafiri wa binadamu kwenye Mwezi katika siku za ziada.\n2. Kuhatarisha mazingira kwa sababu ya upotevu wa teknolojia ya usafiri wa angani.\n\nSasa, hebu tujione shida zinazotokana na maudhui haya, ambayo ni:\n\n1. Kuathiri ukuaji wa teknolojia ya usafiri wa angani katika siku za ziada.\n2. Kutoa faida na manufaa makubwa kwa mawasiliano kati ya nchi na wakulima.\n\nSasa tunaweza kuwahamisha shida hizi ili tuunganishe maudhui yaliyotolewa na usafiri wa angani, ambayo ni:\n\n1. Kuathiri usafiri wa binadamu kwenye Mwezi katika siku za ziada.\n2. Kuhatarisha mazingira kwa sababu ya upotevu wa teknolojia ya usafiri wa angani.\n3. Kuathiri ukuaji wa teknolojia ya usafiri wa angani katika siku za ziada.\n\nSasa, tunaweza kuangalia kama maudhui yaliyotolewa yanatia shida hizi zilizo wazi na inalenga utumiaji usiofaulu wa teknolojia ya usafiri wa angani.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.2819785475730896,
+        "semantic_similarity": 0.7180214524269104,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.2678104043006897,
+    "std_drift": 0.104335676861686
+  },
+  {
+    "article_id": 4,
+    "context": "Kuna miji mingi katika Bara Arabu, lakini miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji mkuu wa Saudia, ijapokuwa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina. ",
+    "original_question": "Makka inapatikana nchi gani?",
+    "original_answer": "Saudia",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Kuna miji mingi katika Bara Arabu, lakini miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji mkuu wa Saudia, ijapokuwa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina. ",
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "generated_text": "Tunaweza kuwasilisha orodha ya matumizi yanayotokana na maandishi haya kama ifuatavyo:\n\n- Miji mingi katika Bara Arabu si makubwa kuliko miji mikuu ya madola mbalimbali.\n- Madola mbalimbali za Bara Arabu zina jukumu muhimu katika kuunda uhusiano wa miji nchini.\n- Mji wa kwanza (mkuu) ndio wenye madhumuni mahususi na mahanga ya madola yake.\n- Maduka mashuhuri na mitukofuli huathiri uwezo wa mji.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.5851578712463379,
+        "semantic_similarity": 0.4148421287536621,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Kuna miji mingi katika Bara Arabu, lakini miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji mkuu wa Saudia, ijapokuwa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina. ",
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "generated_text": "Miji mingi yanafanana katika Bara Arabu, lakini miji mikuu ya Ulimwengu ni Riyadh, mji mkuu wa Saudia, ingawa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina.\n\nMaji mingine mengi yanafanana kwenye Bara Arabu, lakini miji mikuu ya Ulimwengu ni Riyadh, mji mkuu wa Saudi Arabia, ingawa kuna miji mashuhuri na mitukufu katika Saudi Arabia kama Makka na Madina.\n\nMiji mingi hayanafanana katika Bara Arabu, lakini miji mikuu ya ulimwengu ni Riyadh, mji mkubwa wa Saudi Arabia, ingawa kuna miji mashuhuri na mitukufu katika Saudi Arabia kama Makka na Madina.\n\nNote: I've rewritten the passage in three different styles:\n\n1. First rewritten passage is similar to the original, but uses more formal language.\n2. Second rewritten passage uses slightly different vocabulary and sentence structure, but still conveys the same meaning.\n3. Third rewritten passage has a more casual tone and uses simpler language, while still maintaining the core message of the original passage.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.08543181419372559,
+        "semantic_similarity": 0.9145681858062744,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Kuna miji mingi katika Bara Arabu, lakini miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji mkuu wa Saudia, ijapokuwa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina. ",
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "generated_text": "Njia ya kuandikisha passage iliyotolewa katika fomu ya swali-jibu ni:\nSwali: Kuna miji mingapi katika Bara Arabu?\nJibu: Kuna miji mingi katika Bara Arabu.\n\nSwali: Miji mikuu ya madola mbalimbali ya Bara Arabu ni nani?\nJibu: Miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji wa Saudia.\n\nSwali: Je, bado unakuwa na miji mashuhuri na mitukufu katika Saudia?\nJibu: Hapo awali.",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.3594384789466858,
+        "semantic_similarity": 0.6405615210533142,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Kuna miji mingi katika Bara Arabu, lakini miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji mkuu wa Saudia, ijapokuwa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina. ",
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "generated_text": "Nadhani ilianza na kuchunguza maelezo yaliyotolewa kuhusu Bara Arabu, haswa ukweli kwamba kuna miji mengi katika eneo hilo. Kisha, kazi itakuwa kuangalia kama miji mikuu ya madola mbalimbali ni Riyadh. Sasa, nitafikiria kuhusu ulinganisho wa Riyadh na miji mengine mashuhuri kama Makka na Madina ndani ya Saudia.\n\nImplications:\n1. Kuna miji mengi katika Bara Arabu.\n2. Riyadh ndio mji mkubwa wa madola mbalimbali ya Bara Arabu, lakini hakijakikana ni mkuu mzuri kabisa.\n3. Makka na Madina ndani ya Saudia zinalingana na Riyadh katika ukweli wa umuhimu katika maisha ya kiraia.\n4. Bara Arabu ina matukio mbalimbali kulingana na ukubwa na utu wa miji yake.\n5. Nchi za Bara Arabu ni nchi yenye umuhimu mkubwa katika historia ya dunia.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.32531797885894775,
+        "semantic_similarity": 0.6746820211410522,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.33883653581142426,
+    "std_drift": 0.17712661055838597
+  },
+  {
+    "article_id": 5,
+    "context": "Dogma ni neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani. Linaweza kutumika pia kwa maana isiyo ya kidini.",
+    "original_question": "Teolojia ya dogma ni nini?",
+    "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Dogma ni neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani. Linaweza kutumika pia kwa maana isiyo ya kidini.",
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "generated_text": "Nayo, hebu tuangazie matokeo yanayotokana na makala uliyopata:\n\n1. Dogma linaweza kuwa na athari kubwa katika maeneo ya kidini, kwani inarejelea imani za mwili ambazo hazinehifadhiwi.\n2. Wafuasi wa dini wanaweza kutumia dogma ili kutoa maelezo yanayofaa kuhusu imani zao.\n3. Dogma linaweza pia kutumiwa katika maamuzi ya kisasa, kwani inaweza kuwasaidia katika kufanya maamuzi sahihi.\n4. Kusudi la dogma linaweza kujitokea katika muktadha wa ushiriki kwa umma, ambapo inaweza kutumika kuchangisha watu ili kushirikiana katika masuala ya kijamii.\n5. Dogma inaweza kuwa na athari kubwa katika nyanja za kitaaluma, kama vile biashara au huduma, ambapo inaweza kutumika kufanya maamuzi sahihi.\n\nHapa kuna matokeo yanayotokana na makala: dogma linaweza kuwa na athari kubwa katika maeneo ya kidini, ya kisasa, na katika nyanja za kitaaluma.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.24811279773712158,
+        "semantic_similarity": 0.7518872022628784,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Dogma ni neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani. Linaweza kutumika pia kwa maana isiyo ya kidini.",
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "generated_text": "Passage in Swahili:\n\nDogma ni neno linalotumiwa hasa kusoma fundisho la imani isiyo na uwezekano wa kukutoka na wafuasi wa dini fulani. Inaweza kutumika pia kwa maana ya umuhimu.\n\nRewritten passage 1:\n\nNeno \"dogma\" linatumika mara nyingi kama maelezo ya kitamaduni ambayo yanaongeza imani iliyotegemea, hasa imani ambazo hazina uwezekano wa kubadilishwa na wasomi wa dini fulani. Pia inaweza kutumika kwa maana zisizo za kidini.\n\nRewritten passage 2:\n\nDogma ni dhana ya msingi inayoelezea imani isiyo na uwezekano wa kukaribiana, haswa inafanikiwa na wale ambao wanatii dini fulani. Pia inaweza kutumika kwa maana ambayo haihusiani na imani za kidini.\n\nRewritten passage 3:\n\nNeno \"dogma\" linaonekana kama taarifa ya kimantiki kuhusu imani ambayo hazitabidi kubadilishwa, hasa wale ambao wanatii dini fulani. Inaweza kutumika pia katika muktadha wa maana zisizo za kidini.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.4024721384048462,
+        "semantic_similarity": 0.5975278615951538,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Dogma ni neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani. Linaweza kutumika pia kwa maana isiyo ya kidini.",
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "generated_text": "Ikiwa ni neno linalotumiwa hasa, kumaanisha nini Dogma?",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.2251042127609253,
+        "semantic_similarity": 0.7748957872390747,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Dogma ni neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani. Linaweza kutumika pia kwa maana isiyo ya kidini.",
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "generated_text": "Hapa ni mchakato wa mahanganisho:\n\n1. Mbinu iliyotolewa katika hati ni kwamba dogma ni neno linalotumiwa kumaanisha fundisho la imani lisiloweza kukanushwa.\n2. Nambari hii ya kutumia \"dogma\" inatokana na wafuasi wa dini, ambao wanaweza kuwa na imani zisizo za kudhibitiwisha.\n3. Kutokana na ufahamu huu, tunaweza kukisia kwamba dogma lazima iwe na upeo au ukubwa fulani unaowezesha kukubalika na kudumishwa.\n4. Ufahamu huu unapaswa kutafsiriwa kuwa dogma inamaanisha utaalamu wa imani, ambayo ni muhimu sana katika muktadha wa kidini.\n5. Kutokana na ufafanuzi huu, tunaweza kuhitimisha kwamba dogma si lazima iwe ya dini tu, lakini inaweza pia kutumiwa kwa maana zisizohusiana na kidini.\n\nSasa, hebu tubadilishe mchakato wetu hadi fomu inayojulikana katika Swahili:\n\nMchakato wa Mahanganisho:\n1. Kwa ufafanuzi huo wa dogma, tunaweza kukisia kwamba ni neno linalotumiwa kumaanisha fundisho la imani.\n2. Wafuasi wa dini wanaweza kuwa na imani zisizo za kudhibitiwisha, ambazo zinaweza kutumika pia katika muktadha wa maana isiyo ya kidini.\n3. Kutokana na ufahamu huu, tunaweza kukisia kwamba dogma lazima iwe na upeo au ukubwa fulani unaowezesha kukubalika na kudumishwa.\n4. Ufahamu huu unapaswa kutafsiriwa kuwa dogma inamaanisha utaalamu wa imani, ambayo ni muhimu sana katika muktadha wa kidini.\n5. Kutokana na ufafanuzi huu, tunaweza kuhitimisha kwamba dogma si lazima iwe ya dini tu, lakini inaweza pia kutumiwa kwa maana zisizohusiana na kidini.\n\nSasa, hebu tutumie mchakato wetu huo kupata Implications:\n\nImplications:\n1. Dogma ni neno linalotumiwa kumaanisha fundisho la imani.\n2. Wafuasi wa dini wanaweza kuwa na imani zisizo za kudhibitiwisha.\n3. Dogma lazima iwe na upeo au ukubwa fulani unaowezesha kukubalika na kudumishwa.\n4. Utaalamu wa dogma ni muhimu sana katika muktadha wa kidini.\n5. Dogma si lazima iwe ya dini tu, lakini inaweza pia kutumiwa kwa maana zisizohusiana na kidini.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.27210211753845215,
+        "semantic_similarity": 0.7278978824615479,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.2869478166103363,
+    "std_drift": 0.06873691463649689
+  },
+  {
+    "article_id": 6,
+    "context": "Dar es Salaam: bandari iko katika hori kubwa ambalo ni mdomo pana wa kijito kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa 270 m pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika ya Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambacho ni pia hori inayoingia ndani. Kisiwa cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.",
+    "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+    "original_answer": "Mombasa",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Dar es Salaam: bandari iko katika hori kubwa ambalo ni mdomo pana wa kijito kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa 270 m pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika ya Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambacho ni pia hori inayoingia ndani. Kisiwa cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.",
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "generated_text": "Ninaandika matokeo yanayotokana na maudhui ya makala.\n\n1. Dar es Salaam ni mji wenye bandari ambayo ni sehemu muhimu katika hali ya mamlaka.\n2. Mwimbaji hawawezi kushikilia ushiriki wake katika baharini.\n3. Mombasa ina bandari yenye urefu wa kilomita tano na upana wa kilomita tatu, ambayo ni sehemu muhimu ya mamlaka yake ya baharini.\n4. Bandari za Dar es Salaam na Mombasa zina hali mbadala katika kukabiliana na viwimbi.\n5. Hali hiyo kwenye bandari hupigwa kipaumbele katika matibabu ya baharini.\n6. Mwimbaji anaweza kutia barua yake mwa kiwanja chenye urefu wa kilomita moja pekee.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.18342500925064087,
+        "semantic_similarity": 0.8165749907493591,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Dar es Salaam: bandari iko katika hori kubwa ambalo ni mdomo pana wa kijito kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa 270 m pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika ya Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambacho ni pia hori inayoingia ndani. Kisiwa cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.",
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "generated_text": "Mazingira ya Dar es Salaam: bandari iko katika hori kubwa ambayo ni moja pana wa joto kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa mita 270 pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambayo ni pia hori inayoingia ndani. Kisiwani cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.\n\nMazingira ya Dar es Salaam: bandari ni moja kubwa katika hori iliyo na joto kidogo lenye urefu wa mita 1 ndani ya beseni ya kwanza na 3 mita ndani ya beseni ya kusini. Imelindwa kabisa na mawimbi kutoka bahari kupitia mlango mwembamba wa mita 270 tu.\n\nMazingira ya Dar es Salaam: ni moja pana kwenye hori yenye urefu wa kilomita 1 katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa mita 270 pekee hivyo ililindwa kabisa na mawimbi.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.05247443914413452,
+        "semantic_similarity": 0.9475255608558655,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Dar es Salaam: bandari iko katika hori kubwa ambalo ni mdomo pana wa kijito kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa 270 m pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika ya Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambacho ni pia hori inayoingia ndani. Kisiwa cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.",
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "generated_text": "Nadharia gani kuhusu Dar es Salaam ni kwamba bandari iko katika hori kubwa? \n\nJibu: Bandari iko katika hori kubwa.",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.12702274322509766,
+        "semantic_similarity": 0.8729772567749023,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Dar es Salaam: bandari iko katika hori kubwa ambalo ni mdomo pana wa kijito kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa 270 m pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika ya Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambacho ni pia hori inayoingia ndani. Kisiwa cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.",
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "generated_text": "Mfumo wa Mawazo:\n\n* Bandari ya Dar es Salaam ni mdomo pana wa kijito kidogo wenye urefu fulani katika beseni mbili tofauti.\n* Meli zinaweza kuhamia kutoka bahari kupitia mlango mwembamba na ununuzi, kwa hivyo imelindwa kabisa kutokana na mawimbi.\n* Bandari ya Mombasa ina bandari asilia nzuri yenye urefu fulani na upana fulani, imezungukwa na nchi kavu ili kukabiliana na mawimbi.\n* Kisiwa cha Mombasa kiko katika mdomo wa hori baharini.\n\nMatokeo:\n\n1. Bandari za Dar es Salaam na Mombasa zina sifa ya uwezo wao wa kulinda meli kutokana na ununuzi, ambayo inaweza kuwa muhimu kwa uchumi wa miji.\n2. Uundaji wa bandari zenye urefu na upana wa nchi kavu ni muhimu kukuza usalama wa meli zinazohamia kutoka bahari.\n3. Kuhamishwa kwa Bandera ya Kijerumani kutoka Bagamoyo ilikuwa muhimu katika historia ya Dar es Salaam na uundaji wa mji.\n4. Mombasa ina sifa ya kuwa sehemu muhimu ya bustani za baharini za Tanzania, kwa hivyo ni muhimu kutanguliza usalama wa bandari hii.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.18409311771392822,
+        "semantic_similarity": 0.8159068822860718,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.13675382733345032,
+    "std_drift": 0.053890901149368245
+  },
+  {
+    "article_id": 7,
+    "context": "Ilianzishwa mwaka wa 1993, inafanya kazi kwa kushirikiana na waweka nyuki na mashirika ya kimataifa,kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.Ufadhili huu unakusudia kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.Inalenga matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji. Ina imani kuwa kujitegemea na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.Pia inadai kuingilia uzalishaji wa nyuki kuwa kiwango cha chini kabisa, na thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+    "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+    "original_answer": "1993",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Ilianzishwa mwaka wa 1993, inafanya kazi kwa kushirikiana na waweka nyuki na mashirika ya kimataifa,kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.Ufadhili huu unakusudia kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.Inalenga matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji. Ina imani kuwa kujitegemea na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.Pia inadai kuingilia uzalishaji wa nyuki kuwa kiwango cha chini kabisa, na thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "generated_text": "Jibu ni:\n\n1. Ufugaji nyuki unaonekana kama njia ya usaidizi wa makazi yaliyo shinikizwa, lakini si lazima iendelee na njia za usawa.\n2. Kuongezeka kwa ufadhili wa ufugaji nyuki kunaweza kusababisha kutolewa zaidi za maudhui ya kimataifa katika nyanja hii.\n3. Masoko ya mazingira yanayohusiana na ufugaji nyuki unahitaji utaalamu zaidi ili kuzuia madhara yake.\n4. Mashirika ya kimataifa yenye uhusiano na ufugaji nyuki lazima yasimame kwa kuwajibika kuhusu malengo yao na matokeo ya shughuli zao.\n5. Nyanja ya biashara ya mazao ya nyuki inahitaji utayarishaji wa kina ili kuzuia matatizo yanayoweza kusababisha madhara na kutotii ulinzi wa haki za binadamu.\n6. Uingiliaji uzazi wa kiwango cha chini katika ufugaji nyuki unahitaji kuzingatiwa ipasavyo ili kupunguza madhara yanayoweza kusababishwa na shughuli hizi.\n7. Kutumia misinga ambayo haina fremu za ndani inahitaji makusudi ya kudhibitiwa, kwani zinaweza kusababisha utendakazi usiofaa au unaoathiri maisha ya binadamu.\n8. Jamii zenye uwezo wa kutengeneza biashara na upatikanaji wa maarifa wanaweza kushiriki katika nyanja hii ili kuimarishia ustawi wa masomo na makazi yaliyo shinikizwa.\n9. Mashirika ya kimataifa yanayofanya kazi na ufugaji nyuki lazima yasimame kwa mifumo changamano inayozingatia ukuu wa wakimbizi na makazi yaliyo shinikizwa.\n10. Ufugaji nyuki unahitaji kuendana na kanuni za haki ya kimataifa ili kutambua haki na maslahi ya watu walio katika mazingira hayo.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.35940027236938477,
+        "semantic_similarity": 0.6405997276306152,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Ilianzishwa mwaka wa 1993, inafanya kazi kwa kushirikiana na waweka nyuki na mashirika ya kimataifa,kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.Ufadhili huu unakusudia kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.Inalenga matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji. Ina imani kuwa kujitegemea na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.Pia inadai kuingilia uzalishaji wa nyuki kuwa kiwango cha chini kabisa, na thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "generated_text": "Mwaka wa 1993 ilianzishwa kama shirika lililopo katika ushirikiano na waweka nyuki na mashirika ya kimataifa, kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.\n\nUfadhili huu unatokana na nia ya kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.\n\nInalenga katika matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji.\nIna imani kwamba usiotilifu na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.\n\nPia inadai uingiliaji kati uzalishaji wa nyuki kuwa kiwango cha chini kabisa,\nna thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.05562478303909302,
+        "semantic_similarity": 0.944375216960907,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Ilianzishwa mwaka wa 1993, inafanya kazi kwa kushirikiana na waweka nyuki na mashirika ya kimataifa,kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.Ufadhili huu unakusudia kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.Inalenga matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji. Ina imani kuwa kujitegemea na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.Pia inadai kuingilia uzalishaji wa nyuki kuwa kiwango cha chini kabisa, na thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "generated_text": "Ili mpangilio wa kutoa majibu, hebu tujue nini tumepewa katika swali. Ikiwa ni kweli kwamba tumepewa kutumia aina fulani ya swali, tunaweza kuandika.\n\nSwali: 1. \n\nMaelezo yaliyotolewa yanafanana na kipengele fulani cha kazi ya shirika hili linapochunguzwa.",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.2726457715034485,
+        "semantic_similarity": 0.7273542284965515,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Ilianzishwa mwaka wa 1993, inafanya kazi kwa kushirikiana na waweka nyuki na mashirika ya kimataifa,kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.Ufadhili huu unakusudia kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.Inalenga matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji. Ina imani kuwa kujitegemea na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.Pia inadai kuingilia uzalishaji wa nyuki kuwa kiwango cha chini kabisa, na thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "generated_text": "Kwanza, nitathibitisha ufadhili wa shirika kama inavyosemwa katika maandishi haya. Kumbuka kuwa shirika kina mashirika yake ya kimataifa na wanaonekana kuwa ni shirika la maslahi mengi. \n\nKisha, nitapima umuhimu wa matumizi ya teknolojia sahihi katika ufugaji nyuki.\n\nNa hatimaye, nitabadilisha mtazamo wetu kulingana na matumizi ya misinga ya kutumia fremu za ndani ambazo ni lazima ziwe kinyume na sheria.\n\nImplications:\n1. Shughuli za biashara zinapaswa kuendana na sheria.\n2. Ushirikiano wa kimataifa unaweza kutoa ujuzi bora wa biashara ya mazao ya nyuki.\n3. Kuingilia uzalishaji wa nyuki lazima iwe kiwango cha chini kabisa.\n4. Shirika la shughuli za biashara la Kimataifa linapaswa kutumia teknolojia sahihi katika ufugaji nyuki.\n5. Kujitolea kwa ujuzi wa kienyeji ndani ya mfumo wa biashara lazima ushawishi mafanikio.\n6. Uwajibikaji wa kimataifa katika mashirika ya shughuli za biashara yanapaswa kuongezeka kutokana na ujumuishwaji wa teknolojia sahihi.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.1615312695503235,
+        "semantic_similarity": 0.8384687304496765,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.21230052411556244,
+    "std_drift": 0.11446035325562952
+  },
+  {
+    "article_id": 8,
+    "context": "Jina la eneo, pamoja na  bendera[1]Eneo (km²)Wakazi (kadiro mnamo  1 Julai 2002)Msongamano (watu kwenye km²)Mji mkuuAustralasia (Australia na New Zealand) Australia7,686,85020,697,2412.5CanberraKisiwa cha Krismasi (Australia)[2]1354743.5The Settlement Visiwa vya Cocos (Keeling)  (Australia)[2]1463245.1West Island New Zealand[3]268,6803,908,03714.5Wellington Kisiwa cha Norfolk (Australia)351,86653.3KingstonMelanesia[4] Fiji18,270856,34646.9Suva Sehemu za Indonesia[5]499,8524,211,5328.4Jakarta Kaledonia Mpya (Ufaransa)19,060207,85810.9Nouméa Papua Guinea Mpya[6]462,8405,172,03311.2Port Moresby Visiwa vya Solomon28,450494,78617.4Honiara Vanuatu12,200196,17816.1Port VilaMikronesia Shirikisho la Mikronesia702135,869193.5Palikir Kiribati81196,335118.8Teinainano Visiwa vya Marshall18173,630406.8Majuro Nauru2112,329587.1Yaren Visiwa vya Mariana ya Kaskazini Marekani47777,311162.1Saipan Guam (Marekani)549160,796292.9Hagåtña Palau45819,40942.4Melekeok[7]Polynesia[8] Samoa ya Marekani (Marekani)19968,688345.2Fagatogo, Utulei[9] Visiwa vya Cook (New Zealand)24020,81186.7Avarua Polynesia ya Kifaransa (Ufaransa)4,167257,84761.9Papeete Hawaii (Marekani)29,3111,211,53742.75Honolulu Niue (New Zealand)2602,1348.2Alofi Kisiwa cha Pasaka (Chile)163,63,79123,17Hanga Roa Visiwa vya Pitcairn (Uingereza)54710Adamstown Samoa2,944178,63160.7Apia Tokelau (New Zealand)101,431143.1—[10] Tonga748106,137141.9Nuku'alofa Tuvalu2611,146428.7Vaiaku Wallis na Futuna (Ufaransa)27415,58556.9Mata-UtuTotal9,008,45835,834,6704.0",
+    "original_question": "Je,mji mkuu Australia ni gani?",
+    "original_answer": "Canberra",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Jina la eneo, pamoja na  bendera[1]Eneo (km²)Wakazi (kadiro mnamo  1 Julai 2002)Msongamano (watu kwenye km²)Mji mkuuAustralasia (Australia na New Zealand) Australia7,686,85020,697,2412.5CanberraKisiwa cha Krismasi (Australia)[2]1354743.5The Settlement Visiwa vya Cocos (Keeling)  (Australia)[2]1463245.1West Island New Zealand[3]268,6803,908,03714.5Wellington Kisiwa cha Norfolk (Australia)351,86653.3KingstonMelanesia[4] Fiji18,270856,34646.9Suva Sehemu za Indonesia[5]499,8524,211,5328.4Jakarta Kaledonia Mpya (Ufaransa)19,060207,85810.9Nouméa Papua Guinea Mpya[6]462,8405,172,03311.2Port Moresby Visiwa vya Solomon28,450494,78617.4Honiara Vanuatu12,200196,17816.1Port VilaMikronesia Shirikisho la Mikronesia702135,869193.5Palikir Kiribati81196,335118.8Teinainano Visiwa vya Marshall18173,630406.8Majuro Nauru2112,329587.1Yaren Visiwa vya Mariana ya Kaskazini Marekani47777,311162.1Saipan Guam (Marekani)549160,796292.9Hagåtña Palau45819,40942.4Melekeok[7]Polynesia[8] Samoa ya Marekani (Marekani)19968,688345.2Fagatogo, Utulei[9] Visiwa vya Cook (New Zealand)24020,81186.7Avarua Polynesia ya Kifaransa (Ufaransa)4,167257,84761.9Papeete Hawaii (Marekani)29,3111,211,53742.75Honolulu Niue (New Zealand)2602,1348.2Alofi Kisiwa cha Pasaka (Chile)163,63,79123,17Hanga Roa Visiwa vya Pitcairn (Uingereza)54710Adamstown Samoa2,944178,63160.7Apia Tokelau (New Zealand)101,431143.1—[10] Tonga748106,137141.9Nuku'alofa Tuvalu2611,146428.7Vaiaku Wallis na Futuna (Ufaransa)27415,58556.9Mata-UtuTotal9,008,45835,834,6704.0",
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "generated_text": "Njia ya kusoma maandishi haya ni muhimu. Hapa kuna matokeo yanayoweza kutokea kutokana na habari iliyotolewa:\n\n1. Eneo la mataifa ya Pasifi ya Kati linapingana sana.\n2. Wakazi wa mataifa ya Pasifi ya Kati huunganishwa vya utamaduni, kidini na kitamaduni.\n3. Mataifa ya Pasifi ya Kati yameundwa mara nyingi kutokana na ukosefu wa uhuru.\n4. Uhusiano kati ya mataifa ya Pasifi ya Kati hauwezi kutambulika katika mpangilio halisi wa ujenzi wa eneo la dunia.\n5. Wasiwasi wa mataifa ya Pasifi ya Kati yanatokana na masuala mbalimbali kama vile uchumi, ulinzi wa mazingira, uhuru wa kimataifa.\n6. Uundaji wa mataifa ya Pasifi ya Kati umetumiwa kuibua hofu, usumbufu na changamoto katika uhusiano wake na mataifa mengine ya dunia.\n\nSasa, niko tayari kutoa ufahamu wa matokeo yanayoweza kutokea kutokana na habari iliyotolewa.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.6848277449607849,
+        "semantic_similarity": 0.3151722550392151,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Jina la eneo, pamoja na  bendera[1]Eneo (km²)Wakazi (kadiro mnamo  1 Julai 2002)Msongamano (watu kwenye km²)Mji mkuuAustralasia (Australia na New Zealand) Australia7,686,85020,697,2412.5CanberraKisiwa cha Krismasi (Australia)[2]1354743.5The Settlement Visiwa vya Cocos (Keeling)  (Australia)[2]1463245.1West Island New Zealand[3]268,6803,908,03714.5Wellington Kisiwa cha Norfolk (Australia)351,86653.3KingstonMelanesia[4] Fiji18,270856,34646.9Suva Sehemu za Indonesia[5]499,8524,211,5328.4Jakarta Kaledonia Mpya (Ufaransa)19,060207,85810.9Nouméa Papua Guinea Mpya[6]462,8405,172,03311.2Port Moresby Visiwa vya Solomon28,450494,78617.4Honiara Vanuatu12,200196,17816.1Port VilaMikronesia Shirikisho la Mikronesia702135,869193.5Palikir Kiribati81196,335118.8Teinainano Visiwa vya Marshall18173,630406.8Majuro Nauru2112,329587.1Yaren Visiwa vya Mariana ya Kaskazini Marekani47777,311162.1Saipan Guam (Marekani)549160,796292.9Hagåtña Palau45819,40942.4Melekeok[7]Polynesia[8] Samoa ya Marekani (Marekani)19968,688345.2Fagatogo, Utulei[9] Visiwa vya Cook (New Zealand)24020,81186.7Avarua Polynesia ya Kifaransa (Ufaransa)4,167257,84761.9Papeete Hawaii (Marekani)29,3111,211,53742.75Honolulu Niue (New Zealand)2602,1348.2Alofi Kisiwa cha Pasaka (Chile)163,63,79123,17Hanga Roa Visiwa vya Pitcairn (Uingereza)54710Adamstown Samoa2,944178,63160.7Apia Tokelau (New Zealand)101,431143.1—[10] Tonga748106,137141.9Nuku'alofa Tuvalu2611,146428.7Vaiaku Wallis na Futuna (Ufaransa)27415,58556.9Mata-UtuTotal9,008,45835,834,6704.0",
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "generated_text": "Jina la eneo, pamoja na bendera\nEneo (km²)\nWakazi (kadiro mnamo  1 Julai 2002)\nMsongamano (watu kwenye km²)\nMji mkuu\n\nAustralasia (Australia na New Zealand)\n\nAustralia \nEneo la kilomita 7,686,850\nJumla ya idadi ya watu 20,697,241\nMsongamano wa watu kwa km² 2.5\nMji mkuu: Canberra\n\nKisiwani:\nVisiwa vya Cocos (Keeling) (Australia)\nEneo la km² 1354743.5\nJumla ya idadi ya watu 46,324\nMsongamano wa watu kwa km² 2.45\n\nVisiwa vingine: \nKisiwani cha Krismasi (Australia)\nEneo la km² 1354743.5\nJumla ya idadi ya watu 43,730\nMsongamano wa watu kwa km² 2.47\nMji mkuu: Kingston\n\nSehemu za Indonesia:\nVisiwa vya Solomon \nEneo la km² 28,450494,786\nJumla ya idadi ya watu 17.4\nMji mkuu: Port Moresby\n\nKisiasa: \nUmoja wa Mikronesia\nEneo la km² 702135,869193.5\nJumla ya idadi ya watu 118,8\nMji mkuu: Palikir",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.11205518245697021,
+        "semantic_similarity": 0.8879448175430298,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Jina la eneo, pamoja na  bendera[1]Eneo (km²)Wakazi (kadiro mnamo  1 Julai 2002)Msongamano (watu kwenye km²)Mji mkuuAustralasia (Australia na New Zealand) Australia7,686,85020,697,2412.5CanberraKisiwa cha Krismasi (Australia)[2]1354743.5The Settlement Visiwa vya Cocos (Keeling)  (Australia)[2]1463245.1West Island New Zealand[3]268,6803,908,03714.5Wellington Kisiwa cha Norfolk (Australia)351,86653.3KingstonMelanesia[4] Fiji18,270856,34646.9Suva Sehemu za Indonesia[5]499,8524,211,5328.4Jakarta Kaledonia Mpya (Ufaransa)19,060207,85810.9Nouméa Papua Guinea Mpya[6]462,8405,172,03311.2Port Moresby Visiwa vya Solomon28,450494,78617.4Honiara Vanuatu12,200196,17816.1Port VilaMikronesia Shirikisho la Mikronesia702135,869193.5Palikir Kiribati81196,335118.8Teinainano Visiwa vya Marshall18173,630406.8Majuro Nauru2112,329587.1Yaren Visiwa vya Mariana ya Kaskazini Marekani47777,311162.1Saipan Guam (Marekani)549160,796292.9Hagåtña Palau45819,40942.4Melekeok[7]Polynesia[8] Samoa ya Marekani (Marekani)19968,688345.2Fagatogo, Utulei[9] Visiwa vya Cook (New Zealand)24020,81186.7Avarua Polynesia ya Kifaransa (Ufaransa)4,167257,84761.9Papeete Hawaii (Marekani)29,3111,211,53742.75Honolulu Niue (New Zealand)2602,1348.2Alofi Kisiwa cha Pasaka (Chile)163,63,79123,17Hanga Roa Visiwa vya Pitcairn (Uingereza)54710Adamstown Samoa2,944178,63160.7Apia Tokelau (New Zealand)101,431143.1—[10] Tonga748106,137141.9Nuku'alofa Tuvalu2611,146428.7Vaiaku Wallis na Futuna (Ufaransa)27415,58556.9Mata-UtuTotal9,008,45835,834,6704.0",
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "generated_text": "Ninaweza kuhitaji maandishi yaliyotolewa ili kuandikwa upya katika umbo la swali-jaibu. Ili kufanya hivyo, unapaswa kutumia utangulizi uliotolewa ambao unajumuisha maelezo ya eneo au wakazi wa nchi fulani. \n\nHapa ni mfano wa swali-jaibu kulingana na maandishi yaliyotolewa:\n\nSwali:  Nchini nzi ngapi za Australasia zina watu wengi?\n\nJibu: Nchini Australia, kuna watu 7,686,850.",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.337308406829834,
+        "semantic_similarity": 0.662691593170166,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Jina la eneo, pamoja na  bendera[1]Eneo (km²)Wakazi (kadiro mnamo  1 Julai 2002)Msongamano (watu kwenye km²)Mji mkuuAustralasia (Australia na New Zealand) Australia7,686,85020,697,2412.5CanberraKisiwa cha Krismasi (Australia)[2]1354743.5The Settlement Visiwa vya Cocos (Keeling)  (Australia)[2]1463245.1West Island New Zealand[3]268,6803,908,03714.5Wellington Kisiwa cha Norfolk (Australia)351,86653.3KingstonMelanesia[4] Fiji18,270856,34646.9Suva Sehemu za Indonesia[5]499,8524,211,5328.4Jakarta Kaledonia Mpya (Ufaransa)19,060207,85810.9Nouméa Papua Guinea Mpya[6]462,8405,172,03311.2Port Moresby Visiwa vya Solomon28,450494,78617.4Honiara Vanuatu12,200196,17816.1Port VilaMikronesia Shirikisho la Mikronesia702135,869193.5Palikir Kiribati81196,335118.8Teinainano Visiwa vya Marshall18173,630406.8Majuro Nauru2112,329587.1Yaren Visiwa vya Mariana ya Kaskazini Marekani47777,311162.1Saipan Guam (Marekani)549160,796292.9Hagåtña Palau45819,40942.4Melekeok[7]Polynesia[8] Samoa ya Marekani (Marekani)19968,688345.2Fagatogo, Utulei[9] Visiwa vya Cook (New Zealand)24020,81186.7Avarua Polynesia ya Kifaransa (Ufaransa)4,167257,84761.9Papeete Hawaii (Marekani)29,3111,211,53742.75Honolulu Niue (New Zealand)2602,1348.2Alofi Kisiwa cha Pasaka (Chile)163,63,79123,17Hanga Roa Visiwa vya Pitcairn (Uingereza)54710Adamstown Samoa2,944178,63160.7Apia Tokelau (New Zealand)101,431143.1—[10] Tonga748106,137141.9Nuku'alofa Tuvalu2611,146428.7Vaiaku Wallis na Futuna (Ufaransa)27415,58556.9Mata-UtuTotal9,008,45835,834,6704.0",
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "generated_text": "Habari za maeneo ya ulimwengu: \n\nNinachunguza habari kuhusu eneo la Dunia, pamoja na idadi ya wakazi wake. Mji wa kwanza unaomilikiwa na Australasia ni Canberra, na mji wa pili ni Wellington, katika Kiwani.\n\nHebu tuanze kutafuta uhusiano wa kimataifa kati ya nchi zilizotajwa: Indonesia, Fiji, Vanuatu, Kiribati, Tuvalu, na Wallis na Futuna. Nambari za wakazi hao nchi ni chini ya 1 million.\n\nIkiwa tutaangalia mapambano na maeneo, tunapata kwamba kila eneo linashiriki shughuli za kimataifa. Kwa mfano, eneo la Australia lina sehemu za kimataifa, mji wa Canberra una jiji lenye idadi ya watu 2.5 million, na nchi nyingine zinazofuatana kuhusu mapambano na maeneo. \n\nHii ina maana kwamba idadi ya wakazi duniani imeongezeka sana kutoka mwaka huu hadi mwaka uliozuiliwa.\n\nImplications:\n\n1. Kuna makubaliano 14 kati ya nchi zinazofuatana na maeneo, ikiwa ni pamoja na eneo la Australia.\n2. Idadi ya wakazi duniani imeongezeka kwa 35 million.\n3. Wakazi wa Dunia walikuwa na idadi ya watu 30.8 million hivi karibuni.\n4. Nchi zinazofuatana na maeneo zina shughuli za kimataifa kwenye eneo la Australia.\n5. Mwaka 2023 umeweza kuwa wa ndani kabisa katika kuhusu upanuzi wa idadi ya wakazi duniani.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.2866310477256775,
+        "semantic_similarity": 0.7133689522743225,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.35520559549331665,
+    "std_drift": 0.20784348843714853
+  },
+  {
+    "article_id": 9,
+    "context": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile. ",
+    "original_question": "Je mto mkubwa sana Afrika ni gani?",
+    "original_answer": "Nile",
+    "language": "sw",
+    "edits": [
+      {
+        "original_context": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile. ",
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "generated_text": "Tunaandika kwenye muundo tuliochukulia: Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile.\n\nImpalia:\n1. Mto wa Kongo una eneo makubwa sana, ambalo huenda likaukali mazingira.\n2. Namna inavyoonekana, ukweli kwamba ni mto mkubwa na mrefu unafikisha ukosefu wa usawa katika maeneo yake ya kando.\n3. Ukuaji wa mto huo unaweza kuathiri idadi ya watu ambao wako karibu nao.\n4. Ikizingatiwa kuwa Mto wa Kongo ni sehemu muhimu ya mazingira, ukweli kwamba ni mto mkubwa na mrefu huenda usitumie kwa ufanisi katika maji ya mafuta.",
+        "format_type": "implications",
+        "language": "sw",
+        "drift_score": 0.2624775767326355,
+        "semantic_similarity": 0.7375224232673645,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile. ",
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "generated_text": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Mto Nile.\n\nMto wa Kongo ni mto mkubwa wa Afrika ya kati, wenye urefu wa pili na uliitwa Zaire tangu miaka 1971 hadi 1997.\n\nMto wa Kongo (kwenye maeneo yake) ni mto mkubwa wa Afrika ya kati. Ina uraisa wa pili katika Afrika, kando ya Mto Nile.",
+        "format_type": "rewrite",
+        "language": "sw",
+        "drift_score": 0.11240243911743164,
+        "semantic_similarity": 0.8875975608825684,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile. ",
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "generated_text": "Tafrika, mtoto wa mto mwenye nambari ndogo, ni nini?",
+        "format_type": "self_qa",
+        "language": "sw",
+        "drift_score": 0.4396039843559265,
+        "semantic_similarity": 0.5603960156440735,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile. ",
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "generated_text": "Hapa kuna mchakato wa majadiliano juu ya maandishi haya:\n\nMajadiliano:\n- Mto wa Kongo ni mto mkubwa wa Afrika ya kati.\n- Ni mto mrefu wa pili katika Afrika baada ya mto wa Nile.\n\nUchambuzi:\n- Mto wa Kongo unaojulikana kama Zaire ni tovuti yenye utaifa wenye jina la Mto wa Kongo, linalokaribia mto wa Angola na mto wa Congo.\n- Mto wa Kongo umekuwa na jina \"Zaire\" kutoka miaka 1971 hadi 1997 kama nafasi ya mamlaka ya nchi hiyo iliyobadilika.\n\nMatokeo:\n1. Mto wa Kongo huo ni moja kwa moja wenye utaifa, wakati mto wa Nile hauhusiani na utaifa.\n2. Kuna mto wa pili kwenye Afrika baada ya mto wa Nile.\n3. Namna ya kijamii ya nchi iliyobadilika inaweza kuathiri jina lililoitwa kutoka miaka 1971 hadi 1997.\n4. Jina la \"Zaire\" linaloashiria ukosefu wa utaifa na nafasi ya mamlaka yenye matatizo.\n\nKumbuka: Matokeo haya yameundwa kwa kutambua taarifa zinazoweza kujadiliwa na kuchanganua uhusiano kati ya maandishi.",
+        "format_type": "chain_of_thought",
+        "language": "sw",
+        "drift_score": 0.20348024368286133,
+        "semantic_similarity": 0.7965197563171387,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.25449106097221375,
+    "std_drift": 0.11950089830078134
+  }
+]

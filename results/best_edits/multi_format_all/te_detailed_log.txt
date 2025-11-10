@@ -1,0 +1,923 @@
+Detailed critic log for te
+Generated: 2025-11-10T02:10:34.597621
+
+----
+Article ID: 0
+Original Q: వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?
+Original A: Azadirachta indica
+
+Best edit number: 2
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.3008526563644409
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+  Edit #2: approved=True score=9.0 drift=0.025324523448944092
+    Reason: Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.06159096956253052
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.0358731746673584
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+
+----
+Article ID: 1
+Original Q: రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?
+Original A: 27 హెక్టార్ల
+
+Best edit number: 2
+Critic approved: True
+Critic score: 8.0
+Critic reason: Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.14613211154937744
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+  Edit #2: approved=True score=8.0 drift=0.10141927003860474
+    Reason: Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.41564494371414185
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.17554610967636108
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers."
+  }
+]
+```
+
+
+----
+Article ID: 2
+Original Q: ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?
+Original A: 12
+
+Best edit number: 2
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.28248119354248047
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+  Edit #2: approved=True score=9.0 drift=0.0538976788520813
+    Reason: Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.09971600770950317
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.06168562173843384
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+
+----
+Article ID: 3
+Original Q: 2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?
+Original A: 694
+
+Best edit number: 2
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.14523935317993164
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+  Edit #2: approved=True score=9.0 drift=0.029425740242004395
+    Reason: Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.27466249465942383
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.04635053873062134
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought."
+  }
+]
+```
+
+
+----
+Article ID: 4
+Original Q: రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?
+Original A: 533445
+
+Best edit number: 3
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.11603957414627075
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.0145530104637146
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+  Edit #3: approved=True score=9.0 drift=0.41062599420547485
+    Reason: Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.056604623794555664
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+
+----
+Article ID: 5
+Original Q: 2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?
+Original A: 3363
+
+Best edit number: 3
+Critic approved: True
+Critic score: 8.0
+Critic reason: Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.4738513231277466
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.03485369682312012
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+  Edit #3: approved=True score=8.0 drift=0.44305419921875
+    Reason: Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.09266769886016846
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful."
+  }
+]
+```
+
+
+----
+Article ID: 6
+Original Q: పి. సుశీల ఎప్పుడు జన్మించింది?
+Original A: 1935
+
+Best edit number: 3
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.1881313920021057
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.04977995157241821
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+  Edit #3: approved=True score=9.0 drift=0.18342876434326172
+    Reason: Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.18410909175872803
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+
+----
+Article ID: 7
+Original Q: షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?
+Original A: సెప్టెంబరు 2015
+
+Best edit number: 3
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.09296482801437378
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.09591728448867798
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+  Edit #3: approved=True score=9.0 drift=0.2741994857788086
+    Reason: Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.11905574798583984
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question."
+  }
+]
+```
+
+
+----
+Article ID: 8
+Original Q: హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?
+Original A: 2004 ఏప్రిల్ 17
+
+Best edit number: 2
+Critic approved: True
+Critic score: 7.0
+Critic reason: Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.19164037704467773
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+  Edit #2: approved=True score=7.0 drift=0.07513231039047241
+    Reason: Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.10970765352249146
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.2028025984764099
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+
+----
+Article ID: 9
+Original Q: నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?
+Original A: మనదేశం
+
+Best edit number: 2
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.06665021181106567
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+  Edit #2: approved=True score=9.0 drift=0.05719548463821411
+    Reason: Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.20607715845108032
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.12965106964111328
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent."
+  }
+]
+```
+
+

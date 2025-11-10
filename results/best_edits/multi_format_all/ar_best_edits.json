@@ -1,0 +1,1062 @@
+[
+  {
+    "article_id": 0,
+    "language": "ar",
+    "context": "  المسألة الشرقية (بالإنجليزية: Eastern Question) (بالفرنسية: Question de l'orient): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما يدل المصطلح على تصفية أملاك رجل أوروبا المريض في البلقان من طرف الدول الأوروبية.",
+    "original_question": "ما هي المسألة الشرقية ؟",
+    "original_answer": "مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة",
+    "best_edit": {
+      "original_context": "  المسألة الشرقية (بالإنجليزية: Eastern Question) (بالفرنسية: Question de l'orient): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما يدل المصطلح على تصفية أملاك رجل أوروبا المريض في البلقان من طرف الدول الأوروبية.",
+      "original_question": "ما هي المسألة الشرقية ؟",
+      "original_answer": "مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة",
+      "generated_text": "الاستجابة:\n\n1-  Understanding the term ( المسألة الشرقية ) : \n    -  يعتمد المصطلح على وجود العثمانيين في أوروبا وطردهم منها.\n    -  وتشمل مسألة القسطنطينية وتهديد مصالح الدول الأوروبية في هذه المنطقة.\n\n2-  Analysis of the term's meaning:\n    -  تشير المسألة الشرقية إلى تدهور مصالح الدول الأوروبية في منطقة البلقان.\n\n3-  Understanding the implications:\n    -  يمكن أن يؤدي الاهتمام بالمسألة الشرقية إلى استهداف العثمانيين والمساهمات الإقليمية.\n    -  تشير المسألة الشرقية إلى ضرورة إعادة النظر في مصالح الدول الأوروبية في المنطقة.\n\n4-  Conclusion:\n    -  تم إنشاء المصطلح لشرح الحالة السياسية للمنطقة في هذه الفترة.",
+      "format_type": "chain_of_thought",
+      "language": "ar",
+      "drift_score": 0.30574023723602295,
+      "semantic_similarity": 0.694259762763977,
+      "approach": "multi_format",
+      "edit_number": 4
+    },
+    "best_edit_number": 4,
+    "critic_approved": true,
+    "critic_reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.",
+    "critic_score": 8.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.2454465627670288,
+        "edit": {
+          "original_context": "  المسألة الشرقية (بالإنجليزية: Eastern Question) (بالفرنسية: Question de l'orient): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما يدل المصطلح على تصفية أملاك رجل أوروبا المريض في البلقان من طرف الدول الأوروبية.",
+          "original_question": "ما هي المسألة الشرقية ؟",
+          "original_answer": "مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة",
+          "generated_text": "التأثيرات اللاحقة التي يمكن أن تظهر بسبب هذه المسألة الشرقية:\n\n1. تأثير الفتح الإسلامي للقسطنطينية: سقوط القسطنطينية في 1453 واهتمام الدول الأوروبية بالاستصلاح والتحسين من الممتلكات الإسلامية في البلقان.\n2. انسحاب العثمانيين من أوروبا: هذا الاكتشاف led إلى تقنيات الاستيعاب المتعقلة والمعارك القائمة على الطرق الشائعة، مما أدى إلى سقوط السلاجقة.\n3. تأثيره في الثقافة الأوروبية:\n- استدل الفنون البشرية وتراثها الحضري من التأثيرات الإسلامية المتبقية على أوروبا.\n4. تشكيل العلاقات الدولية: التأثيرات التي كانت نتيجة لما حدث في القسطنطينية والمنطقة الشرقية، وتعديلها كان موجودًا في النزاعات الحضارية في أوروبا والقاربة.\n5. إجراء النظر في مصالح الدول الأوروبية: التأثير الذي تلقى القصيرة من الخسارة المزعومة للأموال الإشرفية، وقياس الاهتمامات التي كانت تظهر من قبل الدول الأوروبية للقسطنطينية ومزيد من العلاقة بالمسلمين.\n6. تشكيل العلاقات الدولية وآدابها: هذه المسألة الشرقية، بدورها، ساعدت في تشكيل العلاقات الدولية وأدبهم.\n\nالمستندة على التأثيرات التي سجلت من ذلك الفترة إلى الوقت الحالي",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.2454465627670288,
+          "semantic_similarity": 0.7545534372329712,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.06040346622467041,
+        "edit": {
+          "original_context": "  المسألة الشرقية (بالإنجليزية: Eastern Question) (بالفرنسية: Question de l'orient): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما يدل المصطلح على تصفية أملاك رجل أوروبا المريض في البلقان من طرف الدول الأوروبية.",
+          "original_question": "ما هي المسألة الشرقية ؟",
+          "original_answer": "مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة",
+          "generated_text": "المسألة الشرقية (بالعربية): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما تدل على تصفية أملاك رجل أوروبي المريض في البلقان من طرف الدول الأوروبية.\n\nالمسألة الشرقية: تعرف أيضًا باسم المسألة الاستراتيجية، وهي مسألة وجود العثمانيين في أوروبا وطردهم منها، وتهددها للقسطنطينية بعد سقوطها في 1453، وتعزز التوتر بين الدول الأوروبية في هذه المنطقة.\n\nالمسألة الشرقية: هي مصطلح يُستخدم لوصف تحسين الممتلكات أو الأملاك في البلقان من طرف الدول الأوروبية، ويعكس التوتر والصراع بين العثمانيين المسلمين والدول الأوروبية في هذه المنطقة.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.06040346622467041,
+          "semantic_similarity": 0.9395965337753296,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.13926607370376587,
+        "edit": {
+          "original_context": "  المسألة الشرقية (بالإنجليزية: Eastern Question) (بالفرنسية: Question de l'orient): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما يدل المصطلح على تصفية أملاك رجل أوروبا المريض في البلقان من طرف الدول الأوروبية.",
+          "original_question": "ما هي المسألة الشرقية ؟",
+          "original_answer": "مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة",
+          "generated_text": "أي مسألة هي التي تقترب مع العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية؟ \n\nالجواب: مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة قسطنطينية من العثمانيين بعد سقوطها في 1453.",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.13926607370376587,
+          "semantic_similarity": 0.8607339262962341,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": true,
+        "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.",
+        "score": 8.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.30574023723602295,
+        "edit": {
+          "original_context": "  المسألة الشرقية (بالإنجليزية: Eastern Question) (بالفرنسية: Question de l'orient): هي مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة. كما يدل المصطلح على تصفية أملاك رجل أوروبا المريض في البلقان من طرف الدول الأوروبية.",
+          "original_question": "ما هي المسألة الشرقية ؟",
+          "original_answer": "مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة",
+          "generated_text": "الاستجابة:\n\n1-  Understanding the term ( المسألة الشرقية ) : \n    -  يعتمد المصطلح على وجود العثمانيين في أوروبا وطردهم منها.\n    -  وتشمل مسألة القسطنطينية وتهديد مصالح الدول الأوروبية في هذه المنطقة.\n\n2-  Analysis of the term's meaning:\n    -  تشير المسألة الشرقية إلى تدهور مصالح الدول الأوروبية في منطقة البلقان.\n\n3-  Understanding the implications:\n    -  يمكن أن يؤدي الاهتمام بالمسألة الشرقية إلى استهداف العثمانيين والمساهمات الإقليمية.\n    -  تشير المسألة الشرقية إلى ضرورة إعادة النظر في مصالح الدول الأوروبية في المنطقة.\n\n4-  Conclusion:\n    -  تم إنشاء المصطلح لشرح الحالة السياسية للمنطقة في هذه الفترة.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.30574023723602295,
+          "semantic_similarity": 0.694259762763977,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 1,
+    "language": "ar",
+    "context": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]",
+    "original_question": "كم تبعد بيت لحم على القدس؟",
+    "original_answer": "10 كم",
+    "best_edit": {
+      "original_context": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]",
+      "original_question": "كم تبعد بيت لحم على القدس؟",
+      "original_answer": "10 كم",
+      "generated_text": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]\n\nبيت لحم، مدينة فلسطينية تتبع محافظة بيت لحم، تقع على الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم من القدس. عدد سكانها يبلغ 30,000 نسمة.\n\nبيت لحم هي مدينة فلسطينية ومركز محافظة، تقع في الضفة الغربية التابعة لسلطات فلسطين، على بعد 10 كم جنوباً من القدس. يحيط بها 30000 نزيل بدون إقامة لاجئين.\n\nبيت لحم هي مركز ثقافي وفني وسياحي في فلسطين، مدينة فلسطينية تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم من القدس، يحيط بها 30,000 نسمة.",
+      "format_type": "rewrite",
+      "language": "ar",
+      "drift_score": 0.010555803775787354,
+      "semantic_similarity": 0.9894441962242126,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.",
+    "critic_score": 7.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.28799259662628174,
+        "edit": {
+          "original_context": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]",
+          "original_question": "كم تبعد بيت لحم على القدس؟",
+          "original_answer": "10 كم",
+          "generated_text": "الاستعمار الإسرائيلي في الضفة الغربية يؤثر على سكان المدن المحليةة، مثل بيت لحم، حيث يُجبر عدد من السكان إلى السكن في مخيمات اللاجئين.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.28799259662628174,
+          "semantic_similarity": 0.7120074033737183,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.",
+        "score": 7.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.010555803775787354,
+        "edit": {
+          "original_context": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]",
+          "original_question": "كم تبعد بيت لحم على القدس؟",
+          "original_answer": "10 كم",
+          "generated_text": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]\n\nبيت لحم، مدينة فلسطينية تتبع محافظة بيت لحم، تقع على الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم من القدس. عدد سكانها يبلغ 30,000 نسمة.\n\nبيت لحم هي مدينة فلسطينية ومركز محافظة، تقع في الضفة الغربية التابعة لسلطات فلسطين، على بعد 10 كم جنوباً من القدس. يحيط بها 30000 نزيل بدون إقامة لاجئين.\n\nبيت لحم هي مركز ثقافي وفني وسياحي في فلسطين، مدينة فلسطينية تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم من القدس، يحيط بها 30,000 نسمة.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.010555803775787354,
+          "semantic_similarity": 0.9894441962242126,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.1858227252960205,
+        "edit": {
+          "original_context": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]",
+          "original_question": "كم تبعد بيت لحم على القدس؟",
+          "original_answer": "10 كم",
+          "generated_text": "تُسمى مدينة بيت لحم بالسريانية \"ܒܝܬ ܠܚܡ\"، باليونانية \"Βηθλεὲμ\"، وباللاتينية \"Bethleem\". هل تُعتبر مدينة بيت لحم مركزاً ثقافيًا ومحليًا في فلسطين؟",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.1858227252960205,
+          "semantic_similarity": 0.8141772747039795,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 8,\n    \"reason\": \"Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.3216084837913513,
+        "edit": {
+          "original_context": "بيت لحم (بالسريانية: ܒܝܬ ܠܚܡ ؛ باليونانية: Βηθλεὲμ ؛ باللاتينية: Bethleem) هي مدينة فلسطينية، ومركز محافظة بيت لحم. تقع في الضفة الغربية التابعة للسلطة الفلسطينية على بعد 10 كم إلى الجنوب من القدس. يبلغ عدد سكانها 30,000 نسمة بدون سكان مخيمات اللاجئين. وتعتبر مركزاً للثقافة والسياحة في فلسطين.[1][2][3][4]",
+          "original_question": "كم تبعد بيت لحم على القدس؟",
+          "original_answer": "10 كم",
+          "generated_text": "خط thinking:\n\n1. أقرر أن البيت لحم مدينة فلسطينية تقع في الضفة الغربية التابعة للسلطة الفلسطينية.\n2. تحدد متوقع عدد سكان المدينة وعدده دون سكان مخيمات اللاجئين.\n3. تعبر عن أهمية المدينة في الثقافة والسياحة في فلسطين.\n\nأثناء التذكير:",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.3216084837913513,
+          "semantic_similarity": 0.6783915162086487,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 2,
+    "language": "ar",
+    "context": " الإخوان المسلمون في سوريا: أسسها طلاب في ثلاثينيات القرن العشرين, وهي تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م. تعرض الإخوان المسلمون في سوريا مطلع ثمانينيات القرن العشرين لحملات قمع دامية من قبل نظام حزب البعث أوقعت آلاف القتلى خاصة في مدينة حماة فيما عُرف بمجزرة حماة، وكان أول مراقب لها في سوريا مصطفى السباعي بين عامي 1945 و1964، وينتشرون في مدن حلب حماة وحمص ودمشق.[1]",
+    "original_question": "متى ظهرت جماعة الاخوان المسلمين في سوريا؟",
+    "original_answer": "ثلاثينيات القرن العشرين",
+    "best_edit": {
+      "original_context": " الإخوان المسلمون في سوريا: أسسها طلاب في ثلاثينيات القرن العشرين, وهي تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م. تعرض الإخوان المسلمون في سوريا مطلع ثمانينيات القرن العشرين لحملات قمع دامية من قبل نظام حزب البعث أوقعت آلاف القتلى خاصة في مدينة حماة فيما عُرف بمجزرة حماة، وكان أول مراقب لها في سوريا مصطفى السباعي بين عامي 1945 و1964، وينتشرون في مدن حلب حماة وحمص ودمشق.[1]",
+      "original_question": "متى ظهرت جماعة الاخوان المسلمين في سوريا؟",
+      "original_answer": "ثلاثينيات القرن العشرين",
+      "generated_text": "أسست الإخوان المسلمون في سوريا في ثلاثينيات القرن العشرين؟\n\nالإجابة: نعم، أسست من قبل طلاب في تلك الفترة.\n\nمن أين تعرف نفسها الإيخون المسلمون في سوريا؟\n\nالإجابة: تُعرف بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م.\n\nمن عانوا الإخوان المسلمون في سوريا من قمعٍ في الثمانينات؟\n\nالإجابة: طُلب عليهم حملات قمعدامية من قبل نظام حزب البعث، والتي أوقعت آلاف القتلى.\n\nما كان أول مراقب للجماعة في سوريا؟\n\nالإجابة: مصطفى السباعي.\n\nمن المدن التي تنشرون الإيخون المسلمون في سوريا؟\n\nالإجابة: بيدمashing حلب، حماة، حمص ودمشق.",
+      "format_type": "self_qa",
+      "language": "ar",
+      "drift_score": 0.10086661577224731,
+      "semantic_similarity": 0.8991333842277527,
+      "approach": "multi_format",
+      "edit_number": 3
+    },
+    "best_edit_number": 3,
+    "critic_approved": true,
+    "critic_reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.17794781923294067,
+        "edit": {
+          "original_context": " الإخوان المسلمون في سوريا: أسسها طلاب في ثلاثينيات القرن العشرين, وهي تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م. تعرض الإخوان المسلمون في سوريا مطلع ثمانينيات القرن العشرين لحملات قمع دامية من قبل نظام حزب البعث أوقعت آلاف القتلى خاصة في مدينة حماة فيما عُرف بمجزرة حماة، وكان أول مراقب لها في سوريا مصطفى السباعي بين عامي 1945 و1964، وينتشرون في مدن حلب حماة وحمص ودمشق.[1]",
+          "original_question": "متى ظهرت جماعة الاخوان المسلمين في سوريا؟",
+          "original_answer": "ثلاثينيات القرن العشرين",
+          "generated_text": "دل على هذه الإجابة: إنه في سوريا منتشروا الإخوان المسلمون.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.17794781923294067,
+          "semantic_similarity": 0.8220521807670593,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.23559635877609253,
+        "edit": {
+          "original_context": " الإخوان المسلمون في سوريا: أسسها طلاب في ثلاثينيات القرن العشرين, وهي تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م. تعرض الإخوان المسلمون في سوريا مطلع ثمانينيات القرن العشرين لحملات قمع دامية من قبل نظام حزب البعث أوقعت آلاف القتلى خاصة في مدينة حماة فيما عُرف بمجزرة حماة، وكان أول مراقب لها في سوريا مصطفى السباعي بين عامي 1945 و1964، وينتشرون في مدن حلب حماة وحمص ودمشق.[1]",
+          "original_question": "متى ظهرت جماعة الاخوان المسلمين في سوريا؟",
+          "original_answer": "ثلاثينيات القرن العشرين",
+          "generated_text": "Here are the rewritten passages:\n\nسوريا: الإخوان المسلمون، أسسها طلاب في ثلاثينيات القرن العشرين. تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م.\n\nسوريا والإخوان المسلمون\nأسس الإخوان المسلمون في سوريا طلاب في ثلاثينيات القرن العشرين.\nالإخوان المسلمون في سوريا تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين العالمية التي أسسها حسن البنا في مصر عام 1928.\n\nالإخوان المسلمون في سوريا\nسوريا هي تاريخ الإخوان المسلمون الذي بدأ في ثلاثينيات القرن العشرين، وتعرف نفسها بأنها جزء من جماعة الإخوان المسلمين العالمية التي أسسها حسن البنا في مصر عام 1928.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.23559635877609253,
+          "semantic_similarity": 0.7644036412239075,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": true,
+        "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.10086661577224731,
+        "edit": {
+          "original_context": " الإخوان المسلمون في سوريا: أسسها طلاب في ثلاثينيات القرن العشرين, وهي تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م. تعرض الإخوان المسلمون في سوريا مطلع ثمانينيات القرن العشرين لحملات قمع دامية من قبل نظام حزب البعث أوقعت آلاف القتلى خاصة في مدينة حماة فيما عُرف بمجزرة حماة، وكان أول مراقب لها في سوريا مصطفى السباعي بين عامي 1945 و1964، وينتشرون في مدن حلب حماة وحمص ودمشق.[1]",
+          "original_question": "متى ظهرت جماعة الاخوان المسلمين في سوريا؟",
+          "original_answer": "ثلاثينيات القرن العشرين",
+          "generated_text": "أسست الإخوان المسلمون في سوريا في ثلاثينيات القرن العشرين؟\n\nالإجابة: نعم، أسست من قبل طلاب في تلك الفترة.\n\nمن أين تعرف نفسها الإيخون المسلمون في سوريا؟\n\nالإجابة: تُعرف بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م.\n\nمن عانوا الإخوان المسلمون في سوريا من قمعٍ في الثمانينات؟\n\nالإجابة: طُلب عليهم حملات قمعدامية من قبل نظام حزب البعث، والتي أوقعت آلاف القتلى.\n\nما كان أول مراقب للجماعة في سوريا؟\n\nالإجابة: مصطفى السباعي.\n\nمن المدن التي تنشرون الإيخون المسلمون في سوريا؟\n\nالإجابة: بيدمashing حلب، حماة، حمص ودمشق.",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.10086661577224731,
+          "semantic_similarity": 0.8991333842277527,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.2674553394317627,
+        "edit": {
+          "original_context": " الإخوان المسلمون في سوريا: أسسها طلاب في ثلاثينيات القرن العشرين, وهي تعرف نفسها بأنها جزء من جماعة الإخوان المسلمين في العالم التي أسسها حسن البنا في مصر عام 1928 م. تعرض الإخوان المسلمون في سوريا مطلع ثمانينيات القرن العشرين لحملات قمع دامية من قبل نظام حزب البعث أوقعت آلاف القتلى خاصة في مدينة حماة فيما عُرف بمجزرة حماة، وكان أول مراقب لها في سوريا مصطفى السباعي بين عامي 1945 و1964، وينتشرون في مدن حلب حماة وحمص ودمشق.[1]",
+          "original_question": "متى ظهرت جماعة الاخوان المسلمين في سوريا؟",
+          "original_answer": "ثلاثينيات القرن العشرين",
+          "generated_text": "خطوات التفكير:\n\n1. الإخوان المسلمون في سوريا تمثل parte من حركة الإخوان المسلمين العالمية التي تأسست من قبل حسن البنا في مصر عام 1928 م.\n2. الإخوان المسلمون في سوريا تعرضت للاعتداء من قبل نظام حزب البعث في سوريا بمرور الثمانينات من القرن العشرين.\n3. هذا الاعتداء أدى إلى مقتل آلاف الموتى، وأبرزهم مدينة حماة في عام 1982 م.\n4. الإخوان المسلمون في سوريا لديها مراقبين أولويهم مصطفى السباعي بين عامي 1945 و1964.\n5. الإخوان المسلمون في سوريا نشطة في مدن حلب، حماة، حمص، ودمشق.\n\nالإفتراضات:\n\n1. الحركة الإخوان المسلمين في سوريا تعاني من محاولات دفعها من قبل نظام حزب البعث السوري.\n2. الاعتداء الذي جسده الإخوان المسلمون في سوريا أدى إلى ظهور تحديات في حركتهم.\n3. المراقبين الأولي لحركة الإخوان المسلمين في سوريا، مصطفى السباعي، كان مصدراً للراحة على الحركة وفتحت الورود على حركة الإخوان المسلمين في سوريا.\n4. الإخوان المسلمون في سوريا لديها دور مهم في الشعوب السورية من خلال نشاطهم في مدن مختلفة.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.2674553394317627,
+          "semantic_similarity": 0.7325446605682373,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 3,
+    "language": "ar",
+    "context": "نشأت الدعوة السلفية بالإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، كان أبرزهم محمد إسماعيل المقدم، وأحمد فريد، وسعيد عبد العظيم، ومحمد عبد الفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد، التقوا جميعاً في كلية الطب بجامعة الإسكندرية، إذ كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات أو ما عرف ب<b data-parsoid='{\"dsr\":[27880,27915,3,3]}'>ـالفترة الذهبية للعمل الطلابي في مصر.",
+    "original_question": "متى تاسست السلفية الجهادبة في مصر ؟",
+    "original_answer": "بين عامي 1972 - 1977",
+    "best_edit": {
+      "original_context": "نشأت الدعوة السلفية بالإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، كان أبرزهم محمد إسماعيل المقدم، وأحمد فريد، وسعيد عبد العظيم، ومحمد عبد الفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد، التقوا جميعاً في كلية الطب بجامعة الإسكندرية، إذ كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات أو ما عرف ب<b data-parsoid='{\"dsr\":[27880,27915,3,3]}'>ـالفترة الذهبية للعمل الطلابي في مصر.",
+      "original_question": "متى تاسست السلفية الجهادبة في مصر ؟",
+      "original_answer": "بين عامي 1972 - 1977",
+      "generated_text": "الجواب: \n\n1. نشأ الدعوة السلفية في الإسكندرية في سبعينيات القرن الماضي.\n2. تأسست الدعوة على يد مجموعة من الطلبة المتدينين في years 1972 - 1977.\n3. كان أبرز المساهمين في تأسيس الدعوة محمد إسماعيل المقدم وأحمد فريد وسعيد عبد العظيم ومحمد Abdelفتاح أبو ادريس.\n4. تقع جميع المساهمين في كلية الطب بجامعة الإسكندرية.\n5. كان المساهمون منددين في تيار الجماعة الإسلامية الذي كان مشهورًا في الجامعات المصرية في السبعينيات.",
+      "format_type": "implications",
+      "language": "ar",
+      "drift_score": 0.19859308004379272,
+      "semantic_similarity": 0.8014069199562073,
+      "approach": "multi_format",
+      "edit_number": 1
+    },
+    "best_edit_number": 1,
+    "critic_approved": true,
+    "critic_reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.",
+    "critic_score": 8.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": true,
+        "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.",
+        "score": 8.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.19859308004379272,
+        "edit": {
+          "original_context": "نشأت الدعوة السلفية بالإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، كان أبرزهم محمد إسماعيل المقدم، وأحمد فريد، وسعيد عبد العظيم، ومحمد عبد الفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد، التقوا جميعاً في كلية الطب بجامعة الإسكندرية، إذ كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات أو ما عرف ب<b data-parsoid='{\"dsr\":[27880,27915,3,3]}'>ـالفترة الذهبية للعمل الطلابي في مصر.",
+          "original_question": "متى تاسست السلفية الجهادبة في مصر ؟",
+          "original_answer": "بين عامي 1972 - 1977",
+          "generated_text": "الجواب: \n\n1. نشأ الدعوة السلفية في الإسكندرية في سبعينيات القرن الماضي.\n2. تأسست الدعوة على يد مجموعة من الطلبة المتدينين في years 1972 - 1977.\n3. كان أبرز المساهمين في تأسيس الدعوة محمد إسماعيل المقدم وأحمد فريد وسعيد عبد العظيم ومحمد Abdelفتاح أبو ادريس.\n4. تقع جميع المساهمين في كلية الطب بجامعة الإسكندرية.\n5. كان المساهمون منددين في تيار الجماعة الإسلامية الذي كان مشهورًا في الجامعات المصرية في السبعينيات.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.19859308004379272,
+          "semantic_similarity": 0.8014069199562073,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.074726402759552,
+        "edit": {
+          "original_context": "نشأت الدعوة السلفية بالإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، كان أبرزهم محمد إسماعيل المقدم، وأحمد فريد، وسعيد عبد العظيم، ومحمد عبد الفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد، التقوا جميعاً في كلية الطب بجامعة الإسكندرية، إذ كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات أو ما عرف ب<b data-parsoid='{\"dsr\":[27880,27915,3,3]}'>ـالفترة الذهبية للعمل الطلابي في مصر.",
+          "original_question": "متى تاسست السلفية الجهادبة في مصر ؟",
+          "original_answer": "بين عامي 1972 - 1977",
+          "generated_text": "1. نشأت الدعوة السلفية في الإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، أبرزهم محمد إسماعيل المقدم، أحمد فريد، سعيد عبد العظيم، محمد Abdelفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد. التقوا جميعاً في كلية الطب بجامعة الإسكندرية، حيث كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات.\n\n2. بدأت الدعوة السلفية في الإسكندرية في عام 1972 ومنتجها مجموعة من الطلبة المتدينين، أبرزهم محمد إسماعيل المقدم وأحمد فريد. بعد ذلك، أضافوا إلى هذه المجموعة سعيد عبد العظيم و Mohamed Abdelftah Abu Adris ، ثم ياسر برهامي و أحمد حطيبة فيما بعد. في كلية الطب بجامعة الإسكندرية ، كانوا جميعاً منضوين في تيار الجماعة الإسلامية الذي كانت المعروفة في الجامعات المصرية في هذه الفترة.\n\n3. نشأت الدعوة السلفية في الإسكندرية بين عامي 1972 و 1977 على أيدي مجموعة من الطلبة المتدينين، أبرزهم محمد إسماعيل المقدم وأحمد فريد وسعيد عبد العظيم ومحمد Abdelفتاح أبو ادريس. بعد ذلك ، التقوا ياسر برهامي وأحمد حطيبة في كلية الطب بجامعة الإسكندرية ، حيث كانوا جميعاً منضوين في تيار الجماعة الإسلامية الذي كانت المعروفة في الجامعات المصرية في هذه الفترة .",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.074726402759552,
+          "semantic_similarity": 0.925273597240448,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.7394235134124756,
+        "edit": {
+          "original_context": "نشأت الدعوة السلفية بالإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، كان أبرزهم محمد إسماعيل المقدم، وأحمد فريد، وسعيد عبد العظيم، ومحمد عبد الفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد، التقوا جميعاً في كلية الطب بجامعة الإسكندرية، إذ كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات أو ما عرف ب<b data-parsoid='{\"dsr\":[27880,27915,3,3]}'>ـالفترة الذهبية للعمل الطلابي في مصر.",
+          "original_question": "متى تاسست السلفية الجهادبة في مصر ؟",
+          "original_answer": "بين عامي 1972 - 1977",
+          "generated_text": "I'm happy to help you with rewriting the passage in a question-answer format. However, I noticed that you didn't provide the passage for me to work on. Could you please share the passage with me?\n\nOnce I have the passage, I'll be happy to assist you in rewriting it in a question-answer format in Arabic.",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.7394235134124756,
+          "semantic_similarity": 0.2605764865875244,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.\"\n  }\n]\n```",
+        "drift_score": 0.29818296432495117,
+        "edit": {
+          "original_context": "نشأت الدعوة السلفية بالإسكندرية في سبعينيات القرن الماضي بين عامي 1972 - 1977 على أيدي مجموعة من الطلبة المتدينين، كان أبرزهم محمد إسماعيل المقدم، وأحمد فريد، وسعيد عبد العظيم، ومحمد عبد الفتاح أبو ادريس، ثم ياسر برهامي وأحمد حطيبة فيما بعد، التقوا جميعاً في كلية الطب بجامعة الإسكندرية، إذ كانوا منضوين في تيار الجماعة الإسلامية الذي كان معروفاً في الجامعات المصرية في السبعينيات أو ما عرف ب<b data-parsoid='{\"dsr\":[27880,27915,3,3]}'>ـالفترة الذهبية للعمل الطلابي في مصر.",
+          "original_question": "متى تاسست السلفية الجهادبة في مصر ؟",
+          "original_answer": "بين عامي 1972 - 1977",
+          "generated_text": "من المرجح أن نشأت الدعوة السلفية في الإسكندرية في سبعينيات القرن الماضي بين عامي 1972-1977، وهي تتمثل في أعمال مجموعة من الطلبة المتدينين. هذا يعطى إشارة إلى وجود تحول أو تغيير في الفكر والمنظومة السياسية في الجامعة.\n\nمن الأمور التي يجب أن نتأملها هي كيفية تشكيل هذه الدعوة وتطورها، وما هي الأسباب التي دفعت إلى ظهوره، وكيف استخدمت هذه الجماعة الإسلامية في تيار الجماعة الإسلامية. من المهم أن نستشير الأشخاص المعنيين بدعوة السلفية في الإسكندرية، وأن نأخذ دراستها لتحسين فهمنا لتطورات فكرية وسياسية في الجامعات المصرية.\n\nتجب على مراعاة الأسباب التي أدّى إلى ظهور هذه الدعوة، وكيف استمرت وتكثفت. من المهم أن نستشير أفراد الجماعة الإسلامية في تيار الجماعة الإسلامية، وأن نتأمل كيف استخدموا هذا التكامل للتحول.\n\nمن الأشياء التي يجب أن نركز عليها هي:\n\n*   تأسيس الدعوة السلفية في الإسكندرية\n*   الأسباب التي أدّى إلى ظهوره\n*   دور تيار الجماعة الإسلامية في تعزيزها\n*   كيف استمرت وتكثفت الدعوة\n\nأما بالنسبة للنتائج، فإننا نجد أن:\n\n1.  **دور التطورات السياسية والفكرية** في تحديد الأحداث التي أدّى إلى ظهور الدعوة السلفية.\n2.  **الدور المهم الذي لعب أفراد الجماعة الإسلامية في تيار الجماعة الإسلامية في تعزيز هذه الدعوة**.\n3.  **ماهو التأثير المستمر على الجامعة والمجتمع المصرية بشكل عام**.\n\n1.  **تطورات فكرية** تعزز النشاط السلفي\n2.  **التدخلات الحكومية** تؤدي إلى تأثير إيجابي\n3.  **التأثيرات المحلية**\n4.  **التحول المستمر** يؤكد المهمة",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.29818296432495117,
+          "semantic_similarity": 0.7018170356750488,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 4,
+    "language": "ar",
+    "context": " كلينتون ريتشارد دوكينز عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب. دوكينز زميلٌ فخريٌّ للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم منذ 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.",
+    "original_question": "من هو ريتشارد دوكينز؟",
+    "original_answer": "عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب",
+    "best_edit": {
+      "original_context": " كلينتون ريتشارد دوكينز عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب. دوكينز زميلٌ فخريٌّ للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم منذ 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.",
+      "original_question": "من هو ريتشارد دوكينز؟",
+      "original_answer": "عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب",
+      "generated_text": "النص السابق يحتوي على العديد من الافكار التي يمكن أن تنتج نتيجة من قراءتها. إليك قائمة ببعض الاقتراحات:\n\n1. ريتشارد دوكينز عالم متميز في مجال السلوك الحيواني والأحياء التطورية.\n2. دوكينز له تأثير كبير على مجال الفهم العام للعلوم منذ عام 1995 حتى عام 2008.\n3. حصول دوكينز على زمالة الجمعية الملكية، مما يعكس تقديره للعلم في المملكة المتحدة.\n4. دوكينز هو زميل للجمعية الملكية للأدب، مما يشير إلى تعقيد شخصيته في مجال الأدب والفهم العام للعلوم.\n\nهذه بعض الاقتراحات التي يمكن أن تنشأ نتيجة من قراءة النص السابق.",
+      "format_type": "implications",
+      "language": "ar",
+      "drift_score": 0.1682245135307312,
+      "semantic_similarity": 0.8317754864692688,
+      "approach": "multi_format",
+      "edit_number": 1
+    },
+    "best_edit_number": 1,
+    "critic_approved": true,
+    "critic_reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.",
+    "critic_score": 8.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": true,
+        "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.",
+        "score": 8.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.1682245135307312,
+        "edit": {
+          "original_context": " كلينتون ريتشارد دوكينز عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب. دوكينز زميلٌ فخريٌّ للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم منذ 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.",
+          "original_question": "من هو ريتشارد دوكينز؟",
+          "original_answer": "عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب",
+          "generated_text": "النص السابق يحتوي على العديد من الافكار التي يمكن أن تنتج نتيجة من قراءتها. إليك قائمة ببعض الاقتراحات:\n\n1. ريتشارد دوكينز عالم متميز في مجال السلوك الحيواني والأحياء التطورية.\n2. دوكينز له تأثير كبير على مجال الفهم العام للعلوم منذ عام 1995 حتى عام 2008.\n3. حصول دوكينز على زمالة الجمعية الملكية، مما يعكس تقديره للعلم في المملكة المتحدة.\n4. دوكينز هو زميل للجمعية الملكية للأدب، مما يشير إلى تعقيد شخصيته في مجال الأدب والفهم العام للعلوم.\n\nهذه بعض الاقتراحات التي يمكن أن تنشأ نتيجة من قراءة النص السابق.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.1682245135307312,
+          "semantic_similarity": 0.8317754864692688,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.04007023572921753,
+        "edit": {
+          "original_context": " كلينتون ريتشارد دوكينز عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب. دوكينز زميلٌ فخريٌّ للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم منذ 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.",
+          "original_question": "من هو ريتشارد دوكينز؟",
+          "original_answer": "عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب",
+          "generated_text": "كلينتون ريتشارد دوكينز عالم سلوك الحيوان و عالم أحياء تطوري و كاتب. يعتبر دوكينز زميل فخري للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم من عام 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.\n\nدوكينز عالم سلوك الحيوان وعالم أحياء تطوري وكاتب فخري. كان أستاذا للفهم العام للعلوم في جامعة اوكسفورد من عام 1995 إلى عام 2008. يحمل زمالات من الجمعية الملكية والجمعية الملكية للأدب.\n\nDOUKINS Richard Clinton، عالم سلوك الحيوان وعالم أحياء تطوري وكاتب فخري، كان زميلًا للكلية الجديدة في جامعة أوكسفورد وآستاذ «فهم العام للعلوم» من عام 1995 إلى عام 2008. يحمل زمالات من الجمعية الملكية وأعضاء الجمعية الملكية للأدب.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.04007023572921753,
+          "semantic_similarity": 0.9599297642707825,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.4806976914405823,
+        "edit": {
+          "original_context": " كلينتون ريتشارد دوكينز عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب. دوكينز زميلٌ فخريٌّ للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم منذ 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.",
+          "original_question": "من هو ريتشارد دوكينز؟",
+          "original_answer": "عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب",
+          "generated_text": "أي مصطلح يهتم الباحث بدراسة السلوك الحيواني؟ \nالسمات التي تتنوع بين فائدة معينة واضحة للعلماء وتساعد في فهم الكيفية التي يعملون بها.",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.4806976914405823,
+          "semantic_similarity": 0.5193023085594177,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.29662173986434937,
+        "edit": {
+          "original_context": " كلينتون ريتشارد دوكينز عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب. دوكينز زميلٌ فخريٌّ للكلية الجديدة في أوكسفورد، و أستاذ الفهم العام للعلوم منذ 1995 حتى عام 2008. يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.",
+          "original_question": "من هو ريتشارد دوكينز؟",
+          "original_answer": "عالمُ سلوك حيوان ، و عالم أحياء تطوري ، و كاتب",
+          "generated_text": "1. **تعرف على الشخص**: كلينتون ريتشارد دوكينز هو عالم سلوك الحيوان، وعالم أحياء تطوري، وعالم فلك.\n2. **تقييم الخبرة**: دوكينززميل الفخري للكلية الجديدة في أوكسفورد، وأستاذ الفهم العام للعلوم من عام 1995 حتى عام 2008.\n3. **التحقق من الإنجازات**: يحمل دوكينز زمالة الجمعية الملكية، و هو زميل الجمعية الملكية للأدب.\n4. **النظر في الصحة العقلية**: أستاذ الفهم العام للعلوم منذ عام 1995 حتى عام 2008، هذا يعني أن دوكينز قائده لجمهور كبير من الناس.\n\n**إ Implications:**\n\n1. **قوة الشخص**: كلينتون ريتشارد دوكينز يعتبر شخصًا هامًا في مجال الفلسفة والفلك.\n2. **المهارات العلمية**: دوكينز له مهارات متقدمة في فئة مجالات مختلفة من العلوم.\n3. **التأثير العام**: دوكينز أستاذ فهم عام للعلم، يعني أن كلمة him تأثير كبيرة على الجمهور.\n4. **التميز في المجتمع**: دوكينز يعتبر زميلًا فخريًا للكلية الجديدة في أوكسفورد، وزميل الجمعية الملكية للأدب.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.29662173986434937,
+          "semantic_similarity": 0.7033782601356506,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 5,
+    "language": "ar",
+    "context": "  ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.",
+    "original_question": "ما هي ضريبة الدخل ؟",
+    "original_answer": "ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة",
+    "best_edit": {
+      "original_context": "  ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.",
+      "original_question": "ما هي ضريبة الدخل ؟",
+      "original_answer": "ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة",
+      "generated_text": "I can help you with the analysis of the passage. Here are the steps:\n\n1. ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ).\n* هذا تعريف basic الضريبة الدخل وتؤكد أنها تفرض على الأشخاص والمنظمات.\n\n2. والذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ)\n* هذا يشير إلى أن الضريبة تapply إلى مختلف النشاطات التي يتم ممارسة فيها التجارة والخدمات.\n\n3. والذين يزيد دخلهم عن مقدار معين من المال في السنة.\n* هذا يعلم أن هناك حد ما للتدخل، وإن الديون في الأغنى سوف تتم بتقسيم أرباحهم.\n\n4. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.\n* هذا يشير إلى أن الدولة ستقوم بتبعيتها في تطبيق الضريبة على الأفراد، وتتأمل فيها القيمة المضافة من الأرباح.",
+      "format_type": "chain_of_thought",
+      "language": "ar",
+      "drift_score": 0.98951256275177,
+      "semantic_similarity": 0.010487448424100876,
+      "approach": "multi_format",
+      "edit_number": 4
+    },
+    "best_edit_number": 4,
+    "critic_approved": true,
+    "critic_reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).",
+    "critic_score": 4.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.3513795733451843,
+        "edit": {
+          "original_context": "  ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.",
+          "original_question": "ما هي ضريبة الدخل ؟",
+          "original_answer": "ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة",
+          "generated_text": "1. تفرض الدولة ضريبة على الأشخاص الذين يُدخّلون ماليًا على المستوى الشخصي.\n2. الضريبة المحددة للناتجية تعتمد على القيمة العالية للخدمات أو المنتجات التي تُقدمها الشركات.\n3. الحكومة أصبحت مستعدة لتحديد حد أعلى للضريبة التي يمكن أن تدفعت من دخول الأشخاص السنوي.\n4. هناك فرصة للتعرف على معايير الدخل المحددة، مما سيمنح المواطنين الضوء في فهم ما هو ضريبة و ما يعد ضريبة مباشرة.\n5. الدولة تُطالب بالتأكد من أن الأفراد يسعون للحصول على أرباحهم في الحدود التي تعين عليها الدولة.\n6. الضريبة المحددة للناتجية يمكن أن تكون سيلة لتحفيز العمل والصناعة.\n7. الضريبة المرفقة في الحالة السابقة من الحد الأقصي للضريبة قد تُعتمد على قيمة الأرباح التي يزداد منها دخل الفرد.\n8. الدولة تقوم بالتدقيق في أرباح الأفراد، مما يعزز من الضرورة لتحديد الحد الأقصى للضريبة المحددة للناتجية.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.3513795733451843,
+          "semantic_similarity": 0.6486204266548157,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 1.0429298877716064,
+        "edit": {
+          "original_context": "  ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.",
+          "original_question": "ما هي ضريبة الدخل ؟",
+          "original_answer": "ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة",
+          "generated_text": "I can help you with rewriting the passage in different styles, but I need to know what style you're looking for (e.g. formal, informal, poetic, etc.) and also that the original text is already written in Arabic.\n\nHere are three rewritten versions of the passage:\n\n1. Version 1: Formal tone\nالضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص، سواء كانوا أشخاص طبيعيين أو معنويين مثل الشركات، الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) وذين يزيد أرباحهم عن قيمة معينة في السنة. وتقوم الدولة باقتطاع جزء من أرباح هذه الأشخاص إذا زاد عن حد معين.\n\n2. Version 2: Informal tone\nيجب أن نتعرف على الضريبة الدخل، التي هي ضريبة مباشرة تفرض على كل شخص، سواء كان طبيعيًا أو معنويًا، مثل الشركات، whoever يمارس مهنًا ونشاطاتًا (التجارة، الخدمات...الخ) ويزيد أرباحه عن قيمة معينة في السنة. وبالمثل، تقوم الدولة باقتطاع جزء من أرباحهم إذا كان أعلى قيمة معينة.\n\n3. Version 3: Poetic tone\nضريبة الدخل هي الحشية التي تنقض على الأشخاص، سواء كانوا ناشئين أو مكتสมบون، الذين يلمسون في مآثرة الحياة (التجارة، الخدمات...الخ) ويؤدّون أرباحًا عظيمة في السنة. وتعتمد الدولة على القوانع لتحديد ماذا سوف تقطعتها من أرباحهم إذا كان أعلى قيمة معينة، كأنه سيفوها من دون وصفة.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 1.0429298877716064,
+          "semantic_similarity": -0.04292988032102585,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.3493354320526123,
+        "edit": {
+          "original_context": "  ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.",
+          "original_question": "ما هي ضريبة الدخل ؟",
+          "original_answer": "ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة",
+          "generated_text": "لاztı revenue is a direct tax imposed on individuals (whether natural or legal persons such as companies) who practice professions and activities (trade, services...the rest). Where the government takes out a portion of an individual's profits if it exceeds a certain amount per year.\n\n Question 2:",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.3493354320526123,
+          "semantic_similarity": 0.6506645679473877,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": true,
+        "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).",
+        "score": 4.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": 1,\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.\"\n  },\n  {\n    \"article_id\": 2,\n    \"selected_index\": 4,\n    \"score\": 4,\n    \"reason\": \"All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).\"\n  }\n]\n```",
+        "drift_score": 0.98951256275177,
+        "edit": {
+          "original_context": "  ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.",
+          "original_question": "ما هي ضريبة الدخل ؟",
+          "original_answer": "ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة",
+          "generated_text": "I can help you with the analysis of the passage. Here are the steps:\n\n1. ضريبة الدخل هي ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ).\n* هذا تعريف basic الضريبة الدخل وتؤكد أنها تفرض على الأشخاص والمنظمات.\n\n2. والذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ)\n* هذا يشير إلى أن الضريبة تapply إلى مختلف النشاطات التي يتم ممارسة فيها التجارة والخدمات.\n\n3. والذين يزيد دخلهم عن مقدار معين من المال في السنة.\n* هذا يعلم أن هناك حد ما للتدخل، وإن الديون في الأغنى سوف تتم بتقسيم أرباحهم.\n\n4. حيث تقوم الدولة باقتطاع جزء من أرباح الأشخاص إذا زاد عن حد معين.\n* هذا يشير إلى أن الدولة ستقوم بتبعيتها في تطبيق الضريبة على الأفراد، وتتأمل فيها القيمة المضافة من الأرباح.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.98951256275177,
+          "semantic_similarity": 0.010487448424100876,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 6,
+    "language": "ar",
+    "context": " تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+    "original_question": "ماهي وظيفة الهايبوثالامس ؟",
+    "original_answer": "حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية",
+    "best_edit": {
+      "original_context": " تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+      "original_question": "ماهي وظيفة الهايبوثالامس ؟",
+      "original_answer": "حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية",
+      "generated_text": "أنا sẵn للعمل معك. \n\n**دور الحلقات التحتية في الدماغ**\n\nتعتبر الحلقات تحت المهاد أهم حلقة في الجهاز العصبي، وتشكل بذلك قاعدة لتحديد دورها في الوظائف العصبية. يحتوي هذا النقطة على المعلومات حول تأثير هذا المكان على الجهاز العصبي والغدة النخامية.\n\n**نقاط القيمة**\n\n- حلقات تحت المهاد تعتبر حلقة رئيسية بين الجهاز العصبي الذاتي والجهاز الإفرازي.\n- تتحكم هذه الحلقات في الجزء الأكبر من الدماغ البيني، مما يؤدي إلى تأثيرها على العديد من الوظائف العصبية.\n\n**النظر إلى المزيد**\n\nسوف نضيف thêm النقاط لتعزيز فكرة كيف تتأثر هذه الحلقات بشكل عام بالدماغ البشري.",
+      "format_type": "chain_of_thought",
+      "language": "ar",
+      "drift_score": 0.29422950744628906,
+      "semantic_similarity": 0.7057704925537109,
+      "approach": "multi_format",
+      "edit_number": 4
+    },
+    "best_edit_number": 4,
+    "critic_approved": true,
+    "critic_reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.",
+    "critic_score": 3.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.2062249779701233,
+        "edit": {
+          "original_context": " تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+          "original_question": "ماهي وظيفة الهايبوثالامس ؟",
+          "original_answer": "حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية",
+          "generated_text": "الوصلات الناتجة من المحلول:\n\n1.Under the cranium يُعتبر المحلول حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية.\n2. يحتل المحلول الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ.\n3. يوجد المحلول تحت المهاد في أدمغة جميع الثدييات والبشر.\n\nالمرجح أن تملك هذه الوصلات تأثيرًا مباشرًا أو غير مباشر على:\n\n1. نمط المعالجة العصبية: يمكن أن تؤثر وصول المحلول للجهاز العصبي الذاتي على نمط المعالجة العصبية في الدماغ.\n2. تحديد الفunktionalitae الدماغية: يمكن أن يؤدي الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي إلى تحديد فUNKTIONALTÉ متميزة في الدماغ.\n3. نمط القاء الحمى: قد يؤثر الوصل المحلول بالتجاوز بين الجهاز العصبي الذاتي والجهاز الإفرازي على نمط القاء الحمى.\n4. تأثير المنظور الدماغي: يمكن أن تؤثر وصول المحلول إلى الدماغ على المنظور الدماغي، حيث يؤدي ذلك إلى تحديد معالجة عصبية محددة.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.2062249779701233,
+          "semantic_similarity": 0.7937750220298767,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.6496273875236511,
+        "edit": {
+          "original_context": " تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+          "original_question": "ماهي وظيفة الهايبوثالامس ؟",
+          "original_answer": "حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية",
+          "generated_text": "Here are the rewritten passages:\n\nتقع تحت المهاد تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.\n\nتستند البيانات إلى التحقيق[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.\n\nتُسمى البيانات التي تَستَعلَموها تحت المهاد تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.\n\nتُحفِظ البيانات التي تَستَعلَموها تحت المهاد تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.6496273875236511,
+          "semantic_similarity": 0.3503726124763489,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.3380180597305298,
+        "edit": {
+          "original_context": " تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+          "original_question": "ماهي وظيفة الهايبوثالامس ؟",
+          "original_answer": "حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية",
+          "generated_text": "هذا المقال السابق rewritten في إطار الأسئلة والجواب:\n\nأ- ما هي اسم \"المهاد\"؟ \nب- هو كتلة من الغدة النخامية التي تتمثل في جزء كبير من الدماغ البيني.",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.3380180597305298,
+          "semantic_similarity": 0.6619819402694702,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": true,
+        "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.",
+        "score": 3.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.29422950744628906,
+        "edit": {
+          "original_context": " تحت المهاد[1][2][3][4][5][6] أو الوِطَاء[1][2][3][4][7] أو الهايبوثلاموس[8] ، يعتبر تحت المهاد حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية، يحتل تحت المهاد الجزء الأكبر من الدماغ البيني حيث يقع أسفل المهاد وفوق ساق الدماغ، ويوجد تحت المهاد في أدمغة جميع الثدييات والبشر.",
+          "original_question": "ماهي وظيفة الهايبوثالامس ؟",
+          "original_answer": "حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية",
+          "generated_text": "أنا sẵn للعمل معك. \n\n**دور الحلقات التحتية في الدماغ**\n\nتعتبر الحلقات تحت المهاد أهم حلقة في الجهاز العصبي، وتشكل بذلك قاعدة لتحديد دورها في الوظائف العصبية. يحتوي هذا النقطة على المعلومات حول تأثير هذا المكان على الجهاز العصبي والغدة النخامية.\n\n**نقاط القيمة**\n\n- حلقات تحت المهاد تعتبر حلقة رئيسية بين الجهاز العصبي الذاتي والجهاز الإفرازي.\n- تتحكم هذه الحلقات في الجزء الأكبر من الدماغ البيني، مما يؤدي إلى تأثيرها على العديد من الوظائف العصبية.\n\n**النظر إلى المزيد**\n\nسوف نضيف thêm النقاط لتعزيز فكرة كيف تتأثر هذه الحلقات بشكل عام بالدماغ البشري.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.29422950744628906,
+          "semantic_similarity": 0.7057704925537109,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 7,
+    "language": "ar",
+    "context": "سياسة الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\" [1] ، هي سياسة لتحديد للنسل انتهجتها جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، تتلخص في كون أنه لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاءات منها مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء [2]، ولا تطبق هذه السياسة على المناطق الإدارية الخاصة لهونغ كونغ وماكاو، والتبت.",
+    "original_question": "متى بدأت سياسة الطفل الواحد في الصين؟",
+    "original_answer": "1978",
+    "best_edit": {
+      "original_context": "سياسة الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\" [1] ، هي سياسة لتحديد للنسل انتهجتها جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، تتلخص في كون أنه لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاءات منها مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء [2]، ولا تطبق هذه السياسة على المناطق الإدارية الخاصة لهونغ كونغ وماكاو، والتبت.",
+      "original_question": "متى بدأت سياسة الطفل الواحد في الصين؟",
+      "original_answer": "1978",
+      "generated_text": "حسناً، هنا استجابة سؤال 1:\n\nما هي سياسة الطفل الواحد؟ \n\nسياسية الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\".",
+      "format_type": "self_qa",
+      "language": "ar",
+      "drift_score": 0.11220097541809082,
+      "semantic_similarity": 0.8877990245819092,
+      "approach": "multi_format",
+      "edit_number": 3
+    },
+    "best_edit_number": 3,
+    "critic_approved": true,
+    "critic_reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.12683022022247314,
+        "edit": {
+          "original_context": "سياسة الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\" [1] ، هي سياسة لتحديد للنسل انتهجتها جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، تتلخص في كون أنه لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاءات منها مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء [2]، ولا تطبق هذه السياسة على المناطق الإدارية الخاصة لهونغ كونغ وماكاو، والتبت.",
+          "original_question": "متى بدأت سياسة الطفل الواحد في الصين؟",
+          "original_answer": "1978",
+          "generated_text": "أفكار وتأثيرات ناتجة عن سياسة الطفل الواحد في جمهورية الصين الشعبية:\n\n1. قيود على العائلية: تفتقر سياسة الطفل الواحد إلى احترام حقوق العائلة والتنوع الناجم عنها، مما يؤدي إلى انخفاض معدلات الاكتمال في المناطق الحضرية.\n\n2. تأثير على الأزواج: يتم حث الأزواج على تقليل عدد أبناءهم، مما يعزز العلاقة بين الزوجين ويرتبط ذلك بالسلوك الإيجابي بينهم.\n\n3. تأثير على المجتمعات المحلية: يؤدي تحديد عدد الأطفال إلى زيادة القدرة على الحفاظ على الارتباط الاجتماعي بين السكان وتقليل معدلات البوليمorfية في المناطق التي تطبق سياسة الطفل الواحد.\n\n4. التأثير على المناطق الأرثية والقوميات: يتم حث الأشخاص من هذه المجموعات على أن يكونون مُحتفظين بشكل خاص بهذا القيد، مما يؤدي إلى سوء العلاقة بينهم وجمهورية الصين الشعبية.\n\n5. التأثير على المجتمع العام: تؤثر سياسة الطفل الواحد على رغبة الناس في الأطفال وتأثيراتها المباشرة على العلاقات بين الزوجين ومعدلات البطولة في الأزواج\n\n6. القيد من حركة الفردية والمجتمعات المحلية: يتم حث الأفراد والمجتمعات المحلية على التكيف مع القيد، مما يؤدي إلى زيادة العلاقة بين الاقتباس والتعليق في السلوك.\n\n7. زيادة الحاجة إلى الخدمات الاجتماعية: يمكن أن تؤدي سياسة الطفل الواحد إلى زيادة الحاجة إلى الخدمات الاجتماعية للشباب الذين يعتقدون أنه لا توجد لهم فرصة لتأدية المهام المناسبة.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.12683022022247314,
+          "semantic_similarity": 0.8731697797775269,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.03663259744644165,
+        "edit": {
+          "original_context": "سياسة الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\" [1] ، هي سياسة لتحديد للنسل انتهجتها جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، تتلخص في كون أنه لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاءات منها مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء [2]، ولا تطبق هذه السياسة على المناطق الإدارية الخاصة لهونغ كونغ وماكاو، والتبت.",
+          "original_question": "متى بدأت سياسة الطفل الواحد في الصين؟",
+          "original_answer": "1978",
+          "generated_text": "Here are the rewritten passages:\n\nسياسة الطفل الواحد في الصين، وتسمى رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\"، هي سياسة لتحديد للنسل، تتلخص في أن لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاء منها، مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء.\n\nتطبيق هذه السياسة في جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، وتتماشى مع مبدأ \"أربع أبناء يُحكمون من بعدها\"، وهو ما يعرف بالسياسة الطفل الواحد، التي تهدف إلى تحديد النسل بشكل دقيق لتحسين نمو السكان في الصين.\n\nإن سياسة الطفل الواحد في الصين هي وسيلة لتحديد النسل وتوجيهه نحو البقاء في البلاد، وتتماشى مع الاهتمام الشعبي بالنمو السكاني والتنمية الاقتصادية.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.03663259744644165,
+          "semantic_similarity": 0.9633674025535583,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": true,
+        "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.11220097541809082,
+        "edit": {
+          "original_context": "سياسة الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\" [1] ، هي سياسة لتحديد للنسل انتهجتها جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، تتلخص في كون أنه لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاءات منها مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء [2]، ولا تطبق هذه السياسة على المناطق الإدارية الخاصة لهونغ كونغ وماكاو، والتبت.",
+          "original_question": "متى بدأت سياسة الطفل الواحد في الصين؟",
+          "original_answer": "1978",
+          "generated_text": "حسناً، هنا استجابة سؤال 1:\n\nما هي سياسة الطفل الواحد؟ \n\nسياسية الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\".",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.11220097541809082,
+          "semantic_similarity": 0.8877990245819092,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 4,\n    \"score\": 3,\n    \"reason\": \"All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.12389117479324341,
+        "edit": {
+          "original_context": "سياسة الطفل الواحد، وتسمى في الصين رسمياً \"تنظيم الأسرة في جمهورية الصين الشعبية\" [1] ، هي سياسة لتحديد للنسل انتهجتها جمهورية الصين الشعبية منذ عام 1978 وحتى عام 2015، تتلخص في كون أنه لا يسمح بأكثر من طفل لكل زوج في المناطق الحضرية، ولكن يوجد عدة حالات للإعفاءات منها مثل الأزواج في المناطق الريفية والأقليات العرقية، والآباء والأمهات الذين ليس لهم أشقاء [2]، ولا تطبق هذه السياسة على المناطق الإدارية الخاصة لهونغ كونغ وماكاو، والتبت.",
+          "original_question": "متى بدأت سياسة الطفل الواحد في الصين؟",
+          "original_answer": "1978",
+          "generated_text": "الrocess thinking:\n\n1. قرأنا المقالة والقصد منها أن هناك سياسة في الصين تُسمى \"تنظيم الأسرة في جمهورية الصين الشعبية\" وتمaktumها منذ عام 1978 وحتى عام 2015.\n2. وإنما تتركز هذه السياسة على تحديد العدد المحدد للطفل لكل زوج في المناطق الحضرية.\n3. كما يوجد معايير معينة للموافقة عليها، مثل الأزواج في المناطق الريفية والأقليات العرقية والآباء والأمهات الذين ليس لهم أشقاء.\n4. ولكن هذه السياسة لا تُطبق على المناطق الإدارية الخاصة بهونغ كونغ وماكاو والتبت.\n\nالعمليات:\n1. إن سياسة \"تنظيم الأسرة\" في جمهورية الصين الشعبية تأتي كشكل من أشكال التحكم الاجتماعي والسياسي.\n2. هذه السياسة تؤثر على حياة العائلات وتأثيرها على نمط الحياة في الصين، حيث لا يسمح بأكثر من طفل لكل زوج.\n3. يمكن أن يلحق هذا الأمر بالتجاعيد sociales والأمنية وعدم استقرار العائلة.\n4. كذلك، يُظهر ذلك تعقيدات سياسية وتأثيرها على مختلف الشعوب في الصين، مثل الأقليات العرقية والآباء والأمهات الذين ليس لهم أشقاء.\n5. كما قد تؤدي هذه السياسة إلى تحديات في حماية حقوق الطفل واهتماماته.\n6. وأخيراً، قد يؤثر هذا التقرير على سياسات الحكومة chinese ومدى استمرارها وتغييراتها في المستقبل.\n\nإضافة لذاك، يمكن أن تُشكل هذه السياسة تحديات فيما يتعلق بالدولة chinese والسيادة الاجتماعية في الصين.\n\nهذا هو عملية التفكير والمعرفة.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.12389117479324341,
+          "semantic_similarity": 0.8761088252067566,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 8,
+    "language": "ar",
+    "context": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان. إن الدوبامين أحد المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.",
+    "original_question": "ما هو الدوبامين ؟",
+    "original_answer": "مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه",
+    "best_edit": {
+      "original_context": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان. إن الدوبامين أحد المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.",
+      "original_question": "ما هو الدوبامين ؟",
+      "original_answer": "مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه",
+      "generated_text": "من implication derived directly or indirectly from النص:\n\n1. الدوبامين يلعب دوراً هامًا في تأثير المزاج على الانتباه والتفكير.\n2. الدوبامين يؤثر على الشعور بالمتعة والسعادة.\n3. الدوبامين يلعب دورًا رئيسيًا في الإدمان.\n4. الدوبامين هو جزء من النواقل العصبية التي تحمل المعلومات بين الخلايا العصبية.\n5. التأثيرات السلبية للدواب المتبعة على الدوبامين قد تكون مرضية، وتؤدي إلى مشاكل إحتياطية صحية.",
+      "format_type": "implications",
+      "language": "ar",
+      "drift_score": 0.1728724241256714,
+      "semantic_similarity": 0.8271275758743286,
+      "approach": "multi_format",
+      "edit_number": 1
+    },
+    "best_edit_number": 1,
+    "critic_approved": true,
+    "critic_reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.",
+    "critic_score": 8.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": true,
+        "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.",
+        "score": 8.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.1728724241256714,
+        "edit": {
+          "original_context": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان. إن الدوبامين أحد المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.",
+          "original_question": "ما هو الدوبامين ؟",
+          "original_answer": "مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه",
+          "generated_text": "من implication derived directly or indirectly from النص:\n\n1. الدوبامين يلعب دوراً هامًا في تأثير المزاج على الانتباه والتفكير.\n2. الدوبامين يؤثر على الشعور بالمتعة والسعادة.\n3. الدوبامين يلعب دورًا رئيسيًا في الإدمان.\n4. الدوبامين هو جزء من النواقل العصبية التي تحمل المعلومات بين الخلايا العصبية.\n5. التأثيرات السلبية للدواب المتبعة على الدوبامين قد تكون مرضية، وتؤدي إلى مشاكل إحتياطية صحية.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.1728724241256714,
+          "semantic_similarity": 0.8271275758743286,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.015417695045471191,
+        "edit": {
+          "original_context": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان. إن الدوبامين أحد المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.",
+          "original_question": "ما هو الدوبامين ؟",
+          "original_answer": "مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه",
+          "generated_text": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان.\n\nالدوبامين هو نوع من النواقل العصبية التي تحمل المعلومات بين الخلايا العصبية في الدماغ.\n\nالدوبامين  مادة كيميائية تتفاعل في الدماغ وتؤثر على المعتاد وتجذب الشخص نحو الأنشطة التي يرغب فيها، وتعزز الإحساس بالمتعة والسعادة.",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.015417695045471191,
+          "semantic_similarity": 0.9845823049545288,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.35208266973495483,
+        "edit": {
+          "original_context": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان. إن الدوبامين أحد المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.",
+          "original_question": "ما هو الدوبامين ؟",
+          "original_answer": "مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه",
+          "generated_text": "Here is the rewritten passage in a question-answer format:\n\n1. ما هي الدوبامين?\nالإجابة: مادة كيميائية.\n\n2. تؤثر الدوبامين على أي شيء؟\nالإجابة: الكثير من الأحاسيس والسلوكيات، مثل الانتباه، والتوجيه وتحريك الجسم.\n\n3. ما هي دور الدوبامين في الإحساس بالمتعةและสعادة والإدمان؟\nالإجابة: دور رئيسياً.\n\n4. إلى أي nhóm ترتبط الدوبامين؟\nالإجابة: النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية).",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.35208266973495483,
+          "semantic_similarity": 0.6479173302650452,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.15407532453536987,
+        "edit": {
+          "original_context": "الدوبامين  مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه، والتوجيه وتحريك الجسم. ويؤدي الدوبامين دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان. إن الدوبامين أحد المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.",
+          "original_question": "ما هو الدوبامين ؟",
+          "original_answer": "مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات بما في ذلك الانتباه",
+          "generated_text": "المعالجة الفقريه:\n\nالمرحله الاولى: اكتشاف تعريف الدوبامين\n\nالدوبامين هو مادة كيميائية تتفاعل في الدماغ لتؤثر على كثير من الأحاسيس والسلوكيات.\n\nالمرحله الثانيه: تحديد تأثير الدوبامين على الجسم\n\nدوبامين يؤدي دوراً رئيسياً في الإحساس بالمتعة والسعادة والإدمان.\n\nالمرحله الثالثة: اكتشاف分类 الدوبامين \n\nالدوبامين هو من المجموعات الكيميائية التي تسمى النواقل العصبية التي تحمل المعلومات من عصبون (خلية عصبية)، إلى آخر.\n\nالمرحلة الرابعة: توضيح دور الدوبامين في النظام الهضمي\n\nدوبامين يلعب دوراً أساسيًا في تنظيم المعدة والتنظيم الغذائي والمشاعر والتوازن النفسي والاجتماعي.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.15407532453536987,
+          "semantic_similarity": 0.8459246754646301,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 9,
+    "language": "ar",
+    "context": "أخراج فايق الحكيم مساعد المخرج فلاح هاشم الإنتاج استوديو النورس. غناء الشارة أصالة نصري كتب كلمات الشارة حسن نازك.",
+    "original_question": "من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟",
+    "original_answer": "أصالة نصري",
+    "best_edit": {
+      "original_context": "أخراج فايق الحكيم مساعد المخرج فلاح هاشم الإنتاج استوديو النورس. غناء الشارة أصالة نصري كتب كلمات الشارة حسن نازك.",
+      "original_question": "من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟",
+      "original_answer": "أصالة نصري",
+      "generated_text": "الاستفادة الأولية من هذا المجمل هي أن هذا الفيلم مصنع في studio Nuris.\n\nالاستفادة الثانية أنه تم استخدام كاتب وغناء للشارة في هذا الفيلم.",
+      "format_type": "implications",
+      "language": "ar",
+      "drift_score": 0.47941190004348755,
+      "semantic_similarity": 0.5205880999565125,
+      "approach": "multi_format",
+      "edit_number": 1
+    },
+    "best_edit_number": 1,
+    "critic_approved": true,
+    "critic_reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": true,
+        "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.47941190004348755,
+        "edit": {
+          "original_context": "أخراج فايق الحكيم مساعد المخرج فلاح هاشم الإنتاج استوديو النورس. غناء الشارة أصالة نصري كتب كلمات الشارة حسن نازك.",
+          "original_question": "من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟",
+          "original_answer": "أصالة نصري",
+          "generated_text": "الاستفادة الأولية من هذا المجمل هي أن هذا الفيلم مصنع في studio Nuris.\n\nالاستفادة الثانية أنه تم استخدام كاتب وغناء للشارة في هذا الفيلم.",
+          "format_type": "implications",
+          "language": "ar",
+          "drift_score": 0.47941190004348755,
+          "semantic_similarity": 0.5205880999565125,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.27875226736068726,
+        "edit": {
+          "original_context": "أخراج فايق الحكيم مساعد المخرج فلاح هاشم الإنتاج استوديو النورس. غناء الشارة أصالة نصري كتب كلمات الشارة حسن نازك.",
+          "original_question": "من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟",
+          "original_answer": "أصالة نصري",
+          "generated_text": "Here are the rewritten passages:\n\n\n extraction of Fayq Al-Hakim, assistant director Falaah Hasm, Studio Al-Nurs production Hassan Nazuk wrote lyrics for the song, Sanaa Nasri sang.\n\n\n extraction of Fayq Al-Hakim, assistant director Falaah Hasm, from Studio Al-Nurs production\n\n\n سجل extraction of Fayq Al-Hakim, assistant director Falaah Hasm, من Studio Al-Nors production، غناء الشارة Sanaa Nasri، كتب كلمات الشارة Hassan Nazuk\n\n\n extracted by Fayq Al-Hakim, assistant to the director Falaah Hasm, from the Studio Al-Nurs production",
+          "format_type": "rewrite",
+          "language": "ar",
+          "drift_score": 0.27875226736068726,
+          "semantic_similarity": 0.7212477326393127,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.5204169750213623,
+        "edit": {
+          "original_context": "أخراج فايق الحكيم مساعد المخرج فلاح هاشم الإنتاج استوديو النورس. غناء الشارة أصالة نصري كتب كلمات الشارة حسن نازك.",
+          "original_question": "من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟",
+          "original_answer": "أصالة نصري",
+          "generated_text": "I'm ready to help, but I don't see the passage or question you'd like me to rewrite. Please provide them, and I'll be happy to assist you in rewriting the passage in a Q&A format in Arabic.",
+          "format_type": "self_qa",
+          "language": "ar",
+          "drift_score": 0.5204169750213623,
+          "semantic_similarity": 0.4795830547809601,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 1,\n    \"score\": 8,\n    \"reason\": \"Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 1,\n    \"score\": 9,\n    \"reason\": \"Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.\"\n  }\n]\n```",
+        "drift_score": 0.5248254537582397,
+        "edit": {
+          "original_context": "أخراج فايق الحكيم مساعد المخرج فلاح هاشم الإنتاج استوديو النورس. غناء الشارة أصالة نصري كتب كلمات الشارة حسن نازك.",
+          "original_question": "من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟",
+          "original_answer": "أصالة نصري",
+          "generated_text": "I'd be happy to help you analyze the passage step by step!\n\n**خطوة 1: تحليل المقطع السابق**\nلا يوجد مطلع قبل هذا المقطع، इसलحاظنا فقط بالمقطع نفسه.\n\n**خطوة 2: تحليل المحتوى**\nالمقالة تحتوي على معلومات عن الفنان فايق الحكيم، بما في ذلك مواعيد العمل الماضية له ومساعدته للفنان فلاح هاشم. كما تؤشر إلى المصدر الذي قام بتحديدها.\n\n**خطوة 3: تحليل الأسماء**\nالمقالة تحتوي على أسماء كتير، بما في ذلك فايق الحكيم، فلاح هاشم، واصالة نصري، حسن نازك. هذا يعني أن المقالة قد تحتوي على معلومات عن هذه الأشخاص.\n\n**خطوة 4: تحليل المصدر**\nالمقالة تؤشر إلى مصدرها (استوديو النورس) وتعرف على شخص يعتبر مساعدًا لمخرج الفنان، ما يعرف بالفنان فلاح هاشم. هذا يعني أن المقالة قد تحتوي على معلومات عن الإنتاج والعمل.\n\n**خطوة 5: تحليل الشارة**\nالمقالة تؤشر إلى شارة الأغاني التي قام بتحديدها حسن نازك، وتعرف على الفنانين الذين ساعدهم في الكتابة لها، وأصالة نصري. هذا يعني أن المقالة قد تحتوي على معلومات عن الموسيقى.\n\n**خطوة 6: تحليل الإنتاج**\nالمقالة تؤشر إلى إنتاج الشارة، وبيان أسماء الفنانين الذين كانوا معه في العمل. هذا يعني أن المقالة قد تحتوي على معلومات عن الأغاني والموسيقى.\n\n**خطوة 7: تحليل الاستوديو**\nالمقالة تؤشير إلى الاستوديو الذي كان يعتبر مصدرًا للعمل. هذا يعني أن المقالة قد تحتوي على معلومات عن الحصول على الأغاني والموسيقى.\n\n**خطوة 8: تحليل الفنانين**\nالمقالة تحتوي على معلومات عن أسماء الفنانين، بما في ذلك فايق الحكيم، فلاح هاشم، واصالة نصري، حسن نازك. هذا يعني أن المقالة قد تحتوي على معلومات عن هذه الأشخاص.\n\n**خطوة 9: تحليل المصادر**\nالمقالة تؤشير إلى مصدرها، وبيان أسماء الفنانين الذين كانوا معه في العمل. هذا يعني أن المقالة قد تحتوي على معلومات عن الإنتاج والعمل.\n\n**خطوة 10: تحليل النتائج**\nلماذا إسقاط هذه الخطوات؟ للاستفادة من هذه الخطوات، يمكننا إنشاء قائمة بالنتائج التي نرغب في الحصول عليها. فيمكن أن تكون نتائجها كالتالي:\n\nإ implications:\n1. الفنان فايق الحكيم قد ساعده في عمل الشارة مع استوديو النورس.\n2. الفنان فلاح هاشم قد ساعد في تعطيل الكتابة لشارة الأغاني.\n3. شارة الأغاني كانت مصدرًا لأغنية فنان فايق الحكيم.\n4. الفنانين الذين كانوا معه في العمل (فلاح هاشم وأصالة نصري) قد ساعده في الكتابة للشارة.\n5. الشارة قد تم إنشاؤها من قبل الاستوديو النورس.\n\nهذه قائمة بالنتائج التي نرغب في الحصول عليها، ويمكن إعادة التدوير منها لتشكيل قاعدة معلومات أخرى.",
+          "format_type": "chain_of_thought",
+          "language": "ar",
+          "drift_score": 0.5248254537582397,
+          "semantic_similarity": 0.47517451643943787,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  }
+]

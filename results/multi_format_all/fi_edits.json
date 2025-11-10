@@ -1,0 +1,592 @@
+[
+  {
+    "article_id": 0,
+    "context": "Charles Hoy Fort (6. elokuuta (joidenkin lähteiden mukaan 9.) 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+    "original_question": "Milloin Charles Fort syntyi?",
+    "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "Charles Hoy Fort (6. elokuuta (joidenkin lähteiden mukaan 9.) 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "generated_text": "Seuraavat ovat hämmentämättömät implicaatiot, joita saadaan lukeutua Fortin elämän ja työn suoraan tai epäsuoraan sisällysteestä:\n\n1. Paranormaalia tutkivien henkilöiden on ollut vaikeuksia ja haasteita.\n2. Kirjailija voi olla myös paranormalistin tutkijana elävän henkilönä, joka tarkkaavaisuudellaan tekee merkittäviä löytäviä.\n\nLisätä mahdollisia on paljon!",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.6653103232383728,
+        "semantic_similarity": 0.3346896767616272,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Charles Hoy Fort (6. elokuuta (joidenkin lähteiden mukaan 9.) 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "generated_text": "Charles Hoy Fort (6. elokuuta, joidenkin lähteiden mukaan 9. elokuuta 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.\n\nCharles Hoy Fort (6.8.1874 - 3.5.1932) oli yhdysvaltalainen kirjailija ja paranormaali-inhimilinen tutkimusalan johtaja.\n\nCharles Hoy Fort, eli Charles Hoy Fort (6. elokuuta 1874 – 3. toukokuuta 1932), was an American author and researcher of paranormal phenomena.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.08864885568618774,
+        "semantic_similarity": 0.9113511443138123,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Charles Hoy Fort (6. elokuuta (joidenkin lähteiden mukaan 9.) 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "generated_text": "Mitä Charles Hoy Fort oli? \n\nHän oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.24977827072143555,
+        "semantic_similarity": 0.7502217292785645,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Charles Hoy Fort (6. elokuuta (joidenkin lähteiden mukaan 9.) 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "generated_text": "Mielenterveysvaikutukset\n- Luettavasi passagea, jossa tiedetään kirjailijan nimestä Charles Hoy Fort\n- Kirjailija oli yhdysvaltalainen ja syntyi vuonna 1874\n- Hän kuoli vuonna 1932\n\nTutkimusaineistoa\n- Kirjallinen maininta paranormaalien ilmiöiden tutkijana\n\nMielenterveysvaikutukset\n- Vaatii tietoa kirjailijan henkilöstä, joka ei ole suorassa lähestymisessa\n- Kertoo yksityiskohtaisesti kirjailijasta, mikä vaikuttaa mielentervetyön mahdollisuuteen\n\nTutkimusaineistoa\n- Kirjallinen maininta paranormaalien ilmiöiden tutkijana tarkoittaa tutkimuksia paranormaalien ilmiöjen parissa",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.3973972797393799,
+        "semantic_similarity": 0.6026027202606201,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.350283682346344,
+    "std_drift": 0.2121412240810415
+  },
+  {
+    "article_id": 1,
+    "context": "   Altruismi ([1],  ”toinen”[2]) tarkoittaa epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle.[5] Altruismin vastakohta on egoismi.[6] Termin esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli altruismin uhrautumiseksi muiden eduksi.[1]",
+    "original_question": "Mitä on altruismi?",
+    "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "   Altruismi ([1],  ”toinen”[2]) tarkoittaa epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle.[5] Altruismin vastakohta on egoismi.[6] Termin esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli altruismin uhrautumiseksi muiden eduksi.[1]",
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "generated_text": "Tästä tekstistä seuraavat implikaatiot:\n\n1. Epäitsekeisyyden ja pyyteetöntymisen merkitys on hyvä edun vastapainona.\n2. Altruismi ei ole luonnollinen, vaan se on tarkkaa taikuutta, joka vaatii tiettyjen toimintaperiaatteiden hyväksyminen.\n3. Egoismin ja altruismin suhdessa ollaan selkeää vastakohtaa: egoismi korostuu omien edun saavuttamiseksi, kun taas altruismin tavoitteena on toisen hyödyntäminen.\n4. Altruismi voidaan nähdä uhrauksena muiden hyödyntämiseksi.\n5. Auguste Comteen esittely altruismista vuonna 1851 viittaa siihen, että idea ei ollut entinen eikä yhtä laajalti tunnettu, vaan se tuli myös hänen aikanaan esille.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.16699928045272827,
+        "semantic_similarity": 0.8330007195472717,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "   Altruismi ([1],  ”toinen”[2]) tarkoittaa epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle.[5] Altruismin vastakohta on egoismi.[6] Termin esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli altruismin uhrautumiseksi muiden eduksi.[1]",
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "generated_text": "Altruismi on epäitsekkäitä ja pyyteetöntä toimintaa, jossa toisen hyvä asettaa oman edun edelle. Egoismi on altruismin vastakohta. Altruismin käsite esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli sen uhrautumisena muiden eduksi.\n\nAltruistiikka tarkoittaa epäitsekkäitä ja pyyteetöntä toimintaa, jossa yksilön hyvä on omien etujen sijaan. Altruismin perusperiaate on antaa yhden hyvän olettaa, että se antaa itselleen. Egoismi on altruismin vastakohta.\n\nAltruistisena toiminnana voidaan pitää sitä, jossa yksilö antaa omat etunsa muun hyvän hyväksi. Tämä taas vastaa egoistista toimintaa, jossa yksilö keskittyy oman hyvään. Altruismin käsite on vanhimmillaan Augusten Comteen määrittely vuonna 1851.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.04991555213928223,
+        "semantic_similarity": 0.9500844478607178,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "   Altruismi ([1],  ”toinen”[2]) tarkoittaa epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle.[5] Altruismin vastakohta on egoismi.[6] Termin esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli altruismin uhrautumiseksi muiden eduksi.[1]",
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "generated_text": "Mitä altruismin tarkoittaa?\n\nVastaus:\nAltruismin tarkoittaa epäitsekästä ja pyyteetöntä toimintaa, jossa toisen hyvä asetaan oman edun edelle.",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.10356652736663818,
+        "semantic_similarity": 0.8964334726333618,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "   Altruismi ([1],  ”toinen”[2]) tarkoittaa epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle.[5] Altruismin vastakohta on egoismi.[6] Termin esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli altruismin uhrautumiseksi muiden eduksi.[1]",
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "generated_text": "Päännistelemme sanojen ja terminologian käytöstä, jotta ymmärretään sitä mitä altruismin tarkoittaa. Altruismin määrittely on hyvä alkukohda suunnitelmaan.\n\nAltruismin tarkoituksena on toisen hyvä asettaa omaksi edelle, jolloin toiminnan motiivina on muun hyvinvointi, ei omien etujen määritys. Tämä vastaa uhrautumiseksi muiden eduksi tarkoittavaa definitionsa, joka oli Auguste Comteen suunnitelma filosofian puolelta.\n\nTästä seuraavana on seuraavat ajatuksenvaihto ja arvioitava, mitä tällaisella toiminnalla saadaan saada.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.13244330883026123,
+        "semantic_similarity": 0.8675566911697388,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.11323116719722748,
+    "std_drift": 0.04290218165316603
+  },
+  {
+    "article_id": 2,
+    "context": "Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin. Jotkut pitävät Tristan ja Isoldea (1857–59) Wagnerin suurimpana yksittäisenä oopperana. Nürnbergin mestarilaulajat (1861–67) on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia). Nibelungin sormus -tetralogia (1852–74) on neljän oopperan germaaniseen mytologiaan perustuva teossarja. Sen säveltäminen vei 26 vuotta, ja esitykset kestävät yhteensä noin 15 tuntia. Sormussarjaa on kutsuttu musiikinhistorian kunnianhimoisimmaksi hankkeeksi. Wagnerin viimeinen ooppera Parsifal (1877-1882), joka tehtiin Bayreuthin avajaisia silmällä pitäen, on syvämietteinen ja uskonnollissävytteinen Graalin maljan legendaan perustuva työ.",
+    "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+    "original_answer": "Parsifal",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin. Jotkut pitävät Tristan ja Isoldea (1857–59) Wagnerin suurimpana yksittäisenä oopperana. Nürnbergin mestarilaulajat (1861–67) on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia). Nibelungin sormus -tetralogia (1852–74) on neljän oopperan germaaniseen mytologiaan perustuva teossarja. Sen säveltäminen vei 26 vuotta, ja esitykset kestävät yhteensä noin 15 tuntia. Sormussarjaa on kutsuttu musiikinhistorian kunnianhimoisimmaksi hankkeeksi. Wagnerin viimeinen ooppera Parsifal (1877-1882), joka tehtiin Bayreuthin avajaisia silmällä pitäen, on syvämietteinen ja uskonnollissävytteinen Graalin maljan legendaan perustuva työ.",
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "generated_text": "Lisämäärätteet tai yhteydet, joita sisältää näyttökäsitys:\n\n1. Wagnerin myöhäiskauden oopperat ovat hänen merkittävimpänä ja luotettavimpana työnkohdana.\n2. Tristan ja Isolde on yksi Wagnerin suurimmista teoksista, ja se toteutti koko taidesuunnan kehitystä eteenpäin.\n3. Nürnbergin mestarilaulajat on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia).\n4. Nibelungin sormus -tetralogia on Neljän oopperan germaaniseen mytologiaan perustuva teossarja, joka sisältää yhteensä noin 15 tuntia kestävät esitykset.\n5. Wagnerin viimeinen ooppera Parsifal on syvämietteinen ja uskonnollissävytteinen työ, joka toteutti hänen viimeisenä työkseen koko Bayreuthin avajaisia silmällä pitäen.\n6. Wagnerin viimeisin työ oli 26-vuotinen projekti, jossa hän laati neljä oopperaa Nibelungin sormuksen tetralogian.\n7. Teoksarja Parsifal ja Bayreuthin avajaiset on yksi musiikinhistorian kunnianhimoisimmista hankkeista, joita Wagner toteutti elinsa lopussa.\n8.  Wagnerin viimeinen ooppera Parsifal toteutti hänen viimeisenä työnään Bayreuthissa 1882.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.1471480131149292,
+        "semantic_similarity": 0.8528519868850708,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin. Jotkut pitävät Tristan ja Isoldea (1857–59) Wagnerin suurimpana yksittäisenä oopperana. Nürnbergin mestarilaulajat (1861–67) on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia). Nibelungin sormus -tetralogia (1852–74) on neljän oopperan germaaniseen mytologiaan perustuva teossarja. Sen säveltäminen vei 26 vuotta, ja esitykset kestävät yhteensä noin 15 tuntia. Sormussarjaa on kutsuttu musiikinhistorian kunnianhimoisimmaksi hankkeeksi. Wagnerin viimeinen ooppera Parsifal (1877-1882), joka tehtiin Bayreuthin avajaisia silmällä pitäen, on syvämietteinen ja uskonnollissävytteinen Graalin maljan legendaan perustuva työ.",
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "generated_text": "Passaasi:\nWagnerin mestariteokset ovat hänen myöhäiskauden oopperansa, jotka johtivat koko taidesuunnan kehitykseen. Tristan ja Isolden (1857–59) on yksi Wagnerin suurimpia oopperoita. Nürnbergin mestarilaulajit (1861–67) on Wagnerin ainoa komedia, lukuun ottamatta Liebesverbotia. Nibelungin sormus -tetralogia (1852–74) perustuu neljään oopperaan saksalaiseen mytologiaan ja kestää yhteensä noin 15 tuntia. Sormussarja on kutsuttu musiikinhistorian kunnianhimoisimmaksi teokseksi.\n\nUusittu passage 1:\nWagnerin urheilulliset oopperat edistivät koko taidesuunnan kehitystä. Tristan ja Isolden (1857–59) on yksi Wagnerin merkittävimpä työ, kun taas Nürnbergin mestarilaulajit (1861–67) ovat hänen ainoa komedia, lukuun ottamatta Liebesverbotia. Nibelungin sormus -tetralogia (1852–74) perustuu neljään oopperaan saksalaiseen mytologiaan ja on koko musiikihistorian parhaat teoksia.\n\nUusittu passage 2:\nWagnerin myöhäiskauden oopperat ovat jättiläisiä. Tristan ja Isolden (1857–59) on yksi Wagnerin suurimmista oopperoista, kun taas Nürnbergin mestarilaulajit (1861–67) ovat hänen ainoa komedia. Nibelungin sormus -tetralogia (1852–74) perustuu neljään oopperaan ja on yksi musiikihistorian kunnianhimoisimmista teoksista. Parsifal (1877-1882) on Wagnerin viimeinen ooppera, joka on syvän ikuisen uskonnollisuuden ja Graalin maljan legendaan perustuva työ.\n\nUusittu passage 3:\nWagnerin mestariteokset ovat hänen urheilullisia oopperoja, jotka edistivät koko taidesuunnan kehitystä. Tristan ja Isolden (1857–59) on yksi Wagnerin suurimmista teoksista, kun taas Nürnbergin mestarilaulajit (1861–67) ovat hänen ainoa komedia. Nibelungin sormus -tetralogia (1852–74) perustuu neljään oopperaan ja on yksi musiikihistorian parhaista teoksista. Parsifal (1877-1882) on Wagnerin viimeinen ooppera, joka on syvän ikuisen uskonnollisuuden ja Graalin maljan legendaan perustuva työ.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.06904357671737671,
+        "semantic_similarity": 0.9309564232826233,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin. Jotkut pitävät Tristan ja Isoldea (1857–59) Wagnerin suurimpana yksittäisenä oopperana. Nürnbergin mestarilaulajat (1861–67) on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia). Nibelungin sormus -tetralogia (1852–74) on neljän oopperan germaaniseen mytologiaan perustuva teossarja. Sen säveltäminen vei 26 vuotta, ja esitykset kestävät yhteensä noin 15 tuntia. Sormussarjaa on kutsuttu musiikinhistorian kunnianhimoisimmaksi hankkeeksi. Wagnerin viimeinen ooppera Parsifal (1877-1882), joka tehtiin Bayreuthin avajaisia silmällä pitäen, on syvämietteinen ja uskonnollissävytteinen Graalin maljan legendaan perustuva työ.",
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "generated_text": "Mitä Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin?",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.21712040901184082,
+        "semantic_similarity": 0.7828795909881592,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin. Jotkut pitävät Tristan ja Isoldea (1857–59) Wagnerin suurimpana yksittäisenä oopperana. Nürnbergin mestarilaulajat (1861–67) on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia). Nibelungin sormus -tetralogia (1852–74) on neljän oopperan germaaniseen mytologiaan perustuva teossarja. Sen säveltäminen vei 26 vuotta, ja esitykset kestävät yhteensä noin 15 tuntia. Sormussarjaa on kutsuttu musiikinhistorian kunnianhimoisimmaksi hankkeeksi. Wagnerin viimeinen ooppera Parsifal (1877-1882), joka tehtiin Bayreuthin avajaisia silmällä pitäen, on syvämietteinen ja uskonnollissävytteinen Graalin maljan legendaan perustuva työ.",
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "generated_text": "Mielipiteilmyksen generointi:\n\nWagnerin teokset ovat hänen myöhäiskaudellaan saattanut vaikuttaa koko taidesuunnan kehitykseen. Tristan ja Isolde, Nürnbergin mestarilaulajat ja Nibelungin sormus -tetralogia ovat yhteydet Wagnerin tuotantoon, joista ensimmäistä on julkaistu vuonna 1857 ja viimeinen vuonna 1882. Teokset ovat kaikki erityisesti teoksia, jotka osoittavat Wagnerin musiikillisen kehityksen ja hänen ajattelustaan.\n\nWagnerin Nibelungin sormuksarja on kuitenkin erityisesti muistutusta hänen musiikinhistorian suurimmaksi teoksena, koska se on tehty 26 vuoden ajan. Tämä tarvitsee ennaltaan hyvää ajattelua ja yhteiskunnallista suuntauksesta.\n\nViimeisen Wagnerin oopperan Parsifal syntymiseen liittyvät Bayreuthin avajaiset olivat silmällä. Tämä vaikuttaa lisää siihen, että Wagnerin musiikki on hyvin yksilöllinen ja hänen ajatteluonsa on erityisen vahvalla näkyvissä teoksessaan.\n\nTehokkaita huomioita:\n- Nibelungin sormuksen -tetralogia on suurimmassa mittasuhteessa teos\n- Parsifal on Wagnerin viimeinen ooppera ja siitä tie on erityisesti hänen musiikillisen kehitykseen liittyvä\n\nImplicationit:\n\n1. Nibelungin sormuksen -tetralogia on suurimmassa mittasuhteessa teos\n2. Wagnerin viimeinen ooppera Parsifal syntyi hyvin erikoisella ympäristössä, sillä Bayreuthin avajaiset olivat silmällä.\n3. Nürnbergin mestarilaulajat ja Tristan ja Isolde ovat hänen tuotantonsa osuudet, jotka osoittavat hänen musiikillisen kehityksen ja ajattelustaan\n4. Wagnerin viimeisimmässä oopperassa Parsifal syntyi Bayreuthin avajaisia silmällä.\n5. Wagnerin teoksilla ei ole yhtään suurta vaikutusta koko taidesuunnan kehitykseen, mutta hänen viimeisimmässä oopperansa Parsifal on erityisen hyvin synnytysympäristössä\n6. Wagnerin myöhäiskauden opeera \"Nürnbergin mestarilaulajat\" ja \"Tristan ja Isolde\" ovat hänen tuotantonsa osuudet, jotka osoittavat hänen musiikillisen kehityksen ja ajattelustaan.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.1653432846069336,
+        "semantic_similarity": 0.8346567153930664,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.14966382086277008,
+    "std_drift": 0.05315587907914048
+  },
+  {
+    "article_id": 3,
+    "context": "  Harz on horstivuoristo Pohjois-Saksassa[1]. Se muodostaa luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välille.",
+    "original_question": "Missä Harz sijaitsee?",
+    "original_answer": "Pohjois-Saksassa",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "  Harz on horstivuoristo Pohjois-Saksassa[1]. Se muodostaa luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välille.",
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "generated_text": "Seuraavat ovat syytä mainita:\n\n- Horstivuoristo on osa maapallon luontea mukaisuutta.\n- Pohjois-Saksan aluejaon perustuu horstivuorrison muodostamaan luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin välille.\n- Luonne hyvistä rajankartoista johtuu horstivuoriston muodostamisesta mukana oleva luonnonkaupunki.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.31958889961242676,
+        "semantic_similarity": 0.6804111003875732,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "  Harz on horstivuoristo Pohjois-Saksassa[1]. Se muodostaa luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välille.",
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "generated_text": "I'm ready to help. What is the original text you'd like me to rewrite?",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 1.090610146522522,
+        "semantic_similarity": -0.09061013907194138,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "  Harz on horstivuoristo Pohjois-Saksassa[1]. Se muodostaa luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välille.",
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "generated_text": "Oletko Harz niittymä, joka sijaitsee Pohjois-Saksassa? \n\nJosni, onko se paikka, jossa luonnollinen raja sijaitsee Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välillä?",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.1787903904914856,
+        "semantic_similarity": 0.8212096095085144,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "  Harz on horstivuoristo Pohjois-Saksassa[1]. Se muodostaa luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välille.",
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "generated_text": "I'm ready to help. What's the passage about?",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 1.0334901809692383,
+        "semantic_similarity": -0.03349020332098007,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.6556199043989182,
+    "std_drift": 0.40996514430165254
+  },
+  {
+    "article_id": 4,
+    "context": "Ahmaa tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.",
+    "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+    "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "Ahmaa tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.",
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "generated_text": "Sanan \"ahma\" merkitys: \n- Ahma asuu monissa maissa, mukaan lukien Euroopassa ja Aasiassa.\n\n- Ahman voi esiintyä niin pienillä kuin suurilla muotoilla - esimerkiksi nuori ahma on noin 20 senttimetriä pitkä, kun taas suuri ahma voivat olla jopa metriä pitkää.\n\n- Ahmamassa on tervetulleita kaikkia eläimistä, mutta ainoa peto - raadon syöjän mukaan ahma voi olla peto muille.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.33974194526672363,
+        "semantic_similarity": 0.6602580547332764,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Ahmaa tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.",
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "generated_text": "Ihin muistutus Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.\n\n\nIhin muistutus on laajalti levinnyt Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Sen värilaji on tummanruskea, ja se on yleensä vajaat puoli metriä korkeaa hartioiden kohdalla. Naaras painaa keskimäärin noin 10 kg, kun taas uros voivat olla jopa 28 kg. Ahmaa on raadonsyöjä ja peto.\n\n\nIhmiin muistuttavan eläimen on levinnyt laajalti Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa että Pohjois-Amerikassa. Se on väriltään tummanruskea ja korkeuttaan nousee vajaat puoli metriä hartioiden kohdalla. Naaras painaa keskimäärin 10 kg, kun taas uros voivat olla jopa 28 kilogrammaa. Ahma on raadonsyöjä ja peto.\n\n\nIhmiin muistuttava eläin on levinnyt laajalti Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa että Pohjois-Amerikassa. Sen värilaji on tummanruskea ja se nousee vajaat puoli metriä korkeammaksi hartioiden kohdalla. Naaras painaa keskimäärin 10 kilogrammaa, kun taas uros voivat olla jopa 28 kilogrammaa. Ahma on raadonsyöjä ja peto.\n\n\nIhin muistuttavan eläimen levinnyt laajalti Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa että Pohjois-Amerikassa. Sen värilaji on tummanruskea ja se nousee vajaat puoli metriä hartioiden kohdalla. Naaras painaa keskimäärin 10 kilogrammaa, kun taas uros voivat olla jopa 28 kilogrammaa. Ahmaa on raadonsyöjä ja peto.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.05953305959701538,
+        "semantic_similarity": 0.9404669404029846,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Ahmaa tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.",
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "generated_text": "Mitä nisäkkäitä tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa?",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.41911154985427856,
+        "semantic_similarity": 0.5808884501457214,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Ahmaa tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.",
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "generated_text": "Päättymys: \n\nTarkasteltaessaan päänettekoon luetaan seuraavat käsitteet:\n\n- Ahmaa\n- Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa - tämä tieto sijoittuu ahmaan leviämiseen.\n- Väriltään tummanruskea\n- Hartioista noin puoli metriä korkea\n- Naaras painaa keskimäärin 10 kg ja uros jopa 28 kg \n- Ahma on raadonsyöjä ja peto.\n\nPäättely: \n\nTavataan ahmaa useissa eri maissa. Ahma on väriltään tummanruskea ja kasvaa puoli metriä korkeasti hartioista. Naaras painaa keskimäärin 10 kg ja uros jopa 28 kg. Ahma käyttää itseensä raadonsyöjää ja petoa.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.12888020277023315,
+        "semantic_similarity": 0.8711197972297668,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.23681668937206268,
+    "std_drift": 0.14739809614219493
+  },
+  {
+    "article_id": 5,
+    "context": " Leonid Iljitš Brežnev (, ; 19. joulukuuta 1906 (J: 6. joulukuuta 1906) Kamenskoje – 10. marraskuuta 1982 Moskova) oli neuvostoliittolainen poliitikko.",
+    "original_question": "Milloin Leonid Brežnev kuoli?",
+    "original_answer": "10. marraskuuta 1982",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": " Leonid Iljitš Brežnev (, ; 19. joulukuuta 1906 (J: 6. joulukuuta 1906) Kamenskoje – 10. marraskuuta 1982 Moskova) oli neuvostoliittolainen poliitikko.",
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "generated_text": "Tästä lyhyessä pasasista saadaan seuraavia implikatioita:\n\n1. Brežnev oli Neuvostoliiton poliitikko.\n2. Hän syntyi vuonna 1906.\n3. Brežnev kuoli vuonna 1982.\n4. Hänet on tunnistettu nimellä Leonid Iljitš Brežnev.\n\nNämä implikatioita voidaan nähdä olennaisina tiedoina suhteessa pasasista itsessään.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.386325478553772,
+        "semantic_similarity": 0.613674521446228,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": " Leonid Iljitš Brežnev (, ; 19. joulukuuta 1906 (J: 6. joulukuuta 1906) Kamenskoje – 10. marraskuuta 1982 Moskova) oli neuvostoliittolainen poliitikko.",
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "generated_text": "Here are the rewritten passages:\n\n\nLeonid Iljitš Brežnev oli Neuvostoliiton poliitikko.\n\n\nHänen oikea syntymääisinsä oli 6. joulukuuta 1906, mutta hänet pidettiin syntynneestään Kamenskojen kunnassa julkaistuaan virallisen syntymäpäivän maaliskuussa 1907.\n\n\nLeonid Iljitš Brežnev, Neuvostoliiton poliitikko, syntyi Kamenskojen kunnassa vuonna 1906 ja kuuli 10. marraskuuta 1982 Moskovassa.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.33051013946533203,
+        "semantic_similarity": 0.669489860534668,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": " Leonid Iljitš Brežnev (, ; 19. joulukuuta 1906 (J: 6. joulukuuta 1906) Kamenskoje – 10. marraskuuta 1982 Moskova) oli neuvostoliittolainen poliitikko.",
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "generated_text": "Miten Leonid Iljitš Brežnev tunnetaan?\n\nVastaus:\nLeonid Iljitš Brežnev on tunnettu Neuvostoliiton poliitikoksi.",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.35572218894958496,
+        "semantic_similarity": 0.644277811050415,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": " Leonid Iljitš Brežnev (, ; 19. joulukuuta 1906 (J: 6. joulukuuta 1906) Kamenskoje – 10. marraskuuta 1982 Moskova) oli neuvostoliittolainen poliitikko.",
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "generated_text": "Päättymisen ennen on toteutettava tarkastelussa olevan tehtävän toteuttaminen, sillä silloin voit luovuttaa ajattelun aikaa ja ryhtyä muihin asioihin. \n\nSitten muistakaa lähteessä mainittu datajono ja niitä miten ne olivat osana toimintaa. Muistan tarkastelussa olevan tehtävän, joka on vaatinut ennen kaikkea tämän ajattelun toteuttamista.\n\nSitten lähdetään määritellylle myös sen, mitä ajattelee ajatella ja miksi ajattelee. Tässä on hyvä pyrkimyksessä edistää mieltynyt ja siihen liittyvää argumentaatioon.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.9477407932281494,
+        "semantic_similarity": 0.05225922912359238,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.5050746500492096,
+    "std_drift": 0.2563365005416094
+  },
+  {
+    "article_id": 6,
+    "context": "   Rele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksi Joseph Henry vuonna 1835. Releellä ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan usein kontaktoreiksi.",
+    "original_question": "Kuka keksi releen?",
+    "original_answer": "Joseph Henry",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "   Rele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksi Joseph Henry vuonna 1835. Releellä ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan usein kontaktoreiksi.",
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "generated_text": "Tästäpassa saatavilla olevista tietoista seuraavat ovat mahdolliset määrittelemät syyt ja vaikutukset:\n\n1. Sähkömekaanisten kytkinten kehitys perustuu Joseph Henryn löytöihin vuonna 1835.\n2. Releiden käyttö auttaa suurempien jännitteiden ja sähkövirtojen ohjauksessa.\n3. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan kontaktoreiksi, mikä vaikuttaa vastaavuusnäköiseen toimintamalleihin.\n4. Releiden kehitys tarjoaa mahdollisuuksia suurempien tehnteiden käyttöön ja ohjaamiseen.\n5. Sähkömekaanisten kytkenten kehitys vaikuttaa teknologian kehittymiseen ja siihen, mitä uusia mahdollisuksia ja ratkaisuja on mahdollista toteuttaa.\n\nTarkemmin tarkoitettujen syyt:\n- Joseph Henryn löytöt ovat laajalti käyttöön otettua, joka on ollut merkittävä vaikutus sähkömekaanisten kytkinten kehitykseen.\n- Releiden käyttö auttaa suurempien jännitteiden ja sähkövirtojen ohjauksessa, mikä vaikuttaa tehnteiden kokoontumiseen ja ohjaamiseen.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.4674191474914551,
+        "semantic_similarity": 0.5325808525085449,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "   Rele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksi Joseph Henry vuonna 1835. Releellä ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan usein kontaktoreiksi.",
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "generated_text": "Here are the rewritten passages:\n\nRele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksintö on Joseph Henryn vuonna 1835. Releella ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja.\n\nRele on sähkömekaaninen kytkin, jonka toiminta sähkömagneettisilla perustoiminnalla. Releen kehitys liittyy Joseph Henryn vuonna 1835 tekemään. Releella voidaan ohjata suurempia jännitteitä ja virtoja erillisen ohjausvirran avulla.\n\nKäytetään usein sähkömekaanista kytkintä, jossa on erillinen ohjausvirra, jonka avulla saadaan ohjattua suuria sähkövirta- ja jännitepääteitä.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.061434388160705566,
+        "semantic_similarity": 0.9385656118392944,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "   Rele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksi Joseph Henry vuonna 1835. Releellä ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan usein kontaktoreiksi.",
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "generated_text": "Miten Joseph Henry löi releen?\n\nJoseph Henry löi releen vuonna 1835.",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.68496173620224,
+        "semantic_similarity": 0.31503826379776,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "   Rele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksi Joseph Henry vuonna 1835. Releellä ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan usein kontaktoreiksi.",
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "generated_text": "Tiedostus\n\nEn lukeutunut lukuun, joten ei ole mitään yhteyksiä siihen. Yritän ymmärtää, että se sisältää sähköteorian ja Joseph Henryn keksimisen aiheen. Sähkömekaaninen kytkin on laite, joka käyttää sähkömagneettia toimintansa perusteena. Kytkin ohjataan suurempien jännitteiden avulla. Nimenomaisesti rele on painopiste, ja se sisältää erillisen ohjausvirran.\n\nIhmistä voi tulee ajatella että Joseph Henry on todennäköisesti keksinyt ensimmäisen sähkömekaanisen kytkinnin. Kuitenkin, sen nimeäminen \"rele\" ei yksittäisesti ole selkeää ja voidaan pitää myös kontaktoreina.\n\nPääteoriassa, sähkömekaaniset kytkin ohjataan suurempien jännitteiden avulla. Rele on painopiste kytkinnen ohjaussystemissä.\n\nImplikat:\n\n1. Sähkömagneettisen toimintamalleille perustuva releväistä sähkömekaanisesta kytkinnestä.\n2. Joseph Henryn keksintöjen aiheen ja sen sääntöjen luomisen teoriassa.\n3. Sähkömekaaninen kytkin ohjauksen käytöstä suurempien jännitteiden avulla.\n4. Releksi tarkoitettuja suuria päävirtapiirin ohjauskytkinten käyttöä.\n5. Kontaktoreiksi tarkoitus on relevillä käsitelläänkin",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.35765165090560913,
+        "semantic_similarity": 0.6423483490943909,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.39286673069000244,
+    "std_drift": 0.22470261158629753
+  },
+  {
+    "article_id": 7,
+    "context": "Francisco Santos Miranda III (s. 24. toukokuuta 1979) on yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari. Hän pitää hallussaan ennätyksiä UFC:n raskaansarjassa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksi eniten otteluita UFC:ssä.",
+    "original_question": "Kuka Frank Mir on?",
+    "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "Francisco Santos Miranda III (s. 24. toukokuuta 1979) on yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari. Hän pitää hallussaan ennätyksiä UFC:n raskaansarjassa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksi eniten otteluita UFC:ssä.",
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "generated_text": "Seuraavat ovat syytä mainita tarkoituksen mukaan:\n\n1. Francisco Santos Miranda III on yksi tunnetuimmista vapaaottelijoista ja brasilialaisen jujutsun mestareista.\n2. Hänellä on menestyksekkäät uramat UFC:ssa, sillä hän on voittanut useita otteluita ja saavuttanut ennätyksiä sarjassa.\n3. Mirin menestys on johtanut hänet julkisuun, ja hän on tullut tunnetuksi UFC:n raskaansarjan mestariksi.\n4. Hänellä on ollut suuri vaikutus UFC:ssa, sillä hän on saavuttanut useita ennätyksiä sarjassa eniten otteluita, voittoja ja luovutusvoitot.\n5. Mirin menestys on olennaisia arvioidaan uran jatkuessa, sillä hänen menestyksensä on ollut yhteydessä UFC:n menestykseen.\n6. Hänellä on ollut suuri vaikutus brasilialaisen vapaaottelun ja jujutsun kehityssäännöissä, sillä hän on saavuttanut menestystä sekä Brasilian että Yhdysvalloissa.\n7. Mirin uran jatkeessa hänen menestyksensä tulee olla arvioidaan UFC:n raskaansarjassa.\n\nOletetaan, että tämä lista on koottu erittäin yleiseltä ja laajalti tunnetuilta taistelijoilta.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.10168588161468506,
+        "semantic_similarity": 0.8983141183853149,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Francisco Santos Miranda III (s. 24. toukokuuta 1979) on yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari. Hän pitää hallussaan ennätyksiä UFC:n raskaansarjassa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksi eniten otteluita UFC:ssä.",
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "generated_text": "Francisco Santos Miranda III syntyi 24. toukokuuta 1979.\n\nHän on yhdysvaltalainen vapaaottelija, brasilialaisen jujutsun mustan vyön haltija ja entinen UFC:n raskaansarjan mestari.\n\nMir on voittanut useita ennätyksiä UFC:n raskaansarjassa, mukaan lukien eniten otteluita, voittoja ja luovutusvoittoja. Hän on myös yksi neljää parasta pisteestään eniten otteluita UFC:ssa saaneista.\n\nFrancisco Santos Miranda III on yhtä menestyksekkäintä brasilialaisen jujutsun urallaan, ja hänen menestysmerkkinään on monia ennätyksiä.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.03784865140914917,
+        "semantic_similarity": 0.9621513485908508,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Francisco Santos Miranda III (s. 24. toukokuuta 1979) on yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari. Hän pitää hallussaan ennätyksiä UFC:n raskaansarjassa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksi eniten otteluita UFC:ssä.",
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "generated_text": "Mitä vuodenaikana Francisco Santos Miranda III syntyi?",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.4082610607147217,
+        "semantic_similarity": 0.5917389392852783,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Francisco Santos Miranda III (s. 24. toukokuuta 1979) on yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari. Hän pitää hallussaan ennätyksiä UFC:n raskaansarjassa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksi eniten otteluita UFC:ssä.",
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "generated_text": "Kysymysliite: Mitä suuri merkitys on Francisco Santos Miranda III:n uraprosessissa ja miten se vaikuttaa hänen urastaan UFC:ssa?\n\nTarkastelu:\n\n* Vapaaottelija on koulutettu brasilialaisen jujutsun taitoihin\n* Hän on voittanut useita otteluita UFC:n raskaansarjassa\n* Hän on saavuttanut ennätyksiä UFC:n raskaansarjassa, kuten eniten otteluita ja voittoja\n\nTodennus: Francisco Santos Miranda III on yksi UFC:n raskaansarjan johtavia vapaaottelijoita.\n\nImplikatiot:\n1.  Mir on yksi UFC:n raskaansarjan suurimmista tähdistä, joka on saavuttanut huippulukema voittoja ja otteluja.\n2.  Hänen brasilialaisten jujutsu- koulutuksensa on ollut arvokas osa hänen menestykseensä UFC:ssa.\n3.  Mirin suuri uraprosessi on ollut hyvin menestyvässä tähden, joka on saavuttanut ennätyksiä UFC:n raskaansarjassa.\n4.  Mirin kannattajien ja seuraajien arvion, että hän on yksi UFC:n raskaansarjan parhaista vapaaottelijoista.\n5.  Mirin menestyksen saavuttaminen on vaikuttanut UFC:n maineeseen ja arvostusasteisiin.\n6.  Mirin ura on ollut mukana historiassa UFC:ssa, ja hänen saavutuksensa ovat olleet huipputasolla merkittäviä.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.15186327695846558,
+        "semantic_similarity": 0.8481367230415344,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.17491471767425537,
+    "std_drift": 0.14065156742946597
+  },
+  {
+    "article_id": 8,
+    "context": " Saturnukselta tunnetaan 62 kuuta (vuonna 2012).[1] Kuiden kokonaismäärää ei tulla koskaan tarkoin määrittelemään, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita, ja on vaikea vetää rajaa pikkukuun ja suuren renkaankappaleen välille. Saturnuksen tunnetuimmat ja suurimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.",
+    "original_question": "Montako kuuta Saturnuksella on?",
+    "original_answer": "62",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": " Saturnukselta tunnetaan 62 kuuta (vuonna 2012).[1] Kuiden kokonaismäärää ei tulla koskaan tarkoin määrittelemään, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita, ja on vaikea vetää rajaa pikkukuun ja suuren renkaankappaleen välille. Saturnuksen tunnetuimmat ja suurimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.",
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "generated_text": "Tästä artikoksesta saadaan seuraavia vaikutuksia:\n\n1. Saturnuksen kuut ovat teknisesti kuita, jolloin suuri vaikea on erottaa pieniä renkaankappaleita.\n2. Renkaiden jääkappaleet ovat tiheästi ja kuten niitä voidaan pitää teknisesti kuitana.\n3. Saturnuksen kuut eivät ole aina yksinkertaisia, vaan monimuotoisia kohteita, joissa on useita erillisiä renkaankappaleita.\n4. Satunnen kuutojen nimet ovat peräisin myytologiasta ja antiikin laatuilta, jolloin ne ovat suuria ja merkittäviä.\n5. Saturnuksen kuut eivät ole kaikki samansukuinen, vaan joitakin on todistettu olevan eri kertoihin perustuvia.\n6. Kuutojen massaa voidaan arvioida niiden tekijää ja muotoa havaitsemaan vaikeus.\n\nTästä artikoksesta on hyötyä tietystä tiedon saatavuudesta Satunnen kuudesta, jolloin voidaan päättää muutamista yleisistä syytä.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.21641767024993896,
+        "semantic_similarity": 0.783582329750061,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": " Saturnukselta tunnetaan 62 kuuta (vuonna 2012).[1] Kuiden kokonaismäärää ei tulla koskaan tarkoin määrittelemään, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita, ja on vaikea vetää rajaa pikkukuun ja suuren renkaankappaleen välille. Saturnuksen tunnetuimmat ja suurimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.",
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "generated_text": "Saturnuksen kuut tunnetaan 62:sta (vuonna 2012).[1] Kuiden kokonaismaaramaista ei ole mahdollista tarkasti määritellä, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita. On vaikea piirtää rajaa pienestä kuusta suurimmassa renkaan kappaleeseen.\n\nSaturnuksen tunnetuimmat ja suurimpiin kuuluvat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.\n\nSaturnuksen kuut ovat monimuotoisia ja erilaisia. Kuten taikinassa on eri lajien leviämiä, niin myös Saturnuksen kuut ovat eri asioita. Tämä lista kuiden nimistä sisältää kaikki tunnettuja kuutoista, joiden nimen lisäksi ei ole tarkoitettu määritellä niiden kokonaismaaraa.\n\nSaturnuksen kuut voidaan luokitella suuremman renkaan kappaleista pienempiin kuun koostumisoihin. Tämän listauksessa on kuitenkin huomattava, että kaikki kuut ovat teknisesti kuita ja sen sijaan niiden eri kokoja ovat vaikea piirtää.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.0345425009727478,
+        "semantic_similarity": 0.9654574990272522,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": " Saturnukselta tunnetaan 62 kuuta (vuonna 2012).[1] Kuiden kokonaismäärää ei tulla koskaan tarkoin määrittelemään, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita, ja on vaikea vetää rajaa pikkukuun ja suuren renkaankappaleen välille. Saturnuksen tunnetuimmat ja suurimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.",
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "generated_text": "Tietoja Saturnuksen kuutoista on mitattu kuinka?",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.4045296311378479,
+        "semantic_similarity": 0.5954703688621521,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": " Saturnukselta tunnetaan 62 kuuta (vuonna 2012).[1] Kuiden kokonaismäärää ei tulla koskaan tarkoin määrittelemään, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita, ja on vaikea vetää rajaa pikkukuun ja suuren renkaankappaleen välille. Saturnuksen tunnetuimmat ja suurimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.",
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "generated_text": "Hahmistelmani:\n\n1. Kuusia on tunnettu 62 kappaletta Saturnuksessa.\n2. Kuiden kokonaismaaramainen määrää ei voida koskaan tarkasti määritellä, koska jääkappaleet ovat kaikki teknisesti kuitua.\n3. On vaikea määritellä rajaa pikkukuun ja suuren renkaankappaleen välillä.\n4. Saturnuksen tunnetuimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.\n\nImplikatiot:\n\n1. Saturnuksen kuut ovat erilaiset, mutta sääntelyn häiriöitä suoritettavan vaikeutta seuraavat.\n2. Kuiden kokonaismaaramainen määrä on vaikea arvioida, koska ne ovat kaikki samaa aineksetta.\n3. Renkaan kappaleiden tarkasteluun vaaditaan hyvää tekniikaa, jotta voidaan erottaa pikkukuut suurista renkaankapaleista.\n4. Saturnuksen kuut ovat kosmologisesti merkittäviä, ja niiden tunteminen on tärkeää avaruuden tutkimisessa.\n5. Kuusien kohdassa on mahdollisuus löytää uutta tiedettä tai tekniikkaa, joita voidaan soveltaa muissa tieteellisissä aloissa.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.06344133615493774,
+        "semantic_similarity": 0.9365586638450623,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.1797327846288681,
+    "std_drift": 0.14704023470611907
+  },
+  {
+    "article_id": 9,
+    "context": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893. Australiassa myönnettiin vuonna 1902 rajoitettu äänioikeus ja vaalikelpoisuus, jotka kuitenkin koskivat vain valkoista väestöä.[1]",
+    "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+    "original_answer": "Uusi-Seelanti",
+    "language": "fi",
+    "edits": [
+      {
+        "original_context": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893. Australiassa myönnettiin vuonna 1902 rajoitettu äänioikeus ja vaalikelpoisuus, jotka kuitenkin koskivat vain valkoista väestöä.[1]",
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "generated_text": "Seuraavat ovat syytä mainita:\n\n1. Uusi-Seelanti oli ensimmäinen maa, joka antoi äänioikeuden naisille.\n2. Äänioikeus ei koskettu kaikkia naisten käyttöön niin, että rajoitettujen oikeuksien saavutus vaikuttai myös naisten tilanteita muissa maissa.\n\nLuonnolliset seuraamukset ovat:\n\n1. Rajoitettu äänioikeus ja vaalikelpoisuus eivät ole olleet yhtä edullisia kuin rajoitettujen oikeuksien saavutus.\n2. Naiset eivät ole osallistuneet poliittiseen prosessiin niin, että heillä on ollut tasa-arvoa toisen maan naisille vastoin.\n\nYleiset seuraamukset ovat:\n\n1. Uusi-Seelan naisia ja muita naisia on vaikuttanut äänioikeuden antamisessa ja kuten rajoitettujen oikeuksien saavutus.\n2. Maailmanlaajuisesti naiset eivät ole osallistuneet samaanasteiseen poliittiseen prosessiin kuin valkoiset naiset.",
+        "format_type": "implications",
+        "language": "fi",
+        "drift_score": 0.2491236925125122,
+        "semantic_similarity": 0.7508763074874878,
+        "approach": "multi_format",
+        "edit_number": 1
+      },
+      {
+        "original_context": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893. Australiassa myönnettiin vuonna 1902 rajoitettu äänioikeus ja vaalikelpoisuus, jotka kuitenkin koskivat vain valkoista väestöä.[1]",
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "generated_text": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893.\n\nAustraliassa rajoitettu äänioikeus ja vaalikelpoisuus myönnettiin vuonna 1902, joka koski vain valkoista väestöä.\n\nUusi-Seelanti oli ensimmäinen maasto, jossa naiset saivat äänioikeuden vuonna 1893.",
+        "format_type": "rewrite",
+        "language": "fi",
+        "drift_score": 0.021172285079956055,
+        "semantic_similarity": 0.978827714920044,
+        "approach": "multi_format",
+        "edit_number": 2
+      },
+      {
+        "original_context": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893. Australiassa myönnettiin vuonna 1902 rajoitettu äänioikeus ja vaalikelpoisuus, jotka kuitenkin koskivat vain valkoista väestöä.[1]",
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "generated_text": "Millä vuodella Uusi-Seelanti myönsi ensimmäiselle naiselle äänioikeuden?",
+        "format_type": "self_qa",
+        "language": "fi",
+        "drift_score": 0.19099462032318115,
+        "semantic_similarity": 0.8090053796768188,
+        "approach": "multi_format",
+        "edit_number": 3
+      },
+      {
+        "original_context": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893. Australiassa myönnettiin vuonna 1902 rajoitettu äänioikeus ja vaalikelpoisuus, jotka kuitenkin koskivat vain valkoista väestöä.[1]",
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "generated_text": "Hiustenkehityksen vaiheessa, kun luetteli passagea, muutti sananjakaiteestaan ja yrittää nähdä, mitä siihen passaa. Sanajakautumista on helpompaa jo silloin, kun on vastuussa muiden ajatusten huomiolle.\n\nTartuntoja tulee esimerkiksi seuraava: 'vaihteluvastaiset aikojen muutot ja siihen liittyviä poliittisia vaikutuksia. Erikoistumista, että näissä aikoissa, joita kutsutaan myös \"avustusajaksi\", oikeudet ja vallankumouksellisuuden muodot ja yhdistelmät.\n\nTarkasteltiin myös seuraavia aspekteja: Uusi-Seelanti on julistettu ensimmäiseksi maa, joka antoi äänioikeus naisille. Samalla nähtiin, että Australiassa äänioikeus ja vaalikelpoisuus olivat myönnetty vuonna 1902, mutta vain valkoiselle väestölle.\n\nMäärityksen luonne ja aika-alue muodostavat suuret ohjelmat niitä, joita halutaan toteuttaa. Sen sijaan miten tämä vaikutus on kohdistunut eri ryhmiin. Kaikkien ihmisten yhteisössä on huomioitava sellaisia tekijöitä, jotka ovat jaettu osuuksiksi erityisissä tapauksissa. Sanaa \"kansallinen\" pitää silti selkeinä ja selkeinä käytettäviä.\n\nTätä vastaan lähtien ja tarkasteltuaan sitä, mitä näillä ajoilla toteutettiin, tuli ilmi häiriötekijät: vaali- tai äänioikeuden antaminen erityiseen ryhmään. Vaikea on löytää yhtä kertaa yhtenäistä lähestymistapaa ja toimintamallia. Kaiken kaikkiaan kuitenkin on helppoa nähdä, että tämä ei ole vaarakaasaa asettaa oikeuksien tai poliittisen mallein.\n\nOletettavasti tästä saadaan myös syytä muuttaa ajattelua ja katsoa, miten kaikkeen maailma on laajentunut ja mitä se tarkoittaa. Samaan aikaan nähdään myös, että suurin osa yhteisöstä on ollut pitkän ajan varjossa.",
+        "format_type": "chain_of_thought",
+        "language": "fi",
+        "drift_score": 0.8823431730270386,
+        "semantic_similarity": 0.11765681952238083,
+        "approach": "multi_format",
+        "edit_number": 4
+      }
+    ],
+    "avg_drift": 0.335908442735672,
+    "std_drift": 0.3264128414301348
+  }
+]

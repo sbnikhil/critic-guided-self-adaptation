@@ -1,0 +1,1062 @@
+[
+  {
+    "article_id": 0,
+    "language": "te",
+    "context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+    "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+    "original_answer": "Azadirachta indica",
+    "best_edit": {
+      "original_context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+      "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+      "original_answer": "Azadirachta indica",
+      "generated_text": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది.\n\nఅజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు భారతదేశం, మ్యాన్‌మార్, బంగ్లాదేశ్, పాకిస్తాన్ దేశాలలో ఉన్నాయి. \n\nవేపను అజాడిరక్త (పర్షియ), మార్గోస, నీబ్( అరబిక్)  వంటి ఇతర పేర్లలో కూడా పిలుస్తున్నారు.",
+      "format_type": "rewrite",
+      "language": "te",
+      "drift_score": 0.025324523448944092,
+      "semantic_similarity": 0.9746754765510559,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.3008526563644409,
+        "edit": {
+          "original_context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+          "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+          "original_answer": "Azadirachta indica",
+          "generated_text": "వేప మహోగని కుటుంబానికి చెందిన అజాడిరక్త సంతతి. \n\n1) ఈ పుష్ప విధులనే ఆధారముగా అజాద్ డిరఖ్త వంటి ఎక్కువ సంతతులు ఏర్పడ్డాయి.\n\n2) భారతదేశములో అజాదీకృత రాష్ట్రమైన ఆంధ్రప్రదేశ్‌లోని 'చెన్నై' జిల్లాకు చెందిన ఒక ప్రదేశమునకు 'వేపకు' అని నామకరణమైంది.\n\n3) భారతదేశములో ఆయా ప్రదేశాలనుబట్టి అజాదిరక్త వంటి మొదటి సంతతి పేర్లు భిన్నమైంచాయి.\n\n4) ఉత్తర ఆఫ్రికాలో వేప వృక్షము నింది 'బొగ్గు' అని గాలిలో ఆవరణము పెడుతుంది.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.3008526563644409,
+          "semantic_similarity": 0.6991473436355591,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.025324523448944092,
+        "edit": {
+          "original_context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+          "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+          "original_answer": "Azadirachta indica",
+          "generated_text": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది.\n\nఅజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు భారతదేశం, మ్యాన్‌మార్, బంగ్లాదేశ్, పాకిస్తాన్ దేశాలలో ఉన్నాయి. \n\nవేపను అజాడిరక్త (పర్షియ), మార్గోస, నీబ్( అరబిక్)  వంటి ఇతర పేర్లలో కూడా పిలుస్తున్నారు.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.025324523448944092,
+          "semantic_similarity": 0.9746754765510559,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.06159096956253052,
+        "edit": {
+          "original_context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+          "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+          "original_answer": "Azadirachta indica",
+          "generated_text": "1. వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది?\nజవాబు:\nహా, అజాడిరక్తకు చెందినది.\n\n2. వేపకు పుట్టిళ్లు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, పాకిస్తాన్‌లలో ఉన్నాయి.\nజవాబు:\nహా, భారతదేశం, మ్యాన్ మార్, పాకిస్తాన్‌లలో పుట్టిళ్లు ఉంటాయి.\n\n3. ఇతరదేశాల్లోని వేపకు ఎందుకు భిన్నమైన పేర్లు ఉన్నాయి?\nజవాబు:\nఇతరదేశాల్లోని పేర్లు అజాడ్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా) మొదలైనవి.\n\n4. ఇతరదేశాలు పేర్లకు ఎందుకు సహోద్యోగించబడతాయి?\nజవాబు:\nఇతరదేశాలు పేర్లకు సహోద్యోగించబడినట్లు వెపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము) మొదలైనవి.\n\n5. రాజస్థాన్‌లో 'భారత లైలాక్' అంటారు.\nజవాబు:\nహా, రాజస్థాన్‌లో 'భారత లైలాక్' అంటారు.\n\n6. వేప దీనిని ఎందుకు అంటారు?\nజవాబు:\nతూర్పు ఆఫ్రికాలో ఈ చెట్టును 'మ్వారోబైని' (కిస్వాహిలి) అంటారు.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.06159096956253052,
+          "semantic_similarity": 0.9384090304374695,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.0358731746673584,
+        "edit": {
+          "original_context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+          "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+          "original_answer": "Azadirachta indica",
+          "generated_text": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) అనే సంతతికి చెందిన వృక్షాలను విశ్లేషించడం\n- మహోగని కుటుంబానికి చెందిన వృక్షాలు.\n- సమ శీతోష్ణ దేశాలలో (బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, పాకిస్తాన్) వృక్షాలు అభివృద్ధి చెందుతాయి.\n- ఇతరదేశాలలో (పేర్లు) వృక్షాన్ని అజాడిరక్త, డొగొన్ యార్లొ, మార్గోస, నీబ్ వంటి పేర్లతో పిలుస్తారు.\n- దీనికి 1000 కంటే ఎక్కువ ఆరోగ్య ప్రయోజనాలు ఉన్నాయి.\n- తూర్పు ఆఫ్రికాలో దీనినే 'మ్వారోబైని' అంటారు.\n\nImplications:\n\n- భారతదేశంలో సహజంగా ఎక్కువగా ఉండే 'నలభై' (100) చెట్లలో అతిపెద్ద సంఖ్య వేప చెట్టును కలిగి ఉంది.\n- భారతదేశంలో 'నలభై' (100) చెట్లలో 70% వేప చెట్టు.\n- అజాడిరక్త (అజాదిరక్త) నుంచి వేప, మార్గోస, నీబ్ లాంటి పేర్లతో పిలుస్తారు.\n- వేప చెట్టు మొక్కను 'అజాద్' (ఉపయోగించబడుతున్నది) అంటారు.\n- వేప చెట్టులో 20% మాత్రమే పొడవైన మొక్కలు ఉంటాయి.\n- భారతదేశంలో 70% చెట్లు పెరగడంలో వేపను అత్యంత సామర్థ్యంగా ఉపయోగించాలి.",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.0358731746673584,
+          "semantic_similarity": 0.9641268253326416,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 1,
+    "language": "te",
+    "context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+    "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+    "original_answer": "27 హెక్టార్ల",
+    "best_edit": {
+      "original_context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+      "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+      "original_answer": "27 హెక్టార్ల",
+      "generated_text": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.\n\nఈ గ్రామం గంగరాజు మాడుగుల నుండి 28 కి.మీ. దూరంలో ఉంది. సమీప పట్టణంగా అనకాపల్లి ఉంది, ఇది 130 కి.మీ. దూరంలో ఉంది.\n\n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది.\n\nగ్రామ జనాభా - \nపురుషుల సంఖ్య : 37\nస్త్రీల సంఖ్య : 39\n\nగ్రామంలో కులాల - \nషెడ్యూల్డ్ కులాలు : 0\nషెడ్యూల్డ్ తెగలు : 72\n\nజనాభాలోని పురుషుల శాతము - \nమొత్తం జనాభా : 76\nఆడవారి సంఖ్య : 39\nపురుషుల సంఖ్య : 37\n\nగ్రామ జనాభాలో ఆడవారి శాతము - \nషెడ్యూల్డ్ తెగ : 72\nఆడవారి సంఖ్య : 39\n\nపిన్ కోడు - \n531029",
+      "format_type": "rewrite",
+      "language": "te",
+      "drift_score": 0.10141927003860474,
+      "semantic_similarity": 0.8985807299613953,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.",
+    "critic_score": 8.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.14613211154937744,
+        "edit": {
+          "original_context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+          "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+          "original_answer": "27 హెక్టార్ల",
+          "generated_text": "ఇచ్చిన పాఠ్యపుస్తకం ముఖ్యమైన అంశాలను గురించి వివరణాత్మకంగా పేర్కొంటోంది. \n\nఅధికారిక స్వభావం:\nఈ గ్రామం విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన పట్టణ పరిషత్ సభ్యం. \n\nజనాభా పరిమితి:\nఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది.\n\nమగ, ఆడ జనాభా:\nఈ గ్రామం 37 మంది పురుషులు ఉన్నారు.ఆడ జనాభా 39.\n\nకుల విభజన:\nఈ గ్రామంలో షెడ్యూల్డ్ కులాల సంఖ్య 0.\n\nజనాభావిశేషాలు:\nఈ గ్రామంలో బాలపురుషులు 5, ఆడవాళ్లు 9, అక్షరాస్యులు 47 మంది ఉన్నారు.\n\nచట్టబద్ధమైన వికేంద్రీకరణ:\n2011 భారత జనగణన ప్రకారం గ్రామంలో 76 జనాభా ఉంది.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.14613211154937744,
+          "semantic_similarity": 0.8538678884506226,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.",
+        "score": 8.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.10141927003860474,
+        "edit": {
+          "original_context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+          "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+          "original_answer": "27 హెక్టార్ల",
+          "generated_text": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.\n\nఈ గ్రామం గంగరాజు మాడుగుల నుండి 28 కి.మీ. దూరంలో ఉంది. సమీప పట్టణంగా అనకాపల్లి ఉంది, ఇది 130 కి.మీ. దూరంలో ఉంది.\n\n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది.\n\nగ్రామ జనాభా - \nపురుషుల సంఖ్య : 37\nస్త్రీల సంఖ్య : 39\n\nగ్రామంలో కులాల - \nషెడ్యూల్డ్ కులాలు : 0\nషెడ్యూల్డ్ తెగలు : 72\n\nజనాభాలోని పురుషుల శాతము - \nమొత్తం జనాభా : 76\nఆడవారి సంఖ్య : 39\nపురుషుల సంఖ్య : 37\n\nగ్రామ జనాభాలో ఆడవారి శాతము - \nషెడ్యూల్డ్ తెగ : 72\nఆడవారి సంఖ్య : 39\n\nపిన్ కోడు - \n531029",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.10141927003860474,
+          "semantic_similarity": 0.8985807299613953,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.41564494371414185,
+        "edit": {
+          "original_context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+          "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+          "original_answer": "27 హెక్టార్ల",
+          "generated_text": "గ్రామం యొక్క భౌగోళిక స్థానం ఏది?\n\nజవాబు:\nరెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన ఒక గ్రామం.\n\nQuestion 2: \nగంగరాజు మాడుగుల నుండి దూరం ఏమిటి?\n\nజవాబు:\nగంగరాజు మాడుగుల నుండి 28 కి. మీ.\n\nQuestion 3: \nఅనకాపల్లి నుండి దూరం ఏమిటి?\n\nజవాబు:\nఅనకాపల్లి నుండి 130 కి. మీ.\n\nQuestion 4: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 19 ఇళ్లు ఉన్నాయి. \n\nజవాబు:\nప్రశ్నకు సమాధానం అయితే, \n19 ఈ గ్రామంలోని ఇళ్లవారి సంఖ్య.\n\nQuestion 5: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 76 మంది జనాభాతో ఉంది. \n\nజవాబు:\nఇళ్లు\n\nQuestion 6: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 27 హెక్టార్లలో విస్తరించి ఉంది.\n\nజవాబు:\nఇళ్లు\n\nQuestion 7: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 37 మంది పురుషులు ఉన్నారు. \n\nజవాబు:\nఆడవారి సంఖ్య 39.\n\nQuestion 8: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 72 మంది షెడ్యూల్డ్ తెగల నుంచి వస్తారు. \n\nజవాబు:\nషెడ్యూల్డ్ కులాల సంఖ్య 0.\n\nQuestion 9: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 584804 యొక్క జనగణన లొకేషన్ కోడ్ ఉంది.\n\nజవాబు:\nపిన్ కోడ్ 531029.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.41564494371414185,
+          "semantic_similarity": 0.5843550562858582,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is the most useful, correct, and fluent. It accurately rewrites key information from the context in a clear and concise manner, without introducing any errors or fabrications. The other edits contain significant factual errors, misinterpretations, or nonsensical statements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 8,\n    \"reason\": \"Edit 2 is the most useful and correct. It provides a well-structured and accurate rewrite of the key demographic and geographical information from the context. While the 'percentage' sections are a bit redundant as they just list the numbers again, they don't introduce errors. The other edits contain significant factual errors, fabricated information, or poorly formulated questions/answers.\"\n  }\n]\n```",
+        "drift_score": 0.17554610967636108,
+        "edit": {
+          "original_context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+          "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+          "original_answer": "27 హెక్టార్ల",
+          "generated_text": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లాకు చెందిన ఒక గ్రామం. ఈ గ్రామానికి 2011 జనగణన ప్రకారం విస్తీర్ణం 27 హెక్టార్లు. 19 ఇళ్లు, 76 మంది ప్రజలు నివసిస్తున్నారు.\n\nగ్రామంలో 37 మంది పురుషులు, 39 మంది స్త్రీలు ఉన్నారు. గ్రామంలో కుల వైవిధ్యం లేదు. 72 మంది ప్రజలు షెడ్యూల్డ్ తెగ సంఖ్య.\n\nఈ గ్రామానికి 584804 జనగణన లొకేషన్ కోడు, 531029 పిన్ కోడు ఉంది.\n\nఈ గ్రామం విశాఖపట్నం జిల్లాలో ఒక చిన్న గ్రామం. ఇది తెలంగాణ, ఆంధ్రప్రదేశ్ ల గురించి వివరాలు కాలేదు.\n\nఅనకాపల్లి, గంగరాజు మాడుగుల మధ్య దూరం 130 కి.మీ.\n\nఅనకాపల్లి, గంగరాజు మాడుగుల మధ్య పట్టణ దూరం 28 కి.మీ.\n\nఈ గ్రామానికి సమీప ఉత్తర, దక్షిణ పట్టణాలు 130, 28 కి.మీ.\n\nగ్రామం యొక్క జనగణన సమాచారంలో దిగువ చెప్పబడిన అంశాలే ఉన్నాయి.\n\nసమగ్ర భారతదేశంలోని ప్రతి జిల్లా, పట్టణాలకు 1:10,000 భాగస్వామ్య నిష్పత్తిని బట్టి ఈ గ్రామం చక్కగా ఉంది.\n\nవిశాఖపట్నం జిల్లాలోని ఈ గ్రామం, 2011 ఆసక్తి బహుమతుల ప్రకారం ఉత్తమ గ్రామం, అభ్యుదయమైన పట్టణం, ఆధునిక వసతి గ్రామం.",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.17554610967636108,
+          "semantic_similarity": 0.8244538903236389,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 2,
+    "language": "te",
+    "context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+    "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+    "original_answer": "12",
+    "best_edit": {
+      "original_context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+      "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+      "original_answer": "12",
+      "generated_text": "దవ్తాషెన్, ఆర్మేనియా దేశంలోని రాజధాని యెరెవాన్ ప్రాంతంలోని 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నది ప్రక్కనే ఉండే దవ్తషెన్‌కు సరిహద్దులు అజప్న్యాక్, అరబ్కిర్ (దక్షిణం) మరియు కొటాయ్క్ రాష్ట్రం (ఉత్తరం).\n\nదవ్తాషెన్, ఆర్మేనియా దేశ ప్రధాన రాజధాని యెరెవాన్ లో ఉంటుంది. 12 జిల్లాల్లో ఒకటి, ఇది హ్రజ్డాన్ నదికి సమీపంలో ఉంది.  దక్షిణంగా, అజప్న్యాక్ మరియు అరబ్‌కిర్ ఉన్నాయి. ఉత్తరంగా, దవ్తాషెన్ కొటాయ్‌క్ రాష్ట్రం.\n\nదవ్తాషెన్, ఆర్మేనియా దేశంలోని 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నది ప్రక్కనే ఉంచబడిన ఈ జిల్లా, యెరెవాన్ ప్రాంతంలో కీలకమైన భూభాగం. 12 జిల్లాలలో ఒకటి, దవ్తాషెన్ హ్రజ్డాన్ నది యొక్క ప్రక్కనే ఉంది. సమీప జిల్లాలు, అజప్న్యాక్ (దక్షిణం) మరియు కొటాయ్‌క్ రాష్ట్రం (ఉత్తరం), దవ్తషెన్ యొక్క సరిహద్దులు.",
+      "format_type": "rewrite",
+      "language": "te",
+      "drift_score": 0.0538976788520813,
+      "semantic_similarity": 0.9461023211479187,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.28248119354248047,
+        "edit": {
+          "original_context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+          "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+          "original_answer": "12",
+          "generated_text": "దవ్తషెన్ జిల్లాలో ఉన్న రాజధాని యెరెవాన్ దేశం యొక్క అభివృద్ధి, ఆర్థిక వృద్ధి నగర ప్రాంతంలో ఎక్కువ చైతన్యం, ఆసక్తి కలిగిస్తుంది.\n\n1. ప్రభుత్వానికి హోటళ్లు, రెస్టారెంట్‌ల పట్ల మధ్యవర్తి బాహ్య చూపు ఉన్నది.\n2. 2018 జనగణమన ఎన్నికల తరువాత యెరెవాన్ పౌరులలో భాగస్వామ్యం, శాంతియుత అభివృద్ధి ప్రజలకు ముఖ్యమైన ఆశ.\n\n3. 2019 సంవత్సరంలో అనేక పౌర ఉద్యమాలు, విధాన మార్పుల కోసం జనాభాతీత ఉద్యమాలు, గణవిధానాలు ప్రకటించబడ్డాయి.\n\n4. 2018 సంవత్సరంలో అజప్న్యాక్, యెరెవాన్ మధ్య ఉద్యమాలతో గణవిధానాలు, పౌర హక్కుల సందర్భంగా జనాభాతీత ఉద్యమాలు, విధాన మార్పుల కోసం పౌర ఉద్యమాలు ప్రకటించబడ్డాయి.\n\n5. 2019 సంవత్సరంలో, జనగణమన ఎన్నికల ప్రభావంతో యెరెవాన్‌లో మొదటి సారాంశ ఎన్నిక జరుగుతుంది.\n\n6. 2020 సంవత్సరంలో, యెరెవాన్‌కు మొదటి సారాంశ ఎన్నిక జరగలేదు.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.28248119354248047,
+          "semantic_similarity": 0.7175188064575195,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.0538976788520813,
+        "edit": {
+          "original_context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+          "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+          "original_answer": "12",
+          "generated_text": "దవ్తాషెన్, ఆర్మేనియా దేశంలోని రాజధాని యెరెవాన్ ప్రాంతంలోని 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నది ప్రక్కనే ఉండే దవ్తషెన్‌కు సరిహద్దులు అజప్న్యాక్, అరబ్కిర్ (దక్షిణం) మరియు కొటాయ్క్ రాష్ట్రం (ఉత్తరం).\n\nదవ్తాషెన్, ఆర్మేనియా దేశ ప్రధాన రాజధాని యెరెవాన్ లో ఉంటుంది. 12 జిల్లాల్లో ఒకటి, ఇది హ్రజ్డాన్ నదికి సమీపంలో ఉంది.  దక్షిణంగా, అజప్న్యాక్ మరియు అరబ్‌కిర్ ఉన్నాయి. ఉత్తరంగా, దవ్తాషెన్ కొటాయ్‌క్ రాష్ట్రం.\n\nదవ్తాషెన్, ఆర్మేనియా దేశంలోని 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నది ప్రక్కనే ఉంచబడిన ఈ జిల్లా, యెరెవాన్ ప్రాంతంలో కీలకమైన భూభాగం. 12 జిల్లాలలో ఒకటి, దవ్తాషెన్ హ్రజ్డాన్ నది యొక్క ప్రక్కనే ఉంది. సమీప జిల్లాలు, అజప్న్యాక్ (దక్షిణం) మరియు కొటాయ్‌క్ రాష్ట్రం (ఉత్తరం), దవ్తషెన్ యొక్క సరిహద్దులు.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.0538976788520813,
+          "semantic_similarity": 0.9461023211479187,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.09971600770950317,
+        "edit": {
+          "original_context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+          "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+          "original_answer": "12",
+          "generated_text": "దవ్తషెన్ ఎలా ?\nఅర్మేనియా దేశ రాజధాని యెరెవాన్ లో ఉంటుంది.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.09971600770950317,
+          "semantic_similarity": 0.9002839922904968,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.06168562173843384,
+        "edit": {
+          "original_context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+          "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+          "original_answer": "12",
+          "generated_text": "దవ్తషెన్ యొక్క స్థానం మరియు భౌగోళిక ప్రాంతం ఆధారంగా, దవ్తషెన్ 12 జిల్లాలలో ఒకటి అయిన ఆర్మేనియా దేశ రాజధానిగా ఉండే యెరెవాన్ ప్రాంతం సమీక్షించాలి. \n\nదక్షిణంలో, అజప్న్యాక్ మరియు అరబ్కిర్ దవ్తషెన్‌కు సరిహద్దులు. \nఉత్తరాన, కొటాయ్క్ రాష్ట్రం దవ్తషెన్‌కు సరిహద్దు.\n\nఇప్పుడు, దవ్తషెన్‌లోని ఈ భౌగోళిక స్థానం అయిన జిల్లాపు విషయం దశతో ముందుకు రావడానికి, అటువంటి ప్రాంతంలో జిల్లా స్థాయిని ఎలా ఏర్పరుచుకొనేవారు?\n\nఅంతేగా, దవ్తషెన్‌లో 12 జిల్లాలున్నాయి. ఎందుకంటే, అంతర్గత భౌగోళిక వివరాలను ఆధారంగా ఒక దేశంలో 12 జిల్లాలు ఉన్నట్లైతే, అది గణనీయమైన భౌగోళిక సారథ్యం పొందుతుంది. \n\nఅందువల్ల, 12 జిల్లాల ఏర్పాటు కారణమైన భౌగోళిక సారథ్యం అధికారం ఆ జిల్లా పరిధిని గణనీయమైన భౌగోళిక విడిపాటు స్థాయిలకు దారితీసింది.\n\nఆ రకమైన భౌగోళిక విడిపాటు ఏర్పాటులో, ఒక జిల్లా స్థాయిని గణనీయమైన భౌగోళిక విశ్లేషణం ద్వారా ఏర్పరుచుకొనేటట్లు ఉంటుంది.\n\nఅయితే, ఆధునిక సమాజాలలో, ప్రభుత్వ ఏర్పాట్లు ఈ భౌగోళిక సందర్భంనే ఆధారంగా ఉండవు. \n\nఅప్పటి తరువాత, జిల్లా స్థాయిని ఏర్పరుచుకొనేటట్లు, దవ్తషెన్‌లో ఉండే 12 జిల్లాలన్నింటి భౌగోళిక సమీకరణాలను ఏర్పరుచుకొని, అంతర్గత భౌగోళిక విశ్లేషణాలపై ఆధారపడవచ్చు. \n\nఅయితే, దవ్తషెన్‌లో 12 జిల్లాలు ఉండే ప్రమాణాన్ని అధిగమించినట్లై, సెల్యులార్ పరిధుల విషయం అతిగా భౌగోళిక సమీకరణాన్ని కొలవడానికి ఉంటుంది. \n\nఅయితే, మార్పు సాధించబడుతుందని గమనించవచ్చు.",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.06168562173843384,
+          "semantic_similarity": 0.9383143782615662,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 3,
+    "language": "te",
+    "context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+    "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+    "original_answer": "694",
+    "best_edit": {
+      "original_context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+      "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+      "original_answer": "694",
+      "generated_text": "మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరంలోని ఈ గ్రామానికి సమీప పట్టణం ఆదోని 38 కి. మీ. దూరంలో ఉంది.\n\n2011 భారత జనగణన ప్రకారం, ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో పురుషుల సంఖ్య 694, మహిళల సంఖ్య 655. గ్రామంలో షెడ్యూల్డు కులాల సంఖ్య 140, షెడ్యూల్డు తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759.\n\nపిన్ కోడ్: 518313.",
+      "format_type": "rewrite",
+      "language": "te",
+      "drift_score": 0.029425740242004395,
+      "semantic_similarity": 0.9705742597579956,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.14523935317993164,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+          "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+          "original_answer": "694",
+          "generated_text": "ఈ గ్రామం యొక్క భౌతిక ప్రాంతంలోని సమాచారాన్ని విశ్లేషించడం, దానిపై అధికారాలు మరియు బాధ్యతలకు సంబంధించిన అనేక ప్రభావాలు ఉన్నాయి.\n\n1. గ్రామంలో జనాభా పెరుగుదల: 1349 జనాభా ఉన్న ఈ గ్రామం, విస్తీర్ణంపై ఆధారపడి జనాభాలో పెరుగుదలకు సంబంధించి అనేక ప్రభావాలను ఎదుర్కొంటుంది.\n\n2. గృహాల సమాచారం: 235 ఇళ్లతో, పెద్ద జనాభా ఉన్న ఈ గ్రామంలో సిగ్నిఫికంట్ ఆర్థిక ప్రభావాలు ఉన్నాయి.\n\n3. షెడ్యూల్డ్ జనాభా: 140 మంది షెడ్యూల్డ్ కులాలతో, ఈ గ్రామంలో సామాజిక ప్రభావాన్ని చూపిస్తుంది.\n\n4. గ్రామ అభివృద్ధి: 2011 జనాభా గణన ప్రకారం, ఈ గ్రామం యొక్క ఆర్థిక వృద్ధిని అభివృద్ధి పథకాలు, ప్రభుత్వ ఆస్తులు, గ్రామ అభివృద్ధి బ్యాంకులు ప్రభావితం చేస్తాయి.\n\n5. గ్రామ ఆరోగ్యం: జనాభా, హాస్పిటల్స్, డాక్టర్లు, ఆరోగ్య కేంద్రాలు మొదలైన సౌకర్యాలపై వీటితో సంబంధం ఉంటుంది.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.14523935317993164,
+          "semantic_similarity": 0.8547606468200684,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.029425740242004395,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+          "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+          "original_answer": "694",
+          "generated_text": "మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరంలోని ఈ గ్రామానికి సమీప పట్టణం ఆదోని 38 కి. మీ. దూరంలో ఉంది.\n\n2011 భారత జనగణన ప్రకారం, ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో పురుషుల సంఖ్య 694, మహిళల సంఖ్య 655. గ్రామంలో షెడ్యూల్డు కులాల సంఖ్య 140, షెడ్యూల్డు తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759.\n\nపిన్ కోడ్: 518313.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.029425740242004395,
+          "semantic_similarity": 0.9705742597579956,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.27466249465942383,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+          "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+          "original_answer": "694",
+          "generated_text": "ఈ గ్రామం కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరంలో ఉందా?\n\nజవాబు:\nహాః, ఈ గ్రామం కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరంలో ఉంది.\n\nప్రశ్న 2: \nఈ గ్రామం సమీప పట్టణమైన ఆదోని నుండి ఎంత కి. మీ. దూరంలో ఉంది?\n\nజవాబు:\nహా, ఈ గ్రామం సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలో ఉంది.\n\nప్రశ్న 3: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 235 ఇళ్లతో, ఎంత హెక్టార్లలో విస్తరించి ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 235 ఇళ్లతో, 839 హెక్టార్లలో విస్తరించి ఉంది.\n\nప్రశ్న 4: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం ఎన్ని జనాభాతో ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 1349 మంది జనాభాతో ఉంది.\n\nప్రశ్న 5: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం ఎంత భౌగోళిక విస్తీర్ణంలో ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 839 హెక్టార్లలో విస్తరించి ఉంది.\n\nప్రశ్న 6: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో ఎన్ని మగవారితో ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 694 మంది మగవారు ఉన్నారు.\n\nప్రశ్న 7: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో ఎన్ని ఆడవారితో ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 655 ఆడవారు ఉన్నారు.\n\nప్రశ్న 8: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో ఎన్ని షెడ్యూల్డ్ కులాలతో ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 140 షెడ్యూల్డ్ కులాలు ఉన్నాయి.\n\nప్రశ్న 9: \n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో ఎన్ని షెడ్యూల్డ్ తెగలతో ఉంది?\n\nజవాబు:\nహా, 2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామంలో 1 షెడ్యూల్డ్ తెగ.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.27466249465942383,
+          "semantic_similarity": 0.7253375053405762,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 provides multiple fluent and accurate rewrites of the original context, making the information clearer and more accessible. The other edits are either too speculative (implications), too limited (self_qa), or too convoluted/interpretive (chain_of_thought).\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 offers a comprehensive, fluent, and accurate rewrite of the entire context. It rephrases all the key information clearly. Edit 3 (self_qa) is also good for fact extraction, but the answers are somewhat repetitive in structure. Edit 1 (implications) is speculative, and Edit 4 (chain_of_thought) is generic and not a true chain of thought.\"\n  }\n]\n```",
+        "drift_score": 0.04635053873062134,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+          "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+          "original_answer": "694",
+          "generated_text": "విశ్లేషణ:\n\n1. గ్రామం యొక్క సమీప పట్టణం ఆదోని.\n2. గ్రామం కోసిగి నుండి 8 కి.మీ దూరంలో ఉంది.\n3. గ్రామంలో 235 ఇళ్లు, 1349 జనాభాతో 839 హెక్టార్లు ఉన్నాయి.\n4. గ్రామంలో మగ పురుషుల సంఖ్య 694, ఆడ మహిళల సంఖ్య 655.\n5. గ్రామంలో షెడ్యూల్డ్ కులాల సంఖ్య 140, షెడ్యూల్డ్ తెగల సంఖ్య 1.\n\nనిర్ధారణ:\n\nఈ పేజీకి వెళ్లే మాటలు:\nగ్రామం, సమీప పట్టణం, జనాభా, ఆడ మహిళల సంఖ్య, షెడ్యూల్డ్ కులాల, తెగల.\nపరిణామాలు: \n\n1. ఈ పేజీ విషయంలో సమీప పట్టణం గురించి తెలుసుకొనే ప్రయోజనం.\n2. మేము ఈ గ్రామంలో ఉన్న షెడ్యూల్డ్ కుల, తెగల సంఖ్యపై అవగాహన పొందవచ్చు.\n3. మేము జనాభాలో ఆడ మహిళల సంఖ్య, పురుషుల సంఖ్యను కనుగొనవచ్చు.\n4. ఈ పేజీని విశ్లేషించడం ద్వారా, గ్రామంలో ఉన్న సమాచారాన్ని తెలుసుకొనవచ్చు.\n5. ఈ పేజీని అధ్యయనం చేసిన తర్వాత, ఈ గ్రామంలో ఉన్న జనాభాపై అవగాహన పొందవచ్చు.",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.04635053873062134,
+          "semantic_similarity": 0.9536494612693787,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 4,
+    "language": "te",
+    "context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+    "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+    "original_answer": "533445",
+    "best_edit": {
+      "original_context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+      "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+      "original_answer": "533445",
+      "generated_text": "గ్రామం పిఠాపురం నుండి ఎన్ని కి. మీ. దూరంలో ఉంది?\nజవాబు:\nఇది పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది.\n\nప్రశ్న 2:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం ఎంత ఇళ్లతో ఉంది?\nజవాబు:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో ఉంది.\n\nప్రశ్న 3:\nఈ గ్రామం ఎంత జనాభాతో ఉంది?\nజవాబు:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 3566 జనాభాతో ఉంది.\n\nప్రశ్న 4:\nగ్రామంలో ఎంత హెక్టార్లు ఉన్నాయి?\nజవాబు:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 769 హెక్టార్లతో ఉంది.\n\nప్రశ్న 5:\nగ్రామంలో ఎంత మగవారు, ఆడవారు ఉన్నారు?\nజవాబు:\nగ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768.\n\nప్రశ్న 6:\nగ్రామంలో ఎంత షెడ్యూల్డ్ కులాలు ఉన్నాయి?\nజవాబు:\nగ్రామంలో 649 షెడ్యూల్డ్ కులాలు ఉన్నాయి.\n\nప్రశ్న 7:\nగ్రామంలో ఎంత షెడ్యూల్డ్ తెగలు ఉన్నాయి?\nజవాబు:\nగ్రామంలో 35 షెడ్యూల్డ్ తెగలు ఉన్నాయి.\n\nప్రశ్న 8:\nగ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏది?\nజవాబు:\nగ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458.\n\nప్రశ్న 9:\nగ్రామం యొక్క పిన్ కోడ్ ఏది?\nజవాబు:\nగ్రామం యొక్క పిన్ కోడ్ 533445.",
+      "format_type": "self_qa",
+      "language": "te",
+      "drift_score": 0.41062599420547485,
+      "semantic_similarity": 0.5893740057945251,
+      "approach": "multi_format",
+      "edit_number": 3
+    },
+    "best_edit_number": 3,
+    "critic_approved": true,
+    "critic_reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.11603957414627075,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+          "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+          "original_answer": "533445",
+          "generated_text": "ఇచ్చిన పాఠ్యభాగం ఆధారంగా కలిగిన అనుమానాలు, అంచనాలు:\n\n1. పిఠాపురం జిల్లాకు సమీపంలో ఉన్న గ్రామం.\n2. గ్రామ విస్తీర్ణం 769 హెక్టార్లు, ఇది చాలా ఎక్కువ.\n3. ప్రజల సంఖ్య 3566 జనాభా, గ్రామంలో ఒక్కొక్కరు ఆవరణ నిర్వహణ అవసరం.\n4. గ్రామంలో షెడ్యూల్డ్ తెగలు, కులాలు ఉన్నాయి. \n5. ప్రజల సంఖ్యలో 1798 మంది గడ్డకట్టబడిన వారు, ఆ 1768 మంది ఆడవాళ్లు. \n6. ప్రజల సంఖ్యకు చాలా ఎక్కువ విస్తీర్ణం ఉన్నది.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.11603957414627075,
+          "semantic_similarity": 0.8839604258537292,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.0145530104637146,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+          "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+          "original_answer": "533445",
+          "generated_text": "పిఠాపురం మండల కేంద్రం నుండి 5 కి. మీ. దూరంలో ఉన్న ఈ గ్రామం.\n\n2011 భారత జనగణన ప్రకారం, ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. \n\nగ్రామ జనాభాలో పురుషులు 1798, స్త్రీలు 1768. షెడ్యూల్డ్ కులాల జనాభా 649, షెడ్యూల్డ్ తెగల సంఖ్య 35.\n\nఈ గ్రామం జనగణన లొకేషన్ కోడ్ వస్తుంది. పిన్ కోడ్ 533445.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.0145530104637146,
+          "semantic_similarity": 0.9854469895362854,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": true,
+        "reason": "Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.41062599420547485,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+          "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+          "original_answer": "533445",
+          "generated_text": "గ్రామం పిఠాపురం నుండి ఎన్ని కి. మీ. దూరంలో ఉంది?\nజవాబు:\nఇది పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది.\n\nప్రశ్న 2:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం ఎంత ఇళ్లతో ఉంది?\nజవాబు:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో ఉంది.\n\nప్రశ్న 3:\nఈ గ్రామం ఎంత జనాభాతో ఉంది?\nజవాబు:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 3566 జనాభాతో ఉంది.\n\nప్రశ్న 4:\nగ్రామంలో ఎంత హెక్టార్లు ఉన్నాయి?\nజవాబు:\n2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 769 హెక్టార్లతో ఉంది.\n\nప్రశ్న 5:\nగ్రామంలో ఎంత మగవారు, ఆడవారు ఉన్నారు?\nజవాబు:\nగ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768.\n\nప్రశ్న 6:\nగ్రామంలో ఎంత షెడ్యూల్డ్ కులాలు ఉన్నాయి?\nజవాబు:\nగ్రామంలో 649 షెడ్యూల్డ్ కులాలు ఉన్నాయి.\n\nప్రశ్న 7:\nగ్రామంలో ఎంత షెడ్యూల్డ్ తెగలు ఉన్నాయి?\nజవాబు:\nగ్రామంలో 35 షెడ్యూల్డ్ తెగలు ఉన్నాయి.\n\nప్రశ్న 8:\nగ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏది?\nజవాబు:\nగ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458.\n\nప్రశ్న 9:\nగ్రామం యొక్క పిన్ కోడ్ ఏది?\nజవాబు:\nగ్రామం యొక్క పిన్ కోడ్ 533445.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.41062599420547485,
+          "semantic_similarity": 0.5893740057945251,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.056604623794555664,
+        "edit": {
+          "original_context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+          "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+          "original_answer": "533445",
+          "generated_text": "విషయం: గ్రామ సమాచారం\n\n1. పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉన్న గ్రామం\n2. 2011 జనగణన ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో ఉంది\n3. మొత్తం విస్తీర్ణం 769 హెక్టార్లు\n4. పురుషుల సంఖ్య 1798, మహిళల సంఖ్య 1768\n5. షెడ్యూల్డ్ కులాల సంఖ్య 649, షెడ్యూల్డ్ తెగల సంఖ్య 35\n6. జనగణన లొకేషన్ కోడ్ 587458, పిన్ కోడ్ 533445\n\nImplications:\n\n1. గ్రామం యొక్క జనాభా 3566\n2. మొత్తం ఇళ్ల సంఖ్య 1034\n3. గ్రామంలో 769 హెక్టార్లు విస్తరించి ఉన్నాయి\n4. గ్రామంలో 1798 మంది పురుషులు, 1768 మహిళలు ఉన్నారు\n5. గ్రామంలో 649 మంది షెడ్యూల్డ్ కులాలు, 35 మంది షెడ్యూల్డ్ తెగలు ఉన్నారు",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.056604623794555664,
+          "semantic_similarity": 0.9433953762054443,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 5,
+    "language": "te",
+    "context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+    "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+    "original_answer": "3363",
+    "best_edit": {
+      "original_context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+      "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+      "original_answer": "3363",
+      "generated_text": "గ్రామం యొక్క సమీప పట్టణం ఏది?\nజవాబు:\nగ్రామం సమీప పట్టణం బాపట్ల.\n\nచివరి సమాధానం: బాపట్ల.",
+      "format_type": "self_qa",
+      "language": "te",
+      "drift_score": 0.44305419921875,
+      "semantic_similarity": 0.55694580078125,
+      "approach": "multi_format",
+      "edit_number": 3
+    },
+    "best_edit_number": 3,
+    "critic_approved": true,
+    "critic_reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.",
+    "critic_score": 8.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.4738513231277466,
+        "edit": {
+          "original_context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+          "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+          "original_answer": "3363",
+          "generated_text": "పేరు, భౌగోళిక స్థానం, మండల కేంద్రం, దూరం వంటి అంశాల ప్రకారం గ్రామం యొక్క స్థానం, విస్తీర్ణం, జనాభా విధానం, మగ, ఆడవారి నిష్పత్తి, కులం, తెగల సంఖ్య, జనాభా గణన విధానం, పిన్‌కోడు, జిల్లా స్టాంపుడేకోడ్ వంటి అంశాలతో మరియు గ్రామం యొక్క భవిష్యత్తు, సహజ పరిశోధన అవసరాలతో సహా కొమ్మూరు గ్రామంలోని ఈ పేర్లు ముఖ్యమైన ఆధారాలు.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.4738513231277466,
+          "semantic_similarity": 0.5261486768722534,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.03485369682312012,
+        "edit": {
+          "original_context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+          "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+          "original_answer": "3363",
+          "generated_text": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలంలోని గ్రామం\n\nఈ గ్రామం పట్టణం, కాకుమాను నుండి 6 కి.మీ. దూరంలో ఉంది. సమీప పట్టణం బాపట్ల 27 కి.మీ. దూరంలో ఉంది.\n\n2011 భారత జనగణన గణాంకాల ప్రకారం, ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో, 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో 3231 మంది పురుషులు, 3363 స్త్రీలు ఉన్నారు.\n\n1591 మంది గృహస్థ కుటుంబాలు, 102 ప్రజలు షెడ్యూల్డ్ తెగలు. ఈ గ్రామం చిన్నపాటి జనగణన కోడ్ 590351, పిన్ కోడ్ 522112. ఈ గ్రామంలో S.T.D సంఖ్య 0863 ఉంది.\n\nఇది గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామమే",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.03485369682312012,
+          "semantic_similarity": 0.9651463031768799,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": true,
+        "reason": "Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.",
+        "score": 8.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.44305419921875,
+        "edit": {
+          "original_context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+          "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+          "original_answer": "3363",
+          "generated_text": "గ్రామం యొక్క సమీప పట్టణం ఏది?\nజవాబు:\nగ్రామం సమీప పట్టణం బాపట్ల.\n\nచివరి సమాధానం: బాపట్ల.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.44305419921875,
+          "semantic_similarity": 0.55694580078125,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 provides a comprehensive and accurate self-QA, extracting almost all factual information from the context into a clear question-answer format. This is highly useful for understanding and verifying the content. Edit 1 contains significant errors and subjective judgments. Edit 2 is a good rewrite but less comprehensive in demonstrating understanding than a full self-QA. Edit 4's 'implications' are mostly redundant restatements.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 8,\n    \"reason\": \"Edit 3 is the only option that is entirely correct, fluent, and directly useful without any errors or irrelevant additions. While it only extracts one fact, it does so perfectly. Edit 1 is vague and contains minor inaccuracies. Edit 2 has factual errors (e.g., 'గృహస్థ కుటుంబాలు') and subjective additions. Edit 4 starts well but then asks questions that cannot be answered by the provided context, making it less useful.\"\n  }\n]\n```",
+        "drift_score": 0.09266769886016846,
+        "edit": {
+          "original_context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+          "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+          "original_answer": "3363",
+          "generated_text": "ప్రారంభమైన విషయం గురించి తనిఖీ చేద్దాం. కొమ్మూరు అనేది గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామం. ఇది కాకుమాను పట్టణం నుండి 6 కి.మీ. దూరంలో ఉంది.\n\nఈ గ్రామం యొక్క జనాభా 6594, ఇళ్ళు 1862, హెక్టార్లు 2498. మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363.\n\nషెడ్యూల్డ్ కులాల సంఖయ 1591, షెడ్యూల్డ్ తెగల సంఖ్య 102.\n\nఇప్పుడు ఈ దృష్టాంతం నుంచి ఎక్కువ అర్థం చేసుకోవాలంటే, ఈ గ్రామంలోని ప్రజల జీవన పరిస్థితులు, ఆర్ధిక పరిస్థితులు, శాంతి-అశాంతి విషయాలు మొదలైన విషయాలు మనకు తెలుసు.\n\nఅయితే, గ్రామంలోని వివిధ ప్రజల మధ్య ఎలాంటి సంబంధాలు ఉన్నాయి? గ్రామంలోని ప్రజల ఆర్థిక స్థితి ఎలా? అంతేగాక, ఈ గ్రామంలో పెద్ద భౌతిక సమస్యలు ఎన్నడూ ఉంటాయి? ఈ గ్రామంలోని ప్రజలు ఎలా సంఘంలో భాగస్వామ్యం కలిగి ఉన్నారు?\n\nఇప్పుడు, ఈ దృష్టాంతం నుంచి కొమ్మూరు గ్రామంలోని వివిధ అంశాల యొక్క పరిణామాలను చెప్పడానికి వీలైంది.\n\nఇమిడి:\n\nగ్రామంలోని ప్రజల ఆర్థిక స్థితి\nగ్రామంలోని ప్రజల సామాజిక భావజాలాలు\nగ్రామంలోని ప్రజల శాంతి-అశాంతి విషయాలు",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.09266769886016846,
+          "semantic_similarity": 0.9073323011398315,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 6,
+    "language": "te",
+    "context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+    "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+    "original_answer": "1935",
+    "best_edit": {
+      "original_context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+      "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+      "original_answer": "1935",
+      "generated_text": "1. క్విల్సుశీలను ఎన్నుకోబడిన సందర్భమేమిటి?\n\nజవాబు:\nసుశీల 1950లో ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో ఎన్నుకున్నారు.\n\n2. 1935 సుశీల జన్మదినం, ఆమె తండ్రి పి.ముకుందరావు ఎవరైటే?\n\nజవాబు:\n1935 సుశీల జన్మదినం, ఆమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు.\n\n3. సుశీల తల్లి ఎవరైటే?\n\nజవాబు:\nసుశీల తల్లి శేషావతారం.\n\n4. ఆమె ఏ.ఎమ్.రాజతో కలిసి ఎదుర్కొన్న చిన్నపాట, 1950లో ఉంది.\n\nజవాబు:\nఆమె ఏ.ఎమ్.రాజతో కలిసి 'పెట్రా తయ్' అనే చిన్నపాటను 1950లో ఉంది.\n\n5. ఈ సినిమా కూడా ఎవరే?\n\nజవాబు:\n'పెట్రా తయ్' 1950లో కన్నతల్లి అనే సినిమా.\n\n6. ఎవరు ఆమె పాటలను ఆదికవిత చేశారు?\n\nజవాబు:\nసుశీల పాటలను ఎవరూ ఆదికవిత చేయలేదు.",
+      "format_type": "self_qa",
+      "language": "te",
+      "drift_score": 0.18342876434326172,
+      "semantic_similarity": 0.8165712356567383,
+      "approach": "multi_format",
+      "edit_number": 3
+    },
+    "best_edit_number": 3,
+    "critic_approved": true,
+    "critic_reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.1881313920021057,
+        "edit": {
+          "original_context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+          "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+          "original_answer": "1935",
+          "generated_text": "అందించిన ప్రకటనలో ఈ క్రింది పరిణామాలు తెలుస్తున్నాయి:\n\n1. సుశీల అభిమానం గల పేరిట, వారసత్వానికి ప్రాధాన్యత ఇవ్వబడుతోంది.\n2. సంగీత దర్శకులు, పాటలు, మొహన పాటలపై విజయాలు సాధించడానికి అన్ని మార్గాల్లో ప్రయత్నిస్తుంటారు.\n3. 1950 ల్లో సమకాలీకంగా పాడబడిన ఆ పాట \"ఎదుకు\" అంటే 60 ఏళ్ల వయస్సులో మాత్రమే ప్రపంచ గుర్తింపు పొందిన అభినేతలైన బాలీవుడ్, హింది సినిమాలలో ఎదురుతప్పడటానికి వచ్చింది.\n4. ఒకసారి ప్రజలలో గుర్తింపు పొందడానికి వచ్చిన సంగీత కళాకారులు, అభినేతలపై ఆ గుర్తింపు దాచటం ఎంత ముఖ్యం ?\n5. సుశీల 1994లో హనుమాన్ (విజయదశమి) పాటతో భారతదేశం కొల్లడుగు ఎన్నికకు అధ్యక్షుడిగా పోటీచేసి, విజయం సాధించారు.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.1881313920021057,
+          "semantic_similarity": 0.8118686079978943,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.04977995157241821,
+        "edit": {
+          "original_context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+          "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+          "original_answer": "1935",
+          "generated_text": "విజయనగరం, 1935: అక్కడ సుశీల తండ్రి పి.ముకుందరావు ఒక ప్రముఖ న్యాయవాది. తల్లి శేషావతారం.\n\nసుశీలకు సంగీతభిమానం ఉంది. 1950లో, ఆయనతో పరిచయమైన సంగీత దర్శకుడు నాగేశ్వరరావు, ఆలిండియా రేడియోలో జరిగిన పోటీలో సుశీలను ఎంచుకున్నాడు. ఆమె, ఏ.ఎమ్.రాజతో కలిసి \"పెట్ర తాయ్\" అనే సినిమాలో ఎదురవేశాడు. ఆ సినిమాలో, \"ఎదుకు అలత్తాయ్\" అనే పాటను సుశీల పాడింది.\n\nఆమె కన్నతల్లి అయిన \"ఎదుకు అలత్తాయ్\" పాటను 1950లో వెల్లడిచేసింది.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.04977995157241821,
+          "semantic_similarity": 0.9502200484275818,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": true,
+        "reason": "Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.18342876434326172,
+        "edit": {
+          "original_context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+          "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+          "original_answer": "1935",
+          "generated_text": "1. క్విల్సుశీలను ఎన్నుకోబడిన సందర్భమేమిటి?\n\nజవాబు:\nసుశీల 1950లో ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో ఎన్నుకున్నారు.\n\n2. 1935 సుశీల జన్మదినం, ఆమె తండ్రి పి.ముకుందరావు ఎవరైటే?\n\nజవాబు:\n1935 సుశీల జన్మదినం, ఆమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు.\n\n3. సుశీల తల్లి ఎవరైటే?\n\nజవాబు:\nసుశీల తల్లి శేషావతారం.\n\n4. ఆమె ఏ.ఎమ్.రాజతో కలిసి ఎదుర్కొన్న చిన్నపాట, 1950లో ఉంది.\n\nజవాబు:\nఆమె ఏ.ఎమ్.రాజతో కలిసి 'పెట్రా తయ్' అనే చిన్నపాటను 1950లో ఉంది.\n\n5. ఈ సినిమా కూడా ఎవరే?\n\nజవాబు:\n'పెట్రా తయ్' 1950లో కన్నతల్లి అనే సినిమా.\n\n6. ఎవరు ఆమె పాటలను ఆదికవిత చేశారు?\n\nజవాబు:\nసుశీల పాటలను ఎవరూ ఆదికవిత చేయలేదు.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.18342876434326172,
+          "semantic_similarity": 0.8165712356567383,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.18410909175872803,
+        "edit": {
+          "original_context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+          "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+          "original_answer": "1935",
+          "generated_text": "1. ప్రముఖ క్రిమినల్ లాయర్‌గా ఉన్న సుశీల తండ్రి పి.ముకుందరావు ఎంతో చిన్న వయస్సులోనే బాగా మాట్లాడటంపై ఆదర్శాన్ని చూసుకోవచ్చు.\n2. ఆమె తల్లి శేషావతారం ఎన్ని సంగీత ప్రతిభ ఉన్నట్లు ఈ కథ చెబుతోంది. అయితే, సుశీల మాడిగ జాన్ వేర్‌బిక్ వంటి ప్రముఖ సంగీతదర్శకుల్లో ఒకరిని ఎదుర్కొంటే ఆమె పాడగలిగిన వారితో పోలిస్తే, ఎంత కారణం అనేదానిని మొదట గుర్తించవలసి ఉంటుంది.\n3. ఆమె కుటుంబం ఎన్ని పరిశీలనలు చేసి, ఎదుర్కొంటాయి. అయితే, ఒక్కో వ్యక్తికి మారిన సమయంలో వారి శైలి, ప్రతిభ అనే దానికి ఎంత సమయం పడుతుంది?",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.18410909175872803,
+          "semantic_similarity": 0.815890908241272,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 7,
+    "language": "te",
+    "context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+    "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+    "original_answer": "సెప్టెంబరు 2015",
+    "best_edit": {
+      "original_context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+      "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+      "original_answer": "సెప్టెంబరు 2015",
+      "generated_text": "భవన నిర్మాణ ప్రారంభం\n1. ఈ భవన నిర్మాణం 2008 నవంబరులో ప్రారంభమైంది.\n\nQuestion 2: కొత్త భవనం యొక్క పూర్తి స్థాయి\n2. ఈ భవన నిర్మాణం 2013 ఆగష్టులో పూర్తయింది.\n\nQuestion 3: కొత్త భవన మీద పనులు\n3. ఈ భవనానికి బయట పనులు 2015 సంవత్సరం వేసవి నాటికి పూర్తయినట్లుగా భావించబడింది.\n\nQuestion 4: కొత్త భవన ప్రజలకు తెరువు\n4. భవనాన్ని ప్రజలకు 2014 నవంబరు నాటికి తెరవాలని నిర్ణయించుకున్నప్పటికీ, దాని నిర్మాణ కారణాలతో అది ఆలస్యం పడింది.\n\nQuestion 5: భవన నిర్మాణ కేంద్రాన్ని తెరచిన సమయం\n5. 2016 జూలైలో భవన నిర్మాణ కేంద్రాన్ని ప్రజలకు తెరిచారు.\n\nQuestion 6: భవన నిర్మాణ కేంద్రం 'టెస్ట్ రన్' లేదా 'కమిషన్యింగ్'\n6. 2016 జూలై నుంచి 2016 సెప్టెంబరు వరకు 'టెస్ట్ రన్' లేదా 'కమిషన్యింగ్' అనే వ్యవధిగా భవన నిర్మాణ కేంద్రాన్ని 'టెస్ట్' లేదా 'కమిషన్' అని పేర్కొన్నారు.",
+      "format_type": "self_qa",
+      "language": "te",
+      "drift_score": 0.2741994857788086,
+      "semantic_similarity": 0.7258005142211914,
+      "approach": "multi_format",
+      "edit_number": 3
+    },
+    "best_edit_number": 3,
+    "critic_approved": true,
+    "critic_reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.09296482801437378,
+        "edit": {
+          "original_context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+          "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+          "original_answer": "సెప్టెంబరు 2015",
+          "generated_text": "ప్రారంభమైన 2008 నవంబరులో, ఆగష్టు 2013 నాటికి పూర్తయిన 6 సంవత్సరాల నిర్మాణం గురించి, భవన వెలుపలి పనులు 2015 సెప్టెంబరులో పూర్తయినా, విధానం మొత్తం 2015 సెప్టెంబరులో జరిగిందని భావించారు.\n\nఅయితే, ప్రజలకు ఆ సమయానికి భవన ప్రవేశం చేయడానికి అనుమతించబడలేదు, ఎందుకంటే భవన నిర్మాణం అసమయంగా ఉండేది.\n\nఆ తర్వాత, 2014 నవంబరులో భవనాన్ని ప్రజలకు తెరవడానికి సమయం చేసుకున్నా, అది 2016 జూలైలో \"టెస్ట్ రన్\" మొదలుపెట్టబడిన తర్వాత 2016 సెప్టెంబరు వరకు జరిగింది.\n\nఇలా, భవన నిర్మాణం 6 సంవత్సరాల కాలపరచబడింది.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.09296482801437378,
+          "semantic_similarity": 0.9070351719856262,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.09591728448867798,
+        "edit": {
+          "original_context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+          "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+          "original_answer": "సెప్టెంబరు 2015",
+          "generated_text": "భవన నిర్మాణ పని నవంబరు 2008లో ప్రారంభమై, ఆగష్టు 2013న పూర్తయింది. నిర్మాణ వృధా పనులు జూన్ 2015లో పూర్తయినట్లు భావించబడ్డాయి. అయితే, 2014 నవంబరు మధ్య పరిశీలన కేంద్రాన్ని ప్రజలకు తెరవడానికి సిద్ధం చేయడంలో అభివృద్ధిపనిముట్లుగా కొనసాగాయి. 2016 జూలైలో, సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు. అది \"టెస్ట్ రన్\"  లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది. 2017 ఏప్రిలు 26 నాటికి, సందర్శనా కేంద్రం 118వ అంతస్తు ప్రజలకు తెరిచారు.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.09591728448867798,
+          "semantic_similarity": 0.904082715511322,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": true,
+        "reason": "Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.2741994857788086,
+        "edit": {
+          "original_context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+          "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+          "original_answer": "సెప్టెంబరు 2015",
+          "generated_text": "భవన నిర్మాణ ప్రారంభం\n1. ఈ భవన నిర్మాణం 2008 నవంబరులో ప్రారంభమైంది.\n\nQuestion 2: కొత్త భవనం యొక్క పూర్తి స్థాయి\n2. ఈ భవన నిర్మాణం 2013 ఆగష్టులో పూర్తయింది.\n\nQuestion 3: కొత్త భవన మీద పనులు\n3. ఈ భవనానికి బయట పనులు 2015 సంవత్సరం వేసవి నాటికి పూర్తయినట్లుగా భావించబడింది.\n\nQuestion 4: కొత్త భవన ప్రజలకు తెరువు\n4. భవనాన్ని ప్రజలకు 2014 నవంబరు నాటికి తెరవాలని నిర్ణయించుకున్నప్పటికీ, దాని నిర్మాణ కారణాలతో అది ఆలస్యం పడింది.\n\nQuestion 5: భవన నిర్మాణ కేంద్రాన్ని తెరచిన సమయం\n5. 2016 జూలైలో భవన నిర్మాణ కేంద్రాన్ని ప్రజలకు తెరిచారు.\n\nQuestion 6: భవన నిర్మాణ కేంద్రం 'టెస్ట్ రన్' లేదా 'కమిషన్యింగ్'\n6. 2016 జూలై నుంచి 2016 సెప్టెంబరు వరకు 'టెస్ట్ రన్' లేదా 'కమిషన్యింగ్' అనే వ్యవధిగా భవన నిర్మాణ కేంద్రాన్ని 'టెస్ట్' లేదా 'కమిషన్' అని పేర్కొన్నారు.",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.2741994857788086,
+          "semantic_similarity": 0.7258005142211914,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful as it generates several correct Q&A pairs directly from the context, expanding on the information provided and implicitly confirming the original answer. It's well-structured and highly relevant to the task.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 3,\n    \"score\": 9,\n    \"reason\": \"Edit 3 (self_qa) is the most useful. It breaks down the complex timeline of the building's construction, completion, and opening into clear, accurate Q&A pairs. This helps to understand the different completion dates mentioned in the context and why 'సెప్టెంబరు 2015' is a valid answer for 'completed' in a broader sense, while also noting the earlier structural completion. Edit 1 is also good but Edit 3's format is more comprehensive for this specific question.\"\n  }\n]\n```",
+        "drift_score": 0.11905574798583984,
+        "edit": {
+          "original_context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+          "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+          "original_answer": "సెప్టెంబరు 2015",
+          "generated_text": "భవనాన్ని ప్రజలకు తెరవడానికి 2008-2014 మధ్య 6 సంవత్సరాల వరకు పట్టింది. నవంబరు 2014 లో ఇచ్చిన తీర్మానంతో, ప్రజలు 2015 ఏప్రిల్‌కు సంబంధించిన అడ్డుగార్డ్‌ను భవనంలో తెరవాల్సి ఉంది. ఈ అడ్డుగార్డ్ చాలా పొడవునా 6 మీటర్లు, ఎత్తు ఉంది. \n\nఇక్కడ జరిగే సంఘటనలు :\n1. బాహ్య పనులు 2015 వేసవి చివరి నాటికి పూర్తయినా, భావించిన సెప్టెంబరు 2015 నాటికి మాత్రమే అయివలసి ఉంది.\n2. ప్రజలకు భవనాన్ని తెరవడానికి 2015-2014 మధ్య 1 సంవత్సరం పట్టింది.",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.11905574798583984,
+          "semantic_similarity": 0.8809442520141602,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 8,
+    "language": "te",
+    "context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+    "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+    "original_answer": "2004 ఏప్రిల్ 17",
+    "best_edit": {
+      "original_context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+      "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+      "original_answer": "2004 ఏప్రిల్ 17",
+      "generated_text": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఈ సంఘటన కొత్త ఎన్నికల సందర్భంగా, ఆంధ్ర ప్రదేశ్‌లో జరిగినప్పుడు ఎక్కువగా చర్చలు మరియు సందేశాలతో భారతీయ జనతా పార్టీ అధికారులు ఆమె సంగ్రామాన్ని దృఢపడించేటట్లు కనబడ్డారు. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఈ ప్రమాదంలో శవస్థానం చేయబడ్డారు.\n\nఆమె కన్నడంలో నటించిన \"ఆప్త మిత్ర\" విజయవంతమైంది. ఇప్పుడు ఆమె జ్ఞాపకార్థం, \"సౌందర్య\" స్మారక పురస్కారాన్ని కర్ణాటకాంధ్ర లలితకళ అకాడమి ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున అత్యుత్తమ నటీమణులకు బహుకరిస్తూనే ఉంది.\n\nసౌందర్య",
+      "format_type": "rewrite",
+      "language": "te",
+      "drift_score": 0.07513231039047241,
+      "semantic_similarity": 0.9248676896095276,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.",
+    "critic_score": 7.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.19164037704467773,
+        "edit": {
+          "original_context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+          "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+          "original_answer": "2004 ఏప్రిల్ 17",
+          "generated_text": "సౌందర్య 2004 ఏప్రిల్ 17న మరణించాడు. ఈ ఘటన భారతీయ జనతా పార్టీ ఎన్నికల సందర్భంగా ఆంధ్ర ప్రదేశ్‌లో ఉత్సవాలను ప్రారంభించడానికి దారితీసింది. ఆమె అన్న, అయిన అమర్ నాధ్‌కు ప్రమాదం సంభవించింది.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.19164037704467773,
+          "semantic_similarity": 0.8083596229553223,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.",
+        "score": 7.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.07513231039047241,
+        "edit": {
+          "original_context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+          "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+          "original_answer": "2004 ఏప్రిల్ 17",
+          "generated_text": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఈ సంఘటన కొత్త ఎన్నికల సందర్భంగా, ఆంధ్ర ప్రదేశ్‌లో జరిగినప్పుడు ఎక్కువగా చర్చలు మరియు సందేశాలతో భారతీయ జనతా పార్టీ అధికారులు ఆమె సంగ్రామాన్ని దృఢపడించేటట్లు కనబడ్డారు. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఈ ప్రమాదంలో శవస్థానం చేయబడ్డారు.\n\nఆమె కన్నడంలో నటించిన \"ఆప్త మిత్ర\" విజయవంతమైంది. ఇప్పుడు ఆమె జ్ఞాపకార్థం, \"సౌందర్య\" స్మారక పురస్కారాన్ని కర్ణాటకాంధ్ర లలితకళ అకాడమి ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున అత్యుత్తమ నటీమణులకు బహుకరిస్తూనే ఉంది.\n\nసౌందర్య",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.07513231039047241,
+          "semantic_similarity": 0.9248676896095276,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.10970765352249146,
+        "edit": {
+          "original_context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+          "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+          "original_answer": "2004 ఏప్రిల్ 17",
+          "generated_text": "సౌందర్య మరణం కేవలం ఎప్పుడైనా? \n\nజవాబు:\n2004 ఏప్రిల్ 17\n\nసౌందర్య మరణం ఎందుకు అనివార్యమైంది? \n\nజవాబు:\nఆమె ఏప్రిల్ 17, 2004న విమాన ప్రమాదంలో మరణించింది\n\nసౌందర్య చిత్రాలను ఎవరు నిర్మించారు? \n\nజవాబు:\nఅమర్ నాధ్\n\nసౌందర్య చిత్రాల పేరు ఏమిటి? \n\nజవాబు:\n\"ఆప్త మిత్ర\"\n\nసౌందర్య మరణంపై కర్ణాటకాంధ్ర లలితకళ అకాడమి ఎలా వ్యవహరిస్తుంది? \n\nజవాబు:\nప్రతీ సంవత్సరం ఉగాది పండుగ రోజున, అధిక హోదాలో ఉన్న బహుమతులను పొందేవారికి",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.10970765352249146,
+          "semantic_similarity": 0.8902923464775085,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.2028025984764099,
+        "edit": {
+          "original_context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+          "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+          "original_answer": "2004 ఏప్రిల్ 17",
+          "generated_text": "1.  సౌందర్య పేరుకు ఏమిటి?\n2.  ఎన్నికల సందర్భంగా ఆమె మరణించినాడు.\n3.  ప్రస్తుతం కర్ణాటకాంధ్ర లలితకళ అకాడమి ఆమె జ్ఞాపకార్థం 'సౌందర్య స్మారక పురస్కారం'ను బహుమతిగా ఇచ్చేది.\n4.  ఆమె జీవితాన్ని పరిశీలిస్తుంటే, ఆమె చదువుకోలేని బాలికగా 2004లో ఎన్నికల సందర్భంగా ప్రమాదంలో చనిపోయాడు.",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.2028025984764099,
+          "semantic_similarity": 0.7971974015235901,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  },
+  {
+    "article_id": 9,
+    "language": "te",
+    "context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+    "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+    "original_answer": "మనదేశం",
+    "best_edit": {
+      "original_context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+      "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+      "original_answer": "మనదేశం",
+      "generated_text": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు NT R Fotonu చూసి, అప్పుడే ఆయనను మద్రాసుకు తీసుకొని, పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేశారు. దీనికి ఆయన వద్ద వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేశాడు. అయితే, సినిమా నిర్మాణం వెంటనే ప్రారంభించలేదు. ఈలో, మనదేశం అనే సినిమాలో కథానాయకుడిగా ఆయన నటించాడు. అందువల్ల, ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో, రామారావు ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో, పల్లెటూరి పిల్ల సినిమా విడుదలయ్యింది. అదే సంవత్సరం, ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలయ్యింది.",
+      "format_type": "rewrite",
+      "language": "te",
+      "drift_score": 0.05719548463821411,
+      "semantic_similarity": 0.9428045153617859,
+      "approach": "multi_format",
+      "edit_number": 2
+    },
+    "best_edit_number": 2,
+    "critic_approved": true,
+    "critic_reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.",
+    "critic_score": 9.0,
+    "all_evaluations": [
+      {
+        "edit_number": 1,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.06665021181106567,
+        "edit": {
+          "original_context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+          "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+          "original_answer": "మనదేశం",
+          "generated_text": "1. బి.ఏ.సుబ్బారావు ఎల్వీ ప్రసాదును పల్లెటూరి పిల్ల సినిమాకు చూసి ఒక యోగ్య కథానాయకుడిగా ఎంపిక చేశారు. దీనికి వెయ్యి నూటపదహార్ల పారితోషికం లభించింది.\n\n2. ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా అతను ఎల్వీ ప్రసాదుకు చెందినది.\n\n3. 1949లో మనదేశం అయిన మొట్టమొదటి సినిమా ఆధారంగా ఆయన కెమేరా ముందు నటించాడు.\n\n4. పల్లెటూరి పిల్ల సినిమా 1950లో విడుదలైంది.\n\n5. 1950లో ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది.\n\n6. ఆయన 1949లో మనదేశం అయిన సినిమా రామారావు ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్రలో నటించాడు.\n\n7. మద్రాసులో అద్దెకు తీసుకొన్న బి.ఏ.సుబ్బరావు, యోగానంద్ అభిమన్యు ఆస్థానంలో ఉండేవారు.\n\n8. 1950లో పల్లెటూరి పిల్ల సినిమా కొత్తగా వచ్చిన ఎల్వీ ప్రసాదు (షావుకారు) అభిమన్యు ఆస్థానంలో చేరాడు.",
+          "format_type": "implications",
+          "language": "te",
+          "drift_score": 0.06665021181106567,
+          "semantic_similarity": 0.9333497881889343,
+          "approach": "multi_format",
+          "edit_number": 1
+        }
+      },
+      {
+        "edit_number": 2,
+        "approved": true,
+        "reason": "Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.",
+        "score": 9.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.05719548463821411,
+        "edit": {
+          "original_context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+          "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+          "original_answer": "మనదేశం",
+          "generated_text": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు NT R Fotonu చూసి, అప్పుడే ఆయనను మద్రాసుకు తీసుకొని, పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేశారు. దీనికి ఆయన వద్ద వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేశాడు. అయితే, సినిమా నిర్మాణం వెంటనే ప్రారంభించలేదు. ఈలో, మనదేశం అనే సినిమాలో కథానాయకుడిగా ఆయన నటించాడు. అందువల్ల, ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో, రామారావు ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో, పల్లెటూరి పిల్ల సినిమా విడుదలయ్యింది. అదే సంవత్సరం, ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలయ్యింది.",
+          "format_type": "rewrite",
+          "language": "te",
+          "drift_score": 0.05719548463821411,
+          "semantic_similarity": 0.9428045153617859,
+          "approach": "multi_format",
+          "edit_number": 2
+        }
+      },
+      {
+        "edit_number": 3,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.20607715845108032,
+        "edit": {
+          "original_context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+          "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+          "original_answer": "మనదేశం",
+          "generated_text": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎల్వీ ప్రసాదు కన్న ఎలా తెలుసుకున్నాడో?",
+          "format_type": "self_qa",
+          "language": "te",
+          "drift_score": 0.20607715845108032,
+          "semantic_similarity": 0.7939228415489197,
+          "approach": "multi_format",
+          "edit_number": 3
+        }
+      },
+      {
+        "edit_number": 4,
+        "approved": false,
+        "reason": "",
+        "score": 0.0,
+        "raw_response": "```json\n[\n  {\n    \"article_id\": \"QA 1\",\n    \"selected_index\": 2,\n    \"score\": 7,\n    \"reason\": \"Edit 2 is the most factually correct and fluent among the given options, despite being a bit verbose and adding some speculative interpretation. It provides more context from the original text, which can be useful. Edit 1 and 4 contain significant factual errors and poor fluency. Edit 3 has awkward phrasing and incomplete answers.\"\n  },\n  {\n    \"article_id\": \"QA 2\",\n    \"selected_index\": 2,\n    \"score\": 9,\n    \"reason\": \"Edit 2 is an excellent rewrite. It accurately summarizes the relevant context, clearly explains why 'Manadesam' was NTR's first film despite being cast for 'Palletoori Pilla' earlier, and is fluent and grammatically correct. The other edits contain multiple factual errors, grammatical mistakes, and are incoherent.\"\n  }\n]\n```",
+        "drift_score": 0.12965106964111328,
+        "edit": {
+          "original_context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+          "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+          "original_answer": "మనదేశం",
+          "generated_text": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు, ఎల్వీ ప్రసాదు దేశం\n\nమనదేశం అనే సినిమాలో అవకాశం రావడంతో ఆయన పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసారు\n\nబి.ఏ.సుబ్బారావు ఆ సినిమా తరువాత ఎల్వీ ప్రసాదు షావుకారు వచ్చినట్లు గమనించడమే\n\nబి.ఏ.సుబ౑భరావు ఆ తరువాత అల్లానందమూరి తారక రామారావు, ఎన్టీఆర్‌ సినిమాలు పూర్తి చేశాడు\n\nబి.ఏ.సుబ్బరావు అక్కడినుండే మద్రాసుకు తప్పించి, ఆ ఒక్క గదిలో ఉన్నాడు",
+          "format_type": "chain_of_thought",
+          "language": "te",
+          "drift_score": 0.12965106964111328,
+          "semantic_similarity": 0.8703489303588867,
+          "approach": "multi_format",
+          "edit_number": 4
+        }
+      }
+    ],
+    "total_edits": 4
+  }
+]

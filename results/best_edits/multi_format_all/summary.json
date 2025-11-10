@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-11-10T02:08:47.139391",
+  "input_folder": "results/multi_format_all",
+  "languages_processed": 9,
+  "total_qa_pairs": 90,
+  "total_edits_evaluated": 360,
+  "approved_rate": 0.9777777777777777,
+  "average_score": 7.466666666666667,
+  "per_language": {
+    "te": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 8.6,
+      "total_edits_evaluated": 40
+    },
+    "fi": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 7.6,
+      "total_edits_evaluated": 40
+    },
+    "en": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 8.1,
+      "total_edits_evaluated": 40
+    },
+    "sw": {
+      "qa_pairs": 10,
+      "approved": 8,
+      "approval_rate": 0.8,
+      "average_score": 5.8,
+      "total_edits_evaluated": 40
+    },
+    "id": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 8.5,
+      "total_edits_evaluated": 40
+    },
+    "ko": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 6.2,
+      "total_edits_evaluated": 40
+    },
+    "ru": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 7.4,
+      "total_edits_evaluated": 40
+    },
+    "bn": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 7.7,
+      "total_edits_evaluated": 40
+    },
+    "ar": {
+      "qa_pairs": 10,
+      "approved": 10,
+      "approval_rate": 1.0,
+      "average_score": 7.3,
+      "total_edits_evaluated": 40
+    }
+  }
+}
