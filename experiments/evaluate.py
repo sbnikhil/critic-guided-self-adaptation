@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Evaluate Self-Edit Generation
-
-Tests self-edit generation at scale across all languages.
-"""
 
 import sys
 import json
@@ -16,33 +11,20 @@ import numpy as np
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from native_language_self_edit import SelfEditGenerator
-from english_self_edit import EnglishSelfEditGenerator
+from multi_format_self_edit import MultiFormatSelfEditGenerator
 from data_loader import load_tydiqa_by_language, get_available_languages
 
 
 class Evaluator:
-    """Evaluate self-edit generation at scale"""
     
-    def __init__(self, approach: str = "native_language", output_dir: str = None):
-        """
-        Initialize evaluator with specified approach.
+    def __init__(self, output_dir: str = None, format_type: str = None):
+        self.format_type = format_type
+        self.generator = MultiFormatSelfEditGenerator()
         
-        Args:
-            approach: Either "native_language" or "english"
-            output_dir: Output directory (auto-set based on approach if None)
-        """
-        self.approach = approach
-        
-        # Initialize appropriate generator
-        if approach == "native_language":
-            self.generator = SelfEditGenerator()
-            self.output_dir = Path(output_dir) if output_dir else Path("results/native_language_edits")
-        elif approach == "english":
-            self.generator = EnglishSelfEditGenerator()
-            self.output_dir = Path(output_dir) if output_dir else Path("results/english_edits")
+        if format_type == "self_qa":
+            self.output_dir = Path(output_dir) if output_dir else Path("results/multi_format_qa")
         else:
-            raise ValueError(f"Unknown approach: {approach}. Use 'native_language' or 'english'")
+            self.output_dir = Path(output_dir) if output_dir else Path("results/multi_format_all")
         
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
@@ -53,10 +35,17 @@ class Evaluator:
         self,
         language: str,
         n_samples: int = 20,
-        n_edits_per_qa: int = 5,
+        n_edits_per_qa: int = None,
         save_edits: bool = True
     ):
-        """Evaluate self-edit generation for a language"""
+        
+        if n_edits_per_qa is None:
+            if self.format_type == "self_qa":
+                n_edits_per_qa = 5
+            elif not self.format_type:
+                n_edits_per_qa = 4
+            else:
+                n_edits_per_qa = 5
         
         print(f"\n{'='*60}")
         print(f"Processing {language.upper()}")
@@ -81,15 +70,27 @@ class Evaluator:
             
             qa = article['qa_pairs'][0]
             
-            # Generate multiple edits for this QA pair
             qa_edits = []
             for edit_num in range(n_edits_per_qa):
-                result = self.generator.generate_edit(
-                    context=article['context'],
-                    question=qa['question'],
-                    answer=qa['answer'],
-                    language=language
-                )
+                if self.format_type:
+                    result = self.generator.generate_edit(
+                        context=article['context'],
+                        question=qa['question'],
+                        answer=qa['answer'],
+                        language=language,
+                        format_type=self.format_type
+                    )
+                else:
+                    all_formats = list(self.generator.GENERATION_FORMATS.keys())
+                    format_idx = edit_num % len(all_formats)
+                    result = self.generator.generate_edit(
+                        context=article['context'],
+                        question=qa['question'],
+                        answer=qa['answer'],
+                        language=language,
+                        format_type=all_formats[format_idx]
+                    )
+                
                 result['edit_number'] = edit_num + 1
                 qa_edits.append(result)
                 drift_scores.append(result['drift_score'])
@@ -224,11 +225,9 @@ class Evaluator:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Evaluate self-edit generation')
     parser.add_argument(
-        '--approach',
-        type=str,
-        choices=['native_language', 'english'],
-        default='native_language',
-        help='Approach to use: native_language (X→X) or english (X→English)'
+        '--qa-only',
+        action='store_true',
+        help='Generate only self-QA format (default: all 4 formats)'
     )
     parser.add_argument(
         '--samples',
@@ -239,9 +238,14 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     
+    format_type = 'self_qa' if args.qa_only else None
+    
     print(f"\n{'='*60}")
-    print(f"Running evaluation with {args.approach.upper()} approach")
+    if args.qa_only:
+        print("Running MULTI-FORMAT self-edit evaluation (self-QA only)")
+    else:
+        print("Running MULTI-FORMAT self-edit evaluation (all 4 formats)")
     print(f"{'='*60}\n")
     
-    evaluator = Evaluator(approach=args.approach)
+    evaluator = Evaluator(format_type=format_type)
     evaluator.run_full_evaluation(n_samples_per_lang=args.samples)
