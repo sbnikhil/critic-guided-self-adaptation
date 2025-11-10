@@ -1,5 +1,5 @@
 Detailed critic log for fi
-Generated: 2025-11-10T02:12:19.542759
+Generated: 2025-11-10T16:20:31.235512
 
 ----
 Article ID: 0
@@ -9,10 +9,10 @@ Original A: 6. elokuuta (joidenkin lähteiden mukaan 9.) 1874
 Best edit number: 3
 Critic approved: True
 Critic score: 9.0
-Critic reason: Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements.
+Critic reason: Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.6653103232383728
+  Edit #1: approved=False score=0.0 drift=0.33001095056533813
     Reason: 
     Raw response:
 ```json
@@ -21,18 +21,18 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.08864885568618774
+  Edit #2: approved=False score=0.0 drift=0.10676777362823486
     Reason: 
     Raw response:
 ```json
@@ -41,19 +41,19 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.24977827072143555
-    Reason: Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements.
+  Edit #3: approved=True score=9.0 drift=0.4114527106285095
+    Reason: Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured.
     Raw response:
 ```json
 [
@@ -61,18 +61,18 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.3973972797393799
+  Edit #4: approved=False score=0.0 drift=0.6051396131515503
     Reason: 
     Raw response:
 ```json
@@ -81,13 +81,13 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
@@ -98,13 +98,13 @@ Article ID: 1
 Original Q: Mitä on altruismi?
 Original A: epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle
 
-Best edit number: 3
+Best edit number: 2
 Critic approved: True
 Critic score: 8.0
-Critic reason: Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct.
+Critic reason: Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.16699928045272827
+  Edit #1: approved=False score=0.0 drift=0.12939876317977905
     Reason: 
     Raw response:
 ```json
@@ -113,18 +113,38 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.04991555213928223
+  Edit #2: approved=True score=8.0 drift=0.028286337852478027
+    Reason: Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 8,
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.13518184423446655
     Reason: 
     Raw response:
 ```json
@@ -133,38 +153,18 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.10356652736663818
-    Reason: Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.13244330883026123
+  Edit #4: approved=False score=0.0 drift=0.09490454196929932
     Reason: 
     Raw response:
 ```json
@@ -173,13 +173,13 @@ All evaluations:
     "article_id": "QA 1",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a clear, correct, and fluent self-question and answer directly extracted from the context. The other edits contain significant grammatical errors, irrelevant information, or nonsensical statements."
+    "reason": "Edit 3 is the only edit that is grammatically correct, fluent, and directly useful in generating a relevant question based on the context. The other edits contain significant grammatical errors, introduce incorrect or unsupported information, or are poorly structured."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 8,
-    "reason": "Edit 3 provides a correct and mostly fluent self-question and answer directly from the context, despite minor grammatical issues in the question/answer phrasing (e.g., 'altruismin' instead of 'altruismi'). The other edits contain significant grammatical errors, incorrect interpretations, or nonsensical statements, making them much less useful or correct."
+    "reason": "Edit 2 provides multiple rewrites. The first two paragraphs are excellent, concise, and fluent summaries of the key information in the context. While the later paragraphs are less fluent, the initial high-quality rewrites make this edit the most useful and correct overall. Edit 4 has good summary points but includes an unsupported opinion in its implications, and Edit 1 is generally poorly phrased."
   }
 ]
 ```
@@ -192,11 +192,11 @@ Original A: Parsifal
 
 Best edit number: 3
 Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness.
+Critic score: 9.0
+Critic reason: Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.1471480131149292
+  Edit #1: approved=False score=0.0 drift=0.2183520793914795
     Reason: 
     Raw response:
 ```json
@@ -204,19 +204,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.06904357671737671
+  Edit #2: approved=False score=0.0 drift=0.01873689889907837
     Reason: 
     Raw response:
 ```json
@@ -224,39 +224,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.21712040901184082
-    Reason: Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness.
+  Edit #3: approved=True score=9.0 drift=0.25354474782943726
+    Reason: Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.1653432846069336
+  Edit #4: approved=False score=0.0 drift=0.14483392238616943
     Reason: 
     Raw response:
 ```json
@@ -264,14 +264,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
@@ -284,11 +284,11 @@ Original A: Pohjois-Saksassa
 
 Best edit number: 3
 Critic approved: True
-Critic score: 3.0
-Critic reason: All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option.
+Critic score: 9.0
+Critic reason: Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.31958889961242676
+  Edit #1: approved=False score=0.0 drift=0.37472832202911377
     Reason: 
     Raw response:
 ```json
@@ -296,19 +296,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=1.090610146522522
+  Edit #2: approved=False score=0.0 drift=0.05070912837982178
     Reason: 
     Raw response:
 ```json
@@ -316,39 +316,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
 
-  Edit #3: approved=True score=3.0 drift=0.1787903904914856
-    Reason: All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option.
+  Edit #3: approved=True score=9.0 drift=0.5067005157470703
+    Reason: Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=1.0334901809692383
+  Edit #4: approved=False score=0.0 drift=0.45385754108428955
     Reason: 
     Raw response:
 ```json
@@ -356,14 +356,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 (self_qa) generates a relevant and grammatically correct question that can be answered directly from the provided context. The other edits suffer from significant fluency issues, factual errors, or incompleteness."
+    "score": 9,
+    "reason": "Edit 3 provides a clear, relevant self-question and a direct, accurate answer derived from the context. It is grammatically correct and fluent, demonstrating good comprehension. The other edits contain significant grammatical errors, awkward phrasing, or provide incomplete/incorrect information."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 3,
-    "reason": "All edits for QA 2 are of very low quality. Edits 2 and 4 are generic placeholder responses, not actual edits. Edit 1 is largely nonsensical and grammatically incorrect. Edit 3 (self_qa) attempts to generate questions, but the first question contains a factual error ('niittymä' instead of 'horstivuoristo'). However, the second question is correct and relevant. Despite the error, it is the only edit that genuinely attempts the task and contains some correct information, making it the 'least bad' option."
+    "score": 9,
+    "reason": "Edit 3 offers a concise and accurate self-question and answer directly extracted from the context. It is grammatically correct and fluent. The other edits contain numerous grammatical errors, awkward phrasing, and some provide incorrect or unsupported implications."
   }
 ]
 ```
@@ -374,88 +374,88 @@ Article ID: 4
 Original Q: Miten paljon täysikasvuinen ahma painaa?
 Original A: Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg
 
-Best edit number: 3
+Best edit number: 2
 Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured.
+Critic score: 1.0
+Critic reason: All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3).
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.33974194526672363
+  Edit #1: approved=False score=0.0 drift=0.6829710006713867
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.05953305959701538
+  Edit #2: approved=True score=1.0 drift=0.10659611225128174
+    Reason: All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3).
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.5929630994796753
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.41911154985427856
-    Reason: Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.12888020277023315
+  Edit #4: approved=False score=0.0 drift=0.732817530632019
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
@@ -469,85 +469,85 @@ Original A: 10. marraskuuta 1982
 Best edit number: 3
 Critic approved: True
 Critic score: 9.0
-Critic reason: Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical.
+Critic reason: Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.386325478553772
+  Edit #1: approved=False score=0.0 drift=0.6639159321784973
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.33051013946533203
+  Edit #2: approved=False score=0.0 drift=0.20924019813537598
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.35572218894958496
-    Reason: Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical.
+  Edit #3: approved=True score=9.0 drift=0.4392998218536377
+    Reason: Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.9477407932281494
+  Edit #4: approved=False score=0.0 drift=0.5057227611541748
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed self-QA question and answer based on the provided context. Edits 1, 2, and 4 contain significant grammatical errors, introduce incorrect information, or are irrelevant/poorly structured."
+    "selected_index": 2,
+    "score": 1,
+    "reason": "All edits are extremely poor, containing factual errors, nonsensical text, or being completely irrelevant. Edit 2 is chosen as the 'least bad' because it attempts to rewrite the original context, even though it introduces a major factual error (calling a wolverine a bird) and has poor fluency. The other edits are either pure gibberish (1, 4) or a completely unrelated question (3)."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 offers a perfectly fluent and relevant self-QA question and answer derived directly from the context. Edit 1 has minor grammatical issues and uses 'implications' for direct facts. Edit 2 introduces incorrect information and a critical translation error ('kuuli' instead of 'kuoli'). Edit 4 is completely irrelevant and nonsensical."
+    "reason": "Edit 3 provides a correct, fluent, and useful self-QA pair based directly on the provided context. The question 'Who was Leonid Iljitš Brežnev?' and the answer 'A Soviet politician.' are accurate and relevant. The other edits are either poorly written, factually incorrect, or irrelevant."
   }
 ]
 ```
@@ -560,31 +560,31 @@ Original A: Joseph Henry
 
 Best edit number: 1
 Critic approved: True
-Critic score: 4.0
-Critic reason: All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4).
+Critic score: 2.0
+Critic reason: All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option.
 
 All evaluations:
-  Edit #1: approved=True score=4.0 drift=0.4674191474914551
-    Reason: All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4).
+  Edit #1: approved=True score=2.0 drift=0.4068073034286499
+    Reason: All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.061434388160705566
+  Edit #2: approved=False score=0.0 drift=0.8668801784515381
     Reason: 
     Raw response:
 ```json
@@ -592,19 +592,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.68496173620224
+  Edit #3: approved=False score=0.0 drift=0.510636031627655
     Reason: 
     Raw response:
 ```json
@@ -612,19 +612,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.35765165090560913
+  Edit #4: approved=False score=0.0 drift=0.16260403394699097
     Reason: 
     Raw response:
 ```json
@@ -632,14 +632,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
@@ -652,11 +652,11 @@ Original A: yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vy�
 
 Best edit number: 2
 Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task.
+Critic score: 6.0
+Critic reason: Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.10168588161468506
+  Edit #1: approved=False score=0.0 drift=0.17628836631774902
     Reason: 
     Raw response:
 ```json
@@ -664,39 +664,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
 
-  Edit #2: approved=True score=8.0 drift=0.03784865140914917
-    Reason: Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task.
+  Edit #2: approved=True score=6.0 drift=0.034867048263549805
+    Reason: Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.4082610607147217
+  Edit #3: approved=False score=0.0 drift=0.31038177013397217
     Reason: 
     Raw response:
 ```json
@@ -704,19 +704,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.15186327695846558
+  Edit #4: approved=False score=0.0 drift=0.23221886157989502
     Reason: 
     Raw response:
 ```json
@@ -724,14 +724,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of poor quality, with significant grammatical errors or misinterpretations of the task. Edit 1, despite its awkward Finnish, at least attempts to derive implications that are generally consistent with the provided context, even if they are generic and poorly phrased. The other edits contain fundamental errors (e.g., 'löi' instead of 'keksi' in Edit 3) or are too confused (Edit 4)."
+    "score": 2,
+    "reason": "All edits are extremely poor in terms of fluency and correctness. Edit 2 is a canned response, not an edit. Edits 3 and 4 contain significant factual errors or complete gibberish. Edit 1, while very poorly written and awkward in Finnish, at least attempts to derive implications from the text without introducing outright factual errors or nonsensical phrases, making it the 'least bad' option."
   },
   {
     "article_id": "QA 2",
     "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides a mostly fluent and correct rewrite of the context, effectively summarizing the key information about Frank Mir's identity and achievements. While there are minor grammatical awkwardnesses (e.g., 'yhtä menestyksekkäintä'), the overall rewrite is useful and enhances the understanding of 'who Frank Mir is', which is directly relevant to the original question. Edit 3 is a correct self-QA but less comprehensive in its utility. Edit 1 has some weak/incomplete implications, and Edit 4 misinterprets the task."
+    "score": 6,
+    "reason": "Edit 2 starts with an excellent, fluent, and correct summary of the context, which is the most useful and well-written part across all edits for both QAs. Although the edit deteriorates later with repetition, unverified information, and an abrupt ending, its strong initial quality makes it significantly better than the other options. Edit 1 is poorly written, Edit 3 is just a question, and Edit 4 is completely fabricated and nonsensical."
   }
 ]
 ```
@@ -744,11 +744,11 @@ Original A: 62
 
 Best edit number: 3
 Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value.
+Critic score: 7.0
+Critic reason: This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.21641767024993896
+  Edit #1: approved=False score=0.0 drift=0.13031333684921265
     Reason: 
     Raw response:
 ```json
@@ -756,19 +756,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.0345425009727478
+  Edit #2: approved=False score=0.0 drift=0.06881541013717651
     Reason: 
     Raw response:
 ```json
@@ -776,39 +776,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.4045296311378479
-    Reason: Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value.
+  Edit #3: approved=True score=7.0 drift=0.3538432717323303
+    Reason: This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.06344133615493774
+  Edit #4: approved=False score=0.0 drift=0.39914995431900024
     Reason: 
     Raw response:
 ```json
@@ -816,14 +816,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
   }
 ]
 ```
@@ -834,13 +834,13 @@ Article ID: 9
 Original Q: Mikä maa antoi naisille ensimmäiseksi äänioikeuden?
 Original A: Uusi-Seelanti
 
-Best edit number: 3
+Best edit number: 2
 Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value.
+Critic score: 5.0
+Critic reason: The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.2491236925125122
+  Edit #1: approved=False score=0.0 drift=0.23482763767242432
     Reason: 
     Raw response:
 ```json
@@ -848,19 +848,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.021172285079956055
+  Edit #2: approved=True score=5.0 drift=0.029578864574432373
+    Reason: The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.20635908842086792
     Reason: 
     Raw response:
 ```json
@@ -868,39 +888,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.19099462032318115
-    Reason: Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.8823431730270386
+  Edit #4: approved=False score=0.0 drift=0.4311146140098572
     Reason: 
     Raw response:
 ```json
@@ -908,14 +908,934 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "score": 7,
+    "reason": "This edit provides a correct and fluent self-QA pair, even though the question is slightly awkward ('Minkä vuonna' instead of 'Minä vuonna'). Compared to the other edits, which are either nonsensical, poorly translated, or contain significant grammatical errors and hallucinations, this is the only one that is fully correct and understandable."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 5,
+    "reason": "The first two sentences of this rewrite are correct and fluent, accurately reflecting the context. The third sentence is grammatically awkward and less clear, but the initial part of the edit is strong. The other edits are either completely nonsensical, contain severe translation errors, or have flawed questions/implications, making this the most coherent and useful option despite its imperfections."
+  }
+]
+```
+
+
+----
+Article ID: 10
+Original Q: Milloin Kiina on perustettu?
+Original A: 200-luvulla eaa
+
+Best edit number: 3
+Critic approved: True
+Critic score: 7.0
+Critic reason: Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.17585158348083496
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.025254011154174805
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+  Edit #3: approved=True score=7.0 drift=0.2703897953033447
+    Reason: Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.12869751453399658
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+
+----
+Article ID: 11
+Original Q: Mikä on Gibraltarin pinta-ala?
+Original A: 6,5 neliökilometriä
+
+Best edit number: 3
+Critic approved: True
+Critic score: 5.0
+Critic reason: All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.13328349590301514
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.057592928409576416
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+  Edit #3: approved=True score=5.0 drift=0.2320602536201477
+    Reason: All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.21240884065628052
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 7,
+    "reason": "Edit 3 is the only grammatically correct, fluent, and relevant edit. It poses a self-question that directly addresses a key point mentioned in the context: the difficulty of defining China's origin."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 5,
+    "reason": "All edits for QA 2 are of very low quality. Edit 3 is the least problematic. While its question is awkwardly phrased ('Miten Gibraltarin alue vastaa neliökilometriin?' - How does Gibraltar's area correspond to a square kilometer?), the provided answer is correct and directly from the text. The other edits contain significant factual errors, mistranslations, or are completely nonsensical."
+  }
+]
+```
+
+
+----
+Article ID: 12
+Original Q: Kuka perusti Valkeakosken naiskaartin?
+Original A: Se oli muodostettu tuolloin Sääksmäen pitäjään kuuluneen Valkeakosken teollisuusyhdyskunnan naisista, jotka olivat suurimmaksi osaksi Tervasaaren paperitehtaan työläisiä
+
+Best edit number: 4
+Critic approved: True
+Critic score: 4.0
+Critic reason: All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA).
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.34594589471817017
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.0159265398979187
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.6926635503768921
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+  Edit #4: approved=True score=4.0 drift=0.3583054542541504
+    Reason: All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA).
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+
+----
+Article ID: 13
+Original Q: Milloin Nancy Spungen syntyi?
+Original A: 27. helmikuuta 1958
+
+Best edit number: 4
+Critic approved: True
+Critic score: 3.0
+Critic reason: The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA).
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.662317156791687
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.0672914981842041
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.34478485584259033
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+  Edit #4: approved=True score=3.0 drift=0.4297453761100769
+    Reason: The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA).
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits are poor and do not directly improve the answer to the question 'Who founded the Valkeakoski women's guard?' as the context does not name a specific founder. However, Edit 4 (chain_of_thought) is the least problematic. It processes the information from the context in a structured way, explaining how the guard was formed from the industrial community's women. While not a direct answer edit, it provides a coherent meta-commentary on the information, which is more useful and fluent than the other options. Edit 1 is very poorly written and incomplete. Edit 2 is a redundant and incomplete rewrite. Edit 3 is a completely different task (self-QA)."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "The original answer '27. helmikuuta 1958' is perfectly correct and concise. All edits are of very low quality and do not improve the answer. Edit 4 (chain_of_thought) is chosen as the 'least bad' option. While it's a thought process, it contains a correct and fluent implication ('Sex Pistolsin bändi ja Nancy olivat yhteydet, jotka muodostettiin siihen aikaan.') at the end, even if the subsequent point is incomplete. The overall fluency of the thought process is also slightly better than the other edits. Edit 1 has confusing and grammatically awkward implications. Edit 2 is a repetitive and error-ridden rewrite. Edit 3 is a completely different task (self-QA)."
+  }
+]
+```
+
+
+----
+Article ID: 14
+Original Q: Mikä on Texasin väkiluku?
+Original A: 25145561
+
+Best edit number: 2
+Critic approved: True
+Critic score: 3.0
+Critic reason: All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.34857988357543945
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+  Edit #2: approved=True score=3.0 drift=0.06458842754364014
+    Reason: All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.5916447639465332
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.3166559338569641
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+
+----
+Article ID: 15
+Original Q: Mikä on sähkömagneettinen kenttä?
+Original A: sähkövarauksen aiheuttama, sähkömagneettiseen vuorovaikutukseen perustuva fysikaalinen kenttä
+
+Best edit number: 4
+Critic approved: True
+Critic score: 6.0
+Critic reason: Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.37407010793685913
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.032435715198516846
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.43393170833587646
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+  Edit #4: approved=True score=6.0 drift=0.08071362972259521
+    Reason: Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical. Edit 3 contains a major factual error (Oslo instead of Texas). Edit 4 contains a factual error (Pasifika instead of 2010 census) and is not very useful. Edit 2 is mostly a copy-paste of the original context, but the rewritten parts introduce grammatical and lexical errors ('synttää', 'kappausta'). However, it is the only edit that attempts to rewrite the original context without introducing completely unrelated factual errors or being entirely nonsensical. It's the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 6,
+    "reason": "Edits 1, 2, and 3 are severely flawed with factual errors, grammatical mistakes, and nonsensical phrasing. Edit 1 uses 'kansi' (cover) instead of 'kenttä' (field) and has very poor language. Edit 2 provides an incorrect definition and adds made-up information. Edit 3 is completely off-topic and nonsensical. Edit 4, despite an awkward opening and being cut off, provides a coherent and mostly correct chain-of-thought analysis of the context, explaining the definition and giving examples. It is the only edit that is largely correct and provides some level of useful analysis."
+  }
+]
+```
+
+
+----
+Article ID: 16
+Original Q: Kuka Ben Parker on Marvelin sarjakuvamaailmassa?
+Original A: Peter Parkerin (Hämähäkkimies) setä ja hänen kuolemansa takia Hämähäkkimies syntyi
+
+Best edit number: 2
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.34317922592163086
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
     "score": 9,
-    "reason": "Edit 3 provides a relevant and well-formed follow-up question based on the context, which is a useful type of edit for improving a QA system. The other edits are either nonsensical, poorly written, or simply rephrase the original text without adding significant value."
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+  Edit #2: approved=True score=9.0 drift=0.02504909038543701
+    Reason: Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.3096821904182434
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.1926252245903015
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+
+----
+Article ID: 17
+Original Q: Mitä voivodi tarkoittaa?
+Original A: slaavilainen arvonimi, joka alkuaan annettiin sotaa johtamaan valitulle päällikölle
+
+Best edit number: 3
+Critic approved: True
+Critic score: 3.0
+Critic reason: All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.3788163661956787
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.06970632076263428
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+  Edit #3: approved=True score=3.0 drift=0.44292742013931274
+    Reason: All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.7677384614944458
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a fluent and correct rewrite of the context, summarizing the key information about Ben Parker and directly answering the question while incorporating additional relevant details from the passage. The other edits contain significant grammatical errors, factual inaccuracies, or are nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 3,
+    "reason": "All edits for QA 2 are of very poor quality, containing numerous grammatical errors, awkward phrasing, and factual inaccuracies. Edit 3, despite its grammatical flaw ('Oletko' instead of 'Onko'), is the least problematic as it poses a simple, relevant question that can be answered from the context, making it the 'best' among very bad options."
+  }
+]
+```
+
+
+----
+Article ID: 18
+Original Q: Missä Jean Sibelius syntyi?
+Original A: Hämeenlinna
+
+Best edit number: 3
+Critic approved: True
+Critic score: 8.0
+Critic reason: This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.3052261471748352
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.02094733715057373
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+  Edit #3: approved=True score=8.0 drift=0.1719973087310791
+    Reason: This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.09672409296035767
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+
+----
+Article ID: 19
+Original Q: Milloin pokemon sarja julkaistiin ensimmäisen kerran?
+Original A: 1. huhtikuuta 1997
+
+Best edit number: 4
+Critic approved: True
+Critic score: 7.0
+Critic reason: This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten.
+
+All evaluations:
+  Edit #1: approved=False score=0.0 drift=0.15618175268173218
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.07798027992248535
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.3288489580154419
+    Reason: 
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
+  }
+]
+```
+
+  Edit #4: approved=True score=7.0 drift=0.1799464225769043
+    Reason: This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 8,
+    "reason": "This edit generates a new, relevant question and provides a correct and fluent answer directly from the context. While it doesn't address the original question, it's a well-executed example of a 'self_qa' edit type, making it the most useful, correct, and fluent among the given options for its intended purpose."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 7,
+    "reason": "This edit provides a 'chain of thought' that includes the answer to the original question (1. huhtikuuta 1997) and expands on related contextual information. While the phrasing isn't perfectly fluent, it is the most useful and correct edit as it directly addresses the information sought by the original question, unlike the other options which are either irrelevant, incomplete, or poorly rewritten."
   }
 ]
 ```

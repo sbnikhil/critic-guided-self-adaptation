@@ -1,99 +1,99 @@
 {
-  "timestamp": "2025-11-10T01:30:41.032409",
-  "total_qa_pairs": 90,
-  "total_edits": 360,
+  "timestamp": "2025-11-10T16:04:03.824712",
+  "total_qa_pairs": 180,
+  "total_edits": 720,
   "languages": 9,
-  "overall_drift": 0.28194262120458813,
+  "overall_drift": 0.2873779871397548,
   "language_stats": {
     "en": {
       "language": "en",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.3926543280482292,
-      "std_drift": 0.289138211015621,
-      "min_drift": 0.048234522342681885,
-      "max_drift": 1.0519814491271973
+      "total_edits": 80,
+      "avg_drift": 0.36489588022232056,
+      "std_drift": 0.2786815570697892,
+      "min_drift": 0.017621517181396484,
+      "max_drift": 1.0975881814956665
     },
     "ar": {
       "language": "ar",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.2938477322459221,
-      "std_drift": 0.23436913800660128,
-      "min_drift": 0.010555803775787354,
-      "max_drift": 1.0429298877716064
+      "total_edits": 80,
+      "avg_drift": 0.3717629350721836,
+      "std_drift": 0.300764606887722,
+      "min_drift": -1.1920928955078125e-07,
+      "max_drift": 1.071060299873352
     },
     "bn": {
       "language": "bn",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.280469910800457,
-      "std_drift": 0.21030554799768694,
-      "min_drift": 0.005483388900756836,
-      "max_drift": 0.7969227433204651
+      "total_edits": 80,
+      "avg_drift": 0.2660823352634907,
+      "std_drift": 0.20340692591819626,
+      "min_drift": 0.0,
+      "max_drift": 0.8637364506721497
     },
     "fi": {
       "language": "fi",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.309411258995533,
-      "std_drift": 0.2784385200906648,
-      "min_drift": 0.021172285079956055,
-      "max_drift": 1.090610146522522
+      "total_edits": 80,
+      "avg_drift": 0.28266916796565056,
+      "std_drift": 0.2074091795360119,
+      "min_drift": 0.0159265398979187,
+      "max_drift": 0.8668801784515381
     },
     "id": {
       "language": "id",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.24680505692958832,
-      "std_drift": 0.16044837932332925,
-      "min_drift": 0.03845655918121338,
-      "max_drift": 0.7816073298454285
+      "total_edits": 80,
+      "avg_drift": 0.3098202243447304,
+      "std_drift": 0.27595167263440074,
+      "min_drift": 0.007134497165679932,
+      "max_drift": 1.0884478092193604
     },
     "ko": {
       "language": "ko",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.2607958674430847,
-      "std_drift": 0.2066276929132031,
-      "min_drift": 0.009889304637908936,
-      "max_drift": 1.0286375284194946
+      "total_edits": 80,
+      "avg_drift": 0.22505792006850242,
+      "std_drift": 0.18866880378772213,
+      "min_drift": 0.0,
+      "max_drift": 0.8006579875946045
     },
     "ru": {
       "language": "ru",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.33988131731748583,
-      "std_drift": 0.2729839656838141,
-      "min_drift": 0.0011242032051086426,
-      "max_drift": 1.0365279912948608
+      "total_edits": 80,
+      "avg_drift": 0.2808311238884926,
+      "std_drift": 0.23301421135609904,
+      "min_drift": 0.018252015113830566,
+      "max_drift": 1.0423400402069092
     },
     "sw": {
       "language": "sw",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.2605047211050987,
-      "std_drift": 0.1428593667479367,
-      "min_drift": 0.04842805862426758,
-      "max_drift": 0.6848277449607849
+      "total_edits": 80,
+      "avg_drift": 0.2914944589138031,
+      "std_drift": 0.16429197500914886,
+      "min_drift": 0.02374178171157837,
+      "max_drift": 0.7043013572692871
     },
     "te": {
       "language": "te",
-      "n_samples": 10,
+      "n_samples": 20,
       "n_edits_per_qa": 4,
-      "total_edits": 40,
-      "avg_drift": 0.15311339795589446,
-      "std_drift": 0.12051675259285792,
-      "min_drift": 0.0145530104637146,
-      "max_drift": 0.4738513231277466
+      "total_edits": 80,
+      "avg_drift": 0.19378783851861953,
+      "std_drift": 0.14406756588381495,
+      "min_drift": 0.005671560764312744,
+      "max_drift": 0.6584109663963318
     }
   }
 }
