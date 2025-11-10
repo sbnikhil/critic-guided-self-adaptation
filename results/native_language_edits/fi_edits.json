@@ -1,0 +1,662 @@
+[
+  {
+    "article_id": 0,
+    "context": "Charles Hoy Fort (6. elokuuta (joidenkin lähteiden mukaan 9.) 1874 – 3. toukokuuta 1932) oli yhdysvaltalainen kirjailija ja paranormaalien ilmiöiden tutkija.",
+    "original_question": "Milloin Charles Fort syntyi?",
+    "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "edited_question": "Mikä päivämäärä Charles Fortia syntymisenä mainitaan useimmiten?",
+        "edited_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "language": "fi",
+        "drift_score": 0.08142656087875366,
+        "semantic_similarity": 0.9185734391212463,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "edited_question": "Mikä päivämäärä Charles Fortin syntymän vuoden 1874 aikana oli?",
+        "edited_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "language": "fi",
+        "drift_score": 0.061349451541900635,
+        "semantic_similarity": 0.9386505484580994,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "edited_question": "Mitä päivämäärää ja kuukautta Charles Fort syntyi?",
+        "edited_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "language": "fi",
+        "drift_score": 0.030034422874450684,
+        "semantic_similarity": 0.9699655771255493,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "edited_question": "Kuin mitä kirjallisuuden tuomioistuimen arviot ovat, Charles Fort syntyi 6. elokuuta vuonna 1874.",
+        "edited_answer": "9. elokuuta (joidenkin lähteiden mukaan) 1874",
+        "language": "fi",
+        "drift_score": 0.1288585066795349,
+        "semantic_similarity": 0.8711414933204651,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Milloin Charles Fort syntyi?",
+        "original_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "edited_question": "Millaisen henkilön syntymäpäivät ovat tiedossa?",
+        "edited_answer": "6. elokuuta (joidenkin lähteiden mukaan 9.) 1874",
+        "language": "fi",
+        "drift_score": 0.3784397840499878,
+        "semantic_similarity": 0.6215602159500122,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.13602174520492555,
+    "std_drift": 0.12538557782372536
+  },
+  {
+    "article_id": 1,
+    "context": "   Altruismi ([1],  ”toinen”[2]) tarkoittaa epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle.[5] Altruismin vastakohta on egoismi.[6] Termin esitti ranskalainen filosofi Auguste Comte vuonna 1851, jolloin hän määritteli altruismin uhrautumiseksi muiden eduksi.[1]",
+    "original_question": "Mitä on altruismi?",
+    "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "edited_question": "Milloin auttaminen on enemmän kuin itse hyväntaloutinen teko?",
+        "edited_answer": "kun toisen hyödyksi hyvä asettaa itsensä edelle",
+        "language": "fi",
+        "drift_score": 0.44640129804611206,
+        "semantic_similarity": 0.5535987019538879,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "edited_question": "Miten yksilön hyvän teot voidaan määritellä?",
+        "edited_answer": "toimintaa, jossa oma hyvä vaihdetaan toisen hyväksi, ja tämä on eri ilmeessä kuin muihin yksityiskohtiin kohdistuvuus.",
+        "language": "fi",
+        "drift_score": 0.38396573066711426,
+        "semantic_similarity": 0.6160342693328857,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "edited_question": "Miten toinen saa hengen omasta elämänsä kannalta?",
+        "edited_answer": "jossa toisen hyvä rakennetaan oman elämän varjoon, ja tässä toiminnassa muiden hyvää on annettava taas itselleen.",
+        "language": "fi",
+        "drift_score": 0.46254587173461914,
+        "semantic_similarity": 0.5374541282653809,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "edited_question": "Milloin ihminen sulkee silmänsä toiselle ja antaa hyvän itselle?",
+        "edited_answer": "oikea käsi tulee vastaan sateenkaaren jälkeen, kun toinen hakee apua ja auttaa.",
+        "language": "fi",
+        "drift_score": 0.6734342575073242,
+        "semantic_similarity": 0.32656577229499817,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Mitä on altruismi?",
+        "original_answer": "epäitsekästä ja pyyteetöntä[3] [4] toimintaa, jossa toisen hyvä asetetaan oman edun edelle",
+        "edited_question": "Mitä tarkoittaa aloittaa toisen hyvän asettamaan oman edun mukaisesti?",
+        "edited_answer": "uhraa toisen hyväa, joka sijaitsee muuten oikeassa, ja pyytää häntä ei olla ryhtynyt vastaan.",
+        "language": "fi",
+        "drift_score": 0.44455385208129883,
+        "semantic_similarity": 0.5554461479187012,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.4821802020072937,
+    "std_drift": 0.09930314720945456
+  },
+  {
+    "article_id": 2,
+    "context": "Wagnerin mestariteoksia ovat hänen myöhäiskauden oopperansa, jotka veivät koko taidesuunnan kehitystä eteenpäin. Jotkut pitävät Tristan ja Isoldea (1857–59) Wagnerin suurimpana yksittäisenä oopperana. Nürnbergin mestarilaulajat (1861–67) on Wagnerin ainoa komedia (lukuun ottamatta unohdettua Liebesverbotia). Nibelungin sormus -tetralogia (1852–74) on neljän oopperan germaaniseen mytologiaan perustuva teossarja. Sen säveltäminen vei 26 vuotta, ja esitykset kestävät yhteensä noin 15 tuntia. Sormussarjaa on kutsuttu musiikinhistorian kunnianhimoisimmaksi hankkeeksi. Wagnerin viimeinen ooppera Parsifal (1877-1882), joka tehtiin Bayreuthin avajaisia silmällä pitäen, on syvämietteinen ja uskonnollissävytteinen Graalin maljan legendaan perustuva työ.",
+    "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+    "original_answer": "Parsifal",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "edited_question": "Minkälainen teos on Wilhelm Wagnerin viimeinen sävellys, joka on myös hänen suurimmaksi tunnetuksi tuotantoon sisällytetyn teoksesta?",
+        "edited_answer": "Parsifal",
+        "language": "fi",
+        "drift_score": 0.07141244411468506,
+        "semantic_similarity": 0.9285875558853149,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "edited_question": "Kuuluisa oopperailmanna kuului Wilhelm Wagnerin viimeiseen teokseen",
+        "edited_answer": "Parsifal",
+        "language": "fi",
+        "drift_score": 0.1596750020980835,
+        "semantic_similarity": 0.8403249979019165,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "edited_question": "Miten Wilhelm Wagnerin elämänkerrassa oleva viimeinen oopperansa sai nimensä?",
+        "edited_answer": "Parsifal",
+        "language": "fi",
+        "drift_score": 0.11972606182098389,
+        "semantic_similarity": 0.8802739381790161,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "edited_question": "Miten myöhäiskauden ooppera-tyyli kehittyi Wagnerin urkaisijaa kohden?",
+        "edited_answer": "Parsifal",
+        "language": "fi",
+        "drift_score": 0.2930625081062317,
+        "semantic_similarity": 0.7069374918937683,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Mikä oli Wilhelm Wagner viimeinen sävellys?",
+        "original_answer": "Parsifal",
+        "edited_question": "Mitä oopperaa Wilhelm Wagner julkaisi viimeisen kerran yhtenäisen teoksena?",
+        "edited_answer": "Parsifal",
+        "language": "fi",
+        "drift_score": 0.11110496520996094,
+        "semantic_similarity": 0.8888950347900391,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.150996196269989,
+    "std_drift": 0.07636866354783821
+  },
+  {
+    "article_id": 3,
+    "context": "  Harz on horstivuoristo Pohjois-Saksassa[1]. Se muodostaa luonnollisen rajan Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden välille.",
+    "original_question": "Missä Harz sijaitsee?",
+    "original_answer": "Pohjois-Saksassa",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "edited_question": "Mihin alueeseen harvinaiset horstivuoret sijaitsevat?",
+        "edited_answer": "Pohjois-Saksan rajana yhdistävät Harz, joka rajoittuu Ala-Saksia, Saksi-Anhaltia ja Thüringenin maakuntien välille.",
+        "language": "fi",
+        "drift_score": 0.2851969003677368,
+        "semantic_similarity": 0.7148030996322632,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "edited_question": "Minkälainen luonnonsuojelualue on se, joka alittaa pohjois-saksalaisen Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltiojen välitse?",
+        "edited_answer": "Harz on horstivuoristo Pohjois-Saksassa.",
+        "language": "fi",
+        "drift_score": 0.27942711114883423,
+        "semantic_similarity": 0.7205728888511658,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "edited_question": "Mihin maantielle Harz kuuluu?",
+        "edited_answer": "Saksi-Anhalti ja Thüringenin alueen horstivuoristoon.",
+        "language": "fi",
+        "drift_score": 0.24588388204574585,
+        "semantic_similarity": 0.7541161179542542,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "edited_question": "Milloin kumpu Harz on ja missä sijaitsee?",
+        "edited_answer": "Pohjois-Saksassa horstivuoriston sijaan.",
+        "language": "fi",
+        "drift_score": 0.11623841524124146,
+        "semantic_similarity": 0.8837615847587585,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Missä Harz sijaitsee?",
+        "original_answer": "Pohjois-Saksassa",
+        "edited_question": "Miten erottuu Horstivuoristo Harz Pohjois-Saksasta?",
+        "edited_answer": "Sen sijainti Ala-Saksin, Saksi-Anhaltin ja Thüringenin osavaltioiden rajan tuntumassa.",
+        "language": "fi",
+        "drift_score": 0.26352930068969727,
+        "semantic_similarity": 0.7364706993103027,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.23805512189865113,
+    "std_drift": 0.06242358859136815
+  },
+  {
+    "article_id": 4,
+    "context": "Ahmaa tavataan Suomessa, Ruotsissa, Norjassa, Venäjällä sekä Aasiassa ja Pohjois-Amerikassa. Se on väriltään tummanruskea ja hartioiden kohdalta vajaat puoli metriä korkea. Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg. Ahma on raadonsyöjä ja peto.",
+    "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+    "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "edited_question": "Miten suurikasvuisen ahman vastus Painon puolijakson pisteessä on?",
+        "edited_answer": "Naaras painaa keskimäärin 10 kg ja uros jopa 28 kg, mutta painopisteen vaihteluvälillä voivat olla huomattavia.",
+        "language": "fi",
+        "drift_score": 0.19462668895721436,
+        "semantic_similarity": 0.8053733110427856,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "edited_question": "Miksi täysikasvuiset ahmat voivat painaa niin eri painoja?",
+        "edited_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg.",
+        "language": "fi",
+        "drift_score": 0.13732993602752686,
+        "semantic_similarity": 0.8626700639724731,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "edited_question": "Mikä täysikasvuisen ahman painoraja on, ja mitä tukehtuneisuutta se voi olla?",
+        "edited_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg.",
+        "language": "fi",
+        "drift_score": 0.07498025894165039,
+        "semantic_similarity": 0.9250197410583496,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "edited_question": "Kuinka paljon täysikasvuisessa Ahmassa voi olla painoa?",
+        "edited_answer": "Naaras on yleensä noin 10 kg, mutta suuri uros on jopa 28 kg.",
+        "language": "fi",
+        "drift_score": 0.13238686323165894,
+        "semantic_similarity": 0.8676131367683411,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Miten paljon täysikasvuinen ahma painaa?",
+        "original_answer": "Naaras painaa keskimäärin noin 10 kg ja uros jopa 28 kg",
+        "edited_question": "Miksi täysikasvuisen ahman paino saattaa vaihtaa paljon sekä yksittäisissä tapauksissa että yleisesti?",
+        "edited_answer": "Naaraspaino on 10 kg:n alapainolla ja uros painaa jopa 28 kg, mutta tämä voi vaihdella suuresti eri ahmaleista.",
+        "language": "fi",
+        "drift_score": 0.243364155292511,
+        "semantic_similarity": 0.756635844707489,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.1565375804901123,
+    "std_drift": 0.05760802326723814
+  },
+  {
+    "article_id": 5,
+    "context": " Leonid Iljitš Brežnev (, ; 19. joulukuuta 1906 (J: 6. joulukuuta 1906) Kamenskoje – 10. marraskuuta 1982 Moskova) oli neuvostoliittolainen poliitikko.",
+    "original_question": "Milloin Leonid Brežnev kuoli?",
+    "original_answer": "10. marraskuuta 1982",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "edited_question": "Mitä päivää viimeinenä, Leonid Brežnev kuoli?",
+        "edited_answer": "10. marraskuuta 1982",
+        "language": "fi",
+        "drift_score": 0.06650078296661377,
+        "semantic_similarity": 0.9334992170333862,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "edited_question": "Milloin tämä Neuvostoliittolainen poliitikko, joka hallitsi pitkän ajan, kuoli?",
+        "edited_answer": "10. marraskuuta 1982",
+        "language": "fi",
+        "drift_score": 0.2467714548110962,
+        "semantic_similarity": 0.7532285451889038,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "edited_question": "Mikä vuosi oli Leonid Brežnevin kuolema?",
+        "edited_answer": "1982",
+        "language": "fi",
+        "drift_score": 0.050708234310150146,
+        "semantic_similarity": 0.9492917656898499,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "edited_question": "Kuka oli viimeinen Neuvostoliiton johdossa ja milloin hän kuoli?",
+        "edited_answer": "Leonid Iljitš Brežnev oli viimeinen Neuvostoliiton johdossa, ja hän kuoli 10. marraskuuta 1982 Moskovan.",
+        "language": "fi",
+        "drift_score": 0.20564496517181396,
+        "semantic_similarity": 0.794355034828186,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Milloin Leonid Brežnev kuoli?",
+        "original_answer": "10. marraskuuta 1982",
+        "edited_question": "Miten Leonid Brežnevin kuoleman tiettya kohtaa voidaan katsota yleisesti vastaavan?",
+        "edited_answer": "10. marraskuuta 1982",
+        "language": "fi",
+        "drift_score": 0.09772634506225586,
+        "semantic_similarity": 0.9022736549377441,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.133470356464386,
+    "std_drift": 0.0783050956422416
+  },
+  {
+    "article_id": 6,
+    "context": "   Rele on sähköisesti ohjattava sähkömekaaninen kytkin, jonka toiminta perustuu sähkömagneettiin. Releen keksi Joseph Henry vuonna 1835. Releellä ohjataan erillisen ohjausvirran avulla suurempia jännitteitä ja sähkövirtoja. Suuria päävirtapiirin ohjaukseen tarkoitettuja releitä kutsutaan usein kontaktoreiksi.",
+    "original_question": "Kuka keksi releen?",
+    "original_answer": "Joseph Henry",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "edited_question": "Miksi sähkömekaaninen kytkin, jossa toiminta perustuu sähkömagneettiin, on mahdollista ohjata erillisen ohjausvirran avulla?",
+        "edited_answer": "Joseph Henry",
+        "language": "fi",
+        "drift_score": 0.6616175770759583,
+        "semantic_similarity": 0.33838242292404175,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "edited_question": "Mikäli järjestelmän toiminta perustuu sähkömagneettisyyteen, on kyseksellinen kytkin ohjattava?",
+        "edited_answer": "Joseph Henry",
+        "language": "fi",
+        "drift_score": 0.720232367515564,
+        "semantic_similarity": 0.27976763248443604,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "edited_question": "Kysymyksen kohteessa suunniteltu sähkömekaaninen järjestelmä, jossa sähkömagneettin valinta ohjaa sähkövirtausta.",
+        "edited_answer": "Kontaktoreista ja Joseph Henryn keksimää suunnitelma.",
+        "language": "fi",
+        "drift_score": 0.5615172982215881,
+        "semantic_similarity": 0.43848270177841187,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "edited_question": "Mikä on joka loi ensimmäisenä sähkömekaanisen kytkinnön, jonka toiminta perustuu sähkömagneettiin?",
+        "edited_answer": "Joseph Henry",
+        "language": "fi",
+        "drift_score": 0.37690138816833496,
+        "semantic_similarity": 0.623098611831665,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Kuka keksi releen?",
+        "original_answer": "Joseph Henry",
+        "edited_question": "Millä tutkijalla sähkömekaanisen kytkin kehitti yhteistyössä muiden miehen kanssa?",
+        "edited_answer": "Joseph Henry",
+        "language": "fi",
+        "drift_score": 0.35303401947021484,
+        "semantic_similarity": 0.6469659805297852,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.534660530090332,
+    "std_drift": 0.1477514269569994
+  },
+  {
+    "article_id": 7,
+    "context": "Francisco Santos Miranda III (s. 24. toukokuuta 1979) on yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari. Hän pitää hallussaan ennätyksiä UFC:n raskaansarjassa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksi eniten otteluita UFC:ssä.",
+    "original_question": "Kuka Frank Mir on?",
+    "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "edited_question": "Mitä menetelmiä on käyttänyt Frank Mir UFC:ssa saakka?",
+        "edited_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "language": "fi",
+        "drift_score": 0.20850825309753418,
+        "semantic_similarity": 0.7914917469024658,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "edited_question": "Mitä tietoa on Francisca Santos Miranda IIIstä?",
+        "edited_answer": "yhdysvaltalainen vapaaottelija, joka hallitsi brasilialaista jujutsua sekä UFC:n raskaansarjan mestari. Hän pitää ennätyksistään UFC:ssa eniten otteluita, voittoja ja luovutusvoittoja. Lisäksi Mir on voittanut neljänneksen eniten otteluita UFC:ssä.",
+        "language": "fi",
+        "drift_score": 0.34295564889907837,
+        "semantic_similarity": 0.6570443511009216,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "edited_question": "Mitä uraa suoritettiin brasilialaisten jujutsuottelun ja UFC:n raskaansarjan mestaruuden parissa?",
+        "edited_answer": "Entinen yhdysvaltalainen vapaaottelija ja mestari UFC:n raskaansarjassa, sekä ensimmäinen mustan vyön haltija brasilialaisten jujutsussa.",
+        "language": "fi",
+        "drift_score": 0.41729098558425903,
+        "semantic_similarity": 0.582709014415741,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "edited_question": "Mitä uraa Francis Santos Miranda III on tehnyt vapaaottelussa?",
+        "edited_answer": "Brasilialaisen jujutsun mustan vyön haltija ja yhdysvaltalainen UFC:n raskaansarjan entinen mestari, jolla hän on pystyssään ylittäessään kaikki ennätykset sarjassa.",
+        "language": "fi",
+        "drift_score": 0.41323745250701904,
+        "semantic_similarity": 0.586762547492981,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Kuka Frank Mir on?",
+        "original_answer": "yhdysvaltalainen vapaaottelija ja brasilialaisen jujutsun mustan vyön haltija sekä UFC:n raskaansarjan entinen mestari",
+        "edited_question": "Miten tunnetaan vapaaottelun maailmanmiehen, UFC-raskaansarjan mestarin ja jujutsu-vapaaottelun maailmanmestari?",
+        "edited_answer": "Yhdysvaltalainen urheilija, joka on voittanut yli 40 ottelua UFC:n raskaansarjassa sekä ollut kauden aikana yksi mestaruudesta ja toista.",
+        "language": "fi",
+        "drift_score": 0.36430823802948,
+        "semantic_similarity": 0.63569176197052,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.34926011562347414,
+    "std_drift": 0.0758927901654407
+  },
+  {
+    "article_id": 8,
+    "context": " Saturnukselta tunnetaan 62 kuuta (vuonna 2012).[1] Kuiden kokonaismäärää ei tulla koskaan tarkoin määrittelemään, koska renkaiden jääkappaleet ovat kaikki teknisesti kuita, ja on vaikea vetää rajaa pikkukuun ja suuren renkaankappaleen välille. Saturnuksen tunnetuimmat ja suurimmat kuut ovat sisimmästä uloimpaan: Atlas, Prometheus, Pandora, Epimetheus, Janus, Mimas, Enceladus, Tethys, Telesto, Calypso, Dione, Helene, Rhea, Titan, Hyperion, Japetus ja Phoebe.",
+    "original_question": "Montako kuuta Saturnuksella on?",
+    "original_answer": "62",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "edited_question": "Kuiden lukumäärä Saturnuksen alueella mitataan, mutta niiden täysin määrittelemät kokoja ovat hankalaa arvioida.",
+        "edited_answer": "62",
+        "language": "fi",
+        "drift_score": 0.2707449197769165,
+        "semantic_similarity": 0.7292550802230835,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "edited_question": "Kuinka suuri joukko kuitua säteilee aurinkokunnan kaikkien kuutena Saturnuksessa?",
+        "edited_answer": "62",
+        "language": "fi",
+        "drift_score": 0.14494210481643677,
+        "semantic_similarity": 0.8550578951835632,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "edited_question": "Mitä suurimpia kuitumateriaaleja Saturnuksella on?",
+        "edited_answer": "62",
+        "language": "fi",
+        "drift_score": 0.1770837903022766,
+        "semantic_similarity": 0.8229162096977234,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "edited_question": "Kuinka paljon renkaa on Saturnuksessa, ja mikä ne ovat?",
+        "edited_answer": "62",
+        "language": "fi",
+        "drift_score": 0.1650083065032959,
+        "semantic_similarity": 0.8349916934967041,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Montako kuuta Saturnuksella on?",
+        "original_answer": "62",
+        "edited_question": "Kuussa, joka tunnetaan kiertäjänä Saturnukselta, onko olemassa 62 erillistä kuuta?",
+        "edited_answer": "Saturnuksen kuutojen määrää ei ole helppoa arvioida, koska kaikki renkaan jääkappaleet ovat teknisesti kuitu-olosuhteista, ja ero pikkukuun ja suurkuun on hyvin hankalaa määritellä.",
+        "language": "fi",
+        "drift_score": 0.23495930433273315,
+        "semantic_similarity": 0.7650406956672668,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.19854768514633178,
+    "std_drift": 0.04689860049984782
+  },
+  {
+    "article_id": 9,
+    "context": "Uusi-Seelanti antoi ensimmäisenä naisille äänioikeuden vuonna 1893. Australiassa myönnettiin vuonna 1902 rajoitettu äänioikeus ja vaalikelpoisuus, jotka kuitenkin koskivat vain valkoista väestöä.[1]",
+    "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+    "original_answer": "Uusi-Seelanti",
+    "language": "fi",
+    "edits": [
+      {
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "edited_question": "Miten maailma tunnusti naiset äänioikeutensa ja mitä vuonna ensimmäisenä se teki?",
+        "edited_answer": "Uusi-Seelanti",
+        "language": "fi",
+        "drift_score": 0.08321547508239746,
+        "semantic_similarity": 0.9167845249176025,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "edited_question": "Mikä ensimmäinen valtioliitto myönsi äänioikeuden naisille?",
+        "edited_answer": "Uusi-Seelanti",
+        "language": "fi",
+        "drift_score": 0.03755885362625122,
+        "semantic_similarity": 0.9624411463737488,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "edited_question": "Mikä maailmalla avattiin ensimmäinen äänioikeudenkäytön uudelleen muidenkin naisten myötteen?",
+        "edited_answer": "Uusi-Seelanti.",
+        "language": "fi",
+        "drift_score": 0.06967395544052124,
+        "semantic_similarity": 0.9303260445594788,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "edited_question": "Mika maassa lähestyi ensimmäisesti äänioikeuden naisille vuonna 1893?",
+        "edited_answer": "Uusi-Seelanti.",
+        "language": "fi",
+        "drift_score": 0.1849939227104187,
+        "semantic_similarity": 0.8150060772895813,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Mikä maa antoi naisille ensimmäiseksi äänioikeuden?",
+        "original_answer": "Uusi-Seelanti",
+        "edited_question": "Mikä maan ensimmäinen äänioikeusannos on ollut naisilla?",
+        "edited_answer": "Uusi-Seelanti",
+        "language": "fi",
+        "drift_score": 0.028968095779418945,
+        "semantic_similarity": 0.971031904220581,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.08088206052780152,
+    "std_drift": 0.055753576176590214
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-11-09T18:14:02.424910",
+  "total_qa_pairs": 90,
+  "total_edits": 450,
+  "languages": 9,
+  "overall_drift": 0.2188252521885766,
+  "language_stats": {
+    "en": {
+      "language": "en",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.27318299651145933,
+      "std_drift": 0.1289272204825251,
+      "min_drift": 0.03242921829223633,
+      "max_drift": 0.5779472589492798
+    },
+    "ar": {
+      "language": "ar",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.24041667103767395,
+      "std_drift": 0.10644414322442296,
+      "min_drift": 0.09761255979537964,
+      "max_drift": 0.6487061977386475
+    },
+    "bn": {
+      "language": "bn",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.17879526376724242,
+      "std_drift": 0.1694930474688431,
+      "min_drift": 0.016790032386779785,
+      "max_drift": 0.5863893032073975
+    },
+    "fi": {
+      "language": "fi",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.24606115937232972,
+      "std_drift": 0.17285682301303218,
+      "min_drift": 0.028968095779418945,
+      "max_drift": 0.720232367515564
+    },
+    "id": {
+      "language": "id",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.1684828519821167,
+      "std_drift": 0.12746750777138022,
+      "min_drift": 0.014752507209777832,
+      "max_drift": 0.6863585710525513
+    },
+    "ko": {
+      "language": "ko",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.1609974455833435,
+      "std_drift": 0.10783266638977278,
+      "min_drift": 0.019598960876464844,
+      "max_drift": 0.5689657926559448
+    },
+    "ru": {
+      "language": "ru",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.17113611817359925,
+      "std_drift": 0.12764078566671652,
+      "min_drift": 0.014528512954711914,
+      "max_drift": 0.513931393623352
+    },
+    "sw": {
+      "language": "sw",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.315343371629715,
+      "std_drift": 0.1723701152560828,
+      "min_drift": 0.024368703365325928,
+      "max_drift": 0.7160115838050842
+    },
+    "te": {
+      "language": "te",
+      "n_samples": 10,
+      "n_edits_per_qa": 5,
+      "total_edits": 50,
+      "avg_drift": 0.21501139163970948,
+      "std_drift": 0.1334044380452521,
+      "min_drift": 0.014514744281768799,
+      "max_drift": 0.6308478713035583
+    }
+  }
+}

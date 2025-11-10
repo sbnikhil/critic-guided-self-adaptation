@@ -22,7 +22,10 @@ ENV/
 
 # Outputs
 outputs/
+
+# Allow result JSONs but ignore other JSON files in root
 *.json
+!results/**/*.json
 !requirements.txt
 
 # Data (too large)

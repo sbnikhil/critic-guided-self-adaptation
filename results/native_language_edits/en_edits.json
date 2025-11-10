@@ -1,0 +1,662 @@
+[
+  {
+    "article_id": 0,
+    "context": "Quantum field theory naturally began with the study of electromagnetic interactions, as the electromagnetic field was the only known classical field as of the 1920s.[8]:1",
+    "original_question": "When was quantum field theory developed?",
+    "original_answer": "1920s",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "When was quantum field theory developed?",
+        "original_answer": "1920s",
+        "edited_question": "What epoch marked the inception of quantum field theory, initially focusing on the electromagnetic interactions that were the only known classical fields at that time?",
+        "edited_answer": "The 1920s.",
+        "language": "en",
+        "drift_score": 0.14597171545028687,
+        "semantic_similarity": 0.8540282845497131,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "When was quantum field theory developed?",
+        "original_answer": "1920s",
+        "edited_question": "At what point did physicists transition from studying classical fields to quantum field theory, particularly in their examination of electromagnetic interactions?",
+        "edited_answer": "The 1920s",
+        "language": "en",
+        "drift_score": 0.21186214685440063,
+        "semantic_similarity": 0.7881378531455994,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "When was quantum field theory developed?",
+        "original_answer": "1920s",
+        "edited_question": "In what decade did the study of electromagnetic interactions initiate the development of quantum field theory?",
+        "edited_answer": "The 1920s.",
+        "language": "en",
+        "drift_score": 0.1661657691001892,
+        "semantic_similarity": 0.8338342308998108,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "When was quantum field theory developed?",
+        "original_answer": "1920s",
+        "edited_question": "What era marked the inception of quantum field theory, with electromagnetic interactions serving as its primary focus?",
+        "edited_answer": "The 1920s.",
+        "language": "en",
+        "drift_score": 0.12187772989273071,
+        "semantic_similarity": 0.8781222701072693,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "When was quantum field theory developed?",
+        "original_answer": "1920s",
+        "edited_question": "What pivotal era marked the inception of quantum field theory, driven by a comprehensive understanding of classical electromagnetic interactions at the time?",
+        "edited_answer": "The 1920s.",
+        "language": "en",
+        "drift_score": 0.1471717357635498,
+        "semantic_similarity": 0.8528282642364502,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.15860981941223146,
+    "std_drift": 0.030108804637417035
+  },
+  {
+    "article_id": 1,
+    "context": "The Nobel Prize in Literature (Swedish: Nobelpriset i litteratur) is awarded annually by the Swedish Academy to authors for outstanding contributions in the field of literature. It is one of the five Nobel Prizes established by the 1895 will of Alfred Nobel, which are awarded for outstanding contributions in chemistry, physics, literature, peace, and physiology or medicine.[1] As dictated by Nobel's will, the award is administered by the Nobel Foundation and awarded by a committee that consists of five members elected by the Swedish Academy.[2] The first Nobel Prize in Literature was awarded in 1901 to Sully Prudhomme of France.[3] Each recipient receives a medal, a diploma and a monetary award prize that has varied throughout the years.[4] In 1901, Prudhomme received 150,782 SEK, which is equivalent to 8,823,637.78 SEK in January 2018. The award is presented in Stockholm at an annual ceremony on December 10, the anniversary of Nobel's death.[5]",
+    "original_question": "Who was the first Nobel prize winner for Literature?",
+    "original_answer": "Sully Prudhomme",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "Who was the first Nobel prize winner for Literature?",
+        "original_answer": "Sully Prudhomme",
+        "edited_question": "In what year did the prestigious literary honor, which Alfred Nobel bequeathed to recognize excellence in writing, first bestow its accolades on a deserving wordsmith?",
+        "edited_answer": "Sully Prudhomme",
+        "language": "en",
+        "drift_score": 0.212438702583313,
+        "semantic_similarity": 0.787561297416687,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Who was the first Nobel prize winner for Literature?",
+        "original_answer": "Sully Prudhomme",
+        "edited_question": "Which literary luminary received the inaugural accolade from the esteemed Alfred Nobel's will?",
+        "edited_answer": "Sully Prudhomme",
+        "language": "en",
+        "drift_score": 0.155900239944458,
+        "semantic_similarity": 0.844099760055542,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Who was the first Nobel prize winner for Literature?",
+        "original_answer": "Sully Prudhomme",
+        "edited_question": "Which literary luminary marked the inaugural year of the prestigious Nobel Prize for Literature?",
+        "edited_answer": "Sully Prudhomme",
+        "language": "en",
+        "drift_score": 0.08648240566253662,
+        "semantic_similarity": 0.9135175943374634,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Who was the first Nobel prize winner for Literature?",
+        "original_answer": "Sully Prudhomme",
+        "edited_question": "Whose literary legacy has been immortalized by an esteemed Swedish institution that recognizes authors for their remarkable impact on the written word?",
+        "edited_answer": "Sully Prudhomme",
+        "language": "en",
+        "drift_score": 0.36527836322784424,
+        "semantic_similarity": 0.6347216367721558,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Who was the first Nobel prize winner for Literature?",
+        "original_answer": "Sully Prudhomme",
+        "edited_question": "Which literary luminary received the inaugural honor bestowed by Alfred Nobel's 1895 bequest?",
+        "edited_answer": "Sully Prudhomme",
+        "language": "en",
+        "drift_score": 0.1577606201171875,
+        "semantic_similarity": 0.8422393798828125,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.19557206630706786,
+    "std_drift": 0.09379640074468971
+  },
+  {
+    "article_id": 2,
+    "context": "Dialectic or dialectics (Greek: διαλεκτική, dialektikḗ; related to dialogue), also known as the dialectical method, is at base a discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments. Dialectic resembles debate, but the concept excludes subjective elements such as emotional appeal and the modern pejorative sense of rhetoric.[1][2] Dialectic may be contrasted with the didactic method, wherein one side of the conversation teaches the other. Dialectic is alternatively known as minor logic, as opposed to major logic or critique.",
+    "original_question": "When is the dialectical method used?",
+    "original_answer": "discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "When is the dialectical method used?",
+        "original_answer": "discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments",
+        "edited_question": "Under what circumstances do individuals engage in a back-and-forth exchange of perspectives aimed at uncovering the underlying truth through logical reasoning?",
+        "edited_answer": "A collaborative dialogue between individuals with divergent viewpoints on a subject, seeking to arrive at an objective understanding by presenting well-reasoned arguments.",
+        "language": "en",
+        "drift_score": 0.37745553255081177,
+        "semantic_similarity": 0.6225444674491882,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "When is the dialectical method used?",
+        "original_answer": "discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments",
+        "edited_question": "In what contexts does the dialectical method employ confrontational reasoning as a means of finding common ground?",
+        "edited_answer": "A process of negotiation involving individuals with divergent perspectives, driven by a shared quest for objective truth through logical dialogue.",
+        "language": "en",
+        "drift_score": 0.2196146845817566,
+        "semantic_similarity": 0.7803853154182434,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "When is the dialectical method used?",
+        "original_answer": "discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments",
+        "edited_question": "Under what circumstances is a collaborative investigation into disparate perspectives employed?",
+        "edited_answer": "A dialogue-driven approach wherein individuals with divergent viewpoints engage in a structured exchange to uncover the underlying truth through logical reasoning.",
+        "language": "en",
+        "drift_score": 0.4511142373085022,
+        "semantic_similarity": 0.5488857626914978,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "When is the dialectical method used?",
+        "original_answer": "discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments",
+        "edited_question": "In what contexts do individuals engage in a debate-like exchange aimed at uncovering shared understanding?",
+        "edited_answer": "A dialogue-driven process where disparate perspectives converge through the exchange of rational arguments, seeking to reconcile differences and arrive at a more comprehensive truth.",
+        "language": "en",
+        "drift_score": 0.4332922697067261,
+        "semantic_similarity": 0.5667077302932739,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "When is the dialectical method used?",
+        "original_answer": "discourse between two or more people holding different points of view about a subject but wishing to establish the truth through reasoned arguments",
+        "edited_question": "In what contexts do proponents of differing opinions engage in a structured, rational exchange aimed at uncovering the underlying truth?",
+        "edited_answer": "A collaborative process wherein individuals with divergent perspectives converge to explore and resolve contradictions through articulate reasoning.",
+        "language": "en",
+        "drift_score": 0.3668416738510132,
+        "semantic_similarity": 0.6331583261489868,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.369663679599762,
+    "std_drift": 0.08156735673642371
+  },
+  {
+    "article_id": 3,
+    "context": "Hangul was personally created and promulgated by the fourth king of the Joseon dynasty, Sejong the Great.[1][2] Sejong's scholarly institute, the Hall of Worthies, is often credited with the work, and at least one of its scholars was heavily involved in its creation, but it appears to have also been a personal project of Sejong.",
+    "original_question": "Who invented Hangul?",
+    "original_answer": "Sejong the Great",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "Who invented Hangul?",
+        "original_answer": "Sejong the Great",
+        "edited_question": "What ingenious linguist is often credited with designing a phonetic alphabet that would become synonymous with Korean writing?",
+        "edited_answer": "Sejong the Great",
+        "language": "en",
+        "drift_score": 0.489391028881073,
+        "semantic_similarity": 0.510608971118927,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Who invented Hangul?",
+        "original_answer": "Sejong the Great",
+        "edited_question": "What brainchild did Sejong the Great single-handedly conceive, which would later be immortalized by his scholarly institute?",
+        "edited_answer": "Sejong the Great",
+        "language": "en",
+        "drift_score": 0.24994289875030518,
+        "semantic_similarity": 0.7500571012496948,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Who invented Hangul?",
+        "original_answer": "Sejong the Great",
+        "edited_question": "What pioneering monarch spearheaded a bold linguistic revolution that gave birth to Korea's unique writing system?",
+        "edited_answer": "Sejong the Great",
+        "language": "en",
+        "drift_score": 0.3994444012641907,
+        "semantic_similarity": 0.6005555987358093,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Who invented Hangul?",
+        "original_answer": "Sejong the Great",
+        "edited_question": "Was it a collective endeavor or an individual masterpiece that led to the creation of Hangul?",
+        "edited_answer": "Sejong the Great",
+        "language": "en",
+        "drift_score": 0.1876259446144104,
+        "semantic_similarity": 0.8123740553855896,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Who invented Hangul?",
+        "original_answer": "Sejong the Great",
+        "edited_question": "What mastermind behind Korea's phonetic script deserves credit for crafting a unique writing system?",
+        "edited_answer": "Sejong the Great",
+        "language": "en",
+        "drift_score": 0.46103090047836304,
+        "semantic_similarity": 0.538969099521637,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.35748703479766847,
+    "std_drift": 0.11857398326149063
+  },
+  {
+    "article_id": 4,
+    "context": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas. They protect themselves from predators by camouflage; when detected, many species attempt to startle the predator with a brilliantly-coloured wing-flash while jumping and (if adult) launching themselves into the air, usually flying for only a short distance. Other species such as the rainbow grasshopper have warning coloration which deters predators. Grasshoppers are affected by parasites and various diseases, and many predatory creatures feed on both nymphs and adults. The eggs are the subject of attack by parasitoids and predators.",
+    "original_question": "What do Grasshoppers eat?",
+    "original_answer": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "What do Grasshoppers eat?",
+        "original_answer": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas",
+        "edited_question": "What is the primary source of sustenance for these notorious, swarming insects?",
+        "edited_answer": "Certain grasshopper species are voracious plant consumers, occasionally erupting into destructive, crop-devouring frenzies that leave agricultural landscapes scarred and barren.",
+        "language": "en",
+        "drift_score": 0.2908039689064026,
+        "semantic_similarity": 0.7091960310935974,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "What do Grasshoppers eat?",
+        "original_answer": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas",
+        "edited_question": "What is the primary source of sustenance for these insect hordes that ravage farmland?",
+        "edited_answer": "Certain grasshopper species have been known to feed on various plant-based commodities, including cereal grains, vegetables, and pastureland, often causing significant damage when swarms form and become locusts, leaving a trail of destruction in their wake.",
+        "language": "en",
+        "drift_score": 0.266083300113678,
+        "semantic_similarity": 0.733916699886322,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "What do Grasshoppers eat?",
+        "original_answer": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas",
+        "edited_question": "What is the primary source of sustenance for grasshoppers?",
+        "edited_answer": "Certain grasshopper species have a propensity to consume cereal crops, vegetables, and pastures when they form massive swarms, often transforming into devastating locusts that ravage extensive areas and lay waste to agricultural landscapes.",
+        "language": "en",
+        "drift_score": 0.2680618166923523,
+        "semantic_similarity": 0.7319381833076477,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "What do Grasshoppers eat?",
+        "original_answer": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas",
+        "edited_question": "What is the typical dietary preference of grasshoppers, given their occasional tendency to become destructive to various agricultural crops?",
+        "edited_answer": "Certain species of grasshoppers exhibit a predominantly herbivorous appetite, occasionally culminating in severe infestations that can wreak havoc on cereal, vegetable, and pasture ecosystems when they aggregate in massive swarms, effectively unleashing locust-like devastation across broad geographic areas.",
+        "language": "en",
+        "drift_score": 0.25349730253219604,
+        "semantic_similarity": 0.746502697467804,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "What do Grasshoppers eat?",
+        "original_answer": "Grasshoppers are plant-eaters, with a few species at times becoming serious pests of cereals, vegetables and pasture, especially when they swarm in their millions as locusts and destroy crops over wide areas",
+        "edited_question": "What's the main course on a grasshopper's plate?",
+        "edited_answer": "Certain species of grasshoppers have an insatiable appetite for plant-based cuisine, with some turning into destructive forces when they multiply rapidly, leaving trails of devastation in their wake.",
+        "language": "en",
+        "drift_score": 0.31137698888778687,
+        "semantic_similarity": 0.6886230111122131,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.2779646754264832,
+    "std_drift": 0.02058696759933285
+  },
+  {
+    "article_id": 5,
+    "context": "Kerman Province (Persian: استان کرمان‎, Ostān-e Kermān) is the largest province of the 31 provinces of Iran. Kerman is in the southeast of Iran with its administrative center in the city of Kerman. In 2014 it was placed in Region 5.[3] Mentioned in ancient times as the Achamenid satrapy of Carmania,[4] it is the first-largest province of Iran with an area of 183,285km2 (70,767sqmi), that encompasses nearly 11 percent of the land area of Iran.[5] The population of the province is about 3 million (9th in the country).",
+    "original_question": "How large is the Kerman province of southeastern Iran?",
+    "original_answer": "183,285km",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "How large is the Kerman province of southeastern Iran?",
+        "original_answer": "183,285km",
+        "edited_question": "What extent of territory comprises the southeastern Iranian region known as Kerman province?",
+        "edited_answer": "Approximately 70,767 square miles.",
+        "language": "en",
+        "drift_score": 0.16836798191070557,
+        "semantic_similarity": 0.8316320180892944,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "How large is the Kerman province of southeastern Iran?",
+        "original_answer": "183,285km",
+        "edited_question": "What dimensions does the region encompass that constitutes nearly one-tenth of Iran's entire territory?",
+        "edited_answer": "183,285km2",
+        "language": "en",
+        "drift_score": 0.1724986433982849,
+        "semantic_similarity": 0.8275013566017151,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "How large is the Kerman province of southeastern Iran?",
+        "original_answer": "183,285km",
+        "edited_question": "What spatial extent does the largest Iranian province occupy within its southern border?",
+        "edited_answer": "Approximately 70,767 square miles.",
+        "language": "en",
+        "drift_score": 0.21069198846817017,
+        "semantic_similarity": 0.7893080115318298,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "How large is the Kerman province of southeastern Iran?",
+        "original_answer": "183,285km",
+        "edited_question": "What extensive territory comprises nearly one-tenth of Iran's vast landscape?",
+        "edited_answer": "Approximately 183,285 square kilometers cover roughly eleven percent of the country.",
+        "language": "en",
+        "drift_score": 0.24097168445587158,
+        "semantic_similarity": 0.7590283155441284,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "How large is the Kerman province of southeastern Iran?",
+        "original_answer": "183,285km",
+        "edited_question": "What proportions of Iranian territory does the Kerman province occupy in terms of its vast expanse?",
+        "edited_answer": "Nearly 11 percent, spanning an area of approximately 183,285 square kilometers.",
+        "language": "en",
+        "drift_score": 0.21083778142929077,
+        "semantic_similarity": 0.7891622185707092,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.2006736159324646,
+    "std_drift": 0.027074325262424807
+  },
+  {
+    "article_id": 6,
+    "context": "Guitar Hero Live is a music video game developed by FreeStyleGames and published by Activision. It was released for PlayStation 3, PlayStation 4, Wii U, Xbox 360, and Xbox One in October 2015 and to iOS devices including Apple TV in November 2015. As with previous games in the series, the goal is to use a special guitar controller to match fret patterns displayed on a scrolling note pattern on screen in time with the music.",
+    "original_question": "When was Guitar Hero Live first released?",
+    "original_answer": "October 2015",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "When was Guitar Hero Live first released?",
+        "original_answer": "October 2015",
+        "edited_question": "In what year did Activision's latest music video game iteration, Guitar Hero Live, debut for several major gaming platforms?",
+        "edited_answer": "November 2015",
+        "language": "en",
+        "drift_score": 0.1477358341217041,
+        "semantic_similarity": 0.8522641658782959,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "When was Guitar Hero Live first released?",
+        "original_answer": "October 2015",
+        "edited_question": "In what month and year did Activision's Guitar Hero Live game make its initial appearance on various gaming platforms?",
+        "edited_answer": "November 2015",
+        "language": "en",
+        "drift_score": 0.14814943075180054,
+        "semantic_similarity": 0.8518505692481995,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "When was Guitar Hero Live first released?",
+        "original_answer": "October 2015",
+        "edited_question": "In what month of the year did Activision's music video game Guitar Hero Live initially hit the market?",
+        "edited_answer": "November 2015.",
+        "language": "en",
+        "drift_score": 0.19214308261871338,
+        "semantic_similarity": 0.8078569173812866,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "When was Guitar Hero Live first released?",
+        "original_answer": "October 2015",
+        "edited_question": "In what month and year did Activision's latest iteration of Guitar Hero Live, a music video game, become accessible to PlayStation 3, PlayStation 4, Wii U, Xbox 360, and Xbox One users?",
+        "edited_answer": "October 2015.",
+        "language": "en",
+        "drift_score": 0.25523215532302856,
+        "semantic_similarity": 0.7447678446769714,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "When was Guitar Hero Live first released?",
+        "original_answer": "October 2015",
+        "edited_question": "At what point did the most recent installment of the Guitar Hero series finally make its debut?",
+        "edited_answer": "October 2015.",
+        "language": "en",
+        "drift_score": 0.20927637815475464,
+        "semantic_similarity": 0.7907236218452454,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.19050737619400024,
+    "std_drift": 0.04041744266214456
+  },
+  {
+    "article_id": 7,
+    "context": "On March 7, 1901, Lupinus subcarnosus became the only species of bluebonnet recognized as the state flower of Texas;[2] however, Lupinus texensis emerged as the favorite of most Texans. So, in 1971, the Texas Legislature made any similar species of Lupinus that could be found in Texas the state flower.[3][4]",
+    "original_question": "When were bluebonnets named the state flower of Texas?",
+    "original_answer": "March 7, 1901",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "When were bluebonnets named the state flower of Texas?",
+        "original_answer": "March 7, 1901",
+        "edited_question": "What pivotal moment did Lupinus subcarnosus mark for Texas's floral heritage?",
+        "edited_answer": "March 7, 1901",
+        "language": "en",
+        "drift_score": 0.28765976428985596,
+        "semantic_similarity": 0.712340235710144,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "When were bluebonnets named the state flower of Texas?",
+        "original_answer": "March 7, 1901",
+        "edited_question": "What milestone in Texas history marked a shift from Lupinus subcarnosus to Lupinus texensis as the favored state flower?",
+        "edited_answer": "1971",
+        "language": "en",
+        "drift_score": 0.28943532705307007,
+        "semantic_similarity": 0.7105646729469299,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "When were bluebonnets named the state flower of Texas?",
+        "original_answer": "March 7, 1901",
+        "edited_question": "When did the Lone Star State formalize its iconic bluebonnet emblem as an official floral symbol?",
+        "edited_answer": "March 7, 1901",
+        "language": "en",
+        "drift_score": 0.28395015001296997,
+        "semantic_similarity": 0.71604984998703,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "When were bluebonnets named the state flower of Texas?",
+        "original_answer": "March 7, 1901",
+        "edited_question": "At what point did Lupinus subcarnosus secure its status as Texas's official floral emblem?",
+        "edited_answer": "March 7, 1901",
+        "language": "en",
+        "drift_score": 0.29269343614578247,
+        "semantic_similarity": 0.7073065638542175,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "When were bluebonnets named the state flower of Texas?",
+        "original_answer": "March 7, 1901",
+        "edited_question": "At what point did bluebonnets become officially designated as the Texas state flower?",
+        "edited_answer": "March 7, 1901",
+        "language": "en",
+        "drift_score": 0.03242921829223633,
+        "semantic_similarity": 0.9675707817077637,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.23723357915878296,
+    "std_drift": 0.10244108803545511
+  },
+  {
+    "article_id": 8,
+    "context": "Clannad(クラナド,Kuranado) is a Japanese visual novel developed by Key and released on April 28, 2004 for Windows PCs. While both of Key's first two previous works, Kanon and Air, had been released first as adult games and then censored for the younger market, Clannad was released with a rating for all ages. It was later ported to the PlayStation 2, PlayStation Portable, Xbox 360, PlayStation 3, PlayStation Vita, PlayStation 4 and Nintendo Switch consoles. An English version for Windows was released on Steam by Sekai Project in 2015. The story follows the life of Tomoya Okazaki, an average high school student who meets many people in his last year at school, including five girls, and helps resolve their individual problems.",
+    "original_question": "Who created the series Clannad?",
+    "original_answer": "Key",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "Who created the series Clannad?",
+        "original_answer": "Key",
+        "edited_question": "What pioneering visual novel studio spearheaded the release of a groundbreaking, age-friendly series that would go on to captivate audiences worldwide?",
+        "edited_answer": "Key",
+        "language": "en",
+        "drift_score": 0.5425930619239807,
+        "semantic_similarity": 0.4574069380760193,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Who created the series Clannad?",
+        "original_answer": "Key",
+        "edited_question": "What is the originator behind the acclaimed visual novel series, known for its emotional depth and relatable characters?",
+        "edited_answer": "Key",
+        "language": "en",
+        "drift_score": 0.5518817901611328,
+        "semantic_similarity": 0.4481181800365448,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Who created the series Clannad?",
+        "original_answer": "Key",
+        "edited_question": "What company spearheaded the creation of the iconic visual novel series that has captured the hearts of gamers worldwide, known for its poignant storytelling and memorable characters?",
+        "edited_answer": "Key.",
+        "language": "en",
+        "drift_score": 0.5536013841629028,
+        "semantic_similarity": 0.4463985860347748,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Who created the series Clannad?",
+        "original_answer": "Key",
+        "edited_question": "What pioneering studio spearheaded the creation of the beloved Japanese visual novel series that has captured the hearts of gamers worldwide?",
+        "edited_answer": "Key",
+        "language": "en",
+        "drift_score": 0.5779472589492798,
+        "semantic_similarity": 0.4220527708530426,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Who created the series Clannad?",
+        "original_answer": "Key",
+        "edited_question": "What pioneering studio catapulted Clannad into the spotlight with its unique storytelling approach?",
+        "edited_answer": "Key",
+        "language": "en",
+        "drift_score": 0.2640966773033142,
+        "semantic_similarity": 0.7359033226966858,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.49802403450012206,
+    "std_drift": 0.11754627012144807
+  },
+  {
+    "article_id": 9,
+    "context": "Taylor's keel was laid down by Bath Iron Works Corp., Bath, Maine, on May 5, 1983. She was launched November 5, 1983, and commissioned December 1, 1984 in Bath, Maine. Taylor was sponsored by Barbara A. Taylor, the widow of the ship's namesake, and Diane Taylor-Oeland as matron of honor.",
+    "original_question": "When was the USS Taylor built?",
+    "original_answer": "May 5, 1983",
+    "language": "en",
+    "edits": [
+      {
+        "original_question": "When was the USS Taylor built?",
+        "original_answer": "May 5, 1983",
+        "edited_question": "In what year did Bath Iron Works Corp. formally initiate construction on the USS Taylor?",
+        "edited_answer": "May 5, 1983",
+        "language": "en",
+        "drift_score": 0.20306217670440674,
+        "semantic_similarity": 0.7969378232955933,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "When was the USS Taylor built?",
+        "original_answer": "May 5, 1983",
+        "edited_question": "During what specific calendar year did the ship's keel commence construction?",
+        "edited_answer": "1983",
+        "language": "en",
+        "drift_score": 0.33411073684692383,
+        "semantic_similarity": 0.6658892631530762,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "When was the USS Taylor built?",
+        "original_answer": "May 5, 1983",
+        "edited_question": "At what date did Bath Iron Works Corp. officially commence construction on the Taylor?",
+        "edited_answer": "May 5, 1983",
+        "language": "en",
+        "drift_score": 0.3655397891998291,
+        "semantic_similarity": 0.6344602108001709,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "When was the USS Taylor built?",
+        "original_answer": "May 5, 1983",
+        "edited_question": "At what point in time did Bath Iron Works Corp. initiate construction on the USS Taylor?",
+        "edited_answer": "May 5, 1983",
+        "language": "en",
+        "drift_score": 0.21298980712890625,
+        "semantic_similarity": 0.7870101928710938,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "When was the USS Taylor built?",
+        "original_answer": "May 5, 1983",
+        "edited_question": "At what point did the USS Taylor's hull construction commence?",
+        "edited_answer": "November 5, 1983",
+        "language": "en",
+        "drift_score": 0.11476790904998779,
+        "semantic_similarity": 0.8852320909500122,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.24609408378601075,
+    "std_drift": 0.09187862655559906
+  }
+]

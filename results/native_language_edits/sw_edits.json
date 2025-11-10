@@ -1,0 +1,662 @@
+[
+  {
+    "article_id": 0,
+    "context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+    "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+    "original_answer": "Brazili, Marekani na Meksiko",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "edited_question": "Chaguzi zozote za machungwa ambazo hulimwa kwa ajili ya biashara zinapopatikana nchini gani?",
+        "edited_answer": "Brazili, Marekani na Meksiko",
+        "language": "sw",
+        "drift_score": 0.5607092380523682,
+        "semantic_similarity": 0.4392907917499542,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "edited_question": "Nchi ambazo machungwa yaliyopatikana kwa wingi zaidi duniani ni nini?",
+        "edited_answer": "Brazili, Marekani na Meksiko hulazimishwa sana ili kuleta uchumi wao.",
+        "language": "sw",
+        "drift_score": 0.4803416132926941,
+        "semantic_similarity": 0.5196583867073059,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "edited_question": "Nchi yenye uzalishaji wa machungwa wenye kasi ya juu ni nini?",
+        "edited_answer": "Brazili, Marekani na Meksiko",
+        "language": "sw",
+        "drift_score": 0.4194478988647461,
+        "semantic_similarity": 0.5805521011352539,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "edited_question": "Nchi zinazozalisha machungwa kila mwaka ni nchi gani?",
+        "edited_answer": "Brazili, Marekani na Meksiko. Machungwa yanakuzwa sana na hivyo huathiriwa haraka sana na ukungu kwa kuongezeka kwa joto, hivyo hutoa hatari kubwa ya mafurushi ya machungwa baada ya muda mfupi wa uthabiti.",
+        "language": "sw",
+        "drift_score": 0.6373694539070129,
+        "semantic_similarity": 0.36263054609298706,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+        "original_answer": "Brazili, Marekani na Meksiko",
+        "edited_question": "Nchi ambazo machungwa yanalazimika kuzalisha zaidi duniani?",
+        "edited_answer": "Brazili, Marekani na Meksiko.",
+        "language": "sw",
+        "drift_score": 0.47163069248199463,
+        "semantic_similarity": 0.5283693075180054,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.5138997793197632,
+    "std_drift": 0.0765112670137004
+  },
+  {
+    "article_id": 1,
+    "context": "Mchezo wa kwanza wa mfululizo StarCraft ulitolewa kwa Microsoft Windows tarehe 31 Machi 1998. Na zaidi ya nakala milioni 11 kuuzwa duniani kote kufikia Februari 2009, ni moja ya michezo bora kwa kuuza inayotumika kwenye kompyuta binafsi. Nakala inayotumika kwenye Mac OS ilitolewa Machi 1999.",
+    "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+    "original_answer": "Microsoft",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "edited_question": "Niwaona ni kile kinachotoa mshairi wa StarCraft?",
+        "edited_answer": "Microsoft",
+        "language": "sw",
+        "drift_score": 0.21823400259017944,
+        "semantic_similarity": 0.7817659974098206,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "edited_question": "Mchezaji gani alikuwa mwanzilishi wa StarCraft?",
+        "edited_answer": "Microsoft",
+        "language": "sw",
+        "drift_score": 0.16069191694259644,
+        "semantic_similarity": 0.8393080830574036,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "edited_question": "Kiongozi wa kitengo kilichotengeneza StarCraft kinacholengwa na kuuzwa zaidi duniani kote, kwani ilikuwa moja ya vichezo vyenye mafanikio ya sasa vya kompyuta binafsi?",
+        "edited_answer": "Microsoft",
+        "language": "sw",
+        "drift_score": 0.274591863155365,
+        "semantic_similarity": 0.725408136844635,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "edited_question": "Mchezaji anayetafuta umakini wa mchezo wa StarCraft ana nia ya kuibua mwanzilishi wa kitengo cha kutekeleza.",
+        "edited_answer": "Microsoft",
+        "language": "sw",
+        "drift_score": 0.2485838532447815,
+        "semantic_similarity": 0.7514161467552185,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je,nani mwanzilishi wa mchezo wa StarCraft?",
+        "original_answer": "Microsoft",
+        "edited_question": "Walimu wanaojifunza StarCraft wanakumbuka kuwa mchezo ulipangwa na nani?",
+        "edited_answer": "Microsoft",
+        "language": "sw",
+        "drift_score": 0.18837839365005493,
+        "semantic_similarity": 0.8116216063499451,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.21809600591659545,
+    "std_drift": 0.040742301537079036
+  },
+  {
+    "article_id": 2,
+    "context": "Republic of Zambia  Jamhuri ya Zambia                             Neno Kuu: “One Zambia, one nation” Kiing. „Zambia moja, Taifa moja“Lugha rasmiKiingerezaMji MkuuLusakaSerikaliJamhuriRais(Edgar Lungu)Eneo752.614 km²Idadi ya Wakazi14,309,466 (Julai 2012)Wakazi kwa km²17,2UhuruKutoka Uingereza 24 Oktoba 1964PesaKwacha ya Zambia = 100 NgweeWakatiUTC+2Wimbo wa TaifaLumbanyeni Zambia (Stand and sing of Zambia)",
+    "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+    "original_answer": "14,309,466",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "edited_question": "Ni nchi ngapi kwa sasa za Afrika zilizo na jumla ya watu 14,309,466?",
+        "edited_answer": "Zambia pekee.",
+        "language": "sw",
+        "drift_score": 0.23783236742019653,
+        "semantic_similarity": 0.7621676325798035,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "edited_question": "Nchi ya Zambia ina idadi ngapi ya watu wanaoishi nchini yake?",
+        "edited_answer": "Milioni 14.3",
+        "language": "sw",
+        "drift_score": 0.14019626379013062,
+        "semantic_similarity": 0.8598037362098694,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "edited_question": "Ni vikundi vyenye watu vingapi vinavyoishi nchi ya Zambia?",
+        "edited_answer": "14,309,466",
+        "language": "sw",
+        "drift_score": 0.08691370487213135,
+        "semantic_similarity": 0.9130862951278687,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "edited_question": "Ni vikundi vingapi na watu vya Zambia vinavyoishi mbele ya utofauti wa mtu binafsi?",
+        "edited_answer": "17,2",
+        "language": "sw",
+        "drift_score": 0.31469476222991943,
+        "semantic_similarity": 0.6853052377700806,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je,nchi ya Zambia ina idadi ya watu wangapi?",
+        "original_answer": "14,309,466",
+        "edited_question": "Ni jumla ya idadi ya wakazi katika Jamhuri ya Zambia?",
+        "edited_answer": "14,309,466",
+        "language": "sw",
+        "drift_score": 0.1988126039505005,
+        "semantic_similarity": 0.8011873960494995,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.19568994045257568,
+    "std_drift": 0.07856169596039561
+  },
+  {
+    "article_id": 3,
+    "context": " Apollo 11 ilikuwa chombo cha angani cha kwanza kufikisha watu kwenye Mwezi. Hii yote ilifanywa na NASA (Mamlaka ya Marekani ya Usafiri wa Anga). Kilirushwa angani mnamo 16 Julai 1969 kikibeba wanaanga watatu Neil Armstrong, Buzz Aldrin na Michael Collins.",
+    "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+    "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "edited_question": "Kiongozi gani mwenye nguvu ya kupiga usafiri wa angani ulisimamisha mkusanyiko wa watu kwenye Mwezi?",
+        "edited_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "language": "sw",
+        "drift_score": 0.6473393440246582,
+        "semantic_similarity": 0.3526606857776642,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "edited_question": "Hata mwezi ule ulikuwa ni nani ambaye NASA alifanya kunyusha kwanza kwenye sura ya angani?",
+        "edited_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "language": "sw",
+        "drift_score": 0.5631753206253052,
+        "semantic_similarity": 0.4368247091770172,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "edited_question": "NASA ilikuwa mwenyejeshaji wa kwanza, wanaanga watatu kufika kwenye angani.",
+        "edited_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "language": "sw",
+        "drift_score": 0.7081178426742554,
+        "semantic_similarity": 0.29188215732574463,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "edited_question": "Kiasi cha angani gani kila wakati kilichotumika kutembelea mwezi wa nchini Marekani?",
+        "edited_answer": "Apollo 11",
+        "language": "sw",
+        "drift_score": 0.7160115838050842,
+        "semantic_similarity": 0.28398841619491577,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je,nani wa kwanza kufika kwenye mwezi?",
+        "original_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "edited_question": "Ni watu waliokuwa waliosafiri kwenye mwezi wa Kusini mwa angani kabla ya Apollo 11 kuiga?",
+        "edited_answer": "Neil Armstrong, Buzz Aldrin na Michael Collins",
+        "language": "sw",
+        "drift_score": 0.5191924571990967,
+        "semantic_similarity": 0.4808075428009033,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.63076730966568,
+    "std_drift": 0.07815618752016214
+  },
+  {
+    "article_id": 4,
+    "context": "Kuna miji mingi katika Bara Arabu, lakini miji mikuu ya madola mbalimbali ya Bara Arabu ni Riyadh, mji mkuu wa Saudia, ijapokuwa kuna miji mashuhuri na mitukufu katika Saudia kama Makka na Madina. ",
+    "original_question": "Makka inapatikana nchi gani?",
+    "original_answer": "Saudia",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "edited_question": "Kuna miji mingi gani katika Bara Arabu ambapo kumbukumbu za Makka zinapatikana?",
+        "edited_answer": "Miji mikuu ya madola mbalimbali ya Bara Arabu.",
+        "language": "sw",
+        "drift_score": 0.5246552228927612,
+        "semantic_similarity": 0.47534477710723877,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "edited_question": "Ni nchi ngapi za Bara Arabu zina miji mikuu?",
+        "edited_answer": "Bara Arabu tano na Riyadh ni mkuu wa jumla.",
+        "language": "sw",
+        "drift_score": 0.3306194543838501,
+        "semantic_similarity": 0.6693805456161499,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "edited_question": "Jina la mji ambao ni kitovu cha sauti ya Bara Arabu ni nchi gani?",
+        "edited_answer": "Saudia",
+        "language": "sw",
+        "drift_score": 0.2634039521217346,
+        "semantic_similarity": 0.7365960478782654,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "edited_question": "Ni nchi ngapi za Bara Arabu zina miji ya makaburi na mitukufu?",
+        "edited_answer": "Riyadh",
+        "language": "sw",
+        "drift_score": 0.2552673816680908,
+        "semantic_similarity": 0.7447326183319092,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Makka inapatikana nchi gani?",
+        "original_answer": "Saudia",
+        "edited_question": "Ni mji ambao ni ndege zaidi ya Bara Arabu?",
+        "edited_answer": "Makka",
+        "language": "sw",
+        "drift_score": 0.3572779893875122,
+        "semantic_similarity": 0.6427220106124878,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.3462448000907898,
+    "std_drift": 0.09729918644468498
+  },
+  {
+    "article_id": 5,
+    "context": "Dogma ni neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani. Linaweza kutumika pia kwa maana isiyo ya kidini.",
+    "original_question": "Teolojia ya dogma ni nini?",
+    "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "edited_question": "itikadi gani ambayo inalenga kufanya imani kuwa isiyo ya utata na wale ambao wanafuata dini fulani?",
+        "edited_answer": "dogma ni neno linalotumiwa sana kurejelea imani inayoweza kudhuru wakati wa kusumbua duni.",
+        "language": "sw",
+        "drift_score": 0.10858702659606934,
+        "semantic_similarity": 0.8914129734039307,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "edited_question": "Kwa nini mtu anaweza kuamua kama kitambulisho chake ni dini au dogma?",
+        "edited_answer": "mabishano ya imani ambayo yanatokana na maoni na uaminifu wa mtu, inasukumwa na mapendeleo ya kidini.",
+        "language": "sw",
+        "drift_score": 0.1479225754737854,
+        "semantic_similarity": 0.8520774245262146,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "edited_question": "Katika uwanja wa kiteolojia, ni kitu gani kinachoakisi mawazo ya watu ambao hayana ubadilishanaji?",
+        "edited_answer": "Dogma ni namna inavyowasilishwa, si tu kwamba ina imani, lakini pia hutegemea upande wowote wa ukweli na unahofea kuhatarisha mafundisho ya wengine.",
+        "language": "sw",
+        "drift_score": 0.3544941544532776,
+        "semantic_similarity": 0.6455058455467224,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "edited_question": "Imani ambayo imeunganishwa kwa nyuma ya imani nyingi ni nini?",
+        "edited_answer": "fundisho la wafuasi wa duni lililojikita na upendeleo.",
+        "language": "sw",
+        "drift_score": 0.1730515956878662,
+        "semantic_similarity": 0.8269484043121338,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Teolojia ya dogma ni nini?",
+        "original_answer": "neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukanushwa na wafuasi wa dini fulani",
+        "edited_question": "Neno gani ni linapoonyeshwa kama njia ya kutoa imani iliyobadilika na wadini wa muda mrefu?",
+        "edited_answer": "Dogma ni maono duni ambayo hushikilia imani ya kimfumo lakini haiwezi kuunganishwa na ukweli.",
+        "language": "sw",
+        "drift_score": 0.1996944546699524,
+        "semantic_similarity": 0.8003055453300476,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.1967499613761902,
+    "std_drift": 0.08439233343106727
+  },
+  {
+    "article_id": 6,
+    "context": "Dar es Salaam: bandari iko katika hori kubwa ambalo ni mdomo pana wa kijito kidogo lenye urefu wa kilomita moja katika beseni ya kwanza na kilomita 3 katika beseni ya kusini. Meli zinaingia kutoka bahari kupitia mlango mwembamba wa 270 m pekee hivyo imelindwa kabisa na mawimbi. Bandari hii asilia ilikuwa sababu ya kuhamishwa kwa mji mkuu wa Afrika ya Mashariki ya Kijerumani kutoka Bagamoyo. Mombasa ina bandari asilia nzuri ya Kilindini ambacho ni pia hori inayoingia ndani. Kisiwa cha Mombasa kipo katika mdomo wa hori baharini. Bandari ya Kilindini ina urefu wa kilomita tano na upana wa kilomita tatu imezungukwa na nchi kavu poande zote hivyo imelindwa kabisa.",
+    "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+    "original_answer": "Mombasa",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "edited_question": "Bandari kubwa yenye urefu wa kilomita 3 zinazowagirika ndani za meli zote huko nchini Kenya wapi?",
+        "edited_answer": "Dar es Salaam",
+        "language": "sw",
+        "drift_score": 0.15836453437805176,
+        "semantic_similarity": 0.8416354656219482,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "edited_question": "Ubora wa kijito wa baharini ndani ya nchi ya Kenya unatambulika wapi?",
+        "edited_answer": "Mombasa",
+        "language": "sw",
+        "drift_score": 0.17067676782608032,
+        "semantic_similarity": 0.8293232321739197,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "edited_question": "Bandari za kubwa zenye meli zinazozalisha wazi ni nani katika darasa la joto lenye urefu wa kilomita moja na 3 katika kusini, ambalo limeanzia kutoka bahari kupitia mwelekeo wa kilomita 270?",
+        "edited_answer": "Bandari za Mombasa",
+        "language": "sw",
+        "drift_score": 0.32921046018600464,
+        "semantic_similarity": 0.6707895398139954,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "edited_question": "Nchini Kenya ni bandari gani yenye urefu wa kilomita 3 katika beseni ya kusini?",
+        "edited_answer": "Mombasa",
+        "language": "sw",
+        "drift_score": 0.230793297290802,
+        "semantic_similarity": 0.769206702709198,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Bandari kubwa nchini Kenya iko wapi?",
+        "original_answer": "Mombasa",
+        "edited_question": "Bandari ya kijito kidogo nchini Kenya inatoka kabisa mahali gani?",
+        "edited_answer": "Dar es Salaam",
+        "language": "sw",
+        "drift_score": 0.24079936742782593,
+        "semantic_similarity": 0.7592006325721741,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.22596888542175292,
+    "std_drift": 0.060876280199221956
+  },
+  {
+    "article_id": 7,
+    "context": "Ilianzishwa mwaka wa 1993, inafanya kazi kwa kushirikiana na waweka nyuki na mashirika ya kimataifa,kama vile Apimondia, Wakfa wa Keystone na shirika la Chakula na Kilimo la Umoja wa Mataifa.Ufadhili huu unakusudia kusaidia ufugaji nyuki ili kusaidia jamii maskini na vivjiji vilivyo mashinani na kulinda viumbe hai.Inalenga matumizi ya teknolojia sahihi na maadili, na kuheshimu ujuzi wa kienyeji. Ina imani kuwa kujitegemea na kuwawezesha maskini kunaweza kuimarishwa kwa njia ya upatikanaji wa maarifa na habari, na kwa njia ya biashara ya mazao ya nyuki.Pia inadai kuingilia uzalishaji wa nyuki kuwa kiwango cha chini kabisa, na thamani ya kutumia mizinga ambayo haina fremu za ndani.",
+    "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+    "original_answer": "1993",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "edited_question": "Ni kipindi gani cha mwaka ambacho shirika la Bees for Development lilianzishwa?",
+        "edited_answer": "1993",
+        "language": "sw",
+        "drift_score": 0.23535901308059692,
+        "semantic_similarity": 0.7646409869194031,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "edited_question": "Katika miaka ya kwanza ya ukarimu wa kimataifa, shirika la Bees for Development lilitangulia mwaka gani?",
+        "edited_answer": "Miaka ya 1993 ni muda ambao shirika hilo lilianzishwa, na kufanya kazi kama muungano wa waweka nyuki na mashirika ya kimataifa.",
+        "language": "sw",
+        "drift_score": 0.24504369497299194,
+        "semantic_similarity": 0.7549563050270081,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "edited_question": "Ni mwaka gani shirika la Bees for Development lilianza kushughulikia shida ya ufugaji nyuki?",
+        "edited_answer": "Mwaka wa 1993 hufanya kazi na wapangaji nyuki wa kimataifa, lakini ufadhili ulikuwa unatokana na kujitawala na washirika wa mashirika bora, kama vile Apimondia, Wakfa wa Keystone, na shirika la Chakula na Kilimo cha Umoja wa Mataifa. Mfano huu ni mfumo unaowezesha maendeleo ya afya iliyopo nchini Afrika, ambapo jumuiya za maskini zinaweza kujihusisha na ufugaji nyuki ili kuimarishwa kwa utiifu wa ubora.",
+        "language": "sw",
+        "drift_score": 0.5081301927566528,
+        "semantic_similarity": 0.4918697774410248,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "edited_question": "Ni mwaka gani shirika la Bees for Development linalianzishwa?",
+        "edited_answer": "Miaka ya 1993",
+        "language": "sw",
+        "drift_score": 0.15682214498519897,
+        "semantic_similarity": 0.843177855014801,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je,shirika la Bees for Development ilianza mwaka upi?",
+        "original_answer": "1993",
+        "edited_question": "Ni kipindi gani cha miaka shirika la Bees for Development lilianza?",
+        "edited_answer": "Miaka ya 1993",
+        "language": "sw",
+        "drift_score": 0.1393558382987976,
+        "semantic_similarity": 0.8606441617012024,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.2569421768188477,
+    "std_drift": 0.1323279214367716
+  },
+  {
+    "article_id": 8,
+    "context": "Jina la eneo, pamoja na  bendera[1]Eneo (km²)Wakazi (kadiro mnamo  1 Julai 2002)Msongamano (watu kwenye km²)Mji mkuuAustralasia (Australia na New Zealand) Australia7,686,85020,697,2412.5CanberraKisiwa cha Krismasi (Australia)[2]1354743.5The Settlement Visiwa vya Cocos (Keeling)  (Australia)[2]1463245.1West Island New Zealand[3]268,6803,908,03714.5Wellington Kisiwa cha Norfolk (Australia)351,86653.3KingstonMelanesia[4] Fiji18,270856,34646.9Suva Sehemu za Indonesia[5]499,8524,211,5328.4Jakarta Kaledonia Mpya (Ufaransa)19,060207,85810.9Nouméa Papua Guinea Mpya[6]462,8405,172,03311.2Port Moresby Visiwa vya Solomon28,450494,78617.4Honiara Vanuatu12,200196,17816.1Port VilaMikronesia Shirikisho la Mikronesia702135,869193.5Palikir Kiribati81196,335118.8Teinainano Visiwa vya Marshall18173,630406.8Majuro Nauru2112,329587.1Yaren Visiwa vya Mariana ya Kaskazini Marekani47777,311162.1Saipan Guam (Marekani)549160,796292.9Hagåtña Palau45819,40942.4Melekeok[7]Polynesia[8] Samoa ya Marekani (Marekani)19968,688345.2Fagatogo, Utulei[9] Visiwa vya Cook (New Zealand)24020,81186.7Avarua Polynesia ya Kifaransa (Ufaransa)4,167257,84761.9Papeete Hawaii (Marekani)29,3111,211,53742.75Honolulu Niue (New Zealand)2602,1348.2Alofi Kisiwa cha Pasaka (Chile)163,63,79123,17Hanga Roa Visiwa vya Pitcairn (Uingereza)54710Adamstown Samoa2,944178,63160.7Apia Tokelau (New Zealand)101,431143.1—[10] Tonga748106,137141.9Nuku'alofa Tuvalu2611,146428.7Vaiaku Wallis na Futuna (Ufaransa)27415,58556.9Mata-UtuTotal9,008,45835,834,6704.0",
+    "original_question": "Je,mji mkuu Australia ni gani?",
+    "original_answer": "Canberra",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "edited_question": "Mji mkuu wa eneo la Australia unatofautiana na nini?",
+        "edited_answer": "Canberra",
+        "language": "sw",
+        "drift_score": 0.1620006561279297,
+        "semantic_similarity": 0.8379993438720703,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "edited_question": "Mji wa kwanza wenye maelfu ya watu ni nani katika eneo la Australasia?",
+        "edited_answer": "Canberra",
+        "language": "sw",
+        "drift_score": 0.32449060678482056,
+        "semantic_similarity": 0.6755093932151794,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "edited_question": "Mji mkuu wa Australia ni nini?",
+        "edited_answer": "Jakarta",
+        "language": "sw",
+        "drift_score": 0.34002596139907837,
+        "semantic_similarity": 0.6599740386009216,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "edited_question": "Ni jina la eneo ambalo miji ya Australia yanakiliana?",
+        "edited_answer": "Kal",
+        "language": "sw",
+        "drift_score": 0.28323984146118164,
+        "semantic_similarity": 0.7167601585388184,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je,mji mkuu Australia ni gani?",
+        "original_answer": "Canberra",
+        "edited_question": "Ni jina la eneo ambalo Australia na New Zealand hulengwa kwa makao yake?",
+        "edited_answer": "Kisiwa cha Norfolk",
+        "language": "sw",
+        "drift_score": 0.3579252362251282,
+        "semantic_similarity": 0.6420747637748718,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.29353646039962766,
+    "std_drift": 0.07024675864534455
+  },
+  {
+    "article_id": 9,
+    "context": "Mto wa Kongo (kati ya miaka 1971 na 1997 uliitwa zaidi \"Zaire\") ni mto mkubwa wa Afrika ya kati. Ni mto mrefu wa pili katika Afrika baada ya Nile. ",
+    "original_question": "Je mto mkubwa sana Afrika ni gani?",
+    "original_answer": "Nile",
+    "language": "sw",
+    "edits": [
+      {
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "edited_question": "Mto mkubwa sana Afrika mwenye ujani ni gani?",
+        "edited_answer": "Nile",
+        "language": "sw",
+        "drift_score": 0.024368703365325928,
+        "semantic_similarity": 0.9756312966346741,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "edited_question": "Mto mkuu wa pamoja katika kanda hii una nafasi gani?",
+        "edited_answer": "Mto wa Kongo",
+        "language": "sw",
+        "drift_score": 0.38134902715682983,
+        "semantic_similarity": 0.6186509728431702,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "edited_question": "Mto mkubwa sana Afrika unapaswa kufafanuliwa na nini?",
+        "edited_answer": "Zaire",
+        "language": "sw",
+        "drift_score": 0.1475127935409546,
+        "semantic_similarity": 0.8524872064590454,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "edited_question": "Mto wenye ujirani mkubwa ni nani kwenye Afrika?",
+        "edited_answer": "Zaire",
+        "language": "sw",
+        "drift_score": 0.2012639045715332,
+        "semantic_similarity": 0.7987360954284668,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Je mto mkubwa sana Afrika ni gani?",
+        "original_answer": "Nile",
+        "edited_question": "Mto ambao ndio mkia mkuu wa Afrika ya Kati unajulikana kama nchi iliyo karibu zaidi na njia za kusafiri ya Dunia?",
+        "edited_answer": "Zaire",
+        "language": "sw",
+        "drift_score": 0.6231975555419922,
+        "semantic_similarity": 0.3768024146556854,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.27553839683532716,
+    "std_drift": 0.20835366583739612
+  }
+]

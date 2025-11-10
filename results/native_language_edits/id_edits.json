@@ -1,0 +1,662 @@
+[
+  {
+    "article_id": 0,
+    "context": "Ernest Douwes Dekker wafat dini hari tanggal 28 Agustus 1950 (tertulis di batu nisannya; 29 Agustus 1950 versi van der Veur, 2006) dan dimakamkan di TMP Cikutra, Bandung.",
+    "original_question": "dimanakah  Dr. Ernest François Eugène Douwes Dekker meninggal?",
+    "original_answer": "28 Agustus 1950",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "dimanakah  Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "original_answer": "28 Agustus 1950",
+        "edited_question": "Kapan Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "edited_answer": "Dini hari tanggal 28 Agustus 1950",
+        "language": "id",
+        "drift_score": 0.022313296794891357,
+        "semantic_similarity": 0.9776867032051086,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "dimanakah  Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "original_answer": "28 Agustus 1950",
+        "edited_question": "Saatnya kapan Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "edited_answer": "28 Agustus 1950",
+        "language": "id",
+        "drift_score": 0.0411912202835083,
+        "semantic_similarity": 0.9588087797164917,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "dimanakah  Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "original_answer": "28 Agustus 1950",
+        "edited_question": "Kapan Dr. Ernest François Eugène Douwes Dekker meninggal dunia?",
+        "edited_answer": "28 Agustus 1950",
+        "language": "id",
+        "drift_score": 0.0181807279586792,
+        "semantic_similarity": 0.9818192720413208,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "dimanakah  Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "original_answer": "28 Agustus 1950",
+        "edited_question": "Kapan Dr. Ernest François Eugène Douwes Dekker meninggal dunia?",
+        "edited_answer": "28 Agustus 1950",
+        "language": "id",
+        "drift_score": 0.0181807279586792,
+        "semantic_similarity": 0.9818192720413208,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "dimanakah  Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "original_answer": "28 Agustus 1950",
+        "edited_question": "Kapan Dr. Ernest François Eugène Douwes Dekker meninggal?",
+        "edited_answer": "Dini hari tanggal 28 Agustus 1950",
+        "language": "id",
+        "drift_score": 0.022313296794891357,
+        "semantic_similarity": 0.9776867032051086,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.02443585395812988,
+    "std_drift": 0.008579114185719447
+  },
+  {
+    "article_id": 1,
+    "context": "Pada tanggal 18 Februari 2008, desain Yoo Kerl dari iArc terpilih dalam kompetisi desain Pemerintah Metropolitan Seoul.[6] Bagian atas depan bangunan baru ini dirancang untuk menonjol dalam bentuk lengkung. Perancang Yoo merangkul tiga kata kunci yakni \"tradisi, warga negara, dan masa depan\" dalam rancangannya, yang mencerminkan elemen horisontal dari arsitektur tradisional tingkat rendah Korea dan penafsiran ulang dari nuansa mendalam dan lekukan atap atap.[7]",
+    "original_question": "Siapa arsitek Balai Kota Seoul?",
+    "original_answer": "Yoo Kerl",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Siapa arsitek Balai Kota Seoul?",
+        "original_answer": "Yoo Kerl",
+        "edited_question": "Siapa nama desainer bangunan yang memenangkan kompetisi desain Pemerintah Metropolitan Seoul pada tahun 2008?",
+        "edited_answer": "Yoo Kerl",
+        "language": "id",
+        "drift_score": 0.19274497032165527,
+        "semantic_similarity": 0.8072550296783447,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Siapa arsitek Balai Kota Seoul?",
+        "original_answer": "Yoo Kerl",
+        "edited_question": "Siapa yang dirangkul oleh tiga kata kunci 'tradisi, warga negara, dan masa depan' dalam rancangan arsitektur Balai Kota Seoul?",
+        "edited_answer": "Yoo Kerl",
+        "language": "id",
+        "drift_score": 0.1801024079322815,
+        "semantic_similarity": 0.8198975920677185,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Siapa arsitek Balai Kota Seoul?",
+        "original_answer": "Yoo Kerl",
+        "edited_question": "Siapa nama desainer bangunan yang memenangkan kompetisi desain Pemerintah Metropolitan Seoul?",
+        "edited_answer": "Yoo Kerl",
+        "language": "id",
+        "drift_score": 0.1736241579055786,
+        "semantic_similarity": 0.8263758420944214,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Siapa arsitek Balai Kota Seoul?",
+        "original_answer": "Yoo Kerl",
+        "edited_question": "Siapa nama desainer balai kota Seoul yang dirancang sebagai kompetisi pemerintah metropolitan?",
+        "edited_answer": "Yoo Kerl",
+        "language": "id",
+        "drift_score": 0.17728537321090698,
+        "semantic_similarity": 0.822714626789093,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Siapa arsitek Balai Kota Seoul?",
+        "original_answer": "Yoo Kerl",
+        "edited_question": "Berapa lama kemungkinan desain Yoo Kerl menjadi bagian dari kompetisi desain Pemerintah Metropolitan Seoul?",
+        "edited_answer": "1 hari",
+        "language": "id",
+        "drift_score": 0.30127060413360596,
+        "semantic_similarity": 0.698729395866394,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.20500550270080567,
+    "std_drift": 0.04856057849167634
+  },
+  {
+    "article_id": 2,
+    "context": "Sebagai tindak lanjut Atlantic Charter tersebut, pada tanggal 25 April 1945, Konferensi PBB tentang Organisasi Internasional diadakan di San Francisco, dengan dihadiri oleh 50 pemerintah negara, dan sejumlah organisasi non-pemerintah yang terlibat dalam penyusunan Piagam Perserikatan Bangsa-Bangsa (Declaration of the United Nations). PBB resmi dibentuk pada 24 Oktober 1945 atas ratifikasi Piagam oleh lima anggota tetap Dewan Keamanan -Perancis, Republik Tiongkok, Uni Soviet, Inggris dan Amerika Serikat- dan mayoritas dari 46 negara anggota lainnya.",
+    "original_question": "Kapan PBB mulai terbentuk ?",
+    "original_answer": "24 Oktober 1945",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Kapan PBB mulai terbentuk ?",
+        "original_answer": "24 Oktober 1945",
+        "edited_question": "Kapan PBB mulai berdiri secara resmi ?",
+        "edited_answer": "24 Oktober 1945",
+        "language": "id",
+        "drift_score": 0.014752507209777832,
+        "semantic_similarity": 0.9852474927902222,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Kapan PBB mulai terbentuk ?",
+        "original_answer": "24 Oktober 1945",
+        "edited_question": "Kapan perjanjian untuk mendirikan organisasi internasional ini ditandatangani?",
+        "edited_answer": "25 April 1945",
+        "language": "id",
+        "drift_score": 0.17037969827651978,
+        "semantic_similarity": 0.8296203017234802,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Kapan PBB mulai terbentuk ?",
+        "original_answer": "24 Oktober 1945",
+        "edited_question": "Berapa lama kemudian PBB resmi dibentuk setelah Piagam Perserikatan Bangsa-Bangsa disahkan ?",
+        "edited_answer": "24 Oktober 1945",
+        "language": "id",
+        "drift_score": 0.10828971862792969,
+        "semantic_similarity": 0.8917102813720703,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Kapan PBB mulai terbentuk ?",
+        "original_answer": "24 Oktober 1945",
+        "edited_question": "Kapan saatnya PBB terbentuk sebagai bentuk resmi dari perjanjian yang disepakati oleh lima negara besar di San Francisco?",
+        "edited_answer": "24 Oktober 1945",
+        "language": "id",
+        "drift_score": 0.16501355171203613,
+        "semantic_similarity": 0.8349864482879639,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Kapan PBB mulai terbentuk ?",
+        "original_answer": "24 Oktober 1945",
+        "edited_question": "Kapan perjanjian internasional yang berwenang dipimpin oleh Amerika, Inggris, Uni Soviet, Perancis, dan Tiongkok Barat mulai diberdayakan?",
+        "edited_answer": "24 Oktober 1945",
+        "language": "id",
+        "drift_score": 0.21343398094177246,
+        "semantic_similarity": 0.7865660190582275,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.13437389135360717,
+    "std_drift": 0.06852060171365577
+  },
+  {
+    "article_id": 3,
+    "context": "Dia dipenjarakan di Puri Dragsholm, 75 kilometer Kopenhagen. Dia ditahan dalam apa yang dikatakan sebagai kondisi yang mengerikan. Dia meninggal pada bulan April 1578.[8][10]",
+    "original_question": "Dimana James Hepburn meninggal?",
+    "original_answer": "Puri Dragsholm",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Dimana James Hepburn meninggal?",
+        "original_answer": "Puri Dragsholm",
+        "edited_question": "Di mana penjara di Kopenhagen yang parah itu menemukan mayatnya?",
+        "edited_answer": "Puri Dragsholm",
+        "language": "id",
+        "drift_score": 0.49184077978134155,
+        "semantic_similarity": 0.5081592202186584,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Dimana James Hepburn meninggal?",
+        "original_answer": "Puri Dragsholm",
+        "edited_question": "Di mana orang yang dipenjarakan di Puri Dragsholm itu meninggal?",
+        "edited_answer": "April 1578",
+        "language": "id",
+        "drift_score": 0.38244158029556274,
+        "semantic_similarity": 0.6175584197044373,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Dimana James Hepburn meninggal?",
+        "original_answer": "Puri Dragsholm",
+        "edited_question": "Di mana penjara yang berat ini, 75 kilometer dari Kopenhagen, memaksa seorang orang kehidupan yang sangat sulit?",
+        "edited_answer": "Puri Dragsholm",
+        "language": "id",
+        "drift_score": 0.6863585710525513,
+        "semantic_similarity": 0.31364142894744873,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Dimana James Hepburn meninggal?",
+        "original_answer": "Puri Dragsholm",
+        "edited_question": "Di mana penjara terhina James Hepburn itu?",
+        "edited_answer": "Puri Dragsholm",
+        "language": "id",
+        "drift_score": 0.1934484839439392,
+        "semantic_similarity": 0.8065515160560608,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Dimana James Hepburn meninggal?",
+        "original_answer": "Puri Dragsholm",
+        "edited_question": "Kapan James Hepburn meninggal di penjara terkenal itu?",
+        "edited_answer": "April 1578",
+        "language": "id",
+        "drift_score": 0.23844432830810547,
+        "semantic_similarity": 0.7615556716918945,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.39850674867630004,
+    "std_drift": 0.17860396019792998
+  },
+  {
+    "article_id": 4,
+    "context": "Lahir di Sheffield, South Yorkshire, Vardy memulai kariernya di tim muda Stocksbridge Park Steels pada umur 16 tahun setelah dilepas Sheffield Wednesday. Ia masuk ke tim reserve dan tim utama dibawah arahan Gary Marrow tahun 2007, menerima £30 perminggu di klub. Setelah performa menakjubkannya, beberapa tim dari Football League tertarik dan tahun 2009 ia menghabiskan seminggu melakukan trial dengan Crewe Alexandra. Transfer itu tidak terjadi dan ia lalu menolak kontrak jangka pendek dengan Rotherham United.",
+    "original_question": "Dimana Jamie Richard Vardy lahir?",
+    "original_answer": "Sheffield, South Yorkshire",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Dimana Jamie Richard Vardy lahir?",
+        "original_answer": "Sheffield, South Yorkshire",
+        "edited_question": "Kapan seorang pemain sepak bola bernama Jamie Richard Vardy mulai bermain untuk timnya?",
+        "edited_answer": "Setelah ia dilepaskan dari Sheffield Wednesday pada usia 16 tahun, ia memulai karirnya di tim muda Stocksbridge Park Steels.",
+        "language": "id",
+        "drift_score": 0.25679367780685425,
+        "semantic_similarity": 0.7432063221931458,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Dimana Jamie Richard Vardy lahir?",
+        "original_answer": "Sheffield, South Yorkshire",
+        "edited_question": "Kapan berikutnya kita bisa mengetahui tempat lahir Jamie Richard Vardy?",
+        "edited_answer": "Sheffield, South Yorkshire",
+        "language": "id",
+        "drift_score": 0.11025577783584595,
+        "semantic_similarity": 0.889744222164154,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Dimana Jamie Richard Vardy lahir?",
+        "original_answer": "Sheffield, South Yorkshire",
+        "edited_question": "Kapan dan di mana pemain sepak bola Jamie Richard Vardy mulai berkarir?",
+        "edited_answer": "Pada umur 16 tahun, ia memulai kariernya di tim muda Stocksbridge Park Steels setelah dilepas dari tim senior Sheffield Wednesday.",
+        "language": "id",
+        "drift_score": 0.24134540557861328,
+        "semantic_similarity": 0.7586545944213867,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Dimana Jamie Richard Vardy lahir?",
+        "original_answer": "Sheffield, South Yorkshire",
+        "edited_question": "Kapan Jamie Richard Vardy memulai kariernya?",
+        "edited_answer": "Pada umur 16 tahun, ia bergabung dengan tim muda Stocksbridge Park Steels.",
+        "language": "id",
+        "drift_score": 0.3237435817718506,
+        "semantic_similarity": 0.6762564182281494,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Dimana Jamie Richard Vardy lahir?",
+        "original_answer": "Sheffield, South Yorkshire",
+        "edited_question": "Di mana kembali hidup Jamie Richard Vardy sebelum ia bergabung dengan Stocksbridge Park Steels?",
+        "edited_answer": "Sheffield, South Yorkshire",
+        "language": "id",
+        "drift_score": 0.18890053033828735,
+        "semantic_similarity": 0.8110994696617126,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.2242077946662903,
+    "std_drift": 0.0714066880013482
+  },
+  {
+    "article_id": 5,
+    "context": "John Fitzgerald Kennedy lahir di 83 Beals Street, Brookline, Massachusetts, pada tanggal 29 Mei 1917[10] dari pasangan pebisnis/politikus Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald (1890–1995). Joe adalah putra sulung pebisnis/politikus Patrick Joseph \"P. J.\" Kennedy (1858–1929) dan Mary Augusta Hickey (1857–1923). Rose adalah putri sulung Wali Kota Boston John Francis \"Honey Fitz\" Fitzgerald (1863–1950) dan Mary Josephine \"Josie\" Hannon (1865–1964). Keempat kakek-neneknya adalah anak-anak imigran Irlandia.[1]",
+    "original_question": "siapakah orang tua John Fitzgerald Kennedy?",
+    "original_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "siapakah orang tua John Fitzgerald Kennedy?",
+        "original_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald",
+        "edited_question": "Siapa identitas keluarga John Fitzgerald Kennedy yang terkenal sebagai pebisnis dan politisi?",
+        "edited_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan Rose Elizabeth Fitzgerald",
+        "language": "id",
+        "drift_score": 0.09078001976013184,
+        "semantic_similarity": 0.9092199802398682,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "siapakah orang tua John Fitzgerald Kennedy?",
+        "original_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald",
+        "edited_question": "Siapa keluarga John Fitzgerald Kennedy?",
+        "edited_answer": "Ayahnya adalah pebisnis/politikus Joseph Patrick \"Joe\" Kennedy, Sr. yang berasal dari keturunan kaya dan ibunya adalah filantropis Rose Elizabeth Fitzgerald.",
+        "language": "id",
+        "drift_score": 0.13090157508850098,
+        "semantic_similarity": 0.869098424911499,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "siapakah orang tua John Fitzgerald Kennedy?",
+        "original_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald",
+        "edited_question": "Siapa keluarga sang ayah John Fitzgerald Kennedy?",
+        "edited_answer": "Ayahnya adalah P. J. Kennedy, yang merupakan anak sulung dari Wali Kota Boston Honey Fitz, dan ibunya adalah Josie Hannon, putri dari Wali Kota Boston lainnya.",
+        "language": "id",
+        "drift_score": 0.26114141941070557,
+        "semantic_similarity": 0.7388585805892944,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "siapakah orang tua John Fitzgerald Kennedy?",
+        "original_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald",
+        "edited_question": "Siapa kakek dan nenek John Fitzgerald Kennedy?",
+        "edited_answer": "Patrick Joseph \"P. J.\" Kennedy (1858–1929) dan Mary Augusta Hickey",
+        "language": "id",
+        "drift_score": 0.08715599775314331,
+        "semantic_similarity": 0.9128440022468567,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "siapakah orang tua John Fitzgerald Kennedy?",
+        "original_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. (1888–1969) dan filantropis Rose Elizabeth Fitzgerald",
+        "edited_question": "Siapa pasangan yang menanamkan John Fitzgerald Kennedy?",
+        "edited_answer": "Joseph Patrick \"Joe\" Kennedy, Sr. dan pebisnis Rose Elizabeth Fitzgerald",
+        "language": "id",
+        "drift_score": 0.11214858293533325,
+        "semantic_similarity": 0.8878514170646667,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.13642551898956298,
+    "std_drift": 0.06431941654124297
+  },
+  {
+    "article_id": 6,
+    "context": "Kucing pasir (Felis margarita), juga dikenal sebagai kucing gundukan pasir, adalah sejenis kucing yang tergolong famili Felidae yang hanya ditemukan terutama di padang pasir sejati, dan memiliki penyaluran yang luas tetapi rupanya terpisah melalui padang pasir Afrika utara dan barat daya dan Asia Tengah. Sejak tahun 2002 ini kucing kecil telah terdaftar sebagai Hampir terancam oleh IUCN karena keprihatinan atas ukuran populasi potensial rendah dan penurunan. Pada tahun 2016, IUCN menurunkan status dari kucing pasir menjadi Risiko Rendah.[2]",
+    "original_question": "Apakah nama ilmiah Kucing pasir?",
+    "original_answer": "Felis margarita",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Apakah nama ilmiah Kucing pasir?",
+        "original_answer": "Felis margarita",
+        "edited_question": "Siapa nama hewan yang mirip dengan gundukan pasir?",
+        "edited_answer": "Famili Felidae yang kecil dan unik bernama Felis margarita.",
+        "language": "id",
+        "drift_score": 0.23666822910308838,
+        "semantic_similarity": 0.7633317708969116,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Apakah nama ilmiah Kucing pasir?",
+        "original_answer": "Felis margarita",
+        "edited_question": "Bagaimana nama ilmiah kucing yang dikenal sebagai kucing gundukan pasir?",
+        "edited_answer": "Felis margarita",
+        "language": "id",
+        "drift_score": 0.032009780406951904,
+        "semantic_similarity": 0.9679902195930481,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Apakah nama ilmiah Kucing pasir?",
+        "original_answer": "Felis margarita",
+        "edited_question": "Nama apa yang dinamai oleh ilmuwan untuk kucing kecil pasir yang tinggal di padang pasir?",
+        "edited_answer": "Felis margarita",
+        "language": "id",
+        "drift_score": 0.09427762031555176,
+        "semantic_similarity": 0.9057223796844482,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Apakah nama ilmiah Kucing pasir?",
+        "original_answer": "Felis margarita",
+        "edited_question": "Bagaimana nama ilmiah kucing yang dikenal sebagai \"kucing gundukan pasir\"?",
+        "edited_answer": "Felis margarita",
+        "language": "id",
+        "drift_score": 0.02837812900543213,
+        "semantic_similarity": 0.9716218709945679,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Apakah nama ilmiah Kucing pasir?",
+        "original_answer": "Felis margarita",
+        "edited_question": "Siapa nama kucing gundukan pasir yang dikenal karena kemampuan beradaptasi dengan lingkungan padang pasir?",
+        "edited_answer": "Felis margarita",
+        "language": "id",
+        "drift_score": 0.1237720251083374,
+        "semantic_similarity": 0.8762279748916626,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.10302115678787231,
+    "std_drift": 0.07613512340118396
+  },
+  {
+    "article_id": 7,
+    "context": "Sebagai salah satu kabupaten. Probolinggo tentunya memiliki makanan khas seperti Nasi glepungan, Sirup pokak, keripik kentang, dan laini lain.",
+    "original_question": "Apa makanan khas dari probolinggo ?",
+    "original_answer": "Nasi glepungan, Sirup pokak, keripik kentang",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Apa makanan khas dari probolinggo ?",
+        "original_answer": "Nasi glepungan, Sirup pokak, keripik kentang",
+        "edited_question": "Apa jenis makanan khas yang disukai penduduk Probolinggo?",
+        "edited_answer": "Nasi glepungan, Sirup pokak, keripik kentang, dan lain-lain.",
+        "language": "id",
+        "drift_score": 0.08260011672973633,
+        "semantic_similarity": 0.9173998832702637,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Apa makanan khas dari probolinggo ?",
+        "original_answer": "Nasi glepungan, Sirup pokak, keripik kentang",
+        "edited_question": "Apa saja makanan yang patut mencoba di Probolinggo?",
+        "edited_answer": "Nasi glepungan, sirup pokak, keripik kentang, dan lain-lain.",
+        "language": "id",
+        "drift_score": 0.11710065603256226,
+        "semantic_similarity": 0.8828993439674377,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Apa makanan khas dari probolinggo ?",
+        "original_answer": "Nasi glepungan, Sirup pokak, keripik kentang",
+        "edited_question": "Makanan apa saja yang bisa dinikmati di Probolinggo?",
+        "edited_answer": "Nasi glepungan, Sirup pokak, keripik kentang.",
+        "language": "id",
+        "drift_score": 0.10814899206161499,
+        "semantic_similarity": 0.891851007938385,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Apa makanan khas dari probolinggo ?",
+        "original_answer": "Nasi glepungan, Sirup pokak, keripik kentang",
+        "edited_question": "Apa makanan rahasia yang membuat Probolinggo begitu unik?",
+        "edited_answer": "Nasi glepungan, Sirup pokak, dan keripik kentang yang tak terlupakan.",
+        "language": "id",
+        "drift_score": 0.13085490465164185,
+        "semantic_similarity": 0.8691450953483582,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Apa makanan khas dari probolinggo ?",
+        "original_answer": "Nasi glepungan, Sirup pokak, keripik kentang",
+        "edited_question": "Apa yang terdapat di daerah Probolinggo sebagai ciri khas kuliner?",
+        "edited_answer": "Nasi glepungan, Sirup pokak, keripik kentang, dan masih banyak lagi.",
+        "language": "id",
+        "drift_score": 0.1695374846458435,
+        "semantic_similarity": 0.8304625153541565,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.12164843082427979,
+    "std_drift": 0.02865591936179249
+  },
+  {
+    "article_id": 8,
+    "context": "Charles Babbage () adalah seorang matematikawan asal Inggris yang pertama kali mengemukakan gagasan tentang komputer yang dapat diprogram. Sebagian dari mesin yang dikembangkannya, namun tidak selesai. Sekarang dapat dilihat di Museum Sains London. Pada tahun 1991, dengan menggunakan rencana asli dari Babbage, sebuah mesin diferensial dikembangkan dan mesin ini dapat berfungsi secara sempurna, yang membuktikan bahwa gagasan Babbage tentang mesin ini memang dapat diimplementasikan.",
+    "original_question": "Siapa yang menciptakan komputer ?",
+    "original_answer": "Charles Babbage",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Siapa yang menciptakan komputer ?",
+        "original_answer": "Charles Babbage",
+        "edited_question": "Apa nama tokoh Inggris yang mengembangkan gagasan tentang komputer dan mengembangkan mesin diferensial yang dapat berfungsi secara sempurna?",
+        "edited_answer": "Charles Babbage",
+        "language": "id",
+        "drift_score": 0.20624858140945435,
+        "semantic_similarity": 0.7937514185905457,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Siapa yang menciptakan komputer ?",
+        "original_answer": "Charles Babbage",
+        "edited_question": "Siapa yang merancang mesin komputernya sendiri?",
+        "edited_answer": "Charles Babbage",
+        "language": "id",
+        "drift_score": 0.07182645797729492,
+        "semantic_similarity": 0.9281735420227051,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Siapa yang menciptakan komputer ?",
+        "original_answer": "Charles Babbage",
+        "edited_question": "Siapa yang mengembangkan konsep pengolahan informasi digital pada abad ke-19?",
+        "edited_answer": "Charles Babbage",
+        "language": "id",
+        "drift_score": 0.2935682535171509,
+        "semantic_similarity": 0.7064317464828491,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Siapa yang menciptakan komputer ?",
+        "original_answer": "Charles Babbage",
+        "edited_question": "Bagaimana gagasan tentang mesin yang dapat diprogram yang dikembangkan oleh seorang matematikawan asal Inggris kemudian mengubah bagan kehidupan manusia?",
+        "edited_answer": "Charles Babbage",
+        "language": "id",
+        "drift_score": 0.36703795194625854,
+        "semantic_similarity": 0.6329620480537415,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Siapa yang menciptakan komputer ?",
+        "original_answer": "Charles Babbage",
+        "edited_question": "Siapa yang menggambarkan konsep mesin hitung yang dapat diprogram dan kemudian dibangun menjadi kejayaan teknologi?",
+        "edited_answer": "Charles Babbage",
+        "language": "id",
+        "drift_score": 0.21395492553710938,
+        "semantic_similarity": 0.7860450744628906,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.23052723407745362,
+    "std_drift": 0.09865026806408096
+  },
+  {
+    "article_id": 9,
+    "context": "Serial permainan video Pokémon merupakan sebuah serial permainan video yang dibuat dan dikembangkan oleh Game Freak dan Creatures Inc. dan kemudian diterbitkan oleh Nintendo. Pertama dirilis tahun 1996 untuk kawasan Jepang, dan baru dirilis secara internasional pada 1998. Dalam setiap seri video game Pokémon, biasanya dirilis secara berpasangan, dengan perbedaan minor pada setiap judul game tersebut. Nintendo mengklaim bahwa mereka telah mampu menjual lebih dari 175 juta kopi permainan video Pokémon sampai pertengahan 2008 lalu.",
+    "original_question": "Siapa yang mengembangkan video game Pokémon pertama kali ?",
+    "original_answer": "Game Freak dan Creatures Inc",
+    "language": "id",
+    "edits": [
+      {
+        "original_question": "Siapa yang mengembangkan video game Pokémon pertama kali ?",
+        "original_answer": "Game Freak dan Creatures Inc",
+        "edited_question": "Siapa yang menjadi pencipta awal dari serial permainan video Pokémon?",
+        "edited_answer": "Keduanya, Game Freak dan Creatures Inc.",
+        "language": "id",
+        "drift_score": 0.051611244678497314,
+        "semantic_similarity": 0.9483887553215027,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "Siapa yang mengembangkan video game Pokémon pertama kali ?",
+        "original_answer": "Game Freak dan Creatures Inc",
+        "edited_question": "Siapa yang mempunyai konsep dasar untuk video game Pokémon pertama kali ?",
+        "edited_answer": "Game Freak dan Creatures Inc.",
+        "language": "id",
+        "drift_score": 0.059507906436920166,
+        "semantic_similarity": 0.9404920935630798,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "Siapa yang mengembangkan video game Pokémon pertama kali ?",
+        "original_answer": "Game Freak dan Creatures Inc",
+        "edited_question": "Siapa yang memainkan peran utama dalam kelahirnya serial permainan video Pokémon ?",
+        "edited_answer": "Game Freak dan Creatures Inc.",
+        "language": "id",
+        "drift_score": 0.16975992918014526,
+        "semantic_similarity": 0.8302400708198547,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "Siapa yang mengembangkan video game Pokémon pertama kali ?",
+        "original_answer": "Game Freak dan Creatures Inc",
+        "edited_question": "Siapa yang menciptakan konsep permainan video Pokémon pada awalnya ?",
+        "edited_answer": "Game Freak",
+        "language": "id",
+        "drift_score": 0.06649452447891235,
+        "semantic_similarity": 0.9335054755210876,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "Siapa yang mengembangkan video game Pokémon pertama kali ?",
+        "original_answer": "Game Freak dan Creatures Inc",
+        "edited_question": "Siapa yang memimpin perjalanan kreatif dari video game Pokémon?",
+        "edited_answer": "Pihak yang menggabungkan keahlian Game Freak dan kemampuan khusus Creatures Inc.",
+        "language": "id",
+        "drift_score": 0.18600833415985107,
+        "semantic_similarity": 0.8139916658401489,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.10667638778686524,
+    "std_drift": 0.05855716637158622
+  }
+]

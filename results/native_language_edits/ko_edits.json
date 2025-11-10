@@ -1,0 +1,662 @@
+[
+  {
+    "article_id": 0,
+    "context": "2019년 FIFA U-20 월드컵</b>은 2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵이다.",
+    "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+    "original_answer": "예정",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "edited_question": "2019년 월드컵은 몇몇 국가에서 आय고 있었을까?",
+        "edited_answer": "22번째 FIFA U-20 월드컵은 폴란드에서 5월 23일부터 6월 15일까지 개최될 예정인 대회이다.",
+        "language": "ko",
+        "drift_score": 0.34008389711380005,
+        "semantic_similarity": 0.6599161028862,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "edited_question": "2019년 월드컵은 몇몇 국가에서 개최되었는가?",
+        "edited_answer": "폴란드에서 개최될 예정인 22번째 FIFA U-20 월드컵입니다.",
+        "language": "ko",
+        "drift_score": 0.2313501238822937,
+        "semantic_similarity": 0.7686498761177063,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "edited_question": "2019년 월드컵은 어떤 국가에서 22번째 대회가 개최되었는가?",
+        "edited_answer": "폴란드",
+        "language": "ko",
+        "drift_score": 0.23046666383743286,
+        "semantic_similarity": 0.7695333361625671,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "edited_question": "2019년 FIFA U-20 월드컵은何 때 개최되었는가?",
+        "edited_answer": "2019년 5월 23일부터 6월 15일까지 폴란드에서 개최될 예정이다.",
+        "language": "ko",
+        "drift_score": 0.24367427825927734,
+        "semantic_similarity": 0.7563257217407227,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "2019년까지 월드컵은 몇개국에서 개최되었는가?",
+        "original_answer": "예정",
+        "edited_question": "2019년 월드컵은 몇 년 동안 다양한 국가에서 개최되었는가?",
+        "edited_answer": "2019년까지 월드컵은 폴란드와 멕시코, 이탈리아와 인도 등 4개국에서 개최되었다.",
+        "language": "ko",
+        "drift_score": 0.1259315013885498,
+        "semantic_similarity": 0.8740684986114502,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.23430129289627075,
+    "std_drift": 0.06788996641574133
+  },
+  {
+    "article_id": 1,
+    "context": "연구방식은 크게 두 가지로 나눌 수 있다. 이는 탑다운(Top-down)방식과 바텀업(Bottom-up)방식이다. 탑다운 방식은 자연계에 존재하는 생명체의 유전자를 변형시키는 방식이다. 하나의 세포로 이뤄진 미생물을 예로 들면, 미생물의 유전자 일부를 바꾸는 것이다. 미국 스탠포드대에서 각각의 유전자를 기계의 부품처럼 만들어 다양하게 조합한 후 미생물에 삽입을 시도하고 있는 드루앤디(Drew Endy)의 접근이 한 가지 사례이다. 또 미국 UC버클리의 제이 키슬링(Jay Keasling)이 식물의 유용 유전자를 미생물에 대량으로 삽입하고 있는 것도 이에 해당한다. 이에 비해 바텀업 방식은 화학물질에서 시작해 생명체의 구성요소를 하나하나 만들어 내는 방식이다. 그래서 합성생물학 관련 영문저술에는 종종 ‘무에서 유를 창조한다’는 의미에서 ‘Starting from scratch’라는 즉, ‘처음에서 시작한다’는 뜻의 관용어구가 등장한다. 미생물의 유전자 염기서열을 하나하나를 만든 후 이들을 연결시켜 인공유전체를 합성한 미국의 크레이그 밴터(J.Craig Venter)의 접근이 대표사례이다.",
+    "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+    "original_answer": "바텀업",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "edited_question": "합성 생물학에 대한 연구 방법은 단지 탑다운 방식이 있나요? 혹시 바텀업이나 다른 방법이 있는가요?",
+        "edited_answer": "바텀업과 탑다운 방식이 있어요. 탑다운 방식은 주로 화학 물질에서 시작하여 생명체의 구성 요소를 하나하나 만들어내는 방식이고, 바텀업 방식은 생명체의 유전자를 일단 정립하고 이후에 개조하는 방식입니다.",
+        "language": "ko",
+        "drift_score": 0.10902893543243408,
+        "semantic_similarity": 0.8909710645675659,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "edited_question": "합성 생물학을 연구하는 방법은 처음부터 시작하는 것이지, 또는 생명체의 구성요소를 하나씩 만드는 방식도 있나요?",
+        "edited_answer": "바텀업",
+        "language": "ko",
+        "drift_score": 0.15387475490570068,
+        "semantic_similarity": 0.8461252450942993,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "edited_question": "합성생물학 연구의 이론적 기초를 다루는 두 가지 방법이 있나요?",
+        "edited_answer": "탑다운, 바텀업",
+        "language": "ko",
+        "drift_score": 0.09501641988754272,
+        "semantic_similarity": 0.9049835801124573,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "edited_question": "합성 생물학을 연구하는 방식에는 탑 다운과 바텀 다운이 있습니다. 바텀 다운은 어떤 것ですか?",
+        "edited_answer": "바텀 다운 방식은 화학 물질에서 시작하여 생명체의 구성 요소를 하나하나 만들어내는 방식입니다.",
+        "language": "ko",
+        "drift_score": 0.1717233657836914,
+        "semantic_similarity": 0.8282766342163086,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?",
+        "original_answer": "바텀업",
+        "edited_question": "합성생물학을 연구하는 다양한 방법이 있나요? 특정한 방식은 탑다운(Top-down) 또는 바텀업(Bottom-up)라고 불리우는데요.",
+        "edited_answer": "바텀업의 이외에도 나무에서 나뉘는 많은 가지가 exist한다.",
+        "language": "ko",
+        "drift_score": 0.22132432460784912,
+        "semantic_similarity": 0.7786756753921509,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.1501935601234436,
+    "std_drift": 0.04533367956275524
+  },
+  {
+    "article_id": 2,
+    "context": "철학적 자연주의의 이론이 처음으로 등장한 것은 이오니아의 소크라테스 이전 철학자들의 글이었다. 특별히 과학의 아버지로 불리는 탈레스가 처음으로 자연현상을 초자연적인 원인을 사용하지 않고 설명했다. 초기 그리스 철학에 대한 조너선 바르네스(Jonathan Barnes)의 소개는 이러한 초기 철학자들을, 자연주의를 미리 예견이라도 한 것처럼 경험적인 원리에 따라 자연을 연구한 사람들로 묘사하고 있다.",
+    "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+    "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "edited_question": "철학적 자연주의의 이론이 처음으로 등장할 때point는 어떤가요?",
+        "edited_answer": "과학의 아버지인 탈레스가 자연 현상을 설명하는 approaches를 사용하지 않고 초자연적인 원인을 사용하지 않았다.",
+        "language": "ko",
+        "drift_score": 0.17715394496917725,
+        "semantic_similarity": 0.8228460550308228,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "edited_question": "철학적 자연주의가 처음으로 상상된 시기는 언제였을까요?",
+        "edited_answer": "소크라테스 이전 이오니아 철학자들의 글",
+        "language": "ko",
+        "drift_score": 0.032448768615722656,
+        "semantic_similarity": 0.9675512313842773,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "edited_question": "철학적 자연주의의 개념이 처음으로 제기된 것은 과거에 철학을 접할 수 있는 사람들의 글들에서 시작된 것으로, 탈레스는 과학적 관점을 이용하여 자연 현상을 설명하는 것을 처음으로 제기했다.",
+        "edited_answer": "소크라테스 전 철학자들의 글",
+        "language": "ko",
+        "drift_score": 0.08065670728683472,
+        "semantic_similarity": 0.9193432927131653,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "edited_question": "철학적 자연주의가 처음으로 언급되는지에 대한 근거는 무엇입니까?",
+        "edited_answer": "소크라테스 이전 이오니아의 철학자들의 글의 대안이 nonexistent합니다.",
+        "language": "ko",
+        "drift_score": 0.12105822563171387,
+        "semantic_similarity": 0.8789417743682861,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "철학적 자연주의의 이론이 처음으로 등장한 것은 언제인가요?",
+        "original_answer": "이오니아의 소크라테스 이전 철학자들의 글",
+        "edited_question": "철학적 자연주의의 개념이 처음으로 구체화된 것은 과학의 아버지 인 탈레스와 함께 어떤 철학자들이 미리 경험적인 원리를 기반으로Natural World를 연구했는가?",
+        "edited_answer": "소크라테스 이전 철학자들의 글은 Natural World를 조기하게 예측하기 위해 경험에 바탕한 것이라며, 이오니아에서 태어난 철학적 자연주의의 개념이 처음으로 구체화된 것을 강조한다.",
+        "language": "ko",
+        "drift_score": 0.08299523591995239,
+        "semantic_similarity": 0.9170047640800476,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.09886257648468018,
+    "std_drift": 0.048200010924759
+  },
+  {
+    "article_id": 3,
+    "context": "    룩셈부르크 대공국(, , ), 약칭 룩셈부르크(, , )는 서유럽에 위치한 국가이며 대공이 통치하는 대공국이다. 수도는 룩셈부르크이다. 룩셈부르크는 세계에서 국민 소득이 높은 나라 중 하나이기도 하다. 세계 최대의 철강 업체 아르셀로미탈의 본사가 룩셈부르크에 위치해 있다.",
+    "original_question": "룩셈부르크의 수도는 어디인가?",
+    "original_answer": "룩셈부르크",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "edited_question": "룩셈부르크의 수도는哪里에 위치한가?",
+        "edited_answer": "룩셈부르크",
+        "language": "ko",
+        "drift_score": 0.019598960876464844,
+        "semantic_similarity": 0.9804010391235352,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "edited_question": "룩셈부르크의 수도는 어디에 위치하는가?",
+        "edited_answer": "룩셈부르크",
+        "language": "ko",
+        "drift_score": 0.06329607963562012,
+        "semantic_similarity": 0.9367039203643799,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "edited_question": "룩셈부르크의 수도를 찾으려면まず는 대공국과 그 수도가 무엇인지에 대한 정보가 필요하다.",
+        "edited_answer": "룩셈부르크",
+        "language": "ko",
+        "drift_score": 0.21511870622634888,
+        "semantic_similarity": 0.7848812937736511,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "edited_question": "룩셈부르크의 수도는 어떤 도시일까?",
+        "edited_answer": "룩셈부르크",
+        "language": "ko",
+        "drift_score": 0.07953470945358276,
+        "semantic_similarity": 0.9204652905464172,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "룩셈부르크의 수도는 어디인가?",
+        "original_answer": "룩셈부르크",
+        "edited_question": "룩셈부르크의 수도는 어떤 곳인지 알 수 있는가?",
+        "edited_answer": "룩셈부르크",
+        "language": "ko",
+        "drift_score": 0.045128703117370605,
+        "semantic_similarity": 0.9548712968826294,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.08453543186187744,
+    "std_drift": 0.06826088834131173
+  },
+  {
+    "article_id": 4,
+    "context": "   오대호(五大湖, )는 북아메리카 동북부, 미국과 캐나다의 국경에 있는 다섯 개의 큰 호수를 말한다. 총 표면적이 24만 5,000 평방 킬로미터[1]로 세계에서 가장 규모가 큰 담수계이다. 다섯 호수의 이름은 서쪽에서 동쪽으로 차례대로 다음과 같다.",
+    "original_question": "오대호의 크기는?",
+    "original_answer": "24만 5,000 평방 킬로미터",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "edited_question": "오대호의 면적이 몇만 평방 킬로미터에 불과한가?",
+        "edited_answer": "24만 5,000 평방 킬로미터",
+        "language": "ko",
+        "drift_score": 0.03491795063018799,
+        "semantic_similarity": 0.965082049369812,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "edited_question": "오대호의 총 표面積는 어떤지 정확히 알고 싶어?",
+        "edited_answer": "24만 5,000 평방 킬로미터가 세계에서 가장 규모가 큰 담수계이다.",
+        "language": "ko",
+        "drift_score": 0.15903598070144653,
+        "semantic_similarity": 0.8409640192985535,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "edited_question": "오대호의 총 면적은 어떤지 모른다?",
+        "edited_answer": "24만 5,000 평방 킬로미터는 실제 面적이란 gì인지에 대한 근거가 없는 추정치일수록, 세계에서 가장 규모가 큰 담수계라는 것만은 확실히 다섯 호수의 총 면적을 말한다.",
+        "language": "ko",
+        "drift_score": 0.2642818093299866,
+        "semantic_similarity": 0.7357181906700134,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "edited_question": "오대호의 대형 호수 집단은 어느 위치에서 시작될 수 있는가?",
+        "edited_answer": "북미 동부 지역, 미국과 캐나다 국경에 걸쳐 있는 5 개의 대규모 호수가 있으며, 세계에서 가장 큰 담수계이다.",
+        "language": "ko",
+        "drift_score": 0.5689657926559448,
+        "semantic_similarity": 0.4310341775417328,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "오대호의 크기는?",
+        "original_answer": "24만 5,000 평방 킬로미터",
+        "edited_question": "오대호의 규모가 어떤 거대한 범위에 속하는가?",
+        "edited_answer": "세계에서 가장 큰 담수계 중 하나인 북아메리카 동북부의 다섯 개 큰 호수의 총 면적이 24만 5,000 평방 킬로미터입니다.",
+        "language": "ko",
+        "drift_score": 0.3441208600997925,
+        "semantic_similarity": 0.6558791399002075,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.2742644786834717,
+    "std_drift": 0.18021808977317488
+  },
+  {
+    "article_id": 5,
+    "context": " 아돌프 히틀러의 죽음</b>은 1945년 4월 30일 나치 독일의 총통 아돌프 히틀러가 부인 에바 브라운과 결혼식을 올린 후 40시간 후에 자살한 사건이다. 이 사건으로 요제프 괴벨스가 국가수장직에 올랐으나 괴벨스는 다음 날 자살하고, 대통령인 카를 되니츠가 1945년 5월 8일 연합군에 항복하였다.",
+    "original_question": "히틀러는 몇 년도에 사망했는가?",
+    "original_answer": "1945년",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "edited_question": "히틀러가 자살한 연합군에 항복한 후 몇 년도에 사망했을까?",
+        "edited_answer": "1945년",
+        "language": "ko",
+        "drift_score": 0.06438690423965454,
+        "semantic_similarity": 0.9356130957603455,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "edited_question": "아돌프 히틀러의 죽음은 어느 년에 occurred하?",
+        "edited_answer": "1945년",
+        "language": "ko",
+        "drift_score": 0.04245638847351074,
+        "semantic_similarity": 0.9575436115264893,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "edited_question": "히틀러의 수년 동안 총통직에 남은 지는 무엇입니까?",
+        "edited_answer": "1945년",
+        "language": "ko",
+        "drift_score": 0.12324059009552002,
+        "semantic_similarity": 0.87675940990448,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "edited_question": "히틀러의 죽음은 연합군에 항복한 후 몇 년 후에 발생했으며 40시간 후에 자살했다고 보다 genau하게 말할 수는 없지만, 나치 독일 총통인 아돌프 히틀러가 부인 에바 브라운과 결혼식 직후 사망한 사건이기도 하다.",
+        "edited_answer": "1945년",
+        "language": "ko",
+        "drift_score": 0.21685880422592163,
+        "semantic_similarity": 0.7831411957740784,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "히틀러는 몇 년도에 사망했는가?",
+        "original_answer": "1945년",
+        "edited_question": "아돌프 히틀러의 죽음은 얼마 전이었나요?",
+        "edited_answer": "40시간 후",
+        "language": "ko",
+        "drift_score": 0.12070918083190918,
+        "semantic_similarity": 0.8792908191680908,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.11353037357330323,
+    "std_drift": 0.06048004645469497
+  },
+  {
+    "article_id": 6,
+    "context": "임진왜란(壬辰倭亂)은 1592년(선조 25) 일본이 조선을 침략하면서 시작되어 1598년(선조 31)까지 이어진 전쟁이다. 임진왜란은 동북아시아에 막대한 영향을 끼쳤다. 임진란, 임란</b>이라고도 부른다. 두 번의 침입이 있어서 제2차 침략은 정유재란이라 따로 부르기도 한다.",
+    "original_question": "임진왜란은 언제 끝나나요?",
+    "original_answer": "1598년",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "edited_question": "임진왜란을 how long로 지속했나요?",
+        "edited_answer": "1598년",
+        "language": "ko",
+        "drift_score": 0.17959994077682495,
+        "semantic_similarity": 0.820400059223175,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "edited_question": "임진왜란의 마지막 날은 언제였나요?",
+        "edited_answer": "1598년",
+        "language": "ko",
+        "drift_score": 0.08462196588516235,
+        "semantic_similarity": 0.9153780341148376,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "edited_question": "임진왜란이 끝날 때point는 언제였나요?",
+        "edited_answer": "1598년",
+        "language": "ko",
+        "drift_score": 0.04364269971847534,
+        "semantic_similarity": 0.9563573002815247,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "edited_question": "임진왜란의 전투가 언제 끝나고,Japanese의 침략이 어떻게 종료되었는지에 대해 살펴본다면, 1598년에 종료되었다는 것을 알 수 있습니다.",
+        "edited_answer": "1598년",
+        "language": "ko",
+        "drift_score": 0.2867695689201355,
+        "semantic_similarity": 0.7132304310798645,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "임진왜란은 언제 끝나나요?",
+        "original_answer": "1598년",
+        "edited_question": "임진왜란의 시간대는 언제가 끝날까요?",
+        "edited_answer": "1598년",
+        "language": "ko",
+        "drift_score": 0.03533905744552612,
+        "semantic_similarity": 0.9646609425544739,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.12599464654922485,
+    "std_drift": 0.09532479312380768
+  },
+  {
+    "article_id": 7,
+    "context": " 중화인민공화국(simplified Chinese:中华人民共和国; traditional Chinese:中華人民共和國; pinyin:Zhōnghuá Rénmín Gònghéguó  )은 동아시아[1]에 있는 공화국이다. 줄여서 중국[2](中國, simplified Chinese:中国; traditional Chinese:中國; pinyin:Zhōngguó)이라고도 한다. 수도는 베이징(北京)이고, 최대 도시는 상하이(上海)이다. 주요 도시로는 베이징, 상하이, 광저우, 난징, 시안, 푸저우, 칭다오, 톈진, 옌타이 등이 있다. 세계 최대의 인구와 넓은 국토 때문에 그 영토를 중국 대륙이라고 부르기도 한다.",
+    "original_question": "중화인민공화국의 수도는 어디인가요?",
+    "original_answer": "베이징",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "edited_question": "베이징에서 시작된 중국의 정치적 중심부는 어디에 있어요?",
+        "edited_answer": "베이징",
+        "language": "ko",
+        "drift_score": 0.15811538696289062,
+        "semantic_similarity": 0.8418846130371094,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "edited_question": "중국의 수도에서 시작하는 국가가ใด가 있나요?",
+        "edited_answer": "베이징",
+        "language": "ko",
+        "drift_score": 0.10696202516555786,
+        "semantic_similarity": 0.8930379748344421,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "edited_question": "중화인민공화국의 수도에 대한 지침은 어디인가요?",
+        "edited_answer": "베이징",
+        "language": "ko",
+        "drift_score": 0.09292227029800415,
+        "semantic_similarity": 0.9070777297019958,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "edited_question": "중국의 수도가哪里에 있다고 생각하시나요?",
+        "edited_answer": "베이징",
+        "language": "ko",
+        "drift_score": 0.0632333755493164,
+        "semantic_similarity": 0.9367666244506836,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "중화인민공화국의 수도는 어디인가요?",
+        "original_answer": "베이징",
+        "edited_question": "중국 대륙에서 가장 큰 도시가哪个 cidade呢?",
+        "edited_answer": "상하이",
+        "language": "ko",
+        "drift_score": 0.16692101955413818,
+        "semantic_similarity": 0.8330789804458618,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.11763081550598145,
+    "std_drift": 0.03937497049807165
+  },
+  {
+    "article_id": 8,
+    "context": "현재 사용되는 핵분열 방식을 이용한 전력생산은 1948년 9월 미국 테네시주 오크리지에 설치된 X-10 흑연원자로에서 전구의 불을 밝히는 데 사용되면서 시작되었다. 그리고 1954년 6월에 구소련의 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 시험적으로 전력생산을 시작하였고, 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소로, 1956년 10월 17일 상업 운전을 시작하였다.",
+    "original_question": "최초의 원자력 발전소는 무엇인가?",
+    "original_answer": "콜더 홀",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "edited_question": "1948년 미국 테네시주 오크리지에서 제조된 흑연원자로를 이용하여 전구의 불을 밝히는 데서 originate 한 전력생산 방식이 무엇인가?",
+        "edited_answer": "콜더 홀",
+        "language": "ko",
+        "drift_score": 0.3105285167694092,
+        "semantic_similarity": 0.6894714832305908,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "edited_question": "1948년 미국 테네시주 오크리지에서 설립된 흑연원자로의 전구를 사용하여 전력생산을 시작한 원자력 발전소는 무엇인가?",
+        "edited_answer": "오브닌스크 원자력 발전소",
+        "language": "ko",
+        "drift_score": 0.2301294207572937,
+        "semantic_similarity": 0.7698705792427063,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "edited_question": "1948년 오크리지에서 X-10 흑연원자로의 발전에 시작된 전구의 불을 밝히는 데서 원자력 전력생산이 처음으로 시작되었습니다. 그 다음은 오브닌스크에 건설된 흑연감속 비등경수 압력관형 원자로를 사용한 오브닌스크 원자력 발전소가 1954년 6월에 시험적으로 전력생산을 시작하였습니다. 최초의 상업용 원자력 엉더이로를 사용한 영국 셀라필드 원자력 단지에 위치한 콜더 홀(Calder Hall) 원자력 발전소가 1956년 10월 17일 상업 운전을 시작하였다.",
+        "edited_answer": "콜더 홀",
+        "language": "ko",
+        "drift_score": 0.3092402219772339,
+        "semantic_similarity": 0.6907597780227661,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "edited_question": "1948년 미국 테네시주 오크리지의 X-10 흑연원자로에서 시작된 전력생산 방식은 어디서부터?",
+        "edited_answer": "콜더 홀",
+        "language": "ko",
+        "drift_score": 0.27853477001190186,
+        "semantic_similarity": 0.7214652299880981,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "최초의 원자력 발전소는 무엇인가?",
+        "original_answer": "콜더 홀",
+        "edited_question": "1948년 미국 테네시주 오크리지에 설립된 X-10 흑연원자로가 전구의 불을 밝히는 데서 시작된 핵분열 방식의 전력생산 방식을 따랐고, 그 뒤 오브닌스크 원자력 발전소와 콜더 홀이 시험적으로 상업용 전력생산을 시작하는 등 다양한 원자력 발전소가 설립되면서 최초의 원자력 발전소가何时 emergence?",
+        "edited_answer": "1956년 10월 17일",
+        "language": "ko",
+        "drift_score": 0.26476091146469116,
+        "semantic_similarity": 0.7352390885353088,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.27863876819610595,
+    "std_drift": 0.02999722503701433
+  },
+  {
+    "article_id": 9,
+    "context": "과테말라 - 리카스테난스 그리스 - 향제비꽃 남아프리카 공화국 - 프로테아 네덜란드 - 튤립 네팔 -  만병초 뉴질랜드 - 회화나무 대한민국 - 무궁화 도미니카 공화국 - 마호가니 독일 - 수레국화 덴마크 - 토끼풀 라오스 - 플루메리아 러시아 - 카밀레 레바논 - 레바논 삼나무(백향목) 루마니아 - 백장미 마다가스카르 - 부채잎 파초 말레이시아 - 부상화 멕시코 - 달리아 모나코 - 카네이션 미국 - 장미[1][2] 미얀마 - 사라수 바티칸 - 나팔나리 베네수엘라 - 타베비아 베트남 - 연꽃 벨기에 - 아잘레아 볼리비아 - 꽃고비 불가리아 - 장미 브라질 - 카틀레아 사우디아라비아 - 대추야자 스리랑카 - 연꽃 스위스 - 에델바이스 스페인 - 오렌지꽃 시리아 - 아네모네 싱가포르 - 난 아르메니아 - 아네모네 아르헨티나 - 피토라카 아일랜드 - 흰 클로버 아프가니스탄 - 튤립 영국 - 장미 예멘 - 커피나무 오스트레일리아 - 아카시아 오스트리아 - 에델바이스 우루과이 - 에리스리나 에티오피아 - 칼라디움 이란 - 튤립 이스라엘 - 올리브 이집트 - 수련 이탈리아 - 데이지 인도 - 양귀비 인도네시아 - 보르네오 재스민, 난초, 라플레시아 일본 - 일본은 공식적인 나라꽃이 없으며 국화가 황실을 상징함. (일본 국화를 벚꽃이라고 알고 있는 사람이 많은데 일본 사람들이 가장 좋아하는 꽃이 벚꽃일뿐 국화는 아님.) 조선민주주의인민공화국(북한) - 함박꽃나무 중화민국 - 매화 체코 - 타리아 칠레 - 동백꽃 카메룬 - 수련 캄보디아 - 수련 캐나다 - 사탕단풍 콜롬비아 - 카틀레야 쿠바 - 진저 태국 - 라차프륵 터키 - 튤립 튀니지 - 재스민 파나마 - 파나마초 파키스탄 - 수선화 페루 - 해바라기 포르투갈 - 라벤듈라 폴란드 - 팬지 프랑스 - 아이리스 핀란드 - 은방울꽃 필리핀 - 재스민",
+    "original_question": "스페인의 국화는 무엇인가?",
+    "original_answer": "오렌지꽃",
+    "language": "ko",
+    "edits": [
+      {
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "edited_question": "스페인에서 가장 유명한.flower는 무엇인가?",
+        "edited_answer": "오렌지꽃",
+        "language": "ko",
+        "drift_score": 0.08316445350646973,
+        "semantic_similarity": 0.9168355464935303,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "edited_question": "스페인에서 가장 인기 있는 화는?",
+        "edited_answer": "카네이션",
+        "language": "ko",
+        "drift_score": 0.2907547950744629,
+        "semantic_similarity": 0.7092452049255371,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "edited_question": "스페인에 있는 국화와 flowers는 무엇인가?",
+        "edited_answer": "에델바이스",
+        "language": "ko",
+        "drift_score": 0.13713610172271729,
+        "semantic_similarity": 0.8628638982772827,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "edited_question": "스페인에서 자란 꽃이 무엇인가?",
+        "edited_answer": "오렌지꽃",
+        "language": "ko",
+        "drift_score": 0.06339585781097412,
+        "semantic_similarity": 0.9366041421890259,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "스페인의 국화는 무엇인가?",
+        "original_answer": "오렌지꽃",
+        "edited_question": "스페인에서 자란 꽃의 종류는 무엇인가?",
+        "edited_answer": "오렌지꽃",
+        "language": "ko",
+        "drift_score": 0.08566135168075562,
+        "semantic_similarity": 0.9143386483192444,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.13202251195907594,
+    "std_drift": 0.08302791244029653
+  }
+]

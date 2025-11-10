@@ -1,0 +1,662 @@
+[
+  {
+    "article_id": 0,
+    "context": "వేప (లాటిన్ Azadirachta indica, syn. Melia azadirachta L., Antelaea azadirachta (L.) Adelb.) చెట్టు మహోగని కుటుంబానికి చెందినది. అజాడిరక్తకు చెందిన రెండు సంతతులలో ఒకటైన వేపకు పుట్టిళ్ళు సమ శీతోష్ణ దేశాలయిన బంగ్లాదేశ్, భారతదేశం, మ్యాన్ మార్, మరియు పాకిస్తాన్. ఇతరదేశాల్లోని పేర్ల విషయానికొస్తే వేపను అజాద్ డిరఖ్త (పర్షియ), డొగొన్ యార్లొ (నైజీరియా), మార్గోస, నీబ్ (అరబిక్), నిమ్ వృక్షము, నింబ (సంస్కృతము), వేపు, వెంపు, బేవు (కన్నడ), వెప్పం (తమిళము), ఆర్య వెప్పు (మలయాళము), భారత లైలాక్ అని పిలుస్తున్నారు. తూర్పు ఆఫ్రికాలో దీనినే మ్వారోబైని (కిస్వాహిలి) అంటారు. దీని అర్థం 'నలభై చెట్టు'. వేప నలభై వివిధ వ్యాధులను నయం చేస్తుందని చెప్తారు.",
+    "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+    "original_answer": "Azadirachta indica",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+        "original_answer": "Azadirachta indica",
+        "edited_question": "లాటిన్‌కు అనుగుణంగా వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+        "edited_answer": "అజాద్‌డిరఖ్త",
+        "language": "te",
+        "drift_score": 0.1854393482208252,
+        "semantic_similarity": 0.8145606517791748,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+        "original_answer": "Azadirachta indica",
+        "edited_question": "వేపకు చెందిన సమశీతోష్ణ దేశాలలో ఎలా కనిపిస్తుంది?",
+        "edited_answer": "బంగ్లాదేశ్, భారతదేశం, మ్యాన్‌మార్, పాకిస్తాన్",
+        "language": "te",
+        "drift_score": 0.4036678075790405,
+        "semantic_similarity": 0.5963321924209595,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+        "original_answer": "Azadirachta indica",
+        "edited_question": "ఇతరులు వేపను వేపు, వెప్పం, బేవు, భారత లైలాక్ అని పిలుస్తున్నారా?",
+        "edited_answer": "ఆజాద్ డిరఖ్త",
+        "language": "te",
+        "drift_score": 0.3628738522529602,
+        "semantic_similarity": 0.6371261477470398,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+        "original_answer": "Azadirachta indica",
+        "edited_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏది?",
+        "edited_answer": "అజాదిరఖ్త",
+        "language": "te",
+        "drift_score": 0.1331559419631958,
+        "semantic_similarity": 0.8668440580368042,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం ఏమిటి?",
+        "original_answer": "Azadirachta indica",
+        "edited_question": "వేప చెట్టు యొక్క శాస్త్రీయ నామం, అజాడిరక్తకు చెందిన పావురం ఎలా అంటారు?",
+        "edited_answer": "అజాడిరక్త,",
+        "language": "te",
+        "drift_score": 0.19739222526550293,
+        "semantic_similarity": 0.8026077747344971,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.2565058350563049,
+    "std_drift": 0.10651841322405099
+  },
+  {
+    "article_id": 1,
+    "context": "రెయ్యలగడ్ద, విశాఖపట్నం జిల్లా, గంగరాజు మాడుగుల మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన గంగరాజు మాడుగుల నుండి 28 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 130 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 37, ఆడవారి సంఖ్య 39. షెడ్యూల్డ్ కులాల సంఖ్య 0 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 72. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584804[2].పిన్ కోడ్: 531029.",
+    "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+    "original_answer": "27 హెక్టార్ల",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+        "original_answer": "27 హెక్టార్ల",
+        "edited_question": "గంగరాజు మాడుగులలో నివసిస్తూనే, 2011 జనగణనకు చెందిన రెయ్యలగడ్ద గ్రామ భౌతిక ప్రాంతం ఎలా?",
+        "edited_answer": "27 హెక్టార్ల",
+        "language": "te",
+        "drift_score": 0.33736300468444824,
+        "semantic_similarity": 0.6626369953155518,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+        "original_answer": "27 హెక్టార్ల",
+        "edited_question": "గ్రామంలోని 19 ఇళ్లతో, 76 జనాభాతో 27 హెక్టార్లలో ఎంత పొడవు?",
+        "edited_answer": "27 హెక్టార్ల",
+        "language": "te",
+        "drift_score": 0.25023555755615234,
+        "semantic_similarity": 0.7497644424438477,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+        "original_answer": "27 హెక్టార్ల",
+        "edited_question": "గంగరాజు మాడుగుల సర్కిల్‌లోని విశాఖపట్నం జిల్లా యొక్క సందర్భంగా రెయ్యలగడ్డ అనే పేరుతో ఏ గ్రామం ఉంది?",
+        "edited_answer": "27 హెక్టార్ల",
+        "language": "te",
+        "drift_score": 0.42223143577575684,
+        "semantic_similarity": 0.5777685642242432,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+        "original_answer": "27 హెక్టార్ల",
+        "edited_question": "ఈ గ్రామం ఎన్ని హెక్టార్ల విస్తీర్ణంలో ఉంది?",
+        "edited_answer": "27",
+        "language": "te",
+        "drift_score": 0.18574458360671997,
+        "semantic_similarity": 0.81425541639328,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "రెయ్యలగడ్ద గ్రామ విస్తీర్ణత ఎంత?",
+        "original_answer": "27 హెక్టార్ల",
+        "edited_question": "గంగరాజు మాడుగులలోని రెయ్యలగడ్ద ప్రాంతం ఎక్కడ ఉంది?",
+        "edited_answer": "28 కి. మీ.",
+        "language": "te",
+        "drift_score": 0.3469963073730469,
+        "semantic_similarity": 0.6530036926269531,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.30851417779922485,
+    "std_drift": 0.08211396313236834
+  },
+  {
+    "article_id": 2,
+    "context": "దవ్తాషెన్, ఆర్మేనియా దేశ రాజధానయిన యెరెవాన్లో ఉన్నటువంటి 12 జిల్లాలలో ఒకటి. హ్రజ్డాన్ నదికి కుడి పక్కన ఉన్న దవ్తషెన్ కు సరిహద్దులుగా దక్షిణాన అజప్న్యాక్ మరియు అరబ్కిర్, ఉత్తరాన కొటాయ్క్ రాష్టృం ఉన్నవి.",
+    "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+    "original_answer": "12",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+        "original_answer": "12",
+        "edited_question": "ఆర్మేనియా దేశంలో 12 జిల్లాలు ఉన్నాయి.",
+        "edited_answer": "12",
+        "language": "te",
+        "drift_score": 0.21138828992843628,
+        "semantic_similarity": 0.7886117100715637,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+        "original_answer": "12",
+        "edited_question": "ఆర్మేనియా దేశంలో ఉన్న జిల్లాల సంఖ్య ఎవరికి తెలియదు?",
+        "edited_answer": "12",
+        "language": "te",
+        "drift_score": 0.05277228355407715,
+        "semantic_similarity": 0.9472277164459229,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+        "original_answer": "12",
+        "edited_question": "ఆర్మేనియా దేశంలో ఉన్న జిల్లాల సంఖ్యను తెలుసుకోవడానికి, ఎటువంటి మధ్యవర్తిత్వం లేదా సహజీకరణ ఉన్న ప్రాంతాలను మినహాయించడం?",
+        "edited_answer": "12",
+        "language": "te",
+        "drift_score": 0.19494974613189697,
+        "semantic_similarity": 0.805050253868103,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+        "original_answer": "12",
+        "edited_question": "ఆర్మేనియా దేశంలో గతిమాపనం చేసిన జిల్లాల సంఖ్యను గురించి తెలియజేయండి.",
+        "edited_answer": "12",
+        "language": "te",
+        "drift_score": 0.19379878044128418,
+        "semantic_similarity": 0.8062012195587158,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "ఆర్మేనియా దేశంలో మొత్తం జిల్లాలు ఉన్నాయి?",
+        "original_answer": "12",
+        "edited_question": "ఆర్మేనియా దేశంలోని 12 జిల్లాల సంఖ్య ఏమిటి?",
+        "edited_answer": "12",
+        "language": "te",
+        "drift_score": 0.05683720111846924,
+        "semantic_similarity": 0.9431627988815308,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.14194926023483276,
+    "std_drift": 0.07143640370665458
+  },
+  {
+    "article_id": 3,
+    "context": "ఇది మండల కేంద్రమైన కోసిగి నుండి 8 కి. మీ. దూరం లోను, సమీప పట్టణమైన ఆదోని నుండి 38 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 235 ఇళ్లతో, 1349 జనాభాతో 839 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 694, ఆడవారి సంఖ్య 655. షెడ్యూల్డ్ కులాల సంఖ్య 140 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 1. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 593759[2].పిన్ కోడ్: 518313.",
+    "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+    "original_answer": "694",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+        "original_answer": "694",
+        "edited_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ విస్తరించిన భూమి వైశాల్యం 8,39 హెక్టార్లు. ఇది ఎలా ఉన్నదో తెలుసుకొనమని చూద్దాం.",
+        "edited_answer": "593759",
+        "language": "te",
+        "drift_score": 0.4167402982711792,
+        "semantic_similarity": 0.5832597017288208,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+        "original_answer": "694",
+        "edited_question": "చీర్తనకళ్ గ్రామంలో 2011 జనగణన ప్రకారం ఏడుసొదియగిన వ్యక్తుల మొత్తం సంఖ్య ఎంత?",
+        "edited_answer": "694",
+        "language": "te",
+        "drift_score": 0.16045832633972168,
+        "semantic_similarity": 0.8395416736602783,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+        "original_answer": "694",
+        "edited_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామాల్లో పురుషుల సంఖ్య 694 ఉన్నారు, ఇది గ్రామాన్ని ఎలా అతిక్రమిస్తుంది?",
+        "edited_answer": "694",
+        "language": "te",
+        "drift_score": 0.06307625770568848,
+        "semantic_similarity": 0.9369237422943115,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+        "original_answer": "694",
+        "edited_question": "2011 జనగణన రికార్డుల ప్రకారం చీర్తనకళ్‌లోని మగవారి జనాభా 2011 జనాభా లెక్కలలో సుమారు ఎంత ఉంది",
+        "edited_answer": "694",
+        "language": "te",
+        "drift_score": 0.14508581161499023,
+        "semantic_similarity": 0.8549141883850098,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం చీర్తనకళ్ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+        "original_answer": "694",
+        "edited_question": "చీర్తనకళ్ గ్రామంలో 2011 జనగణన ప్రకారం పురుషుల సంఖ్య ఎలా ఉంది?",
+        "edited_answer": "694",
+        "language": "te",
+        "drift_score": 0.050819575786590576,
+        "semantic_similarity": 0.9491804242134094,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.16723605394363403,
+    "std_drift": 0.13205377563929743
+  },
+  {
+    "article_id": 4,
+    "context": "ఇది మండల కేంద్రమైన పిఠాపురం నుండి 5 కి. మీ. దూరంలో ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1034 ఇళ్లతో, 3566 జనాభాతో 769 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1798, ఆడవారి సంఖ్య 1768. షెడ్యూల్డ్ కులాల సంఖ్య 649 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 35. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 587458[2].పిన్ కోడ్: 533445.",
+    "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+    "original_answer": "533445",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+        "original_answer": "533445",
+        "edited_question": "రాపర్తి గ్రామం నుండి 5 కి. మీ. దూరంలో ఉన్న మండల కేంద్రానికి ఎగువ పిన్ కోడ్ ఏమిటి?",
+        "edited_answer": "533445",
+        "language": "te",
+        "drift_score": 0.09065544605255127,
+        "semantic_similarity": 0.9093445539474487,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+        "original_answer": "533445",
+        "edited_question": "రాపర్తి గ్రామం సిటీ పిన్‌కోడ్ ఏమిటి?",
+        "edited_answer": "533445",
+        "language": "te",
+        "drift_score": 0.014514744281768799,
+        "semantic_similarity": 0.9854852557182312,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+        "original_answer": "533445",
+        "edited_question": "రాపర్తి గ్రామం లోని సభ్యుడైన వారి హామీకారపత్రం పేర్కొన్న పిన్ కోడ్ ఏమిటి?",
+        "edited_answer": "533445",
+        "language": "te",
+        "drift_score": 0.08702987432479858,
+        "semantic_similarity": 0.9129701256752014,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+        "original_answer": "533445",
+        "edited_question": "రాపర్తి గ్రామం నుండి ఒక పిన్ కోడ్ ఎలా చెప్పబడుతుంది?",
+        "edited_answer": "533445",
+        "language": "te",
+        "drift_score": 0.06496477127075195,
+        "semantic_similarity": 0.935035228729248,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "రాపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+        "original_answer": "533445",
+        "edited_question": "రాపర్తి గ్రామంలో ఉన్న సరళ జాబితాలో ఎదుర్కొనేవారి పట్టీ మధ్య 5 కి. మీ. దూరంలో ఉన్న చెరువు అని సూచించే పట్టీ కార్యక్రమాల్లో 5-వ సంఖ్య.",
+        "edited_answer": "533445",
+        "language": "te",
+        "drift_score": 0.1819484829902649,
+        "semantic_similarity": 0.8180515170097351,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.0878226637840271,
+    "std_drift": 0.05434125012115734
+  },
+  {
+    "article_id": 5,
+    "context": "కొమ్మూరు, గుంటూరు జిల్లా, కాకుమాను మండలానికి చెందిన గ్రామము. ఇది మండల కేంద్రమైన కాకుమాను నుండి 6 కి. మీ. దూరం లోను, సమీప పట్టణమైన బాపట్ల నుండి 27 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 1862 ఇళ్లతో, 6594 జనాభాతో 2498 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 3231, ఆడవారి సంఖ్య 3363. షెడ్యూల్డ్ కులాల సంఖ్య 1591 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 102. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 590351[1].పిన్ కోడ్: 522112. ఎస్.టి.డి.కోడ్ = 0863.",
+    "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+    "original_answer": "3363",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+        "original_answer": "3363",
+        "edited_question": "కొమ్మూరు గ్రామంలో 2011 జనగణన ప్రకారం స్త్రీల ఎక్కువ సంఖ్య ఏమిటి?",
+        "edited_answer": "1591",
+        "language": "te",
+        "drift_score": 0.11129534244537354,
+        "semantic_similarity": 0.8887046575546265,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+        "original_answer": "3363",
+        "edited_question": "కొమ్మూరు గ్రామం 2011 జనగణన ప్రకారం ఆడ జనాభాలో ఎటువంటి స్త్రీలేమీ లేదా?",
+        "edited_answer": "3363",
+        "language": "te",
+        "drift_score": 0.2210060954093933,
+        "semantic_similarity": 0.7789939045906067,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+        "original_answer": "3363",
+        "edited_question": "2011 జనగణన ప్రకారం ఆది మధ్యలో, శాసనం ప్రకారం కొమ్మూరు గ్రామంలో ఎవరైనా ఉండేవి?",
+        "edited_answer": "3363",
+        "language": "te",
+        "drift_score": 0.25503820180892944,
+        "semantic_similarity": 0.7449617981910706,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+        "original_answer": "3363",
+        "edited_question": "2011 జనగణన ప్రకారం ఈ గ్రామంలో ఎంత ఆడవారు, ఎంత మహిళలు ఉన్నారు?",
+        "edited_answer": "3363",
+        "language": "te",
+        "drift_score": 0.08049285411834717,
+        "semantic_similarity": 0.9195071458816528,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "2011 జనగణన ప్రకారం కొమ్మూరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+        "original_answer": "3363",
+        "edited_question": "కొమ్మూరు గ్రామంలో 2011 జనగణన ప్రకారం స్త్రీల సంఖ్య ఏంటి?",
+        "edited_answer": "అబద్ధంగా ఉండకూడదు. పేర్కొనవలసిన విషయం ఏమిటి ?",
+        "language": "te",
+        "drift_score": 0.1433248519897461,
+        "semantic_similarity": 0.8566751480102539,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.1622314691543579,
+    "std_drift": 0.06587973388252912
+  },
+  {
+    "article_id": 6,
+    "context": "సుశీల 1935లో విజయనగరంలో సంగీతాభిమానుల కుటుంబంలో జన్మించింది. ఈమె తండ్రి పి.ముకుందరావు ప్రముఖ క్రిమినల్ లాయరు. తల్లి శేషావతారం. 1950లో సంగీత దర్శకుడు నాగేశ్వరరావు ఆలిండియా రేడియోలో నిర్వహించిన పోటీలో సుశీలను ఎన్నుకున్నారు. ఆమె ఏ.ఎమ్.రాజాతో కలిసి పెట్ర తాయ్ (తెలుగులో కన్నతల్లి) అనే సినిమాలో ఎదుకు అలత్తాయ్ అనే పాటను తన మొదటిసారిగా పాడింది.",
+    "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+    "original_answer": "1935",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+        "original_answer": "1935",
+        "edited_question": "సుశీలను ఎంతసార్లు, ఏవిధంగా అణుభోజన ప్రక్రియ ద్వారా కనుగొనేటట్లు మనం చెప్పగలమో?",
+        "edited_answer": "1935",
+        "language": "te",
+        "drift_score": 0.29225993156433105,
+        "semantic_similarity": 0.707740068435669,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+        "original_answer": "1935",
+        "edited_question": "సుశీల కుటుంబంలో జన్మించిన మహిళగా పి.సుశీల ఎవరైనా?",
+        "edited_answer": "1935",
+        "language": "te",
+        "drift_score": 0.09003150463104248,
+        "semantic_similarity": 0.9099684953689575,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+        "original_answer": "1935",
+        "edited_question": "పి. సుశీల జన్మకాలం ఏమిటి?",
+        "edited_answer": "1935",
+        "language": "te",
+        "drift_score": 0.06360387802124023,
+        "semantic_similarity": 0.9363961219787598,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+        "original_answer": "1935",
+        "edited_question": "సుశీల అమ్మ 1935లో జన్మించారట?",
+        "edited_answer": "ఆమె 1935లో జన్మించింది.",
+        "language": "te",
+        "drift_score": 0.3612254858016968,
+        "semantic_similarity": 0.6387745141983032,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "పి. సుశీల ఎప్పుడు జన్మించింది?",
+        "original_answer": "1935",
+        "edited_question": "సుశీలా కేవలం 10 నెలలకు ప్రాగసంధి చెందిన మహారణి",
+        "edited_answer": "1935",
+        "language": "te",
+        "drift_score": 0.15903031826019287,
+        "semantic_similarity": 0.8409696817398071,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.1932302236557007,
+    "std_drift": 0.11545725596246192
+  },
+  {
+    "article_id": 7,
+    "context": "ఈ భవన నిర్మాణం నవంబరు 2008లో ప్రారంభమై ఆగష్టు 2013 నాటికి పూర్తయింది. భవన వెలుపలి పనులు 2015 వేసవి నాటికి పూర్తయినా,[8] సెప్టెంబరు 2015 నాటికి పూర్తయిన విధంగా భావించారు. భవనాన్ని వాస్తవానికి నవంబర్ 2014 లో ప్రజలకు తెరవాలని నిర్ణయించుకున్నప్పటికీ, నిర్మాణ కారణాలతో అది ఆలస్యమైంది. జూలై 2016 లో సందర్శకులకు పరిశీలన కేంద్రాన్ని తెరిచారు; జూలై నుంచి సెప్టెంబరు 2016 వరకూ \"టెస్ట్ రన్\" లేదా \"కమిషన్యింగ్\" కాల వ్యవధిగా పేర్కొనబడింది.[14][15] ఏప్రిల్ 26, 2017 నాటికి, 118 వ అంతస్తులో ఉన్న సందర్శనా కేంద్రం ప్రజలకు తెరవబడింది.[16]",
+    "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+    "original_answer": "సెప్టెంబరు 2015",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+        "original_answer": "సెప్టెంబరు 2015",
+        "edited_question": "శాంఘై టవరు కట్టడం దాని భవన నిర్మాణాల పేరు, సంఖ్యతో ఎలా అనుబంధించబడింది?",
+        "edited_answer": "2008 నవంబరు, ఆగష్టు 2013",
+        "language": "te",
+        "drift_score": 0.16547471284866333,
+        "semantic_similarity": 0.8345252871513367,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+        "original_answer": "సెప్టెంబరు 2015",
+        "edited_question": "భవన నిర్మాణం ఎప్పుడు పూర్తయింది ?",
+        "edited_answer": "నవంబరు 2008",
+        "language": "te",
+        "drift_score": 0.2620471119880676,
+        "semantic_similarity": 0.7379528880119324,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+        "original_answer": "సెప్టెంబరు 2015",
+        "edited_question": "ఈ భవన నిర్మాణం 2008,11-11 తేదీల మధ్య జరిగింది. ఈ భవన అంతస్తుల కార్యక్రమం 2013,8-08 తేదీల మధ్య పూర్తయింది.",
+        "edited_answer": "2008,11-11 - 2013,8-08",
+        "language": "te",
+        "drift_score": 0.6308478713035583,
+        "semantic_similarity": 0.36915212869644165,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+        "original_answer": "సెప్టెంబరు 2015",
+        "edited_question": "గొప్ప ఎత్తులను కలిగి ఉండటానికి ఏ రోజు వాస్తవానికి ప్రయత్నించాలని భవిష్యత్తు ఎదుర్కొన్న అసమర్థత?",
+        "edited_answer": "నవంబరు 2008",
+        "language": "te",
+        "drift_score": 0.20194989442825317,
+        "semantic_similarity": 0.7980501055717468,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "షాంఘై టవరు కట్టడం ఎప్పుడు పూర్తయింది ?",
+        "original_answer": "సెప్టెంబరు 2015",
+        "edited_question": "భవన నిర్మాణం 2008లో ప్రారంభమయ్యి, 2013లో తప్ప దట్టం వస్తున్నాక అంతర్గత పనులు 2015 చివరి భాగమే.",
+        "edited_answer": "ఆగష్టు 2013",
+        "language": "te",
+        "drift_score": 0.21898281574249268,
+        "semantic_similarity": 0.7810171842575073,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.29586048126220704,
+    "std_drift": 0.17034653962345975
+  },
+  {
+    "article_id": 8,
+    "context": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంలో మరణించింది. ఎన్నికల సందర్భంగా, భారతీయ జనతా పార్టీ మద్దతు పలుకుతూ ఆంధ్ర ప్రదేశ్‌లో ప్రశంగించడానికి బయలుదేరుతున్న సమయంలో ఈ ప్రమాదం సంభవించింది. ఆమె అన్న, కన్నడ చిత్రాల నిర్మాత అయిన అమర్ నాధ్ కూడా ఆ ప్రమాదంలో మరణించారు. ఆమె కన్నడంలో నటించిన ఆఖరి చిత్రం \"ఆప్త మిత్ర\" విజయవంతమైంది. ప్రస్తుతం ఆమె జ్ఞాపకార్ధం \"సౌందర్య స్మారక పురస్కారం\"ను కర్ణాటకాంధ్ర లలితకళ అకాడమి వారు ప్రతీ సంవత్సరం ఉగాది పండుగ రోజున ఉత్తమ నటీమణులకు బహుకరించుచున్నారు.",
+    "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+    "original_answer": "2004 ఏప్రిల్ 17",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+        "original_answer": "2004 ఏప్రిల్ 17",
+        "edited_question": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన ప్రమాదంతో బాధితుడయ్యారు",
+        "edited_answer": "ఆమె 2004 ఏప్రిల్ 17న విమాన దుస్థితికి గురయ్యారు",
+        "language": "te",
+        "drift_score": 0.13599908351898193,
+        "semantic_similarity": 0.8640009164810181,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+        "original_answer": "2004 ఏప్రిల్ 17",
+        "edited_question": "సౌందర్య మానవతకు చేసిన అసభ్య ప్రయాణంలో ఎప్పుడు మరణించింది?",
+        "edited_answer": "2004 ఏప్రిల్ 17",
+        "language": "te",
+        "drift_score": 0.09435242414474487,
+        "semantic_similarity": 0.9056475758552551,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+        "original_answer": "2004 ఏప్రిల్ 17",
+        "edited_question": "2004 ఏప్రిల్ 17 నాటి అతి ముఖ్యమైన విమాన దుష్ఫలంలో భారతీయ సినిమారంగంపై ఉన్న ఆటంకంలో ఎదుర్కొన్న నష్టంతో జీవితాంతం ఉమ్మడి ప్రేమ లేకుండా, ఆనంద భావాలతోనే సహజంగా అంతిమ రూపం ధరించింది.",
+        "edited_answer": "2004 ఏప్రిల్ 17",
+        "language": "te",
+        "drift_score": 0.19576513767242432,
+        "semantic_similarity": 0.8042348623275757,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+        "original_answer": "2004 ఏప్రిల్ 17",
+        "edited_question": "అన్నపూర్వక మహాలయిన సౌందర్య 2004 ఏప్రిల్ 17న బయటి ప్రపంచాన్ని తీవ్రంగా మారుస్తోస్తే, 2004 ఏప్రిల్ 17న ఎక్కువమంది అంటూయున్నారు.",
+        "edited_answer": "సౌందర్య 2004 ఏప్రిల్ 17న విమాన అగ్నికి ఓరు కొట్టడంతో జీవితాన్ని సంతృప్తిపరచలేదు.",
+        "language": "te",
+        "drift_score": 0.20657068490982056,
+        "semantic_similarity": 0.7934293150901794,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "హీరోయిన్ సౌందర్య ఎప్పుడు మరణించింది?",
+        "original_answer": "2004 ఏప్రిల్ 17",
+        "edited_question": "సౌందర్య మరణించిన తేదీ ఏడాది ఏప్రిల్ 17వ",
+        "edited_answer": "2004",
+        "language": "te",
+        "drift_score": 0.05915689468383789,
+        "semantic_similarity": 0.9408431053161621,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.13836884498596191,
+    "std_drift": 0.05685669622286784
+  },
+  {
+    "article_id": 9,
+    "context": "ప్రముఖ నిర్మాత బి.ఏ.సుబ్బారావు ఎన్టీఆర్ ఫొటోను ఎల్వీ ప్రసాదు దగ్గర చూసి, వెంటనే ఆయనను మద్రాసు పిలిపించి పల్లెటూరి పిల్ల సినిమాలో కథానాయకుడిగా ఎంపిక చేసాడు. దీనికి గాను రామారావుకు వెయ్యి నూటపదహార్ల పారితోషికం లభించింది. వెంటనే ఆయన తన సబ్-రిజిస్ట్రారు ఉద్యోగానికి రాజీనామా చేసేసాడు. కానీ సినిమా నిర్మాణం వెంటనే మొదలవలేదు. ఈలోగా మనదేశం అనే సినిమాలో అవకాశం రావడంతో దానిలో నటించాడు. అంచేత ఆయన మొదటిసారి కెమేరా ముందు నటించిన సినిమా మనదేశం అయింది. 1949లో వచ్చిన ఆ సినిమాలో ఆయన ఒక పోలీసు ఇన్స్‌పెక్టర్‌ పాత్ర పోషించాడు. 1950లో పల్లెటూరి పిల్ల విడుదలైంది. అదే సంవత్సరం ఎల్వీ ప్రసాదు షావుకారు కూడా విడుదలైంది. అల్లా నందమూరి తారక రామారావు చలనచిత్ర జీవితం ప్రారంభమైంది. రెండు సినిమాల తరువాత ఎన్టీఆర్ తన నివాసం మద్రాసుకు మార్చివేశాడు. థౌజండ్‌ లైట్స్‌ ప్రాంతంలో ఒక చిన్న గదిని అద్దెకు తీసుకొని అందులో ఉండేవాడు. ఆయనతో పాటు ఆ గదిలో యోగానంద్ (తరువాతి కాలంలో నిర్మాత అయ్యాడు) కూడా ఉండేవాడు.",
+    "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+    "original_answer": "మనదేశం",
+    "language": "te",
+    "edits": [
+      {
+        "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+        "original_answer": "మనదేశం",
+        "edited_question": "ప్రధాన నిర్మాత బి.ఏ.సుబ్బరావు ఎంటిఆర్ యొక్క ఫొటోను లభించిన సమయంలో, అతను ఎవరి దగ్గర ఉన్నాడు?",
+        "edited_answer": "అతను లభించిన ఫొటోను ఎవరి దగ్గర చూసాడు, ఆయనకు మద్రాసు పిలిపించారు.",
+        "language": "te",
+        "drift_score": 0.43702268600463867,
+        "semantic_similarity": 0.5629773139953613,
+        "config_strategy": "low_preservation",
+        "edit_number": 1
+      },
+      {
+        "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+        "original_answer": "మనదేశం",
+        "edited_question": "కెమేరా చుట్టూ తిరగడానికి పోలీసు ఇన్స్‌పెక్టర్‌గా ప్రముఖ నటుడు తారక రామారావు, నందికి చెందిన ప్రసాద్‌ లతగర్బం అభిమాని, 1931లో వచ్చిన పిల్లటూరి సినిమాలో కొత్త కథానాయకుడిగా ఎంపిక చేశారు.",
+        "edited_answer": "మనదేశం",
+        "language": "te",
+        "drift_score": 0.37823039293289185,
+        "semantic_similarity": 0.6217696070671082,
+        "config_strategy": "low_preservation",
+        "edit_number": 2
+      },
+      {
+        "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+        "original_answer": "మనదేశం",
+        "edited_question": "వెంటనే పిల్లకు సినిమాలో ఎంపిక చేయడానికి బి.ఏ.సుబ్బరావు ఏదైనా అధీకృతమైన పరిశోధనను చేయలేదా?",
+        "edited_answer": "మనదేశం",
+        "language": "te",
+        "drift_score": 0.4288575053215027,
+        "semantic_similarity": 0.5711424946784973,
+        "config_strategy": "low_preservation",
+        "edit_number": 3
+      },
+      {
+        "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+        "original_answer": "మనదేశం",
+        "edited_question": "రామారావు తన చిత్రంలో కథానాయకుడిగా ఎంపిక అయిన పిల్ల సినిమాలో చిత్రించటానికి ఎవ్వడు అధిపతి?",
+        "edited_answer": "ఎల్వీ",
+        "language": "te",
+        "drift_score": 0.38942235708236694,
+        "semantic_similarity": 0.6105776429176331,
+        "config_strategy": "low_preservation",
+        "edit_number": 4
+      },
+      {
+        "original_question": "నందమూరి తారక రామారావు నటించిన మొదటి చిత్రం ఏది?",
+        "original_answer": "మనదేశం",
+        "edited_question": "బి.ఏ.సుబ్బారావు పేరు చెప్పకపోయినా, ఎల్వీ ప్రసాదు అతని ఫొటోను చూసి, ఆయనకు 'మద్రాసు' పిలిపించి, అతనికి మొదటి సినిమా ఎంపిక చేయబడింది. రామారావుకు ఆ తర్వాత ఎన్నో సినిమాల్లో పాత్రలు ఇచ్చారు.",
+        "edited_answer": "మనదేశం",
+        "language": "te",
+        "drift_score": 0.3584415912628174,
+        "semantic_similarity": 0.6415584087371826,
+        "config_strategy": "low_preservation",
+        "edit_number": 5
+      }
+    ],
+    "avg_drift": 0.39839490652084353,
+    "std_drift": 0.030011520872193217
+  }
+]
