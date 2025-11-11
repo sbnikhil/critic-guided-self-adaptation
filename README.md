@@ -1,229 +1,31 @@
-# Multilingual Continual Learning with Self-Edits
+# Critic-Guided Self-Adaptation for Multilingual Continual Learning
 
-Generate semantically preserved, linguistically diverse QA pairs for multilingual continual learning without catastrophic forgetting.
+## 1 Project Overview
 
-## Overview
+Multilingual question answering has advanced with larger models and broader supervision, yet practical adaptation still struggles to balance diversity and faithfulness. When we fine-tune on a mixture of languages, the model often learns phrasing and style that are too close to the training distribution and fails to generalize to new wording or domains. Attempts to inject variety through back-translation, paraphrasing, or format changes tend to help only when the edits remain faithful to the original meaning. Without clear control on faithfulness, edited data can drift away from the actual answer, which reduces exact-match accuracy and introduces unexpected gaps across languages. This tension between diversity and fidelity motivates our study.
 
-This project implements a **native language self-edit generation** system (X→X approach) for multilingual question-answering. Instead of translating to English, we generate paraphrased versions in the same language, preserving linguistic authenticity while creating training diversity.
+We ask a narrow, controlled question: can we improve multilingual and cross-lingual Question-Answering by retraining on the original TyDiQA examples with critic-approved self-edits that introduce measured semantic diversity while preserving meaning? Our setting is simple. We work only with TyDiQA and always answer in the query's native language. We compare three training conditions: (i) the original TyDiQA pairs (*no_edits*); (ii) self-edits restricted to QA-style paraphrases where a critic selects one edit per example (*qa_only*); and (iii) self-edits drawn from several formats such as QA, rewrite, implications, and chain of thought, which are filtered by the critic to keep a single safe variant per example (*all_formats*). The goal is to isolate the effect of controlled diversity, rather than scale, architecture, or training.
 
-### Key Features
+Formally, let the multilingual supervision be
 
-- **9 Languages Supported**: English, Arabic, Bengali, Finnish, Indonesian, Korean, Russian, Swahili, Telugu
-- **3 Preservation Tiers**: High (minimal changes), Medium (balanced), Low (maximum diversity)
-- **Empirically Validated**: Low preservation achieves ~19% drift (optimal for continual learning)
-- **Local LLM**: Uses Ollama (free, no API costs)
-- **Quality Validation**: Gemini critic for filtering (ready to integrate)
+$$\mathcal{D} = \{(c_i^{(l)}, q_i^{(l)}, y_i^{(l)})\}_{i=1}^{N_l}, l \in \mathcal{L}$$
 
-## Quick Start
+where $c$ is the context, $q$ is the question, $y$ is the actual answer span, and $l$ indexes language. For each triplet we generate $K$ candidate edits with format $f \in \{\text{qa, rewrite, implications, cot}\}$:
 
-### 1. Installation
+$$E_{i,k}^{(l,f)} = \text{EditGen}(c_i^{(l)}, q_i^{(l)}, y_i^{(l)}, f), \quad k = 1, \ldots, K.$$
 
-```bash
-# Install Python dependencies
-pip install -r requirements.txt
+We compute a drift score $d(E) \in [0, 1]$ from cross-lingual embeddings and keep only edits in a target band $\mathcal{B}$ that encourages diversity without departing from the original meaning. A critic $\kappa(\cdot)$ then scores faithfulness and quality and selects one edit per example:
 
-# Install and start Ollama
-brew install ollama
-ollama serve  # In separate terminal
-ollama pull llama3.2
-```
+$$\hat{E}_i^{(l,f)} = \arg \max_{k, d(E_{i,k}^{(l,f)}) \in \mathcal{B}} \kappa(E_{i,k}^{(l,f)}).$$
 
-### 2. Data Setup
+From these pieces we assemble three training sets under identical token budgets:
 
-used TyDi QA dataset
+$$\mathcal{T}^{\text{no}} = \mathcal{D}, \quad \mathcal{T}^{\text{qa}} = \{(c_i^{(l)}, q_i^{(l)}, \hat{E}_i^{(l,\text{qa})})\}, \quad \mathcal{T}^{\text{all}} = \{(c_i^{(l)}, q_i^{(l)}, \hat{E}_i^{(l,f)})\}_{f \in \{\text{qa,rewrite,implications,cot}\}}$$
 
-### 3. Generate Self-Edits
+We fine-tune a small instruction model $A_0$ with LoRA on each set to obtain $A^{\text{no}}, A^{\text{qa}}, A^{\text{all}}$. At inference time the model maps a native-language query to a native-language answer,
 
-```python
-from src.self_edit import SelfEditGenerator
-from src.data_loader import load_tydiqa_by_language
+$$f_A : (l, x) \mapsto y^{(l)} \quad \text{with } A \in \{A^{\text{no}}, A^{\text{qa}}, A^{\text{all}}\},$$
 
-# Initialize generator
-generator = SelfEditGenerator()
+and we measure exact match and F1 by language and as macro averages.
 
-# Load data
-articles = load_tydiqa_by_language('en', max_samples=5)
-
-# Generate edits
-for article in articles:
-    qa = article['qa_pairs'][0]
-    result = generator.generate_edit(
-        context=article['context'],
-        question=qa['question'],
-        answer=qa['answer'],
-        language='en'
-    )
-    print(f"Drift: {result['drift_score']:.2%}")
-```
-
-### 4. Run Evaluation
-
-```bash
-# Evaluate all languages (20 samples each)
-python experiments/evaluate.py
-
-# Compare preservation tiers
-python experiments/compare_tiers.py
-```
-
-## Project Structure
-
-```
-critic-continual/
-├── src/
-│   ├── constants.py       # Language mappings, model names
-│   ├── config.py          # Preservation tier configurations
-│   ├── data_loader.py     # TyDi QA loading
-│   ├── self_edit.py       # Core self-edit generation
-│   └── critic.py          # Gemini quality validation
-├── experiments/
-│   ├── evaluate.py        # Large-scale evaluation
-│   └── compare_tiers.py   # Tier comparison
-├── results/               # Evaluation outputs
-└── README.md              # This file
-```
-
-## How It Works
-
-### Preservation Tiers
-
-We tested three strategies for controlling edit diversity:
-
-| Tier | Semantic Weight | Lexical Weight | Target Drift | Status |
-|------|-----------------|----------------|--------------|---------|
-| **High Preservation** | 0.95 | 0.90 | <15% | Too conservative |
-| **Medium Preservation** | 0.85 | 0.70 | 15-35% | Didn't scale well |
-| **Low Preservation**  | 0.60 | 0.40 | 20-30% | **RECOMMENDED** |
-
-### Generation Process
-
-```
-Original QA Pair (Language X)
-    ↓
-Ollama LLM with X→X prompt
-    ↓
-Edited QA Pair (Same Language X)
-    ↓
-Drift Measurement (cosine similarity)
-    ↓
-Accept if within target range
-```
-
-### Drift Measurement
-
-- **Embeddings**: `paraphrase-multilingual-MiniLM-L12-v2` (384-dim)
-- **Metric**: `drift = 1 - cosine_similarity(original, edited)`
-- **Target**: 20-30% drift (balances diversity & preservation)
-
-## Results
-
-### Large-Scale Validation (180 samples, 9 languages)
-
-**Low preservation achieves 21.20% average drift** – optimal for continual learning.
-
-### Per-Language Performance
-
-| Language | Drift | Status |
-|----------|-------|--------|
-| Arabic | 23.68% | ✓ Exceeds target |
-| Bengali | 14.10% | Below target (LLM variance) |
-| English | 28.73% | ✓ Exceeds target |
-| Finnish | 22.08% | ✓ Exceeds target |
-| Indonesian | 20.52% | ✓ Meets target |
-| Korean | 16.06% | Below target (LLM variance) |
-| Russian | 20.74% | ✓ Meets target |
-| Swahili | 27.08% | ✓ Exceeds target |
-| Telugu | 17.77% | ✓ Close to target |
-
-**Overall average: 21.20%** – system achieves optimal diversity across languages.
-
-**7 out of 9 languages meet or exceed 20% drift** – robust multilingual performance.
-
-## API Reference
-
-### SelfEditGenerator
-
-```python
-from src.self_edit import SelfEditGenerator
-
-generator = SelfEditGenerator(
-    model_name="llama3.2",
-    ollama_url="http://localhost:11434"
-)
-
-result = generator.generate_edit(
-    context="...",
-    question="...",
-    answer="...",
-    language="en",  # 'en', 'ar', 'bn', 'fi', 'id', 'ko', 'ru', 'sw', 'te'
-    config=None  # Uses low preservation by default
-)
-```
-
-**Returns:**
-```python
-{
-    "original_question": str,
-    "original_answer": str,
-    "edited_question": str,
-    "edited_answer": str,
-    "language": str,
-    "drift_score": float,  # 0.0-1.0
-    "semantic_similarity": float,
-    "config_strategy": str
-}
-```
-
-### Data Loader
-
-```python
-from src.data_loader import load_tydiqa_by_language
-
-articles = load_tydiqa_by_language(
-    language='en',
-    max_samples=100,  # None for all
-    split='train'  # or 'dev'
-)
-```
-
-### Critic (Gemini)
-
-```python
-from src.critic import Critic
-
-critic = Critic(api_key="your-google-api-key")
-
-approved, reason = critic.evaluate(
-    context=context,
-    original_question=orig_q,
-    original_answer=orig_a,
-    edited_question=edit_q,
-    edited_answer=edit_a
-)
-```
-
-## Next Steps
-
-1. **Integrate Gemini Critic**: Filter edits by quality
-2. **Generate Large Dataset**: 100+ samples per language
-3. **Fine-Tuning Pipeline**: Train models on approved edits
-4. **Measure Catastrophic Forgetting**: Track performance across languages
-
-## Troubleshooting
-
-### Ollama Connection Errors
-```bash
-ollama serve  # Make sure Ollama is running
-```
-
-### Language Not Loading
-Check language code: `'en'`, `'ar'`, `'bn'`, `'fi'`, `'id'`, `'ko'`, `'ru'`, `'sw'`, `'te'`
-
-## License
-
-See LICENSE file.
-
----
-
-**Last Updated**: November 9, 2025  
-
+We implement this approach by coupling drift-banded self-edit generation with critic gating, then fine-tuning with mixed-language batches. Each example carries its drift and critic scores for auditability, ensuring edits remain faithful while adding diversity. We then compare the three training sets to quantify the gain from critic-guided edits in a controlled setting. We keep the prompt template and decoding fixed across conditions so changes in accuracy trace to the data rather than procedure.

@@ -1,0 +1,12 @@
+[
+  {
+    "article_id": 0,
+    "language": "en",
+    "context": "Quantum field theory naturally began with the study of electromagnetic interactions, as the electromagnetic field was the only known classical field as of the 1920s.[8]:1",
+    "original_question": "When was quantum field theory developed?",
+    "original_answer": "1920s",
+    "best_edit": null,
+    "critic_approved": true,
+    "critic_score": 10.0
+  }
+]

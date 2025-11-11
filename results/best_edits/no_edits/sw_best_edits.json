@@ -1,0 +1,12 @@
+[
+  {
+    "article_id": 0,
+    "language": "sw",
+    "context": "Machungwa kwa kawaida hulimwa kwaajili ya biashara na hulimwa maeneo mengi duniani. Wazalishaji wa machungwa wanaoongoza duniani ni Brazili, Marekani na Meksiko. Machungwa huathirika kwa haraka sana na ukungu hivyo huhitaji matunzo mazuri pindi joto dogo sana linapotegemewa.",
+    "original_question": "Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?",
+    "original_answer": "Brazili, Marekani na Meksiko",
+    "best_edit": null,
+    "critic_approved": true,
+    "critic_score": 10.0
+  }
+]
