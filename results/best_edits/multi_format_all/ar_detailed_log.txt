@@ -1,93 +1,93 @@
 Detailed critic log for ar
-Generated: 2025-11-10T16:10:42.655395
+Generated: 2025-11-10T02:22:52.567320
 
 ----
 Article ID: 0
 Original Q: ما هي المسألة الشرقية ؟
 Original A: مسألة وجود العثمانيين المسلمين في أوروبا وطردهم منها واستعادة القسطنطينية من العثمانيين بعد سقوطها في 1453 وتهديد مصالح الدول الأوروبية في هذه المنطقة
 
-Best edit number: 3
+Best edit number: 4
 Critic approved: True
 Critic score: 8.0
-Critic reason: Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error.
+Critic reason: Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.23236817121505737
+  Edit #1: approved=False score=0.0 drift=0.2454465627670288
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.06038719415664673
+  Edit #2: approved=False score=0.0 drift=0.06040346622467041
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.08962094783782959
-    Reason: Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.12566739320755005
+  Edit #3: approved=False score=0.0 drift=0.13926607370376587
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
+  }
+]
+```
+
+  Edit #4: approved=True score=8.0 drift=0.30574023723602295
+    Reason: Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
   }
 ]
 ```
@@ -98,88 +98,88 @@ Article ID: 1
 Original Q: كم تبعد بيت لحم على القدس؟
 Original A: 10 كم
 
-Best edit number: 3
+Best edit number: 2
 Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content.
+Critic score: 7.0
+Critic reason: Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.0922999382019043
+  Edit #1: approved=False score=0.0 drift=0.28799259662628174
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.05805957317352295
+  Edit #2: approved=True score=7.0 drift=0.010555803775787354
+    Reason: Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.1858227252960205
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.16177183389663696
-    Reason: Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.4409758448600769
+  Edit #4: approved=False score=0.0 drift=0.3216084837913513
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 3 is the most correct and fluent. It simply restates the original question and answer, which, while not adding new information, avoids the significant errors, misinterpretations, and foreign language inclusions found in the other edits. Edit 1 and 4 have severe language issues and inaccuracies. Edit 2 introduces external interpretations and a minor grammatical error."
+    "reason": "Edit 4 provides a structured and coherent chain of thought that explains the components of the 'Eastern Question' based on the context. It's very useful for understanding the concept, even if it doesn't offer a direct alternative answer. Edits 1 and 2 are largely incoherent or introduce inaccuracies. Edit 3 is a self-QA, which is less useful than a structured explanation of the concept itself."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It correctly extracts multiple question-answer pairs directly from the context, demonstrating a good understanding of the text. While it leaves one question unanswered, the preceding Q&A pairs are accurate and useful. Edits 1, 2, and 4 contain numerous language errors, factual inaccuracies, irrelevant information, or inappropriate content."
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 provides multiple fluent and correct rewrites/summaries of the context, which can be useful for different purposes. It accurately reflects the information given. Edit 1 introduces external information not in the context. Edit 3 is a self-QA, which doesn't improve the original answer. Edit 4 is an incomplete chain of thought."
   }
 ]
 ```
@@ -190,88 +190,88 @@ Article ID: 2
 Original Q: متى ظهرت جماعة الاخوان المسلمين في سوريا؟
 Original A: ثلاثينيات القرن العشرين
 
-Best edit number: 4
+Best edit number: 3
 Critic approved: True
-Critic score: 4.0
-Critic reason: All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text.
+Critic score: 9.0
+Critic reason: Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.9509466886520386
+  Edit #1: approved=False score=0.0 drift=0.17794781923294067
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.6556288003921509
+  Edit #2: approved=False score=0.0 drift=0.23559635877609253
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.9234620332717896
+  Edit #3: approved=True score=9.0 drift=0.10086661577224731
+    Reason: Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.2674553394317627
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
-  }
-]
-```
-
-  Edit #4: approved=True score=4.0 drift=0.5074727535247803
-    Reason: All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
@@ -284,86 +284,86 @@ Original A: بين عامي 1972 - 1977
 
 Best edit number: 1
 Critic approved: True
-Critic score: 6.0
-Critic reason: None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary.
+Critic score: 8.0
+Critic reason: Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.
 
 All evaluations:
-  Edit #1: approved=True score=6.0 drift=0.14725399017333984
-    Reason: None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary.
+  Edit #1: approved=True score=8.0 drift=0.19859308004379272
+    Reason: Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.6247040629386902
+  Edit #2: approved=False score=0.0 drift=0.074726402759552
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.9694616198539734
+  Edit #3: approved=False score=0.0 drift=0.7394235134124756
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.19389575719833374
+  Edit #4: approved=False score=0.0 drift=0.29818296432495117
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "All edits are poor and do not directly improve the QA pair. Edit 4 is chosen as the 'least bad' option because it at least attempts a structured analysis (chain of thought and implications) of the provided context, even if its purpose is misaligned with directly editing the QA. Edits 1 and 3 are completely irrelevant, and Edit 2 is a flawed rewrite of the context with errors and non-Arabic text."
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It directly validates the given answer by asking a specific question about the founding date and providing a concise, correct answer with supporting details from the context. It also expands on the context by asking other relevant questions, which enhances overall understanding."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 6,
-    "reason": "None of the edits directly address the potential mismatch between the question (Salafist Jihadism) and the context/answer (Salafi Dawa). However, Edit 1 provides a clear, concise, and accurate summary of the key facts presented in the context. It is the most useful, correct, and fluent among the options as a generated response related to the context. Edit 2 contains errors and non-Arabic words, Edit 3 is irrelevant, and Edit 4 is a chain of thought which is less directly useful than a factual summary."
+    "score": 8,
+    "reason": "Edit 1 (implications) is the most useful. It extracts key facts from the context that directly support the given answer (the founding period) and provides additional relevant details like the founders and their location, which helps to confirm and elaborate on the answer. The points are clear, correct, and fluent."
   }
 ]
 ```
@@ -376,86 +376,86 @@ Original A: عالمُ سلوك حيوان ، و عالم أحياء تطوري 
 
 Best edit number: 1
 Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit.
+Critic score: 8.0
+Critic reason: Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.
 
 All evaluations:
-  Edit #1: approved=True score=9.0 drift=0.15443205833435059
-    Reason: Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit.
+  Edit #1: approved=True score=8.0 drift=0.1682245135307312
+    Reason: Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant.
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.213300883769989
+  Edit #2: approved=False score=0.0 drift=0.04007023572921753
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.48683470487594604
+  Edit #3: approved=False score=0.0 drift=0.4806976914405823
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.4751325249671936
+  Edit #4: approved=False score=0.0 drift=0.29662173986434937
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
@@ -466,88 +466,88 @@ Article ID: 5
 Original Q: ما هي ضريبة الدخل ؟
 Original A: ضريبة مباشرة تفرض على الأشخاص(سواء أكانوا أشخاص طبيعين أو معنوين كالشركات)الذين يمارسون المهن والنشاطات (التجارة، الخدمات...الخ) والذين يزيد دخلهم عن مقدار معين من المال في السنة
 
-Best edit number: 1
+Best edit number: 4
 Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic.
+Critic score: 4.0
+Critic reason: All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).
 
 All evaluations:
-  Edit #1: approved=True score=9.0 drift=0.5037773847579956
-    Reason: Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=1.071060299873352
+  Edit #1: approved=False score=0.0 drift=0.3513795733451843
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.0549960732460022
+  Edit #2: approved=False score=0.0 drift=1.0429298877716064
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=1.003432273864746
+  Edit #3: approved=False score=0.0 drift=0.3493354320526123
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 provides a clear, correct, and fluent list of implications that expand on the answer by detailing Richard Dawkins' roles and affiliations mentioned in the context. It is the most useful and well-formed edit."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
   },
   {
-    "article_id": "QA 2",
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
+  }
+]
+```
+
+  Edit #4: approved=True score=4.0 drift=0.98951256275177
+    Reason: All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken).
+    Raw response:
+```json
+[
+  {
+    "article_id": 1,
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 offers a comprehensive list of implications that significantly enhance the understanding of income tax beyond its basic definition. The implications are relevant, logical, and well-articulated in fluent Arabic."
+    "score": 8,
+    "reason": "Edit 1 provides relevant and correct implications derived from the context. The language is fluent and the points are useful for a deeper understanding of the text. The other edits contain factual errors, grammatical issues, or are incomplete/irrelevant."
+  },
+  {
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 4,
+    "reason": "All edits for QA2 are of low quality. Edit 4, despite containing grammatical errors, awkward phrasing, and some incorrect interpretations in its analysis, is the only one that attempts a structured breakdown of the context. It correctly identifies and quotes the key parts of the definition, which is a useful starting point, making it the 'least bad' option compared to Edit 1 (factual errors), Edit 2 (incomplete, mixed languages, stylistic issues), and Edit 3 (completely broken)."
   }
 ]
 ```
@@ -558,88 +558,88 @@ Article ID: 6
 Original Q: ماهي وظيفة الهايبوثالامس ؟
 Original A: حلقة الوصل بين الجهاز العصبي الذاتي والجهاز الإفرازي من خلال الغدة النخامية
 
-Best edit number: 1
+Best edit number: 4
 Critic approved: True
-Critic score: 4.0
-Critic reason: All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable.
+Critic score: 3.0
+Critic reason: All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.
 
 All evaluations:
-  Edit #1: approved=True score=4.0 drift=0.2501714825630188
-    Reason: All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.8854480981826782
+  Edit #1: approved=False score=0.0 drift=0.2062249779701233
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.8786949515342712
+  Edit #2: approved=False score=0.0 drift=0.6496273875236511
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.3362424969673157
+  Edit #3: approved=False score=0.0 drift=0.3380180597305298
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
+  }
+]
+```
+
+  Edit #4: approved=True score=3.0 drift=0.29422950744628906
+    Reason: All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
@@ -653,85 +653,85 @@ Original A: 1978
 Best edit number: 3
 Critic approved: True
 Critic score: 9.0
-Critic reason: Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'.
+Critic reason: Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.5120726823806763
+  Edit #1: approved=False score=0.0 drift=0.12683022022247314
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.03854614496231079
+  Edit #2: approved=False score=0.0 drift=0.03663259744644165
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.1745709776878357
-    Reason: Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'.
+  Edit #3: approved=True score=9.0 drift=0.11220097541809082
+    Reason: Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=1.0547983646392822
+  Edit #4: approved=False score=0.0 drift=0.12389117479324341
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are very poor. Edit 1 attempts to extract implications, and most of the points are factually correct based on the context, despite the awkward introductory phrase and the inclusion of a German word ('Unterhödiger Bereich') which is a significant error. However, it is the least problematic compared to the other edits. Edit 2 is a confusing and redundant rewrite with no clear purpose related to the QA. Edit 3 is an irrelevant meta-question. Edit 4 is a chaotic mix of factual errors, foreign languages (Thai and English), and typos, making it completely unusable."
+    "selected_index": 4,
+    "score": 3,
+    "reason": "All edits are very poor. Edit 1 is nonsensical and uses incorrect terminology. Edit 2 is grammatically flawed and contains irrelevant parts. Edit 3 has an incorrect question and a factually incorrect answer. Edit 4, despite using incorrect terminology ('الحلقات التحتية' instead of 'تحت المهاد') and having conversational filler, is the least bad option as it attempts to extract and summarize some functional aspects of the hypothalamus from the context, even if imperfectly."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a relevant self-QA pair that is directly answerable from the context and is both correct and fluent. Edit 1 provides speculative and poorly phrased 'implications' not directly supported by the text. Edit 2 contains a Vietnamese word ('bằng') and a factual error in its last paragraph. Edit 4 is an inappropriate refusal to answer, falsely claiming the content is 'harmful'."
+    "reason": "Edit 3 provides a correct and fluent self-question and answer directly extracted from the context, accurately defining the One-Child Policy. Edit 1 contains factual errors and nonsensical phrases. Edit 2 introduces a made-up, factually incorrect principle. Edit 4 has awkward phrasing and an incomplete sentence."
   }
 ]
 ```
@@ -744,86 +744,86 @@ Original A: مادة كيميائية تتفاعل في الدماغ لتؤثر 
 
 Best edit number: 1
 Critic approved: True
-Critic score: 4.0
-Critic reason: All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options.
+Critic score: 8.0
+Critic reason: Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.
 
 All evaluations:
-  Edit #1: approved=True score=4.0 drift=0.10985380411148071
-    Reason: All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options.
+  Edit #1: approved=True score=8.0 drift=0.1728724241256714
+    Reason: Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context.
     Raw response:
 ```json
 [
   {
-    "article_id": 1,
+    "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
+    "score": 8,
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.006671488285064697
+  Edit #2: approved=False score=0.0 drift=0.015417695045471191
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": 1,
+    "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
+    "score": 8,
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.14651530981063843
+  Edit #3: approved=False score=0.0 drift=0.35208266973495483
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": 1,
+    "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
+    "score": 8,
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.056583523750305176
+  Edit #4: approved=False score=0.0 drift=0.15407532453536987
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": 1,
+    "article_id": "QA 1",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
+    "score": 8,
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
@@ -834,1008 +834,88 @@ Article ID: 9
 Original Q: من هي المغنية العربية التي قامت بأداء شارة مسلسل الرسوم المتحركة (حكايات عالمية) لأول مرة؟
 Original A: أصالة نصري
 
-Best edit number: 2
-Critic approved: True
-Critic score: 3.0
-Critic reason: All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.30132073163986206
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": 1,
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
-  },
-  {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
-  }
-]
-```
-
-  Edit #2: approved=True score=3.0 drift=0.7935694456100464
-    Reason: All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content.
-    Raw response:
-```json
-[
-  {
-    "article_id": 1,
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
-  },
-  {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.5423768758773804
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": 1,
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
-  },
-  {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.34983688592910767
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": 1,
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits have significant flaws. Edit 1, despite mixing languages and having an incorrect concluding sentence, provides a set of numbered implications that are mostly correct summaries of the context. This offers some utility by extracting key takeaways from the text, which is more useful than the other highly flawed options."
-  },
-  {
-    "article_id": 2,
-    "selected_index": 2,
-    "score": 3,
-    "reason": "All edits are severely flawed with factual errors, grammatical mistakes, and language mixing. Edit 2 is chosen as the 'least bad' option because it attempts to rewrite the original context. While its rewrites contain grammatical errors, language mixing, and one is incomplete, the first rewritten paragraph is almost correct and represents a valid type of edit, unlike the other edits which contain more egregious factual errors or nonsensical content."
-  }
-]
-```
-
-
-----
-Article ID: 10
-Original Q: متى نشأ حزب العمال الكردستاني؟
-Original A: 27 نوفمبر 1978
-
-Best edit number: 3
-Critic approved: True
-Critic score: 9.0
-Critic reason: The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.33380359411239624
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.7741642594337463
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-  Edit #3: approved=True score=9.0 drift=0.2925648093223572
-    Reason: The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.362218976020813
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-
-----
-Article ID: 11
-Original Q: متى تولى البابا فرنسيس المنصب؟
-Original A: 2001
-
-Best edit number: 2
-Critic approved: True
-Critic score: 8.0
-Critic reason: The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.2413402795791626
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-  Edit #2: approved=True score=8.0 drift=0.011986076831817627
-    Reason: The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.19233989715576172
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.20899301767349243
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original QA pair is correct. Edit 3 provides a self-QA that rephrases the original question and gives the same correct answer, effectively validating the existing QA pair. This is the most useful edit among the options for confirming the correctness of the given QA."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "The original answer '2001' is incorrect based on the context, which states 'بدءًا من 13 مارس 2013'. Edit 2 provides a rewrite of the original context that correctly includes the date '13 مارس 2013'. While it doesn't explicitly correct the answer, it provides the accurate information from the source text that is necessary to derive the correct answer. The other edits are either irrelevant or introduce new, unrelated QAs."
-  }
-]
-```
-
-
-----
-Article ID: 12
-Original Q: ماهو الأمن البشري ؟
-Original A: نموذج لفهم نقاط الضعف العالمية الي أنصار الطعن في المفهوم التقليدي للأمن القومي بالقول إن المرجع الصحيح لتحقيق الأمن ينبغي أن يكون الفرد وليس الدولة. الأمن البشري الذي يحمل وجهة نظر الناس محورها الأمن أمر ضروري لتحقيق الاستقرار الوطني والإقليمي والعالمي
-
-Best edit number: 4
-Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.1768937110900879
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.846420168876648
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.10896927118301392
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-  Edit #4: approved=True score=9.0 drift=0.10180461406707764
-    Reason: Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-
-----
-Article ID: 13
-Original Q: ما هي درجة حموضة التربة؟
-Original A: عندما تكون قيم الرقم الهيدروجيني أقل من 7
-
-Best edit number: 4
-Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.2625293731689453
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.00783228874206543
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.2944912910461426
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-  Edit #4: approved=True score=9.0 drift=0.12454748153686523
-    Reason: Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 provides a structured and comprehensive explanation of human security, directly addressing the 'what is' question by elaborating on its core tenets and significance from the context. Edits 1 and 3 are not direct answers, and Edit 2 is garbled and incorrect."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 9,
-    "reason": "Edit 4 offers a well-structured and comprehensive explanation of soil pH, covering its definition through ranges, its importance, and its effects, which directly answers the question 'What is soil pH?' based on the context. The original answer is incomplete. Edit 1 provides implications, Edit 2 copies the context with an awkward addition, and Edit 3 is a series of Q&A rather than a direct answer."
-  }
-]
-```
-
-
-----
-Article ID: 14
-Original Q: أين يقع نهر سانت لورانس؟
-Original A: أمريكا الشمالية
-
-Best edit number: 3
-Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.4293220639228821
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.1683163046836853
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-  Edit #3: approved=True score=7.0 drift=0.4224475622177124
-    Reason: Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.682131290435791
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-
-----
-Article ID: 15
-Original Q: كم يبلغ ارتقاع مأذنة مسجد الحسن الثاني؟
-Original A: 210 متر
-
 Best edit number: 1
 Critic approved: True
 Critic score: 9.0
-Critic reason: Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications.
+Critic reason: Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.
 
 All evaluations:
-  Edit #1: approved=True score=9.0 drift=0.1686738133430481
-    Reason: Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications.
+  Edit #1: approved=True score=9.0 drift=0.47941190004348755
+    Reason: Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
     "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.0011802315711975098
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.174549400806427
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.20199054479599
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 generates new, relevant Q&A pairs from the context, which is a useful way to process and understand the information. While the Arabic phrasing is sometimes awkward, the questions and answers themselves are factually correct and expand on the original QA. The other edits are either a direct copy of the context, contain significant grammatical errors and irrelevant content, or have speculative/incorrect implications."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 9,
-    "reason": "Edit 1 accurately and fluently lists the key implications/facts directly from the context. It is concise, correct, and well-phrased. Edit 2 is a direct copy. Edit 3 has grammatical issues and inconsistent phrasing. Edit 4 contains a significant factual/interpretive error in its implications."
-  }
-]
-```
-
-
-----
-Article ID: 16
-Original Q: ما هي حساسية الجلوتين؟
-Original A: مرض مناعي ذاتي مكتسب يصيب الأمعاء الدقيقة لدى الأشخاص ذوي العرضة والذين يتمتعون بقابلية جينية للإصابة به
-
-Best edit number: 4
-Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.29364585876464844
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.0
+  Edit #2: approved=False score=0.0 drift=0.27875226736068726
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
+    "selected_index": 1,
     "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.8785347938537598
+  Edit #3: approved=False score=0.0 drift=0.5204169750213623
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
+    "selected_index": 1,
     "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
+    "score": 9,
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```
 
-  Edit #4: approved=True score=8.0 drift=0.11297953128814697
-    Reason: Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency.
+  Edit #4: approved=False score=0.0 drift=0.5248254537582397
+    Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 4,
+    "selected_index": 1,
     "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
+    "reason": "Edit 1 provides a useful list of implications directly derived from the context. While one point (point 5) is a bit speculative and not directly stated, the other points are accurate and well-phrased. It is the most useful and correct edit compared to others. Edit 2 is mostly a copy-paste. Edit 3 has fluency issues and an incomplete answer. Edit 4 hallucinates information not present in the context."
   },
   {
     "article_id": "QA 2",
     "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
-  }
-]
-```
-
-
-----
-Article ID: 17
-Original Q: أين وقعت معركة المنصورة؟
-Original A: 8 إلى 11 فبراير من سنة 1250
-
-Best edit number: 1
-Critic approved: True
-Critic score: 4.0
-Critic reason: All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct.
-
-All evaluations:
-  Edit #1: approved=True score=4.0 drift=0.47750478982925415
-    Reason: All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.8048661947250366
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.4095590114593506
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.8225566744804382
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a well-structured and accurate analysis of the context, summarizing key information and implications. It is fluent and directly relevant to understanding the disease described, which is the subject of the QA pair. The other edits are either repetitions of the context, refusals, or contain significant errors and lack fluency."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits for QA 2 are of poor quality. However, Edit 1 is the least problematic. While it doesn't directly correct the incorrect answer (which provides a date instead of a location), its first implication point explicitly states 'في مصر' (in Egypt), which is the correct location for the battle according to the context. The other edits are either repetitions of the context, refusals, or contain foreign words and are incomplete, making them less useful or correct."
-  }
-]
-```
-
-
-----
-Article ID: 18
-Original Q: ما هي اللغة الرسمية في إمارة أندورا؟
-Original A: الكتلانية
-
-Best edit number: 3
-Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.2233094573020935
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
     "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.03312188386917114
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-  Edit #3: approved=True score=9.0 drift=0.4898967742919922
-    Reason: Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.27185291051864624
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-
-----
-Article ID: 19
-Original Q: متى ولد  المغني دكتور دري؟
-Original A: 1965
-
-Best edit number: 3
-Critic approved: True
-Critic score: 10.0
-Critic reason: Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.6359301805496216
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=-1.1920928955078125e-07
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-  Edit #3: approved=True score=10.0 drift=0.5179140567779541
-    Reason: Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.5456364154815674
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 provides a concise, correct, and relevant self-generated Q&A pair that extracts another factual piece of information from the context. It is fluent and demonstrates understanding. Edit 1 is a summary mislabeled as implications. Edit 2 has grammatical errors and is incomplete. Edit 4's 'probabilities' are a bit abstract."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 10,
-    "reason": "Edit 3 provides a comprehensive set of self-generated Q&A pairs that cover various key facts from the context. This is highly useful for demonstrating understanding and extracting information. It is correct and fluent. Edit 1 and 4 provide good implications/thought processes but are less direct and comprehensive than the self-QA. Edit 2 is mostly a copy-paste with an incomplete sentence."
+    "reason": "Edit 1 correctly extracts two key implications from the context, which is a useful form of analysis. It is mostly fluent, with only a minor mixed-language term ('studio Nuris'). Edit 2 is an incorrect English translation/transliteration. Edit 3 is a canned response. Edit 4 has multiple fluency issues (mixed languages), minor inaccuracies, and an incomplete sentence."
   }
 ]
 ```

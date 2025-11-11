@@ -1,93 +1,93 @@
 Detailed critic log for sw
-Generated: 2025-11-10T16:34:21.051539
+Generated: 2025-11-10T02:15:25.408663
 
 ----
 Article ID: 0
 Original Q: Je,nchi gani yenye kuzalisha chungwa kwa wingi zaidi duniani?
 Original A: Brazili, Marekani na Meksiko
 
-Best edit number: 3
-Critic approved: True
-Critic score: 4.0
-Critic reason: All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful.
+Best edit number: 2
+Critic approved: False
+Critic score: 0.0
+Critic reason: All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.24900615215301514
+  Edit #1: approved=False score=0.0 drift=0.46170932054519653
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.12912976741790771
+  Edit #2: approved=True score=0.0 drift=0.04842805862426758
+    Reason: All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.1414186954498291
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   }
 ]
 ```
 
-  Edit #3: approved=True score=4.0 drift=0.4671441316604614
-    Reason: All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.2255842089653015
+  Edit #4: approved=False score=0.0 drift=0.07950842380523682
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   }
 ]
 ```
@@ -98,88 +98,88 @@ Article ID: 1
 Original Q: Je,nani mwanzilishi wa mchezo wa StarCraft?
 Original A: Microsoft
 
-Best edit number: 3
-Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased.
+Best edit number: 2
+Critic approved: False
+Critic score: 0.0
+Critic reason: All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.3473074436187744
+  Edit #1: approved=False score=0.0 drift=0.33863508701324463
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.19623684883117676
+  Edit #2: approved=True score=0.0 drift=0.23212379217147827
+    Reason: All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.42430901527404785
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.3863055109977722
-    Reason: Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.3896264433860779
+  Edit #4: approved=False score=0.0 drift=0.1649768352508545
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 4,
-    "reason": "All edits for QA 1 are of very low quality. Edit 1 and Edit 4 contain significant grammatical errors, unclear phrasing, and even factual inaccuracies/hallucinations not supported by the context. Edit 2 is a complete rewrite with numerous grammatical mistakes, making the text worse. Edit 3, while trivial and not particularly useful, is the only one that is grammatically correct and directly reflects a word from the context without introducing errors. Given the poor quality of all options, Edit 3 is the 'best' by virtue of being correct and fluent, even if not insightful."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor. Edit 1 introduces speculative and incorrect implications. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "Edit 3 is the best option. It provides a clear, correct, and fluent self-question and answer that directly extracts a key piece of information (number of copies sold) from the context. Edit 1 and Edit 2 contain numerous grammatical errors, awkward phrasing, and even factual inaccuracies (e.g., implying Microsoft developed StarCraft). Edit 4 has some reasonable chain-of-thought but its implications section is poorly phrased."
+    "selected_index": 2,
+    "score": 0,
+    "reason": "All edits are extremely poor and none address the core issue that the context does not provide the answer to the question 'who founded StarCraft'. Edit 1 introduces external, potentially incorrect information and speculation. Edits 3 and 4 are meta-commentary or generate new, flawed questions/analyses, rather than editing the provided QA pair. Edit 2 is the only one that attempts to rewrite the original context, but it introduces numerous grammatical errors, semantic inaccuracies, and changes the meaning, making it neither useful, correct, nor fluent. However, as it's the only one that attempts a direct textual edit of the context, it is chosen as the 'least bad' option."
   }
 ]
 ```
@@ -192,11 +192,11 @@ Original A: 14,309,466
 
 Best edit number: 3
 Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information.
+Critic score: 9.0
+Critic reason: Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.29558777809143066
+  Edit #1: approved=False score=0.0 drift=0.34173089265823364
     Reason: 
     Raw response:
 ```json
@@ -204,19 +204,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.2120540738105774
+  Edit #2: approved=False score=0.0 drift=0.21769648790359497
     Reason: 
     Raw response:
 ```json
@@ -224,39 +224,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.20703285932540894
-    Reason: Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information.
+  Edit #3: approved=True score=9.0 drift=0.19102156162261963
+    Reason: Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.24054110050201416
+  Edit #4: approved=False score=0.0 drift=0.3692476153373718
     Reason: 
     Raw response:
 ```json
@@ -264,14 +264,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
@@ -284,11 +284,11 @@ Original A: Neil Armstrong, Buzz Aldrin na Michael Collins
 
 Best edit number: 4
 Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA.
+Critic score: 9.0
+Critic reason: Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.4383053183555603
+  Edit #1: approved=False score=0.0 drift=0.4195396900177002
     Reason: 
     Raw response:
 ```json
@@ -296,19 +296,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.15998691320419312
+  Edit #2: approved=False score=0.0 drift=0.12758934497833252
     Reason: 
     Raw response:
 ```json
@@ -316,19 +316,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.24788784980773926
+  Edit #3: approved=False score=0.0 drift=0.24213403463363647
     Reason: 
     Raw response:
 ```json
@@ -336,34 +336,34 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
 
-  Edit #4: approved=True score=7.0 drift=0.12035882472991943
-    Reason: Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA.
+  Edit #4: approved=True score=9.0 drift=0.2819785475730896
+    Reason: Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a new, relevant, and correct question-answer pair that can be derived directly from the context. It demonstrates a useful application of the context beyond the original QA. The other edits are either poorly executed, redundant, or provide generic and less insightful information."
+    "score": 9,
+    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts multiple facts from the context and presents them in a clear question-answer format, demonstrating a good understanding of the text. The questions and answers are accurate and fluent."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a coherent and logical chain of thought, accurately extracting key facts from the context and drawing reasonable conclusions. It demonstrates a good understanding of the information. Edit 1's implications are too generic. Edit 2 is a redundant and flawed rewrite. Edit 3 is an incomplete and poorly phrased self-QA."
+    "score": 9,
+    "reason": "Edit 4 (chain_of_thought) is the most useful. It systematically breaks down the context into key facts and then logically infers conclusions from those facts. This demonstrates a clear understanding of the information and is well-structured and fluent. The other edits are either redundant, incorrect, or poorly formulated."
   }
 ]
 ```
@@ -374,88 +374,88 @@ Article ID: 4
 Original Q: Makka inapatikana nchi gani?
 Original A: Saudia
 
-Best edit number: 1
+Best edit number: 3
 Critic approved: True
-Critic score: 4.0
-Critic reason: All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning.
+Critic score: 6.0
+Critic reason: All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options.
 
 All evaluations:
-  Edit #1: approved=True score=4.0 drift=0.2743210196495056
-    Reason: All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.24775242805480957
+  Edit #1: approved=False score=0.0 drift=0.5851578712463379
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.37302345037460327
+  Edit #2: approved=False score=0.0 drift=0.08543181419372559
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.41781771183013916
+  Edit #3: approved=True score=6.0 drift=0.3594384789466858
+    Reason: All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.32531797885894775
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
@@ -468,86 +468,86 @@ Original A: neno linalotumika hasa kumaanisha fundisho la imani lisiloweza kukan
 
 Best edit number: 3
 Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA.
+Critic score: 9.0
+Critic reason: Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.21360421180725098
+  Edit #1: approved=False score=0.0 drift=0.24811279773712158
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.0694780945777893
+  Edit #2: approved=False score=0.0 drift=0.4024721384048462
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
 
-  Edit #3: approved=True score=7.0 drift=0.3976888656616211
-    Reason: Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA.
+  Edit #3: approved=True score=9.0 drift=0.2251042127609253
+    Reason: Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.2939949035644531
+  Edit #4: approved=False score=0.0 drift=0.27210211753845215
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are quite poor and do not significantly improve the QA pair. Edit 1, while containing speculative and poorly supported implications, at least starts by restating factual information from the context, making it slightly less problematic than Edit 4 which misinterprets core terms from the beginning."
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws. Edit 1's implications are weak or incorrect. Edit 2's rewrites introduce factual errors and changes in meaning. Edit 4's chain of thought is a meta-commentary, and its implications are also weak. Edit 3 provides two correct Q&A pairs directly from the text, though the third answer is incorrect ('Hapo awali' instead of confirming current existence). Despite this flaw, it is the most useful and correct among the given options."
   },
   {
     "article_id": "QA 2",
     "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a simple and relevant self-question that directly addresses the definition of 'dogma' as presented in the context and the provided answer. Edits 2 and 4 contain significant factual errors and misinterpretations, while Edit 1's implications are somewhat speculative and not directly helpful for the given QA."
+    "score": 9,
+    "reason": "Edit 3 provides a single, clear, and correct self-question that directly probes the definition given in the context. Edit 1's implications are largely speculative or contain misinterpretations. Edit 2's rewrites introduce significant changes in meaning and awkward phrasing. Edit 4's chain of thought is a meta-commentary, and its implications are weak. Edit 3 is the most useful, correct, and fluent option."
   }
 ]
 ```
@@ -560,11 +560,11 @@ Original A: Mombasa
 
 Best edit number: 3
 Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors.
+Critic score: 6.0
+Critic reason: All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.22063899040222168
+  Edit #1: approved=False score=0.0 drift=0.18342500925064087
     Reason: 
     Raw response:
 ```json
@@ -572,19 +572,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.02374178171157837
+  Edit #2: approved=False score=0.0 drift=0.05247443914413452
     Reason: 
     Raw response:
 ```json
@@ -592,39 +592,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.17510104179382324
-    Reason: Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors.
+  Edit #3: approved=True score=6.0 drift=0.12702274322509766
+    Reason: All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.09803324937820435
+  Edit #4: approved=False score=0.0 drift=0.18409311771392822
     Reason: 
     Raw response:
 ```json
@@ -632,14 +632,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
@@ -650,13 +650,13 @@ Article ID: 7
 Original Q: Je,shirika la Bees for Development ilianza mwaka upi?
 Original A: 1993
 
-Best edit number: 3
+Best edit number: 2
 Critic approved: True
 Critic score: 7.0
-Critic reason: Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed.
+Critic reason: Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.22567445039749146
+  Edit #1: approved=False score=0.0 drift=0.35940027236938477
     Reason: 
     Raw response:
 ```json
@@ -664,19 +664,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.15785473585128784
+  Edit #2: approved=True score=7.0 drift=0.05562478303909302
+    Reason: Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 7,
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.2726457715034485
     Reason: 
     Raw response:
 ```json
@@ -684,39 +704,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
 
-  Edit #3: approved=True score=7.0 drift=0.19268745183944702
-    Reason: Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.23450535535812378
+  Edit #4: approved=False score=0.0 drift=0.1615312695503235
     Reason: 
     Raw response:
 ```json
@@ -724,14 +724,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "Edit 3 provides a correct and relevant self-QA question and answer based on the context. The other edits are either nonsensical, grammatically incorrect, or introduce factual errors."
+    "score": 6,
+    "reason": "All edits are quite poor. Edit 3 is chosen as the 'least bad' because it is the only one that is fully correct and fluent in its execution of a self-QA, even though the self-QA itself is trivial and not directly related to the original question. The other edits contain significant factual errors, irrelevant information, or are incomplete/nonsensical."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 7,
-    "reason": "Edit 3 provides multiple self-QA pairs that are generally correct and derived from the context, despite some minor awkwardness in the phrasing of the generated questions. The other edits are either nonsensical, irrelevant (like attempting translations), or poorly executed."
+    "reason": "Edit 2 is the best among a weak set. It provides a mostly correct and fluent rewrite of the context. While it has one significant error (changing 'kujitegemea' to 'usiyotilifu'), it is far more coherent, accurate, and useful than the other edits. Edit 1 contains speculative and incorrect implications. Edit 3 fails to perform a self-QA. Edit 4 has significant factual errors and misinterpretations."
   }
 ]
 ```
@@ -742,88 +742,88 @@ Article ID: 8
 Original Q: Je,mji mkuu Australia ni gani?
 Original A: Canberra
 
-Best edit number: 2
+Best edit number: 3
 Critic approved: True
 Critic score: 4.0
-Critic reason: This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs.
+Critic reason: All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.6262463331222534
+  Edit #1: approved=False score=0.0 drift=0.6848277449607849
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 2,
+    "selected_index": 3,
     "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
   }
 ]
 ```
 
-  Edit #2: approved=True score=4.0 drift=0.04175776243209839
-    Reason: This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.6128028631210327
+  Edit #2: approved=False score=0.0 drift=0.11205518245697021
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 2,
+    "selected_index": 3,
     "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.6179087162017822
+  Edit #3: approved=True score=4.0 drift=0.337308406829834
+    Reason: All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 4,
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
+  }
+]
+```
+
+  Edit #4: approved=False score=0.0 drift=0.2866310477256775
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 2,
+    "selected_index": 3,
     "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
   }
 ]
 ```
@@ -834,933 +834,13 @@ Article ID: 9
 Original Q: Je mto mkubwa sana Afrika ni gani?
 Original A: Nile
 
-Best edit number: 2
-Critic approved: True
-Critic score: 3.0
-Critic reason: This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.3718075156211853
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
-  }
-]
-```
-
-  Edit #2: approved=True score=3.0 drift=0.11524862051010132
-    Reason: This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.21939146518707275
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.20100265741348267
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "This edit attempts to add a relevant regional header ('Kusini mwa Pasifiki') to the context, which is a structural improvement. Although the edit is poorly executed with repetition, it is the only one that directly modifies the context in a potentially useful way, unlike the other edits which are abstract analyses or incorrect self-QAs."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 3,
-    "reason": "This edit attempts to rewrite the context, which is a direct modification of the text. While it suffers from repetition and introduces errors in some of the rephrasing attempts (e.g., 'Asia ya Kati'), it is the only edit that tries to improve the original text itself, unlike the other edits which provide abstract analyses or nonsensical self-QAs."
-  }
-]
-```
-
-
-----
-Article ID: 10
-Original Q: Thr33 Ringz ina nyimbo ngapi?
-Original A: 17
-
-Best edit number: 1
-Critic approved: True
-Critic score: 1.0
-Critic reason: All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated.
-
-All evaluations:
-  Edit #1: approved=True score=1.0 drift=0.5492712259292603
-    Reason: All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.4494473934173584
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.7043013572692871
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.629123330116272
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-
-----
-Article ID: 11
-Original Q: Je,Juan Carlos Tedesco alisomea katika chuo kikuu gani?
-Original A: Buenos Aires
-
 Best edit number: 4
-Critic approved: True
-Critic score: 3.0
-Critic reason: All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.4945873022079468
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.10512852668762207
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.5457333326339722
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-  Edit #4: approved=True score=3.0 drift=0.33700740337371826
-    Reason: All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 1,
-    "reason": "All edits are very poor. Edit 1 is chosen as the 'least bad' because it attempts to extract information related to the album and the number 17, even though it incorrectly states 'number of albums' instead of 'number of songs' and the rest of the content is irrelevant and poorly translated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 3,
-    "reason": "All edits are poor. Edit 4 is the best as it provides a structured chain of thought and analysis of the context, which includes the correct answer to the question, even if it adds a minor incorrect inference about the university's founding."
-  }
-]
-```
-
-
-----
-Article ID: 12
-Original Q: Je,hadithi ya Pinokyo ilitungwa lini?
-Original A: 1881 hadi 1883
-
-Best edit number: 2
-Critic approved: True
-Critic score: 4.0
-Critic reason: All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.1854810118675232
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-  Edit #2: approved=True score=4.0 drift=0.05511891841888428
-    Reason: All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.5549383759498596
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.3057367205619812
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-
-----
-Article ID: 13
-Original Q: Timu ya taifa ya soka ya Brazil imeshinda kombe la dunia mara ngapi?
-Original A: tano
-
-Best edit number: 4
-Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.5381641387939453
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.3646678328514099
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.5806880593299866
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-  Edit #4: approved=True score=7.0 drift=0.5827367305755615
-    Reason: Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 4,
-    "reason": "All edits are of very low quality. Edit 1 and 3 are completely nonsensical and irrelevant. Edit 4 attempts a chain of thought but introduces highly speculative and anachronistic interpretations. Edit 2 is also repetitive and has some grammatical awkwardness, but it is the only one that attempts to rephrase the context directly and correctly identifies the timeframe mentioned in the original text, making it the least bad option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 1 and 3 are completely irrelevant and nonsensical. Edit 2 introduces significant factual errors and misinterpretations of the context. Edit 4, despite its unusual 'Kishira' framing and an incomplete 'results' section, correctly and logically breaks down the relevant information from the context in its 'Mchakato wa Fikiria' (Thought Process) steps, which is the most useful and correct approach among the given options."
-  }
-]
-```
-
-
-----
-Article ID: 14
-Original Q: Romano Prodi alijiunga na siasa mwaka gani?
-Original A: 1978
-
-Best edit number: 4
-Critic approved: True
-Critic score: 6.0
-Critic reason: Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question).
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.2255200743675232
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.1678794026374817
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.23266088962554932
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-  Edit #4: approved=True score=6.0 drift=0.20673727989196777
-    Reason: Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question).
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-
-----
-Article ID: 15
-Original Q: Je,nani mwanzilishi wa kampuni ya Visa Inc?
-Original A: Dee Hock
-
-Best edit number: 3
-Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.27875036001205444
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.11940079927444458
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-  Edit #3: approved=True score=7.0 drift=0.4429663419723511
-    Reason: Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.13649654388427734
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a chain of thought that correctly identifies the key information from the context relevant to the question (Prodi being called to join the government in 1978). While the 'Implications' section has some minor fluency issues, it's the only edit that attempts to provide a useful reasoning process. The other edits are either irrelevant, factually incorrect (Edit 1's name error), or introduce severe fluency and factual errors (Edit 2, Edit 3 is a new question)."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 provides a self-Q&A that accurately extracts and explains information directly from the provided context regarding the name 'Visa' and its description. While it doesn't directly answer the original question about the founder, it is coherent, correct, and fluent. The other edits contain significant factual errors (e.g., Visa being a transportation company in Edit 4, 'not well known' in Edit 2, 'network number' in Edit 1) or severe fluency issues, making them less useful and often incorrect."
-  }
-]
-```
-
-
-----
-Article ID: 16
-Original Q: Mlima mkubwa zaidi duniani ni upi?
-Original A: Everest
-
-Best edit number: 4
-Critic approved: True
-Critic score: 6.0
-Critic reason: Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.24683493375778198
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.036172568798065186
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.26014244556427
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-  Edit #4: approved=True score=6.0 drift=0.14938652515411377
-    Reason: Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-
-----
-Article ID: 17
-Original Q: Maurice Omondi Odumbe alianza kucheza kriketi mwaka gani?
-Original A: 1990
-
-Best edit number: 4
-Critic approved: True
-Critic score: 4.0
-Critic reason: Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.22085970640182495
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.2184273600578308
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.24121218919754028
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-  Edit #4: approved=True score=4.0 drift=0.3504594564437866
-    Reason: Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "Edit 4 provides a clear and logical chain of thought for processing the information. While one implication introduces external information and another is incomplete, the overall structure and the initial correct implications make it the most useful and coherent edit compared to the others, which contain significant errors, poor fluency, or nonsensical content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 4,
-    "reason": "Among a set of generally poor edits, Edit 4 offers the most structured and logical 'Mchakato wa Fikra' (Thinking Process). Although the 'Orodha ya Matumizi' (List of Uses) is weak and speculative, the thinking process itself is sound. The other edits contain significant factual errors, nonsensical phrases, or misunderstand the task entirely."
-  }
-]
-```
-
-
-----
-Article ID: 18
-Original Q: Je, Carl Gustav Jung alizaliwa lini?
-Original A: 26 Julai 1875
-
-Best edit number: 3
-Critic approved: True
-Critic score: 6.0
-Critic reason: All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.5081992149353027
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.10877358913421631
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
-  }
-]
-```
-
-  Edit #3: approved=True score=6.0 drift=0.3195544481277466
-    Reason: All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.4470980763435364
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
-  }
-]
-```
-
-
-----
-Article ID: 19
-Original Q: Nchi ya Tanzania ina mikoa mingapi?
-Original A: 31
-
-Best edit number: 2
 Critic approved: True
 Critic score: 8.0
-Critic reason: Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements.
+Critic reason: Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.28746938705444336
+  Edit #1: approved=False score=0.0 drift=0.2624775767326355
     Reason: 
     Raw response:
 ```json
@@ -1768,39 +848,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
+    "score": 4,
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
   }
 ]
 ```
 
-  Edit #2: approved=True score=8.0 drift=0.0650629997253418
-    Reason: Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.15643012523651123
+  Edit #2: approved=False score=0.0 drift=0.11240243911743164
     Reason: 
     Raw response:
 ```json
@@ -1808,19 +868,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
+    "score": 4,
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.17675143480300903
+  Edit #3: approved=False score=0.0 drift=0.4396039843559265
     Reason: 
     Raw response:
 ```json
@@ -1828,14 +888,34 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 6,
-    "reason": "All edits are of low quality. Edit 1 and Edit 4 are nonsensical and irrelevant. Edit 2 introduces factual errors by changing 'physician' to 'journalist' and has grammatical issues in later attempts. Edit 3, while a very simple and not particularly insightful question, is grammatically correct and fluent, and does not introduce any errors. It is the 'least bad' option."
+    "score": 4,
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
+    "selected_index": 4,
     "score": 8,
-    "reason": "Edit 2 provides several rewrites of the context. The first two rewrites are accurate, fluent, and useful in rephrasing the original text clearly. While the third rewrite is incomplete and introduces an inaccuracy ('jioni ya Machi 2012'), the overall edit type and the quality of the first two rewrites make it the best option. Edit 1's implications are too generic and speculative. Edit 3's self-QA is awkwardly phrased and unclear. Edit 4's chain of thought contains significant misinterpretations and nonsensical statements."
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
+  }
+]
+```
+
+  Edit #4: approved=True score=8.0 drift=0.20348024368286133
+    Reason: Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 4,
+    "reason": "All edits are poor. Edit 1 and 4 are irrelevant and generate ungrounded information. Edit 2 attempts a rewrite but introduces numerous factual errors. Edit 3, while providing a flawed example, at least proposes a relevant task (generating Q&A from the text) which is a valid way to process the context, making its intent the least problematic among the options."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 8,
+    "reason": "Edit 4 provides a coherent and structured chain of thought. It accurately summarizes the context, offers a reasonable analysis of the name change (Zaire), and draws logical conclusions, even if some are inferential. It engages with the context in a meaningful way, unlike the other edits which are either generic, partially incorrect, or nonsensical."
   }
 ]
 ```

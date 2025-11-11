@@ -1,5 +1,5 @@
 Detailed critic log for ko
-Generated: 2025-11-10T16:27:29.549537
+Generated: 2025-11-10T02:18:35.643967
 
 ----
 Article ID: 0
@@ -8,11 +8,11 @@ Original A: 예정
 
 Best edit number: 3
 Critic approved: True
-Critic score: 8.0
-Critic reason: The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated.
+Critic score: 6.0
+Critic reason: All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.09942895174026489
+  Edit #1: approved=False score=0.0 drift=0.13861292600631714
     Reason: 
     Raw response:
 ```json
@@ -20,19 +20,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.09949696063995361
+  Edit #2: approved=False score=0.0 drift=0.16130411624908447
     Reason: 
     Raw response:
 ```json
@@ -40,39 +40,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.17887723445892334
-    Reason: The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated.
+  Edit #3: approved=True score=6.0 drift=0.2703482508659363
+    Reason: All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.2116943597793579
+  Edit #4: approved=False score=0.0 drift=0.13920164108276367
     Reason: 
     Raw response:
 ```json
@@ -80,14 +80,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
@@ -98,13 +98,13 @@ Article ID: 1
 Original Q: 합성생물학을 연구하는 방식은 탑다운 외 다른 방식은 무엇이 있나요?
 Original A: 바텀업
 
-Best edit number: 3
+Best edit number: 2
 Critic approved: True
 Critic score: 9.0
-Critic reason: The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful.
+Critic reason: Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.3001905679702759
+  Edit #1: approved=False score=0.0 drift=0.230851948261261
     Reason: 
     Raw response:
 ```json
@@ -112,19 +112,39 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.2339329719543457
+  Edit #2: approved=True score=9.0 drift=0.10835212469100952
+    Reason: Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 3,
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 2,
+    "score": 9,
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
+  }
+]
+```
+
+  Edit #3: approved=False score=0.0 drift=0.3090308904647827
     Reason: 
     Raw response:
 ```json
@@ -132,39 +152,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
 
-  Edit #3: approved=True score=9.0 drift=0.21323537826538086
-    Reason: The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.1598549485206604
+  Edit #4: approved=False score=0.0 drift=0.0401841402053833
     Reason: 
     Raw response:
 ```json
@@ -172,14 +172,14 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 3,
-    "score": 8,
-    "reason": "The original question is unanswerable from the given context. Edit 3 generates a new, correct, and fluent question that *can* be answered directly from the context, which is the most useful type of edit when the original question is flawed. Other edits either contain hallucinations, are unhelpful rewrites, or are poorly generated."
+    "score": 6,
+    "reason": "All edits have significant flaws, primarily mixed language or factual errors. Edit 3 provides a correct self-QA question and answer based on the context, despite the use of a Chinese character ('开始') in the question. The core information extracted is accurate and useful for understanding the passage."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
+    "selected_index": 2,
     "score": 9,
-    "reason": "The original answer is correct. Edit 3 provides a comprehensive set of well-formed, correct, and fluent multiple-choice questions that cover the key information in the context. This is highly useful for testing comprehension and highlighting important details. Edit 2 is a good translation but cuts off, and Edit 1 and 4 have minor issues or are less impactful."
+    "reason": "Edit 2 provides a comprehensive, accurate, and fluent rewrite/summary of the entire passage. It clearly explains both research methods and their examples without introducing errors or mixed language, making it the most useful and well-executed edit."
   }
 ]
 ```
@@ -193,85 +193,85 @@ Original A: 이오니아의 소크라테스 이전 철학자들의 글
 Best edit number: 3
 Critic approved: True
 Critic score: 8.0
-Critic reason: This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair.
+Critic reason: Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1).
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.14369505643844604
+  Edit #1: approved=False score=0.0 drift=0.2889254093170166
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.1245010495185852
+  Edit #2: approved=False score=0.0 drift=0.07617712020874023
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
 
-  Edit #3: approved=True score=8.0 drift=0.24472063779830933
-    Reason: This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair.
+  Edit #3: approved=True score=8.0 drift=0.22821635007858276
+    Reason: Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1).
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
 
-  Edit #4: approved=False score=0.0 drift=0.04312252998352051
+  Edit #4: approved=False score=0.0 drift=0.14419353008270264
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
@@ -282,88 +282,88 @@ Article ID: 3
 Original Q: 룩셈부르크의 수도는 어디인가?
 Original A: 룩셈부르크
 
-Best edit number: 3
+Best edit number: 4
 Critic approved: True
-Critic score: 7.0
-Critic reason: This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair.
+Critic score: 5.0
+Critic reason: Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.037512779235839844
+  Edit #1: approved=False score=0.0 drift=0.7661065459251404
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.14237016439437866
+  Edit #2: approved=False score=0.0 drift=0.5730410814285278
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
 
-  Edit #3: approved=True score=7.0 drift=0.27922576665878296
-    Reason: This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.43251413106918335
+  Edit #3: approved=False score=0.0 drift=1.0286375284194946
     Reason: 
     Raw response:
 ```json
 [
   {
-    "article_id": "QA 1",
+    "article_id": 1,
     "selected_index": 3,
     "score": 8,
-    "reason": "This edit provides a multiple-choice question directly related to the original question and answer, which is useful for comprehension. While it contains one mixed character (之前), it is the most coherent, correct, and useful edit among the options. The other edits have significant fluency issues, mixed languages, or are less directly helpful for the QA pair."
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
   },
   {
-    "article_id": "QA 2",
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
+  }
+]
+```
+
+  Edit #4: approved=True score=5.0 drift=0.3755913972854614
+    Reason: Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA.
+    Raw response:
+```json
+[
+  {
+    "article_id": 1,
     "selected_index": 3,
-    "score": 7,
-    "reason": "This edit provides a set of Q&A pairs that cover the key information in the context, including the original question. This is useful for understanding the passage. Although it suffers from mixed language and characters (e.g., '什么일까', 'where에', 'อะไร일까요'), it is still the most useful and structured edit compared to the others, which have more severe fluency issues or are less directly relevant to improving the QA pair."
+    "score": 8,
+    "reason": "Edit 3 directly addresses the QA pair by rephrasing the question and providing the correct answer from the passage. It is concise, correct, and useful. Other edits contain factual errors (Edit 2, 4), or are less directly helpful for the given QA (Edit 1)."
+  },
+  {
+    "article_id": 2,
+    "selected_index": 4,
+    "score": 5,
+    "reason": "Edit 4, despite some fluency issues (e.g., '何處', '何 kinda') and slightly awkward implications, attempts a relevant chain of thought that includes the question about the capital. It provides some correct implications derived from the passage. Edit 3 is a meta-comment and not an edit. Edit 2 introduces factual errors and poor fluency. Edit 1 provides follow-up questions rather than improving the given QA."
   }
 ]
 ```
@@ -374,31 +374,91 @@ Article ID: 4
 Original Q: 오대호의 크기는?
 Original A: 24만 5,000 평방 킬로미터
 
-Best edit number: 3
-Critic approved: False
-Critic score: 0.0
-Critic reason: Evaluation error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+Best edit number: 1
+Critic approved: True
+Critic score: 3.0
+Critic reason: All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.19363027811050415
-    Reason: 
+  Edit #1: approved=True score=3.0 drift=0.20514631271362305
+    Reason: All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning.
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
-  Edit #2: approved=False score=0.0 drift=0.11117076873779297
+  Edit #2: approved=False score=0.0 drift=0.095988929271698
     Reason: 
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
-  Edit #3: approved=False score=0.0 drift=0.8006579875946045
+  Edit #3: approved=False score=0.0 drift=0.36809104681015015
     Reason: 
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
-  Edit #4: approved=False score=0.0 drift=0.24596792459487915
+  Edit #4: approved=False score=0.0 drift=0.18012702465057373
     Reason: 
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
 
 ----
@@ -406,31 +466,91 @@ Article ID: 5
 Original Q: 히틀러는 몇 년도에 사망했는가?
 Original A: 1945년
 
-Best edit number: 1
-Critic approved: False
-Critic score: 0.0
-Critic reason: Evaluation error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+Best edit number: 3
+Critic approved: True
+Critic score: 9.0
+Critic reason: Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.345369815826416
+  Edit #1: approved=False score=0.0 drift=0.30340152978897095
     Reason: 
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
-  Edit #2: approved=False score=0.0 drift=0.021804332733154297
+  Edit #2: approved=False score=0.0 drift=0.214835524559021
     Reason: 
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
-  Edit #3: approved=False score=0.0 drift=0.1182929277420044
-    Reason: 
+  Edit #3: approved=True score=9.0 drift=0.15157759189605713
+    Reason: Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand.
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
-  Edit #4: approved=False score=0.0 drift=0.150104820728302
+  Edit #4: approved=False score=0.0 drift=0.2513132691383362
     Reason: 
     Raw response:
-Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 3,
+    "reason": "All edits are of very low quality. Edit 1 has significant grammatical errors and some speculative implications, but it attempts to derive implications from the given text without inventing core facts. Edits 2 and 4 invent incorrect factual information (e.g., lake names, sizes, meanings) not present in the context. Edit 3 has a question that mixes multiple languages, making it unusable. Therefore, Edit 1 is the 'best' by being the least factually incorrect and least nonsensical, despite its poor fluency and weak reasoning."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 3,
+    "score": 9,
+    "reason": "Edit 3 is the only edit that is fully fluent, grammatically correct, and useful. It provides a clear and accurate multiple-choice question and answer directly derived from the context. Edits 1, 2, and 4 suffer from severe language mixing (Korean, Chinese, English, Vietnamese, Thai), making them unfluent and difficult to understand."
+  }
+]
+```
 
 
 ----
@@ -438,88 +558,88 @@ Article ID: 6
 Original Q: 임진왜란은 언제 끝나나요?
 Original A: 1598년
 
-Best edit number: 3
+Best edit number: 1
 Critic approved: True
 Critic score: 7.0
-Critic reason: Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both.
+Critic reason: The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.3923444151878357
+  Edit #1: approved=True score=7.0 drift=0.3376232981681824
+    Reason: The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 7,
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.03495222330093384
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 1,
     "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.04809427261352539
+  Edit #3: approved=False score=0.0 drift=0.3909350633621216
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 1,
     "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
   }
 ]
 ```
 
-  Edit #3: approved=True score=7.0 drift=0.44391506910324097
-    Reason: Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.24342936277389526
+  Edit #4: approved=False score=0.0 drift=0.21633851528167725
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 1,
     "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
   }
 ]
 ```
@@ -530,88 +650,88 @@ Article ID: 7
 Original Q: 중화인민공화국의 수도는 어디인가요?
 Original A: 베이징
 
-Best edit number: 3
+Best edit number: 1
 Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors.
+Critic score: 8.0
+Critic reason: The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.21382904052734375
+  Edit #1: approved=True score=8.0 drift=0.2453763484954834
+    Reason: The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing.
+    Raw response:
+```json
+[
+  {
+    "article_id": "QA 1",
+    "selected_index": 1,
+    "score": 7,
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
+  }
+]
+```
+
+  Edit #2: approved=False score=0.0 drift=0.011305570602416992
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 1,
     "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.527204155921936
+  Edit #3: approved=False score=0.0 drift=0.20494866371154785
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 1,
     "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
   }
 ]
 ```
 
-  Edit #3: approved=True score=7.0 drift=0.6535521745681763
-    Reason: Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.14339083433151245
+  Edit #4: approved=False score=0.0 drift=0.2384319305419922
     Reason: 
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
-    "selected_index": 3,
+    "selected_index": 1,
     "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It correctly extracts relevant information from the context in a Q&A format, including the answer to the original question. While the phrasing 'duration이 있었는지?' is a bit clunky, it's much better than the other edits which are either irrelevant, poorly written, or both."
+    "reason": "The original answer is already concise and correct. This edit provides a structured summary of key facts and implications from the context, which is useful additional information without introducing errors. Other edits either have fluency issues, factual errors, or are less useful."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "Edit 3 (self_qa) is the most useful. It generates relevant and correct Q&A pairs directly from the context, including the answer to the original question about the capital. The use of 'câu해' (Vietnamese for answer) instead of Korean '정답' or '답변' is a minor flaw, but the content is otherwise correct and helpful. The other edits are largely irrelevant, poorly structured, or contain significant errors."
+    "selected_index": 1,
+    "score": 8,
+    "reason": "The original answer is already concise and correct. This edit provides a clear, correct, and fluent summary of the implications derived from the context. It offers useful additional information about the country. Other edits contain factual errors, redundancy, or awkward phrasing."
   }
 ]
 ```
@@ -624,11 +744,11 @@ Original A: 콜더 홀
 
 Best edit number: 4
 Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context.
+Critic score: 5.0
+Critic reason: All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.5145174264907837
+  Edit #1: approved=False score=0.0 drift=0.31116384267807007
     Reason: 
     Raw response:
 ```json
@@ -636,19 +756,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
+    "score": 5,
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.0654941201210022
+  Edit #2: approved=False score=0.0 drift=0.04318767786026001
     Reason: 
     Raw response:
 ```json
@@ -656,19 +776,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
+    "score": 5,
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.5671321153640747
+  Edit #3: approved=False score=0.0 drift=0.13545650243759155
     Reason: 
     Raw response:
 ```json
@@ -676,34 +796,34 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
+    "score": 5,
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
 
-  Edit #4: approved=True score=8.0 drift=0.06605112552642822
-    Reason: Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context.
+  Edit #4: approved=True score=5.0 drift=0.10083204507827759
+    Reason: All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
+    "score": 5,
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
   },
   {
     "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
@@ -714,105 +834,13 @@ Article ID: 9
 Original Q: 스페인의 국화는 무엇인가?
 Original A: 오렌지꽃
 
-Best edit number: 2
-Critic approved: True
-Critic score: 9.0
-Critic reason: Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.4905930161476135
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
-  }
-]
-```
-
-  Edit #2: approved=True score=9.0 drift=0.023125827312469482
-    Reason: Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.0
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.10561579465866089
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a structured chain of thought, accurately summarizing the historical timeline from the context. It draws reasonable conclusions and implications, helping to clarify the nuances of the context regarding experimental vs. commercial power plants. While there's a minor fluency issue with mixed characters in the last implication, it's the most insightful and useful edit for understanding the context."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 9,
-    "reason": "Edit 2 significantly improves the context by reformatting it into a clear, readable list of countries and their national flowers. It also corrects several typos present in the original context and appears to complete the truncated list, making the source material much more accurate and user-friendly. This direct improvement of the context is highly useful."
-  }
-]
-```
-
-
-----
-Article ID: 10
-Original Q: 한국 전쟁은 언제 일어났나요?
-Original A: 1950년 6월 25일
-
 Best edit number: 4
 Critic approved: True
-Critic score: 6.0
-Critic reason: All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness.
+Critic score: 2.0
+Critic reason: All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice.
 
 All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.3142901659011841
+  Edit #1: approved=False score=0.0 drift=0.6219983100891113
     Reason: 
     Raw response:
 ```json
@@ -820,19 +848,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
     "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
 
-  Edit #2: approved=False score=0.0 drift=0.038579463958740234
+  Edit #2: approved=False score=0.0 drift=0.009889304637908936
     Reason: 
     Raw response:
 ```json
@@ -840,19 +868,19 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
     "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
 
-  Edit #3: approved=False score=0.0 drift=0.17415934801101685
+  Edit #3: approved=False score=0.0 drift=0.5681360960006714
     Reason: 
     Raw response:
 ```json
@@ -860,862 +888,34 @@ All evaluations:
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
     "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
+  },
+  {
+    "article_id": "QA 2",
+    "selected_index": 4,
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
 
-  Edit #4: approved=True score=6.0 drift=0.050151944160461426
-    Reason: All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness.
+  Edit #4: approved=True score=2.0 drift=0.31200307607650757
+    Reason: All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice.
     Raw response:
 ```json
 [
   {
     "article_id": "QA 1",
     "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
     "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
-  }
-]
-```
-
-
-----
-Article ID: 11
-Original Q: 지구 대기권에서 지표면에 가장 인접한 대기의 층은 무엇인가요?
-Original A: 대류권
-
-Best edit number: 1
-Critic approved: True
-Critic score: 5.0
-Critic reason: All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable.
-
-All evaluations:
-  Edit #1: approved=True score=5.0 drift=0.187341570854187
-    Reason: All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.09337460994720459
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.17638301849365234
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.034880220890045166
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 4,
-    "score": 6,
-    "reason": "All edits have significant flaws, primarily due to mixed languages and awkward phrasing. Edit 4, despite minor mixed language issues ('aneously', 'international전', '国際'), provides the most structured and coherent analysis with a 'chain of thought' and generally relevant implications. The other edits are much worse in terms of fluency and correctness."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 1,
-    "score": 5,
-    "reason": "All edits are flawed. Edit 1 is the most fluent and correct, although it mostly restates facts from the context rather than providing true 'implications'. However, compared to the other edits which suffer from severe mixed language issues ('지형Surface', 'महत्वप juice한다', '비 trọng') or incompleteness, Edit 1 is the least problematic and most readable."
-  }
-]
-```
-
-
-----
-Article ID: 12
-Original Q: 아프리카의 총 인구는 얼마인가?
-Original A: 11억
-
-Best edit number: 1
-Critic approved: True
-Critic score: 4.0
-Critic reason: All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content.
-
-All evaluations:
-  Edit #1: approved=True score=4.0 drift=0.16487336158752441
-    Reason: All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
+    "reason": "All edits have significant flaws, especially in fluency. However, Edit 4 provides the most useful content by breaking down the timeline of 'firsts' (beginning, experimental, commercial) mentioned in the passage. This directly addresses the ambiguity of the question 'What is the first nuclear power plant?' and helps to understand the context better, despite the mixed language."
   },
   {
     "article_id": "QA 2",
     "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.052667200565338135
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.38462334871292114
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.15527623891830444
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-
-----
-Article ID: 13
-Original Q: 히브리어를 공용어로 쓰는 나라는 몇개인가요?
-Original A: 이스라엘
-
-Best edit number: 4
-Critic approved: True
-Critic score: 7.0
-Critic reason: Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.23597806692123413
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.010671257972717285
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.12322813272476196
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-  Edit #4: approved=True score=7.0 drift=0.09539961814880371
-    Reason: Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 1,
-    "score": 4,
-    "reason": "All edits are of low quality. Edit 1, despite mislabeling direct statements as 'implications', is the most factually correct and fluent among the options. Other edits contain factual errors, are incomplete, or generate irrelevant content."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 7,
-    "reason": "Edit 4 provides a correct and fluent 'chain of thought' that accurately summarizes the information in the context. While its 'implications' section mostly restates facts, it does so correctly, and one implication is reasonable. The other edits contain significant factual errors, non-Korean words, or are incomplete."
-  }
-]
-```
-
-
-----
-Article ID: 14
-Original Q: 오버워치 출시일은 언제인가요?
-Original A: 2016년 5월 24일
-
-Best edit number: 2
-Critic approved: True
-Critic score: 6.0
-Critic reason: Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.25350719690322876
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-  Edit #2: approved=True score=6.0 drift=0.09360450506210327
-    Reason: Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.3197668194770813
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.28817737102508545
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-
-----
-Article ID: 15
-Original Q: 발해는 언제 건립되었나요?
-Original A: 698년
-
-Best edit number: 2
-Critic approved: True
-Critic score: 5.0
-Critic reason: Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.42024415731430054
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-  Edit #2: approved=True score=5.0 drift=0.023024439811706543
-    Reason: Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.7989721894264221
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.045202672481536865
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 2,
-    "score": 6,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues (Korean, English, Vietnamese, Thai, etc.) and significant grammatical errors, making them unusable. Edit 2 provides multiple rewritten versions of the original context. While it doesn't directly edit the answer to the question, it is the only option that produces coherent, fluent, and grammatically correct Korean text. Therefore, it is the best choice among very poor options."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 2,
-    "score": 5,
-    "reason": "Edits 1, 3, and 4 contain severe mixed-language issues and grammatical errors, making them largely unusable. Edit 2 provides multiple rewritten versions of the original context. While it has minor flaws (e.g., '세国', 'frequently' mixed in, incomplete third rewrite), it is the only option that is mostly fluent and grammatically correct Korean. Therefore, it is the best choice among very poor options."
-  }
-]
-```
-
-
-----
-Article ID: 16
-Original Q: 제2차 세계 대전은 언제 발발했나요?
-Original A: 사건은 1939년 9
-
-Best edit number: 3
-Critic approved: True
-Critic score: 7.0
-Critic reason: All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.2084406614303589
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.767942488193512
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-  Edit #3: approved=True score=7.0 drift=0.41097497940063477
-    Reason: All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.2582961320877075
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-
-----
-Article ID: 17
-Original Q: 이순신의 고향은 어디인가?
-Original A: 한성 건천동
-
-Best edit number: 4
-Critic approved: True
-Critic score: 8.0
-Critic reason: Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.09955590963363647
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.008648991584777832
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-  Edit #3: approved=False score=0.0 drift=0.5204492807388306
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-  Edit #4: approved=True score=8.0 drift=0.10157102346420288
-    Reason: Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "All edits are quite poor in terms of fluency or direct relevance to the original Q&A. However, Edit 3 successfully generates a new, correct Q&A pair from the context. While the question mixes Korean and Japanese/Thai ('อะไร인가'), the intent is clear, and the answer is perfectly correct and fluent. The other edits suffer from severe fluency issues, incorrect interpretations, or are simply rewrites of the context without addressing the Q&A."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 4,
-    "score": 8,
-    "reason": "Edit 4 provides a coherent, fluent, and correct 'chain of thought' and 'implications' based on the context. While it doesn't directly modify the original Q&A, it offers a well-structured summary of the information. Edit 1 and 2 have significant fluency and correctness issues. Edit 3 generates a new Q&A, but the question itself is very poorly phrased with mixed languages and scripts, making Edit 4 the most 'correct' and 'fluent' option overall."
-  }
-]
-```
-
-
-----
-Article ID: 18
-Original Q: 일본의 화폐 단위는 무엇인가?
-Original A: 엔
-
-Best edit number: 3
-Critic approved: True
-Critic score: 6.0
-Critic reason: None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.09934443235397339
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.062208354473114014
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-  Edit #3: approved=True score=6.0 drift=0.16977530717849731
-    Reason: None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.30965089797973633
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-
-----
-Article ID: 19
-Original Q: 케냐의 수도는 어디인가?
-Original A: 나이로비
-
-Best edit number: 3
-Critic approved: True
-Critic score: 7.0
-Critic reason: None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete.
-
-All evaluations:
-  Edit #1: approved=False score=0.0 drift=0.07703810930252075
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-  Edit #2: approved=False score=0.0 drift=0.06767165660858154
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-  Edit #3: approved=True score=7.0 drift=0.4641084671020508
-    Reason: None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete.
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
-  }
-]
-```
-
-  Edit #4: approved=False score=0.0 drift=0.4149188995361328
-    Reason: 
-    Raw response:
-```json
-[
-  {
-    "article_id": "QA 1",
-    "selected_index": 3,
-    "score": 6,
-    "reason": "None of the edits directly improve the original answer to the question. All edits attempt to process the context in different ways. Edit 3 (self_qa) generates new, relevant questions and answers based on the context. While it contains some fluency issues (mixing Korean with Chinese/English/Thai words) and a minor grammatical error in one answer, its core function of extracting information through Q&A is well-executed and useful for understanding the context. Edit 1 has a significant factual error ('유니세프 G7') which makes it less correct."
-  },
-  {
-    "article_id": "QA 2",
-    "selected_index": 3,
-    "score": 7,
-    "reason": "None of the edits directly improve the original answer. Edit 3 (self_qa) generates a new, relevant multiple-choice question based on the context, which is a useful way to extract and test understanding of information. Although it has some fluency issues (mixing Korean with Vietnamese words) and a typo ('스와ihil리어'), the question itself is well-formed and directly addresses a detail from the context. Edit 1 (implications) is also useful but has frequent language mixing, and Edit 2 and 4 are less coherent or complete."
+    "score": 2,
+    "reason": "All edits are very poor. Edit 1 contains factual errors and irrelevant implications. Edit 2 introduces factual errors (e.g., '잉글랜드 - 올리브') and is incomplete. Edit 3 has a nonsensical first question and poor formatting. Edit 4, while superficial, incomplete, and having minor fluency issues, does not introduce outright factual errors like the other options. It attempts to process the list, making it the 'least bad' choice."
   }
 ]
 ```
