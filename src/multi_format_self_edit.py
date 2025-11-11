@@ -1,13 +1,13 @@
 from typing import Dict, List
-import requests
-import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 try:
-    from src.constants import LANGUAGE_NAMES, DEFAULT_OLLAMA_URL, DEFAULT_MODEL, EMBEDDING_MODEL
+    from src.constants import LANGUAGE_NAMES, EMBEDDING_MODEL
 except ImportError:
-    from constants import LANGUAGE_NAMES, DEFAULT_OLLAMA_URL, DEFAULT_MODEL, EMBEDDING_MODEL
+    from constants import LANGUAGE_NAMES, EMBEDDING_MODEL
 
 
 class MultiFormatSelfEditGenerator:
@@ -21,29 +21,63 @@ class MultiFormatSelfEditGenerator:
 
     def __init__(
         self,
-        model_name: str = DEFAULT_MODEL,
-        ollama_url: str = DEFAULT_OLLAMA_URL
+        model_name: str = "Qwen/Qwen2.5-1.5B-Instruct",
+        device: str = None
     ):
-        self.model_name = model_name
-        self.ollama_url = ollama_url
+        print(f"Loading model: {model_name}...")
+        
+        # Auto-detect device
+        if device is None:
+            self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        else:
+            self.device = device
+        
+        print(f"Using device: {self.device}")
+        
+        # Load tokenizer and model
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
+            device_map="auto" if self.device == "cuda" else None
+        )
+        
+        if self.device == "cpu":
+            self.model = self.model.to(self.device)
+        
+        print("Model loaded successfully!")
         self.semantic_model = SentenceTransformer(EMBEDDING_MODEL)
     
     def _call_ollama(self, prompt: str, temperature: float = 0.7) -> str:
         try:
-            response = requests.post(
-                f"{self.ollama_url}/api/generate",
-                json={
-                    "model": self.model_name,
-                    "prompt": prompt,
-                    "stream": False,
-                    "temperature": temperature
-                },
-                timeout=120
+            messages = [{"role": "user", "content": prompt}]
+            
+            inputs = self.tokenizer.apply_chat_template(
+                messages,
+                add_generation_prompt=True,
+                tokenize=True,
+                return_dict=True,
+                return_tensors="pt",
+            ).to(self.model.device)
+            
+            with torch.no_grad():
+                outputs = self.model.generate(
+                    **inputs,
+                    max_new_tokens=512,
+                    temperature=temperature,
+                    do_sample=True,
+                    top_p=0.9,
+                    pad_token_id=self.tokenizer.eos_token_id
+                )
+            
+            generated_text = self.tokenizer.decode(
+                outputs[0][inputs["input_ids"].shape[-1]:],
+                skip_special_tokens=True
             )
-            response.raise_for_status()
-            return response.json().get("response", "").strip()
+            
+            return generated_text.strip()
         except Exception as e:
-            print(f"Ollama API error: {e}")
+            print(f"Generation error: {e}")
             return ""
     
     def _generate_implications(self, context: str, language: str, length: str = "normal") -> str:

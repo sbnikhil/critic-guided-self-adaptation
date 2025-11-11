@@ -20,9 +20,5 @@ LANGUAGE_NAMES = {
 # Supported languages (9 in TyDi QA)
 SUPPORTED_LANGUAGES = list(LANGUAGE_NAMES.keys())
 
-# Default Ollama settings
-DEFAULT_OLLAMA_URL = "http://localhost:11434"
-DEFAULT_MODEL = "llama3.2"
-
 # Embedding model for drift measurement
 EMBEDDING_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
