@@ -132,61 +132,76 @@ class MetricsCalculator:
     ) -> float:
         """
         Calculate semantic similarity between two sets of texts.
-        
+
         Args:
             texts1: First set of texts
             texts2: Second set of texts
-            
+
         Returns:
             Average cosine similarity
         """
         if len(texts1) != len(texts2):
             raise ValueError("Text lists must have same length")
-        
+
         embeddings1 = self.embedding_model.encode(texts1)
         embeddings2 = self.embedding_model.encode(texts2)
-        
+
         similarities = []
         for emb1, emb2 in zip(embeddings1, embeddings2):
-            similarity = np.dot(emb1, emb2) / (
-                np.linalg.norm(emb1) * np.linalg.norm(emb2)
-            )
+            norm1 = np.linalg.norm(emb1)
+            norm2 = np.linalg.norm(emb2)
+
+            if norm1 == 0 or norm2 == 0:
+                # Skip invalid embeddings
+                similarities.append(0.0)
+                continue
+
+            similarity = np.dot(emb1, emb2) / (norm1 * norm2)
             similarities.append(similarity)
-        
+
         return float(np.mean(similarities))
     
     # ========== Cross-Lingual Transfer Metrics ==========
     
     def calculate_language_metrics(
         self,
-        results_by_language: Dict[str, Dict[str, List[str]]]
+        results_by_language: Dict[str, Dict[str, List[str]]],
+        semantic_similarities: Dict[str, float] = None,
+        drift_scores: Dict[str, List[float]] = None
     ) -> Dict[str, Dict[str, float]]:
         """
-        Calculate EM and F1 for each language.
+        Calculate EM, F1, and semantic similarity for each language.
         
         Args:
             results_by_language: Dict mapping language to {
                 'predictions': List[str],
                 'ground_truths': List[str]
             }
-            
+            semantic_similarities: Optional dict mapping language to semantic similarity
         Returns:
-            Dict mapping language to {'em': float, 'f1': float}
+            Dict mapping language to {'em': float, 'f1': float, 'semantic_similarity': float}
         """
         language_metrics = {}
         
         for lang, data in results_by_language.items():
             predictions = data['predictions']
             ground_truths = data['ground_truths']
-            
             em, f1 = self.batch_em_f1(predictions, ground_truths)
-            
-            language_metrics[lang] = {
+            metrics = {
                 'em': em,
                 'f1': f1,
                 'num_samples': len(predictions)
             }
-        
+            if semantic_similarities and lang in semantic_similarities:
+                metrics['semantic_similarity'] = semantic_similarities[lang]
+            # Drift/diversity metrics
+            if drift_scores and lang in drift_scores and drift_scores[lang]:
+                arr = np.array(drift_scores[lang])
+                metrics['mean_drift'] = float(np.mean(arr))
+                metrics['std_drift'] = float(np.std(arr))
+                metrics['min_drift'] = float(np.min(arr))
+                metrics['max_drift'] = float(np.max(arr))
+            language_metrics[lang] = metrics
         return language_metrics
     
     def cross_lingual_f1(
@@ -402,7 +417,6 @@ class MetricsCalculator:
             baseline_metrics: Baseline metrics for comparison
             seen_languages: Languages emphasized during training
             unseen_languages: Languages not emphasized
-            
         Returns:
             Complete summary report
         """
@@ -410,40 +424,59 @@ class MetricsCalculator:
             'language_metrics': language_metrics,
             'cross_lingual_f1': self.cross_lingual_f1(language_metrics)
         }
-        
         # Zero-shot transfer
         if unseen_languages:
             report['zero_shot_transfer_score'] = self.zero_shot_transfer_score(
                 language_metrics, unseen_languages
             )
-        
         # Transfer gap
         if seen_languages and unseen_languages:
             report['transfer_gap'] = self.transfer_gap(
                 language_metrics, seen_languages, unseen_languages
             )
-        
         # Relative improvement
         if baseline_metrics:
             report['relative_improvement'] = self.relative_improvement(
                 language_metrics, baseline_metrics
             )
-        
         # Overall statistics
         all_em = [m['em'] for m in language_metrics.values()]
         all_f1 = [m['f1'] for m in language_metrics.values()]
-        
-        report['overall'] = {
-            'avg_em': float(np.mean(all_em)),
-            'avg_f1': float(np.mean(all_f1)),
-            'std_em': float(np.std(all_em)),
-            'std_f1': float(np.std(all_f1)),
-            'min_em': float(np.min(all_em)),
-            'max_em': float(np.max(all_em)),
-            'min_f1': float(np.min(all_f1)),
-            'max_f1': float(np.max(all_f1))
-        }
-        
+        all_sem = [m['semantic_similarity'] for m in language_metrics.values() if 'semantic_similarity' in m]
+        all_drift = [m['mean_drift'] for m in language_metrics.values() if 'mean_drift' in m]
+        # If there are no language metrics (no predictions), return safe defaults
+        if len(all_em) == 0 or len(all_f1) == 0:
+            report['overall'] = {
+                'avg_em': 0.0,
+                'avg_f1': 0.0,
+                'std_em': 0.0,
+                'std_f1': 0.0,
+                'min_em': 0.0,
+                'max_em': 0.0,
+                'min_f1': 0.0,
+                'max_f1': 0.0,
+            }
+        else:
+            report['overall'] = {
+                'avg_em': float(np.mean(all_em)),
+                'avg_f1': float(np.mean(all_f1)),
+                'std_em': float(np.std(all_em)),
+                'std_f1': float(np.std(all_f1)),
+                'min_em': float(np.min(all_em)),
+                'max_em': float(np.max(all_em)),
+                'min_f1': float(np.min(all_f1)),
+                'max_f1': float(np.max(all_f1)),
+            }
+        if all_sem:
+            report['overall']['avg_semantic_similarity'] = float(np.mean(all_sem))
+            report['overall']['std_semantic_similarity'] = float(np.std(all_sem))
+            report['overall']['min_semantic_similarity'] = float(np.min(all_sem))
+            report['overall']['max_semantic_similarity'] = float(np.max(all_sem))
+        if all_drift:
+            report['overall']['avg_drift'] = float(np.mean(all_drift))
+            report['overall']['std_drift'] = float(np.std(all_drift))
+            report['overall']['min_drift'] = float(np.min(all_drift))
+            report['overall']['max_drift'] = float(np.max(all_drift))
         return report
     
     def print_summary_table(self, report: Dict[str, Any]):
@@ -456,20 +489,58 @@ class MetricsCalculator:
         print("\n" + "="*80)
         print("EVALUATION SUMMARY")
         print("="*80)
-        
         # Language-wise metrics
-        print("\nLanguage-wise Performance:")
-        print(f"{'Language':<12} {'EM':<10} {'F1':<10} {'Samples':<10}")
-        print("-" * 80)
-        
+        print("\nLanguage-wise Performance (Multilingual Robustness):")
+        print(f"{'Language':<12} {'EM':<10} {'F1':<10} {'SemSim':<10} {'Drift':<10} {'Samples':<10}")
+        print("-" * 90)
+        # Find worst-case languages
+        min_f1_lang = None
+        min_f1 = float('inf')
+        min_sem_lang = None
+        min_sem = float('inf')
+        max_drift_lang = None
+        max_drift = float('-inf')
+        for lang, metrics in report['language_metrics'].items():
+            if metrics.get('f1', float('inf')) < min_f1:
+                min_f1 = metrics['f1']
+                min_f1_lang = lang
+            if metrics.get('semantic_similarity', float('inf')) < min_sem:
+                min_sem = metrics['semantic_similarity']
+                min_sem_lang = lang
+            if metrics.get('mean_drift', float('-inf')) > max_drift:
+                max_drift = metrics['mean_drift']
+                max_drift_lang = lang
         for lang, metrics in sorted(report['language_metrics'].items()):
-            print(f"{lang:<12} {metrics['em']:<10.4f} {metrics['f1']:<10.4f} {metrics['num_samples']:<10}")
-        
+            semsim = metrics.get('semantic_similarity', float('nan'))
+            drift = metrics.get('mean_drift', float('nan'))
+            row = f"{lang:<12} {metrics['em']:<10.4f} {metrics['f1']:<10.4f} {semsim:<10.4f} {drift:<10.4f} {metrics['num_samples']:<10}"
+            # Highlight worst-case
+            if lang == min_f1_lang:
+                row += "   <== LOWEST F1"
+            if lang == min_sem_lang:
+                row += "   <== LOWEST SemSim"
+            if lang == max_drift_lang:
+                row += "   <== HIGHEST Drift"
+            print(row)
         # Overall metrics
         print("\n" + "-" * 80)
         overall = report['overall']
-        print(f"{'Overall':<12} {overall['avg_em']:<10.4f} {overall['avg_f1']:<10.4f}")
-        print(f"{'Std Dev':<12} {overall['std_em']:<10.4f} {overall['std_f1']:<10.4f}")
+        print(f"{'Overall':<12} {overall['avg_em']:<10.4f} {overall['avg_f1']:<10.4f} {overall.get('avg_semantic_similarity', float('nan')):<10.4f} {overall.get('avg_drift', float('nan')):<10.4f}")
+        print(f"{'Std Dev':<12} {overall['std_em']:<10.4f} {overall['std_f1']:<10.4f} {overall.get('std_semantic_similarity', float('nan')):<10.4f} {overall.get('std_drift', float('nan')):<10.4f}")
+        if 'min_semantic_similarity' in overall or 'min_drift' in overall:
+            print(f"{'Min':<12} {overall['min_em']:<10.4f} {overall['min_f1']:<10.4f} {overall.get('min_semantic_similarity', float('nan')):<10.4f} {overall.get('min_drift', float('nan')):<10.4f}")
+            print(f"{'Max':<12} {overall['max_em']:<10.4f} {overall['max_f1']:<10.4f} {overall.get('max_semantic_similarity', float('nan')):<10.4f} {overall.get('max_drift', float('nan')):<10.4f}")
+        else:
+            print(f"{'Min':<12} {overall['min_em']:<10.4f} {overall['min_f1']:<10.4f}")
+            print(f"{'Max':<12} {overall['max_em']:<10.4f} {overall['max_f1']:<10.4f}")
+        print("\nSummary of Metrics:")
+        print("- EM: Exact Match (QA correctness, strict)")
+        print("- F1: Token-level F1 (QA overlap, partial credit)")
+        print("- SemSim: Semantic Similarity (embedding-based, language-agnostic)")
+        print("- Drift: Mean drift/diversity from original (higher = more diverse edits, but too high may mean off-topic)")
+        print("- Std Dev: Diversity/variance across languages")
+        print("- Min/Max: Best/worst language for each metric")
+        print("\nMultilingual robustness is best when all languages have high F1, high SemSim, and moderate drift (not too low, not too high).\n")
         
         # Cross-lingual metrics
         print("\n" + "="*80)
@@ -496,9 +567,176 @@ class MetricsCalculator:
             print("-" * 80)
             print(f"{'Language':<12} {'EM Δ%':<12} {'F1 Δ%':<12} {'Avg Δ%':<12}")
             print("-" * 80)
-            
             for lang, impr in sorted(report['relative_improvement'].items()):
                 print(f"{lang:<12} {impr['em_improvement_%']:<12.2f} "
                       f"{impr['f1_improvement_%']:<12.2f} {impr['avg_improvement_%']:<12.2f}")
         
         print("="*80 + "\n")
+
+    # ========== No-Context QA Evaluation (SEAL-Style) ==========
+    
+    def evaluate_no_context_qa(
+        self,
+        model,
+        tokenizer,
+        questions: List[str],
+        answers: List[str],
+        languages: List[str],
+        max_new_tokens: int = 100
+    ) -> Dict[str, Any]:
+        """
+        Evaluate model on questions WITHOUT providing context.
+        Tests if model internalized knowledge from fine-tuning (SEAL-style).
+        
+        Args:
+            model: Fine-tuned model
+            tokenizer: Model tokenizer
+            questions: List of questions
+            answers: List of ground truth answers
+            languages: List of language codes
+            max_new_tokens: Max tokens to generate
+            
+        Returns:
+            Dict with detailed results per question and aggregated metrics
+        """
+        import torch
+        
+        results = []
+        
+        for question, answer, lang in zip(questions, answers, languages):
+            # Generate answer WITHOUT context (key difference from standard QA)
+            prompt = f"Question: {question}\nAnswer:"
+            
+            inputs = tokenizer(prompt, return_tensors="pt", truncation=True)
+            inputs = {k: v.to(model.device) for k, v in inputs.items()}
+            
+            with torch.no_grad():
+                outputs = model.generate(
+                    **inputs,
+                    max_new_tokens=max_new_tokens,
+                    temperature=0.7,
+                    do_sample=True,
+                    top_p=0.9,
+                    pad_token_id=tokenizer.eos_token_id
+                )
+            
+            predicted = tokenizer.decode(
+                outputs[0][inputs['input_ids'].shape[-1]:], 
+                skip_special_tokens=True
+            ).strip()
+            
+            # Calculate metrics
+            sem_sim = self.semantic_similarity([predicted], [answer])
+            em = self.exact_match(predicted, answer)
+            f1 = self.f1_score(predicted, answer)
+            contains_ans = self._check_answer_presence(predicted, answer)
+            
+            results.append({
+                'question': question,
+                'predicted': predicted,
+                'ground_truth': answer,
+                'language': lang,
+                'semantic_similarity': sem_sim,
+                'exact_match': em,
+                'f1': f1,
+                'contains_answer': contains_ans
+            })
+        
+        # Aggregate metrics
+        aggregated = self._aggregate_no_context_results(results)
+        
+        return {
+            'per_example': results,
+            'aggregated': aggregated
+        }
+    
+    def _check_answer_presence(self, predicted: str, ground_truth: str) -> bool:
+        """Check if ground truth answer appears in prediction (normalized)."""
+        pred_norm = self.normalize_answer(predicted)
+        truth_norm = self.normalize_answer(ground_truth)
+        
+        # Check if GT is substring of prediction
+        if truth_norm in pred_norm:
+            return True
+        
+        # Check if they share significant tokens
+        pred_tokens = set(pred_norm.split())
+        truth_tokens = set(truth_norm.split())
+        
+        if len(truth_tokens) == 0:
+            return False
+        
+        # If >50% of truth tokens appear in prediction
+        overlap = len(pred_tokens & truth_tokens) / len(truth_tokens)
+        return overlap >= 0.5
+    
+    def _aggregate_no_context_results(self, results: List[Dict]) -> Dict[str, Any]:
+        """Aggregate no-context QA results by language and overall."""
+        by_language = defaultdict(list)
+        
+        for r in results:
+            by_language[r['language']].append(r)
+        
+        language_metrics = {}
+        for lang, lang_results in by_language.items():
+            language_metrics[lang] = {
+                'semantic_similarity': float(np.mean([r['semantic_similarity'] for r in lang_results])),
+                'exact_match': float(np.mean([r['exact_match'] for r in lang_results])),
+                'f1': float(np.mean([r['f1'] for r in lang_results])),
+                'answer_presence': float(np.mean([r['contains_answer'] for r in lang_results])),
+                'num_samples': len(lang_results)
+            }
+        
+        # Overall metrics
+        overall = {
+            'semantic_similarity': float(np.mean([r['semantic_similarity'] for r in results])),
+            'exact_match': float(np.mean([r['exact_match'] for r in results])),
+            'f1': float(np.mean([r['f1'] for r in results])),
+            'answer_presence': float(np.mean([r['contains_answer'] for r in results])),
+            'num_samples': len(results)
+        }
+        
+        # Cross-lingual metrics
+        lang_sims = [m['semantic_similarity'] for m in language_metrics.values()]
+        lang_f1s = [m['f1'] for m in language_metrics.values()]
+        
+        # 1. Gap between best and worst (lower is better - more consistent)
+        cross_lingual_gap = max(lang_sims) - min(lang_sims) if lang_sims else 0.0
+        
+        # 2. Standard deviation across languages (lower is better - more consistent)
+        cross_lingual_std = float(np.std(lang_sims)) if lang_sims else 0.0
+        
+        # 3. Coefficient of variation (normalized consistency metric)
+        cross_lingual_cv = (cross_lingual_std / np.mean(lang_sims)) if lang_sims and np.mean(lang_sims) > 0 else 0.0
+        
+        # 4. Multilingual capability score (higher is better)
+        # Average of all languages (rewards doing well across all languages)
+        multilingual_score = float(np.mean(lang_sims)) if lang_sims else 0.0
+        
+        # 5. Low-resource language performance
+        # Identify languages with smallest training data or lowest baseline
+        # For TyDiQA, low-resource: sw, te, bn (compared to en)
+        low_resource_langs = ['sw', 'te', 'bn']
+        low_resource_results = [r for r in results if r['language'] in low_resource_langs]
+        low_resource_score = float(np.mean([r['semantic_similarity'] for r in low_resource_results])) if low_resource_results else 0.0
+        
+        # 6. High-resource language performance (for comparison)
+        high_resource_langs = ['en', 'ar', 'ru']
+        high_resource_results = [r for r in results if r['language'] in high_resource_langs]
+        high_resource_score = float(np.mean([r['semantic_similarity'] for r in high_resource_results])) if high_resource_results else 0.0
+        
+        # 7. Transfer gap (difference between high and low resource)
+        transfer_gap = high_resource_score - low_resource_score
+        
+        return {
+            'by_language': language_metrics,
+            'overall': overall,
+            'cross_lingual_gap': cross_lingual_gap,
+            'cross_lingual_std': cross_lingual_std,
+            'cross_lingual_cv': cross_lingual_cv,
+            'multilingual_score': multilingual_score,
+            'low_resource_score': low_resource_score,
+            'high_resource_score': high_resource_score,
+            'transfer_gap': transfer_gap
+        }
+

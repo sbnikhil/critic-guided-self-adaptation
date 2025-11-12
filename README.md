@@ -1,6 +1,5 @@
 # Critic-Guided Self-Adaptation for Multilingual Continual Learning
 
-## 1 Project Overview
 
 Multilingual question answering has advanced with larger models and broader supervision, yet practical adaptation still struggles to balance diversity and faithfulness. When we fine-tune on a mixture of languages, the model often learns phrasing and style that are too close to the training distribution and fails to generalize to new wording or domains. Attempts to inject variety through back-translation, paraphrasing, or format changes tend to help only when the edits remain faithful to the original meaning. Without clear control on faithfulness, edited data can drift away from the actual answer, which reduces exact-match accuracy and introduces unexpected gaps across languages. This tension between diversity and fidelity motivates our study.
 

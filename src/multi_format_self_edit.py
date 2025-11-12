@@ -1,7 +1,20 @@
-from typing import Dict, List
+"""
+Multi-Format Synthetic Data Generator (SEAL-Style)
+
+Transforms passages into synthetic training data using 4 formats:
+1. Implications - List of facts/inferences from passage
+2. Rewrite - Paraphrase passage in different wording
+3. Self-QA - Generate question-answer pairs from passage
+4. Chain-of-thought - Step-by-step reasoning about passage
+
+SEAL Approach: context → transformation (NO Q&A needed)
+"""
+
+from typing import Dict, List, Optional
 import numpy as np
-from sentence_transformers import SentenceTransformer
+import re
 import torch
+from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 try:
@@ -9,297 +22,354 @@ try:
 except ImportError:
     from constants import LANGUAGE_NAMES, EMBEDDING_MODEL
 
+# Use Qwen2.5-7B (same as SEAL)
+DEFAULT_MODEL = "Qwen/Qwen2.5-7B"
+
 
 class MultiFormatSelfEditGenerator:
+    """
+    Generate synthetic training data from passages (SEAL approach).
+    
+    Input: Passage/context
+    Output: Transformed version in one of 4 formats
+    
+    No Q&A required - purely context-based transformation.
+    """
 
     GENERATION_FORMATS = {
-        "implications": "List of implications derived from the passage",
-        "rewrite": "Complete rewrite in different wording",
-        "self_qa": "New question-answer pairs from the passage",
-        "chain_of_thought": "Think step-by-step then list implications"
+        "implications": "List of implications derived from passage",
+        "rewrite": "Rewrite passage in different wording",
+        "self_qa": "Question-answer pairs from passage",
+        "chain_of_thought": "Step-by-step reasoning + implications"
     }
+
 
     def __init__(
         self,
-        model_name: str = "Qwen/Qwen2.5-1.5B-Instruct",
-        device: str = None
+        model_name: str = DEFAULT_MODEL,
+        device: Optional[str] = None,
+        load_model: bool = True
     ):
-        print(f"Loading model: {model_name}...")
+        """
+        Initialize the generator.
         
-        # Auto-detect device
-        if device is None:
-            self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        else:
-            self.device = device
+        Args:
+            model_name: HuggingFace model to use (default: Qwen2.5-7B)
+            device: 'cuda' or 'cpu' (auto-detected if None)
+            load_model: Whether to load model (set False for testing)
+        """
+        self.model_name = model_name
+        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+        self.tokenizer = None
+        self.model = None
         
-        print(f"Using device: {self.device}")
-        
-        # Load tokenizer and model
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-            device_map="auto" if self.device == "cuda" else None
-        )
-        
-        if self.device == "cpu":
-            self.model = self.model.to(self.device)
-        
-        print("Model loaded successfully!")
-        self.semantic_model = SentenceTransformer(EMBEDDING_MODEL)
-    
-    def _call_ollama(self, prompt: str, temperature: float = 0.7, **kwargs) -> str:
+        # Load semantic similarity model for drift measurement
         try:
+            self.semantic_model = SentenceTransformer(EMBEDDING_MODEL)
+            if self.device == "cuda":
+                self.semantic_model = self.semantic_model.to(self.device)
+        except Exception:
+            self.semantic_model = None
+
+        # Load generation model
+        if load_model:
+            try:
+                self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    self.model_name, 
+                    torch_dtype=(torch.float16 if self.device == "cuda" else torch.float32),
+                    device_map="auto" if self.device == "cuda" else None
+                )
+                if self.device == "cpu":
+                    self.model = self.model.to(self.device)
+            except Exception as e:
+                print(f"Warning: Failed to load {self.model_name}: {e}")
+                self.tokenizer = None
+                self.model = None
+
+
+    def _generate_text(self, prompt: str, temperature: float = 0.7, max_new_tokens: int = 150) -> str:
+        """Generate text from prompt using loaded model."""
+        if self.model is None or self.tokenizer is None:
+            return ""  # Model not loaded
+
+        try:
+            # Qwen uses ChatML format
             messages = [{"role": "user", "content": prompt}]
-            inputs = self.tokenizer.apply_chat_template(
+            
+            # Apply chat template
+            text = self.tokenizer.apply_chat_template(
                 messages,
-                add_generation_prompt=True,
-                tokenize=True,
-                return_dict=True,
-                return_tensors="pt",
-            ).to(self.model.device)
-            # Only allow supported generation arguments
-            allowed_args = [
-                "max_new_tokens", "temperature", "top_p", "do_sample",
-                "no_repeat_ngram_size", "repetition_penalty", "pad_token_id", "eos_token_id"
-            ]
-            gen_args = {
-                "max_new_tokens": 512,
-                "temperature": temperature,
-                "do_sample": True,
-                "top_p": 0.9,
-                "pad_token_id": int(self.tokenizer.eos_token_id) if self.tokenizer.eos_token_id is not None else None
-            }
-            for k in allowed_args:
-                if k in kwargs and kwargs[k] is not None:
-                    gen_args[k] = int(kwargs[k]) if k.endswith("_token_id") else kwargs[k]
+                tokenize=False,
+                add_generation_prompt=True
+            )
+            
+            # Tokenize
+            inputs = self.tokenizer([text], return_tensors="pt")
+            inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
+
+            # Generate with better parameters for Qwen
             with torch.no_grad():
-                if "attention_mask" in inputs:
-                    outputs = self.model.generate(
-                        input_ids=inputs["input_ids"],
-                        attention_mask=inputs["attention_mask"],
-                        **gen_args
-                    )
-                else:
-                    outputs = self.model.generate(
-                        input_ids=inputs["input_ids"],
-                        **gen_args
-                    )
+                outputs = self.model.generate(
+                    **inputs,
+                    max_new_tokens=max_new_tokens,
+                    temperature=temperature,
+                    do_sample=(temperature > 0.0),
+                    top_p=0.95,  # Nucleus sampling
+                    top_k=50,    # Top-k sampling
+                    repetition_penalty=1.1,
+                    pad_token_id=self.tokenizer.pad_token_id or self.tokenizer.eos_token_id,
+                    eos_token_id=self.tokenizer.eos_token_id
+                )
+
+            # Decode (skip input tokens)
             generated_text = self.tokenizer.decode(
-                outputs[0][inputs["input_ids"].shape[-1]:],
+                outputs[0][inputs["input_ids"].shape[-1]:], 
                 skip_special_tokens=True
             )
-            return generated_text.strip()
+            
+            # Clean up common artifacts
+            generated_text = generated_text.strip()
+            
+            # Remove common Qwen artifacts
+            if generated_text.startswith("assistant\n"):
+                generated_text = generated_text[len("assistant\n"):].strip()
+            
+            return generated_text
+            
         except Exception as e:
             print(f"Generation error: {e}")
             return ""
+
+
+    # ========== Format-Specific Generators ==========
     
-    def _generate_implications(self, context: str, language: str, length: str = "normal") -> str:
-        
+    def _generate_implications(self, context: str, language: str) -> str:
+        """Generate list of implications from passage (SEAL format)."""
         lang_name = LANGUAGE_NAMES.get(language, language)
         
-        if length == "long":
-            instruction = "produce a long list of implications"
-        elif length == "very_long":
-            instruction = "produce a very long list of implications"
-        else:
-            instruction = "produce a list of implications"
-        
-        prompt = f"""Let's read the following passage and {instruction} derived directly or indirectly from the content.
+        prompt = f"""Extract factual implications from this passage. Only list facts that are directly stated or clearly implied. Do not add external information.
 
-Passage:
-{context}
+Passage: {context}
 
-Write in {lang_name} only.
+List 3-5 implications in this format:
+1. [implication from passage]
+2. [implication from passage]
+3. [implication from passage]
 
-Implications:
-"""
-        
-        return self._call_ollama(prompt, temperature=0.8)
-    
-    def _generate_chain_of_thought(self, context: str, language: str) -> str:
-        
-        lang_name = LANGUAGE_NAMES.get(language, language)
-        
-        prompt = f"""Let's read the following passage, think step by step, and then produce a list of implications derived directly or indirectly from the content.
+Language: {lang_name}
+Implications:"""
+        return self._generate_text(prompt, temperature=0.3, max_new_tokens=300)
 
-Passage:
-{context}
-
-First generate a "Thought Process" and then "Implications". Write in {lang_name} only.
-
-Thought Process:
-"""
-        
-        return self._call_ollama(prompt, temperature=0.8)
-    
     def _generate_rewrite(self, context: str, language: str) -> str:
-        
+        """Rewrite passage in different wording (SEAL format)."""
         lang_name = LANGUAGE_NAMES.get(language, language)
         
-        prompt = f"""Let's read the following passage and rewrite it in a few different ways, each one separated by a newline.
-
-Passage:
-{context}
-
-Write in {lang_name} only.
-
-Rewritten passages:
-"""
+        # Adaptive token limit based on input length
+        context_tokens = len(context.split())
+        max_tokens = min(max(context_tokens * 2, 200), 600)
         
-        return self._call_ollama(prompt, temperature=0.9)
-    
-    def _generate_self_qa(self, context: str, question: str, answer: str, language: str) -> str:
-        import re
+        prompt = f"""Rewrite this passage using different words while keeping the exact same meaning. Do not add new information. Do not remove important details.
+
+Original Passage: {context}
+
+Rewritten Version (in {lang_name}):"""
+        return self._generate_text(prompt, temperature=0.5, max_new_tokens=max_tokens)
+
+    def _generate_self_qa(self, context: str, language: str) -> str:
+        """Generate Q&A pairs from passage (SEAL format)."""
         lang_name = LANGUAGE_NAMES.get(language, language)
-        # Tight prompt with rules and few-shot examples
-        prompt = (
-            "TASK: Paraphrase the question minimally, keeping the same intent and answer type.\n"
-            "HARD RULES:\n"
-            "- Keep the same wh-word and attribute (Who/When/Where/How many/etc.).\n"
-            "- Do NOT change the topic or attribute (e.g., don’t switch 'When'→'What').\n"
-            "- The original answer must still be correct for the new question.\n"
-            "- Output EXACTLY:\n"
-            "  Question: <one line>\n"
-            "  Answer: <verbatim original answer>\n"
-            "\n"
-            "Good Example:\n"
-            "Original: When was quantum field theory developed?\n"
-            "Paraphrase: In which decade was quantum field theory developed?\n"
-            "Answer: 1920s\n"
-            "Bad Example:\n"
-            "Original: When was quantum field theory developed?\n"
-            "Paraphrase: What is quantum field theory?\n"
-            "Answer: 1920s\n"
-            "\n"
-            f"Context: {context[:500]}\n"
-            f"Original Question: {question}\n"
-            f"Original Answer: {answer}\n"
-            "\nQuestion:"
-        )
+        
+        prompt = f"""Read this passage and create 3-5 question-answer pairs. All questions MUST be answerable from the passage. Do not ask questions requiring outside knowledge.
 
-        decoding_args = dict(
-            temperature=0.3,
-            top_p=0.9,
-            max_new_tokens=48,
-            no_repeat_ngram_size=3,
-            repetition_penalty=1.1,
-            do_sample=True,
-            eos_token_id=self.tokenizer.eos_token_id
-        )
+Passage: {context}
 
-        def same_wh(oq, nq):
-            WH = ["who","when","where","why","how","which","what","how many","how much"]
-            def head(q):
-                q = q.lower().strip()
-                if q.startswith("how many"): return "how many"
-                if q.startswith("how much"): return "how much"
-                for w in WH:
-                    if q.startswith(w): return w
-                if re.match(r"(in|during)\s+which\s+year|which decade|in what year", q): return "when"
-                if re.match(r"which person|which author|name the", q): return "who"
-                return None
-            return head(oq) == head(nq)
+Generate questions in this exact format:
+Q1: [question]
+A1: [answer from passage]
+Q2: [question]
+A2: [answer from passage]
 
-        def extract_keywords(q):
-            tokens = re.findall(r"\b\w+\b", q.lower())
-            stopwords = set(["the","a","an","of","in","on","at","for","to","by","with","and","or","is","was","were","are","as","from","that","this","which","who","when","where","why","how","what"])
-            return [t for t in tokens if t not in stopwords and (t.isdigit() or len(t) > 2)]
+Language: {lang_name}
+Questions:"""
+        return self._generate_text(prompt, temperature=0.5, max_new_tokens=400)
 
-        def content_overlap_ok(oq, nq):
-            KEYS = extract_keywords(oq)
-            return sum(k in nq.lower() for k in KEYS) >= max(1, round(len(KEYS)*0.4))
+    def _generate_chain_of_thought(self, context: str, language: str) -> str:
+        """Generate step-by-step reasoning about passage (SEAL format)."""
+        lang_name = LANGUAGE_NAMES.get(language, language)
+        
+        prompt = f"""Analyze this passage step-by-step using ONLY information from the passage itself.
 
-        def answer_ok(oa, na):
-            return oa.strip().lower() in na.strip().lower()
+Passage: {context}
 
-        def context_ok(nq, context):
-            return any(w in context.lower() for w in extract_keywords(nq))
+Provide your analysis in {lang_name} following this structure:
 
-        def valid_edit(oq, oa, nq, na, context, sim):
-            return (same_wh(oq, nq)
-                    and sim >= 0.90
-                    and content_overlap_ok(oq, nq)
-                    and answer_ok(oa, na)
-                    and context_ok(nq, context)
-                    and len(nq.split()) <= 20
-                    and not nq.lower().startswith(("what is", "who awards", "what are the components")))
+Step 1: [What is the main topic discussed in this passage?]
+Step 2: [What are the key facts mentioned?]
+Step 3: [What relationships or connections exist between these facts?]
+Summary: [Summarize the passage in 1-2 sentences]
 
-        best_candidate = None
-        for attempt in range(3):
-            generated_text = self._call_ollama(prompt, **decoding_args)
-            match = re.search(r"Question:\s*(.+)\s*Answer:\s*(.+)", generated_text, re.DOTALL)
-            if match:
-                new_q = match.group(1).strip()
-                new_a = match.group(2).strip()
-            else:
-                new_q = generated_text.strip().split("\n")[0]
-                new_a = answer
-            drift_metrics = self._measure_drift(question, new_q)
-            drift_score = drift_metrics["overall_drift"]
-            semantic_similarity = drift_metrics["semantic_similarity"]
-            if valid_edit(question, answer, new_q, new_a, context, semantic_similarity):
-                best_candidate = f"Question: {new_q}\nAnswer: {new_a}"
-                break
-        if not best_candidate:
-            wh = same_wh(question, question) and question.split()[0] or "What"
-            subj = " ".join(extract_keywords(question))
-            fallback_q = f"{wh.capitalize()} {subj}?"
-            best_candidate = f"Question: {fallback_q}\nAnswer: {answer}"
-        return best_candidate
+Your analysis:"""
+        return self._generate_text(prompt, temperature=0.4, max_new_tokens=350)
+
+
+    # ========== Quality Validation ==========
     
-    def _measure_drift(self, original_text: str, generated_text: str) -> Dict[str, float]:
+    def _measure_drift(self, original: str, generated: str) -> Dict[str, float]:
+        """Measure semantic similarity between original and generated text."""
+        if not generated or not original or self.semantic_model is None:
+            return {"overall_drift": 0.0, "semantic_similarity": 1.0}
         
-        if not generated_text or not original_text:
-            return {
-                "overall_drift": 0.0,
-                "semantic_similarity": 1.0
-            }
-        
-        embeddings = self.semantic_model.encode([original_text, generated_text])
-        
+        embeddings = self.semantic_model.encode([original, generated])
         similarity = np.dot(embeddings[0], embeddings[1]) / (
             np.linalg.norm(embeddings[0]) * np.linalg.norm(embeddings[1])
         )
         
-        drift = 1.0 - similarity
-        
         return {
-            "overall_drift": float(drift),
+            "overall_drift": float(1.0 - similarity),
             "semantic_similarity": float(similarity)
         }
     
-    def generate_edit(self, context: str, question: str, answer: str, language: str, format_type: str = "self_qa") -> Dict:
-        if format_type != "self_qa":
-            raise ValueError("Only self_qa format allowed for QA-only edits.")
-        generated = self._generate_self_qa(context, question, answer, language)
-        # Parse output
-        import re
-        match = re.search(r"Question:\s*(.+)\s*Answer:\s*(.+)", generated, re.DOTALL)
-        if match:
-            new_q = match.group(1).strip()
-            new_a = match.group(2).strip()
+    def _validate_edit(self, context: str, generated: str, format_type: str) -> tuple[bool, str]:
+        """
+        Validate generated edit quality.
+        
+        Checks:
+        1. Minimum length
+        2. Not cut-off
+        3. Semantic similarity (0.4-0.98 range)
+        4. Format-specific structure
+        5. No hallucinated dates/facts
+        6. No garbage from web scraping
+        """
+        # 1. Length check - increased minimum
+        if len(generated.split()) < 20:
+            return False, "Too short (< 20 words)"
+        
+        # 2. Cut-off check
+        if generated.endswith(('...', 'dipl', 'impl', 'quest')):
+            return False, "Text appears cut off"
+        
+        # 3. Garbage detection - catch Stack Exchange, homework sites, etc.
+        garbage_markers = [
+            '##', '###', '####',  # Markdown headers
+            'Expert Answer', 'Question #', 'Hint:', 'Solution:',
+            'This question has been deleted',
+            'Not exactly what you\'re looking for',
+            'Relevant Questions',
+            '• @',  # User mentions (removed standalone '@' - too broad)
+            'has been taken',
+            'excerpt from a book',
+            'Write a function',  # Code generation artifacts
+            'def convert_to',  # Python code
+            'Write an article based on this summary',  # Wrong task
+            'You are a helpful assistant',  # Model meta-response
+            'User\n\nAssistant:',  # Chat format leak
+            'Here is an example of how you can'  # Meta-instructions
+        ]
+        
+        gen_lower = generated.lower()
+        for marker in garbage_markers:
+            if marker.lower() in gen_lower:
+                return False, f"Contains garbage marker: '{marker}'"
+        
+        # 4. Similarity check
+        metrics = self._measure_drift(context, generated)
+        similarity = metrics["semantic_similarity"]
+        
+        if similarity < 0.4:
+            return False, f"Low similarity: {similarity:.2f} (likely hallucination)"
+        if similarity > 0.98:
+            return False, f"Too similar: {similarity:.2f} (likely copy)"
+        
+        # 5. Format-specific checks
+        if format_type == "self_qa" and not any(m in generated.lower() for m in ['q1:', 'q2:', '?', 'question']):
+            return False, "No questions found"
+        
+        if format_type == "chain_of_thought" and not any(m in generated.lower() for m in ['step', '1.', '2.']):
+            return False, "No structured reasoning"
+        
+        if format_type == "implications" and not any(m in generated for m in ['1.', '2.', '-', '•']):
+            return False, "No list structure"
+        
+        # 6. Hallucination check (dates)
+        context_years = set(re.findall(r'\b(19|20)\d{2}\b', context))
+        gen_years = set(re.findall(r'\b(19|20)\d{2}\b', generated))
+        new_years = gen_years - context_years
+        
+        if len(new_years) > 2:
+            return False, f"Hallucinated dates: {new_years}"
+        
+        return True, "Valid"
+
+
+    # ========== Public API ==========
+
+    def generate_edit(self, context: str, language: str, format_type: str = "implications") -> Dict:
+        """
+        Generate synthetic data from context (SEAL-style).
+        
+        Args:
+            context: Passage to transform
+            language: Language code ('en', 'ar', 'bn', etc.)
+            format_type: One of ['implications', 'rewrite', 'self_qa', 'chain_of_thought']
+        
+        Returns:
+            Dict with:
+                - original_context: Input passage
+                - generated_text: Synthetic transformation
+                - format_type: Format used
+                - language: Language code
+                - drift_score: Semantic drift (0-1, lower = more similar)
+                - semantic_similarity: Similarity (0-1, higher = more similar)
+                - is_valid: Whether edit passed quality checks
+                - validation_message: Quality check details
+        """
+        if format_type not in self.GENERATION_FORMATS:
+            raise ValueError(f"Invalid format: {format_type}. Choose from {list(self.GENERATION_FORMATS.keys())}")
+        
+        # Generate based on format type
+        if format_type == "implications":
+            generated = self._generate_implications(context, language)
+        elif format_type == "rewrite":
+            generated = self._generate_rewrite(context, language)
+        elif format_type == "self_qa":
+            generated = self._generate_self_qa(context, language)
+        elif format_type == "chain_of_thought":
+            generated = self._generate_chain_of_thought(context, language)
         else:
-            new_q = generated.strip().split("\n")[0]
-            new_a = answer
-        drift_metrics = self._measure_drift(question, new_q)
+            generated = ""
+        
+        # Validate
+        is_valid, validation_msg = self._validate_edit(context, generated, format_type)
+        
+        # Measure drift
+        metrics = self._measure_drift(context, generated)
+        
         return {
             "original_context": context,
-            "original_question": question,
-            "original_answer": answer,
             "generated_text": generated,
             "format_type": format_type,
             "language": language,
-            "drift_score": drift_metrics["overall_drift"],
-            "semantic_similarity": drift_metrics["semantic_similarity"],
-            "approach": "multi_format"
+            "drift_score": metrics["overall_drift"],
+            "semantic_similarity": metrics["semantic_similarity"],
+            "is_valid": is_valid,
+            "validation_message": validation_msg
         }
-    
-    def generate_all_formats(self, context: str, question: str, answer: str, language: str) -> List[Dict]:
+
+    def generate_all_formats(self, context: str, language: str) -> List[Dict]:
+        """
+        Generate all 4 format types from a single context.
         
+        Args:
+            context: Passage to transform
+            language: Language code
+        
+        Returns:
+            List of 4 dicts (one per format)
+        """
         results = []
         for format_type in self.GENERATION_FORMATS.keys():
-            result = self.generate_edit(context, question, answer, language, format_type)
+            result = self.generate_edit(context, language, format_type)
             results.append(result)
-        
         return results

@@ -40,6 +40,22 @@ def main():
         help='Input folder with edits (e.g., results/multi_format_qa or results/multi_format_all)'
     )
     parser.add_argument(
+        '--output-folder',
+        type=str,
+        help='Output folder for best edits (default: results/best_edits/<input_folder_name>)'
+    )
+    parser.add_argument(
+        '--max-samples',
+        type=int,
+        help='Maximum number of samples to process per language (for testing)'
+    )
+    parser.add_argument(
+        '--min-score',
+        type=float,
+        default=6.0,
+        help='Minimum critic score to approve an edit (default: 6.0)'
+    )
+    parser.add_argument(
         '--api-key',
         type=str,
         help='Google API key for Gemini (or set GOOGLE_API_KEY env var)'
@@ -69,8 +85,12 @@ def main():
     
     print(f"Found edits for {len(edits_by_language)} languages")
     
-    folder_name = input_folder.name
-    output_folder = Path("results/best_edits") / folder_name
+    # Determine output folder
+    if args.output_folder:
+        output_folder = Path(args.output_folder)
+    else:
+        folder_name = input_folder.name
+        output_folder = Path("results/best_edits") / folder_name
     output_folder.mkdir(parents=True, exist_ok=True)
     
     print(f"Output folder: {output_folder}")
@@ -80,7 +100,7 @@ def main():
         'timestamp': datetime.now().isoformat(),
         'input_folder': str(input_folder),
         'languages_processed': 0,
-        'total_qa_pairs': 0,
+        'total_contexts': 0,
         'total_edits_evaluated': 0,
         'approved_rate': 0.0,
         'average_score': 0.0,
@@ -89,8 +109,13 @@ def main():
     
     for lang, qa_groups in edits_by_language.items():
         print(f"\n{'='*60}")
-        print(f"Processing {lang.upper()}: {len(qa_groups)} QA pairs")
+        print(f"Processing {lang.upper()}: {len(qa_groups)} contexts")
         print(f"{'='*60}")
+        
+        # Apply max_samples limit if specified
+        if args.max_samples and len(qa_groups) > args.max_samples:
+            print(f"Limiting to {args.max_samples} samples (from {len(qa_groups)})")
+            qa_groups = qa_groups[:args.max_samples]
         
         best_edits = []
         approved_count = 0
@@ -98,7 +123,7 @@ def main():
         total_edits = 0
         
         batch_size = 2
-        print(f"Evaluating {lang} in batches of {batch_size} QA pairs")
+        print(f"Evaluating {lang} in batches of {batch_size} contexts")
         
         for batch_start in range(0, len(qa_groups), batch_size):
             batch_end = min(batch_start + batch_size, len(qa_groups))
@@ -108,7 +133,7 @@ def main():
                 time.sleep(6.5)
             
             print(f"  Batch {batch_start//batch_size + 1}: QA {batch_start+1}-{batch_end}")
-            batch_results = critic.evaluate_language_batch(batch_qa)
+            batch_results = critic.evaluate_language_batch(batch_qa, min_score_threshold=args.min_score)
 
             for i, (qa_group, br) in enumerate(zip(batch_qa, batch_results)):
                 selected_idx = int(br.get('selected_index', -1))
@@ -142,8 +167,6 @@ def main():
                     'article_id': qa_group.get('article_id', 0),
                     'language': lang,
                     'context': qa_group.get('context', ''),
-                    'original_question': qa_group.get('original_question', ''),
-                    'original_answer': qa_group.get('original_answer', ''),
                     'best_edit': best_edit,
                     'best_edit_number': best_edit_number,
                     'critic_approved': approved,
@@ -169,8 +192,7 @@ def main():
             for be in best_edits:
                 lf.write("----\n")
                 lf.write(f"Article ID: {be.get('article_id')}\n")
-                lf.write(f"Original Q: {be.get('original_question')}\n")
-                lf.write(f"Original A: {be.get('original_answer')}\n\n")
+                lf.write(f"Context (first 100 chars): {be.get('context', '')[:100]}...\n\n")
                 lf.write(f"Best edit number: {be.get('best_edit_number')}\n")
                 lf.write(f"Critic approved: {be.get('critic_approved')}\n")
                 lf.write(f"Critic score: {be.get('critic_score')}\n")
@@ -187,7 +209,7 @@ def main():
                 lf.write("\n")
         
         print(f"\nResults for {lang.upper()}:")
-        print(f"  QA pairs: {len(best_edits)}")
+        print(f"  Contexts: {len(best_edits)}")
         print(f"  Approved: {approved_count} ({approved_count/len(best_edits)*100:.1f}%)")
         print(f"  Average score: {sum(scores)/len(scores):.2f}")
         print(f"  Total edits evaluated: {total_edits}")
@@ -196,13 +218,13 @@ def main():
         all_best_edits[lang] = best_edits
         
         summary_stats['per_language'][lang] = {
-            'qa_pairs': len(best_edits),
+            'contexts': len(best_edits),
             'approved': approved_count,
             'approval_rate': approved_count / len(best_edits),
             'average_score': sum(scores) / len(scores),
             'total_edits_evaluated': total_edits
         }
-        summary_stats['total_qa_pairs'] += len(best_edits)
+        summary_stats['total_contexts'] += len(best_edits)
         summary_stats['total_edits_evaluated'] += total_edits
     
     summary_stats['languages_processed'] = len(edits_by_language)
@@ -210,7 +232,7 @@ def main():
     all_approvals = [s['approved'] for s in summary_stats['per_language'].values()]
     
     summary_stats['average_score'] = sum(all_scores) / len(all_scores) if all_scores else 0.0
-    summary_stats['approved_rate'] = sum(all_approvals) / summary_stats['total_qa_pairs']
+    summary_stats['approved_rate'] = sum(all_approvals) / summary_stats['total_contexts']
     
     summary_file = output_folder / "summary.json"
     with open(summary_file, 'w', encoding='utf-8') as f:
@@ -220,7 +242,7 @@ def main():
     print("OVERALL SUMMARY")
     print(f"{'='*60}")
     print(f"Languages: {summary_stats['languages_processed']}")
-    print(f"Total QA pairs: {summary_stats['total_qa_pairs']}")
+    print(f"Total contexts: {summary_stats['total_contexts']}")
     print(f"Total edits evaluated: {summary_stats['total_edits_evaluated']}")
     print(f"Overall approval rate: {summary_stats['approved_rate']*100:.1f}%")
     print(f"Average score: {summary_stats['average_score']:.2f}")

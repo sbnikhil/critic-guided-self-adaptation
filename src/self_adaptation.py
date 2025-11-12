@@ -65,7 +65,7 @@ class Config:
     """Pipeline configuration"""
     
     # Model settings
-    MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
+    MODEL_NAME = "Qwen/Qwen2.5-7B"
     
     # LoRA settings
     LORA_R = 16
@@ -99,8 +99,8 @@ class Config:
     RANDOM_SEED = 42
     
     # Critic settings
-    CRITIC_BATCH_SIZE = 2
-    CRITIC_DELAY_SECONDS = 6.5
+    CRITIC_BATCH_SIZE = 5
+    CRITIC_DELAY_SECONDS = 4
 
 
 # ========== Helper Functions ==========
@@ -193,31 +193,67 @@ class DataManager:
         data_by_language: Dict[str, List[Dict]]
     ) -> Tuple[Dict[str, List[Dict]], Dict[str, List[Dict]]]:
         """
-        Split data into training and validation sets.
-        
+        Split data into training and validation sets using stratified sampling.
+
         Args:
             data_by_language: Dict mapping language to articles
-            
+
         Returns:
             Tuple of (train_data, val_data)
         """
         train_data = {}
         val_data = {}
-        
+
         for lang, articles in data_by_language.items():
+            # Shuffle articles to ensure randomness
+            random.shuffle(articles)
+
             # Use 70% for training, 30% for validation
-            # Ensure at least 1 sample for training if we have any data
-            split_idx = max(1, int(len(articles) * 0.7))
-            
-            # If we only have 1 sample, use it for both train and val
-            if len(articles) == 1:
-                train_data[lang] = articles
-                val_data[lang] = articles
-            else:
-                train_data[lang] = articles[:split_idx]
-                val_data[lang] = articles[split_idx:]
-        
+            # Ensure at least one validation sample when possible
+            split_idx = int(len(articles) * 0.7)
+            if split_idx < 1 and len(articles) > 1:
+                split_idx = max(1, len(articles) - 1)
+            split_idx = max(1, split_idx)
+
+            # Stratified sampling ensures the distribution of languages is preserved
+            train_data[lang] = articles[:split_idx]
+            val_data[lang] = articles[split_idx:]
+
         return train_data, val_data
+    
+    def create_consistent_subset(self, data_by_language: Dict[str, List[Dict]], subset_size: int = 100) -> Dict[str, List[Dict]]:
+        """
+        Create a consistent subset of TyDiQA samples stratified by language.
+
+        Args:
+            data_by_language: Dict mapping language to articles
+            subset_size: Total number of samples in the subset
+
+        Returns:
+            A dictionary containing the consistent subset stratified by language
+        """
+        # Set a fixed random seed for reproducibility
+        random.seed(Config.RANDOM_SEED)
+
+        # Calculate the number of samples per language
+        total_languages = len(data_by_language)
+        samples_per_language = max(1, subset_size // total_languages)
+
+        subset = {}
+
+        for lang, articles in data_by_language.items():
+            # Shuffle articles to ensure randomness
+            random.shuffle(articles)
+
+            # Select the required number of samples per language
+            subset[lang] = articles[:samples_per_language]
+
+        # Save the subset to a JSON file for reuse
+        subset_file = Config.RESULTS_DIR / "tydiqa_subset.json"
+        save_json(subset, subset_file)
+        print(f"Saved consistent subset to {subset_file}")
+
+        return subset
 
 
 # ========== Self-Edit Generation ==========
@@ -537,13 +573,13 @@ class LoRAFineTuner:
         print(f"Model: {Config.MODEL_NAME}")
         
         # Load tokenizer and model
-        self.tokenizer = AutoTokenizer.from_pretrained(Config.MODEL_NAME)
+        self.tokenizer = AutoTokenizer.from_pretrained(Config.MODEL_NAME, use_auth_token=True)
         self.tokenizer.pad_token = self.tokenizer.eos_token
-        
         self.model = AutoModelForCausalLM.from_pretrained(
             Config.MODEL_NAME,
             torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-            device_map="auto" if self.device == "cuda" else None
+            device_map="auto" if self.device == "cuda" else None,
+            use_auth_token=True
         )
         
         if self.device == "cpu":
@@ -569,47 +605,46 @@ class LoRAFineTuner:
     ) -> List[Dict]:
         """
         Prepare training data from best edits (multi-task, shuffled).
-        
+
         Args:
             best_edits_by_language: Dict mapping language to best edits
-            
+
         Returns:
             List of training examples (shuffled across all languages)
         """
         training_examples = []
-        
+
         for lang, edits in best_edits_by_language.items():
             for edit in edits:
-                # Get context (original or self-edited)
-                if self.format_type == 'no_edits':
-                    context = edit['context'][:500]
-                else:
-                    best_edit = edit.get('best_edit')
-                    if best_edit and best_edit.get('generated_text'):
-                        # Use generated text as enriched/modified context
-                        # This allows implications, rewrites, chain-of-thought to enhance context
-                        context = best_edit['generated_text'][:500]
-                    else:
-                        # Fallback to original
-                        context = edit['context'][:500]
-                
+                # Always include the original context
+                original_context = edit['context'][:500]
+
+                # Use generated text as enriched/modified context if available
+                best_edit = edit.get('best_edit')
+                generated_context = best_edit['generated_text'][:500] if best_edit and best_edit.get('generated_text') else None
+
                 # Always use original QA (the answer should actually answer the question!)
                 question = edit['original_question']
                 answer = edit['original_answer']
-                
-                # Create training text
-                text = f"Context: {context}\nQuestion: {question}\nAnswer: {answer}"
-                
+
+                # Add original context example
                 training_examples.append({
-                    'text': text,
+                    'text': f"Context: {original_context}\nQuestion: {question}\nAnswer: {answer}",
                     'language': lang
                 })
-        
+
+                # Add generated context example if available
+                if generated_context:
+                    training_examples.append({
+                        'text': f"Context: {generated_context}\nQuestion: {question}\nAnswer: {answer}",
+                        'language': lang
+                    })
+
         # Shuffle to mix all languages
         random.shuffle(training_examples)
-        
+
         print(f"\nPrepared {len(training_examples)} training examples (shuffled across {len(best_edits_by_language)} languages)")
-        
+
         return training_examples
     
     def create_dataset(self, examples: List[Dict]) -> Dataset:

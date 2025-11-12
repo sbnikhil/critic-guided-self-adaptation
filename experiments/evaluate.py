@@ -59,54 +59,47 @@ class Evaluator:
             return
         
         print(f"Loaded {len(articles)} articles")
-        print(f"Generating {n_edits_per_qa} edits per QA pair...")
+        print(f"Generating {n_edits_per_qa} edits per context (SEAL-style)...")
         
         results = []
         drift_scores = []
         
         for i, article in enumerate(articles):
-            if not article['qa_pairs']:
-                continue
+            # SEAL approach: context → synthetic data (no Q&A needed)
             
-            qa = article['qa_pairs'][0]
-            
-            qa_edits = []
+            context_edits = []
             for edit_num in range(n_edits_per_qa):
                 if self.format_type:
+                    # Single format mode
                     result = self.generator.generate_edit(
                         context=article['context'],
-                        question=qa['question'],
-                        answer=qa['answer'],
                         language=language,
                         format_type=self.format_type
                     )
                 else:
+                    # Cycle through all 4 formats (SEAL-style)
                     all_formats = list(self.generator.GENERATION_FORMATS.keys())
                     format_idx = edit_num % len(all_formats)
                     result = self.generator.generate_edit(
                         context=article['context'],
-                        question=qa['question'],
-                        answer=qa['answer'],
                         language=language,
                         format_type=all_formats[format_idx]
                     )
                 
                 result['edit_number'] = edit_num + 1
-                qa_edits.append(result)
+                context_edits.append(result)
                 drift_scores.append(result['drift_score'])
             
-            # Store all edits for this QA
-            qa_result = {
+            # Store all edits for this context
+            context_result = {
                 'article_id': i,
                 'context': article['context'],
-                'original_question': qa['question'],
-                'original_answer': qa['answer'],
                 'language': language,
-                'edits': qa_edits,
-                'avg_drift': float(np.mean([e['drift_score'] for e in qa_edits])),
-                'std_drift': float(np.std([e['drift_score'] for e in qa_edits]))
+                'edits': context_edits,
+                'avg_drift': float(np.mean([e['drift_score'] for e in context_edits])),
+                'std_drift': float(np.std([e['drift_score'] for e in context_edits]))
             }
-            results.append(qa_result)
+            results.append(context_result)
             
             # Progress indicator
             if (i + 1) % 5 == 0:
@@ -121,9 +114,9 @@ class Evaluator:
             
             stats = {
                 "language": language,
-                "n_samples": len(results),  # Number of QA pairs
-                "n_edits_per_qa": n_edits_per_qa,
-                "total_edits": len(drift_scores),  # Total edits generated
+                "n_contexts": len(results),  # Number of contexts/passages
+                "n_edits_per_context": n_edits_per_qa,
+                "total_edits": len(drift_scores),  # Total synthetic edits generated
                 "avg_drift": float(avg_drift),
                 "std_drift": float(std_drift),
                 "min_drift": float(min_drift),
@@ -131,7 +124,7 @@ class Evaluator:
             }
             
             print(f"\nResults for {language.upper()}:")
-            print(f"  QA pairs: {len(results)}")
+            print(f"  Contexts: {len(results)}")
             print(f"  Total edits: {len(drift_scores)}")
             print(f"  Average drift: {avg_drift:.4f} ({avg_drift*100:.2f}%)")
             print(f"  Std dev: {std_drift:.4f}")
@@ -208,7 +201,7 @@ class Evaluator:
         
         summary = {
             "timestamp": datetime.now().isoformat(),
-            "total_qa_pairs": len(self.all_results),
+            "total_contexts": len(self.all_results),
             "total_edits": len(all_drifts),
             "languages": len(self.language_stats),
             "overall_drift": float(np.mean(all_drifts)) if all_drifts else 0.0,
