@@ -157,16 +157,18 @@ def prepare_training_data_by_format(edits_by_lang, min_quality_score=6.0):
             # Create format-specific training pair
             instruction = create_format_instruction(format_type, lang_name)
             
-            training_text = f"""<|begin_of_text|><|start_header_id|>user<|end_header_id|>
+            prompt_text = f"""<|begin_of_text|><|start_header_id|>user<|end_header_id|>
 
 {instruction}
 
 Passage: {context}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+"""
 
-{generated_text}<|eot_id|>"""
-            
+            assistant_text = f"""{generated_text}<|eot_id|>"""
+
             example = {
-                'text': training_text,
+                'prompt': prompt_text,
+                'assistant': assistant_text,
                 'language': lang,
                 'format': format_type,
                 'context_length': len(context.split()),
@@ -227,7 +229,11 @@ def main():
     print("(Following SEAL: using ALL best edits for training, no held-out validation)")
     print("(Evaluation will be on separate QA task WITHOUT context)")
 
-    train_examples = all_examples
+    # Optionally limit samples for quick smoke tests
+    if args.samples is not None:
+        train_examples = all_examples[: args.samples]
+    else:
+        train_examples = all_examples
     val_examples = []  # No validation split - SEAL doesn't use one
 
     # ========== Step 3: Initialize Model ==========
@@ -268,12 +274,57 @@ def main():
     print("="*80)
 
     def tokenize_function(examples):
-        return tokenizer(
-            examples['text'],
-            truncation=True,
-            max_length=MAX_LENGTH,
-            padding='max_length'
-        )
+        # examples is a batch dict with 'prompt' and 'assistant' lists
+        input_ids_batch = []
+        attention_mask_batch = []
+        labels_batch = []
+
+        prompts = examples['prompt']
+        assistants = examples['assistant']
+
+        for p, a in zip(prompts, assistants):
+            # tokenize without special addition so we control concatenation
+            p_ids = tokenizer(p, add_special_tokens=False)['input_ids']
+            a_ids = tokenizer(a, add_special_tokens=False)['input_ids']
+
+            # concatenate prompt + assistant
+            input_ids = p_ids + a_ids
+
+            # create labels: -100 for prompt tokens, actual ids for assistant tokens
+            labels = [-100] * len(p_ids) + a_ids.copy()
+
+            # If over max length, prefer to keep assistant tokens: truncate prompt from left
+            if len(input_ids) > MAX_LENGTH:
+                excess = len(input_ids) - MAX_LENGTH
+                if excess < len(p_ids):
+                    # remove from start of prompt
+                    p_ids = p_ids[excess:]
+                    input_ids = p_ids + a_ids
+                    labels = [-100] * len(p_ids) + a_ids.copy()
+                else:
+                    # prompt fully removed, still too long: truncate assistant on the right
+                    keep_assist = MAX_LENGTH
+                    a_ids = a_ids[:keep_assist]
+                    input_ids = a_ids
+                    labels = a_ids.copy()
+
+            # attention mask and padding
+            attention_mask = [1] * len(input_ids)
+            pad_len = MAX_LENGTH - len(input_ids)
+            if pad_len > 0:
+                input_ids = input_ids + [tokenizer.pad_token_id] * pad_len
+                labels = labels + [-100] * pad_len
+                attention_mask = attention_mask + [0] * pad_len
+
+            input_ids_batch.append(input_ids)
+            attention_mask_batch.append(attention_mask)
+            labels_batch.append(labels)
+
+        return {
+            'input_ids': input_ids_batch,
+            'attention_mask': attention_mask_batch,
+            'labels': labels_batch
+        }
 
     train_dataset = Dataset.from_list(train_examples)
     train_dataset = train_dataset.map(
