@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-05T11:57:19.804012",
+  "parameters": {
+    "max_per_article": 4,
+    "batch_size": 25,
+    "alpha": 2.0
+  },
+  "languages": {
+    "en": {
+      "articles": 82,
+      "total_edits_scored": 400,
+      "total_approved": 311,
+      "total_rejected": 89,
+      "total_edits_after_filtering": 156,
+      "avg_quality_score": 0.37538589039345227,
+      "avg_sampling_weight": 0.157723517533836,
+      "avg_critic_score_approved": 8.512820512820513,
+      "avg_critic_score_rejected": 0.25842696629213485
+    },
+    "fi": {
+      "articles": 68,
+      "total_edits_scored": 400,
+      "total_approved": 191,
+      "total_rejected": 209,
+      "total_edits_after_filtering": 113,
+      "avg_quality_score": 0.47680944327627084,
+      "avg_sampling_weight": 0.24006113639947294,
+      "avg_critic_score_approved": 7.238938053097345,
+      "avg_critic_score_rejected": 3.0574162679425836
+    },
+    "id": {
+      "articles": 78,
+      "total_edits_scored": 400,
+      "total_approved": 333,
+      "total_rejected": 67,
+      "total_edits_after_filtering": 167,
+      "avg_quality_score": 0.38148877978095125,
+      "avg_sampling_weight": 0.16519829702881253,
+      "avg_critic_score_approved": 8.431137724550899,
+      "avg_critic_score_rejected": 0.6567164179104478
+    },
+    "ru": {
+      "articles": 78,
+      "total_edits_scored": 400,
+      "total_approved": 307,
+      "total_rejected": 93,
+      "total_edits_after_filtering": 170,
+      "avg_quality_score": 0.5822699763814104,
+      "avg_sampling_weight": 0.3695756341778215,
+      "avg_critic_score_approved": 8.270588235294118,
+      "avg_critic_score_rejected": 1.5806451612903225
+    },
+    "sw": {
+      "articles": 34,
+      "total_edits_scored": 400,
+      "total_approved": 38,
+      "total_rejected": 362,
+      "total_edits_after_filtering": 38,
+      "avg_quality_score": 0.18326590312915245,
+      "avg_sampling_weight": 0.048514237382836146,
+      "avg_critic_score_approved": 6.552631578947368,
+      "avg_critic_score_rejected": 2.016574585635359
+    },
+    "te": {
+      "articles": 63,
+      "total_edits_scored": 400,
+      "total_approved": 160,
+      "total_rejected": 240,
+      "total_edits_after_filtering": 97,
+      "avg_quality_score": 0.5404356725788393,
+      "avg_sampling_weight": 0.3097279308893881,
+      "avg_critic_score_approved": 7.247422680412371,
+      "avg_critic_score_rejected": 2.120833333333333
+    }
+  }
+}

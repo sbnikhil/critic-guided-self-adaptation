@@ -1,0 +1,89 @@
+{
+  "model_path": "results/mlqa/sft_continual/checkpoints/final",
+  "split": "train",
+  "overall": {
+    "num_samples": 598,
+    "exact_match": 0.038461538461538464,
+    "span_f1": 0.12385700970915489,
+    "rouge_l": 0.12728984684465638,
+    "bleurt": 0.12728984684465638,
+    "llm_correctness": 2.219063545150502,
+    "llm_quality": 3.7842809364548495
+  },
+  "by_language": {
+    "en": {
+      "num_samples": 98,
+      "exact_match": 0.02040816326530612,
+      "span_f1": 0.14411939665299214,
+      "rouge_l": 0.14451585683274515,
+      "bleurt": 0.14451585683274515,
+      "llm_correctness": 2.86734693877551,
+      "llm_quality": 4.622448979591836
+    },
+    "ru": {
+      "num_samples": 100,
+      "exact_match": 0.0,
+      "span_f1": 0.11415140208948259,
+      "rouge_l": 0.11833333333333332,
+      "bleurt": 0.11833333333333332,
+      "llm_correctness": 2.25,
+      "llm_quality": 4.71
+    },
+    "fi": {
+      "num_samples": 100,
+      "exact_match": 0.03,
+      "span_f1": 0.09227913195784039,
+      "rouge_l": 0.10320765976854075,
+      "bleurt": 0.10320765976854075,
+      "llm_correctness": 1.93,
+      "llm_quality": 3.69
+    },
+    "id": {
+      "num_samples": 100,
+      "exact_match": 0.06,
+      "span_f1": 0.2031726190682771,
+      "rouge_l": 0.19967024907612085,
+      "bleurt": 0.19967024907612085,
+      "llm_correctness": 2.84,
+      "llm_quality": 4.43
+    },
+    "sw": {
+      "num_samples": 100,
+      "exact_match": 0.12,
+      "span_f1": 0.16006212996258762,
+      "rouge_l": 0.15668983559029326,
+      "bleurt": 0.15668983559029326,
+      "llm_correctness": 2.01,
+      "llm_quality": 3.11
+    },
+    "te": {
+      "num_samples": 100,
+      "exact_match": 0.0,
+      "span_f1": 0.029762626262626258,
+      "rouge_l": 0.04166666666666666,
+      "bleurt": 0.04166666666666666,
+      "llm_correctness": 1.43,
+      "llm_quality": 2.16
+    }
+  },
+  "cross_lingual": {
+    "disparity": 0.17340999280565084,
+    "group_gaps": {
+      "HIGH": 0.12913539937123736,
+      "MID": 0.14772587551305874,
+      "LOW": 0.09491237811260694,
+      "HIGH-MID": -0.018590476141821383,
+      "HIGH-LOW": 0.034223021258630415,
+      "MID-LOW": 0.0528134974004518
+    },
+    "xltr_scores": {
+      "en": 1.20214119502276,
+      "ru": 0.9068330551674125,
+      "fi": 0.7084572503058038,
+      "id": 1.8799235417949642,
+      "sw": 1.3716040829975065,
+      "te": 0.20848462504011175
+    },
+    "xltr_mean": 1.0462406250547598
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model_path": "results/mlqa/sft_continual/checkpoints/final",
+  "overall": {
+    "num_samples": 300,
+    "exact_match": 0.0,
+    "span_f1": 0.12327472766594468,
+    "rouge_l": 0.13399063712559736,
+    "bleurt": 0.13399063712559736,
+    "llm_correctness": 4.586666666666667,
+    "llm_quality": 4.34
+  },
+  "by_language": {
+    "en": {
+      "num_samples": 100,
+      "exact_match": 0.0,
+      "span_f1": 0.13622285230206654,
+      "rouge_l": 0.14123895017774063,
+      "bleurt": 0.14123895017774063,
+      "llm_correctness": 4.72,
+      "llm_quality": 4.05
+    },
+    "de": {
+      "num_samples": 100,
+      "exact_match": 0.0,
+      "span_f1": 0.09967150195934334,
+      "rouge_l": 0.10163525686549191,
+      "bleurt": 0.10163525686549191,
+      "llm_correctness": 4.53,
+      "llm_quality": 4.5
+    },
+    "vi": {
+      "num_samples": 100,
+      "exact_match": 0.0,
+      "span_f1": 0.13392982873642414,
+      "rouge_l": 0.15909770433355955,
+      "bleurt": 0.15909770433355955,
+      "llm_correctness": 4.51,
+      "llm_quality": 4.47
+    }
+  },
+  "cross_lingual": {
+    "disparity": 0.03655135034272321,
+    "group_gaps": {
+      "HIGH": 0.13622285230206654,
+      "MID": 0.09967150195934334,
+      "LOW": 0.13392982873642414,
+      "HIGH-MID": 0.03655135034272321,
+      "HIGH-LOW": 0.002293023565642399,
+      "MID-LOW": -0.03425832677708081
+    },
+    "xltr_scores": {
+      "en": 1.1662848999732578,
+      "de": 0.7378901558644343,
+      "vi": 1.1355068598887093
+    },
+    "xltr_mean": 1.0132273052421337
+  }
+}

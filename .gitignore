@@ -1,0 +1,9 @@
+# Results & checkpoints
+*.safetensors
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store

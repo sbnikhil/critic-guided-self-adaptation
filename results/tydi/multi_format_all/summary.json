@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-12-05T07:57:46.992782",
+  "total_contexts": 600,
+  "total_edits": 2400,
+  "languages": 6,
+  "overall_drift": 0.27589509934186934,
+  "language_stats": {
+    "en": {
+      "language": "en",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.2292606221139431,
+      "std_drift": 0.1116994705310472,
+      "min_drift": 0.029737651348114014,
+      "max_drift": 0.6221189498901367
+    },
+    "fi": {
+      "language": "fi",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.3084174509346485,
+      "std_drift": 0.1898824153742867,
+      "min_drift": 0.00013744831085205078,
+      "max_drift": 1.1294790506362915
+    },
+    "id": {
+      "language": "id",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.23581210240721703,
+      "std_drift": 0.13558126463057849,
+      "min_drift": 0.013837099075317383,
+      "max_drift": 0.7688121199607849
+    },
+    "ru": {
+      "language": "ru",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.2616505841910839,
+      "std_drift": 0.16228456192547486,
+      "min_drift": 0.015283703804016113,
+      "max_drift": 1.017374873161316
+    },
+    "sw": {
+      "language": "sw",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.37365464702248574,
+      "std_drift": 0.21041479461720833,
+      "min_drift": 0.030231595039367676,
+      "max_drift": 0.9870436787605286
+    },
+    "te": {
+      "language": "te",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.24657518938183784,
+      "std_drift": 0.16094097000882626,
+      "min_drift": 0.008978724479675293,
+      "max_drift": 0.8313243389129639
+    }
+  }
+}
