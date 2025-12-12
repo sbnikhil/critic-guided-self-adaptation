@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-12-09T02:52:46.140722",
+  "total_contexts": 600,
+  "total_edits": 2400,
+  "languages": 6,
+  "overall_drift": 0.26049305332203704,
+  "language_stats": {
+    "en": {
+      "language": "en",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.2378570419549942,
+      "std_drift": 0.10223336333729398,
+      "min_drift": 0.05353367328643799,
+      "max_drift": 0.7106047868728638
+    },
+    "ru": {
+      "language": "ru",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.24058098688721657,
+      "std_drift": 0.15138486862502357,
+      "min_drift": 0.02432560920715332,
+      "max_drift": 1.2009238004684448
+    },
+    "ar": {
+      "language": "ar",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.3258274321258068,
+      "std_drift": 0.19468317050887174,
+      "min_drift": 0.026180148124694824,
+      "max_drift": 0.9892519116401672
+    },
+    "hi": {
+      "language": "hi",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.2641904532909393,
+      "std_drift": 0.16012425539896658,
+      "min_drift": 0.012096226215362549,
+      "max_drift": 0.9775663018226624
+    },
+    "zh": {
+      "language": "zh",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.25323733121156694,
+      "std_drift": 0.15640294546816316,
+      "min_drift": 0.02601754665374756,
+      "max_drift": 1.0248221158981323
+    },
+    "es": {
+      "language": "es",
+      "n_contexts": 100,
+      "n_edits_per_context": 4,
+      "total_edits": 400,
+      "avg_drift": 0.24126507446169854,
+      "std_drift": 0.12389214936841232,
+      "min_drift": 0.020776987075805664,
+      "max_drift": 0.8727688789367676
+    }
+  }
+}
