@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-12-11T04:00:22.377129",
+  "parameters": {
+    "max_per_article": 4,
+    "batch_size": 5,
+    "alpha": 2.0
+  },
+  "languages": {
+    "en": {
+      "articles": 14,
+      "total_edits_scored": 60,
+      "total_approved": 41,
+      "total_rejected": 19,
+      "total_edits_after_filtering": 41,
+      "avg_quality_score": 0.22696143980282912,
+      "avg_sampling_weight": 0.05544919455385986,
+      "avg_critic_score_approved": 7.634146341463414,
+      "avg_critic_score_rejected": 3.0
+    },
+    "de": {
+      "articles": 10,
+      "total_edits_scored": 60,
+      "total_approved": 13,
+      "total_rejected": 47,
+      "total_edits_after_filtering": 13,
+      "avg_quality_score": 0.3705310814203777,
+      "avg_sampling_weight": 0.15116530546399679,
+      "avg_critic_score_approved": 7.538461538461538,
+      "avg_critic_score_rejected": 2.3404255319148937
+    },
+    "vi": {
+      "articles": 6,
+      "total_edits_scored": 60,
+      "total_approved": 7,
+      "total_rejected": 53,
+      "total_edits_after_filtering": 7,
+      "avg_quality_score": 0.5219308617588532,
+      "avg_sampling_weight": 0.3045261725844945,
+      "avg_critic_score_approved": 7.571428571428571,
+      "avg_critic_score_rejected": 1.3584905660377358
+    }
+  }
+}
